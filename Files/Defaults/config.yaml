@@ -1,0 +1,443 @@
+paths:
+  template: !path &template [Files, Template]
+  ancestralidade:
+    iadmix: !path &paths_ancestralidade_IADMIX [iadmix]
+    iadmix freq file:
+      !path [
+        *paths_ancestralidade_IADMIX,
+        DATA,
+        hapmap3.8populations.hg38.freqs,
+      ]
+
+styles:
+  ancestralidade: &styles_ancestralidade
+    capa-nome:
+      fontName: Montserrat-Regular
+      fontSize: 18
+      textColor: !color 333333
+    gene:
+      fontName: Montserrat-Regular
+      fontSize: 8
+      textColor: !color 333333
+    visao-geral:
+      fontName: Montserrat-SemiBold
+      fontSize: 12
+      textColor: !color FFFFFF
+    visao-geral-risco:
+      fontName: Montserrat-Regular
+      fontSize: 10
+      textColor: !color 333333
+    visao-geral-title:
+      fontName: Montserrat-SemiBold
+      fontSize: 15
+      textColor: !color 314a75
+    ances-name:
+      fontName: Montserrat-Regular
+      fontSize: 15
+      textColor: !color 333333
+    ances-text:
+      fontName: Montserrat-SemiBold
+      fontSize: 12
+      textColor: !color 333333
+    ances-pct:
+      fontName: Montserrat-Regular
+      fontSize: 12
+      textColor: !color 333333
+    ances-number:
+      fontName: Montserrat-SemiBold
+      fontSize: 60
+      textColor: !color 8fbfd1
+    ances-high-top:
+      fontName: Montserrat-Regular
+      fontSize: 30
+      textColor: !color 333333
+    ances-high-bot:
+      fontName: Montserrat-SemiBold
+      fontSize: 30
+      textColor: !color 333333
+    holo-pet-big:
+      fontName: Montserrat-SemiBold
+      fontSize: 11
+      textColor: !color FFFFFF
+    holo:
+      fontName: Montserrat-Bold
+      fontSize: 10
+      textColor: !color 333333
+    rect-green:
+      fontName: Montserrat-Bold
+      fontSize: 10
+      textColor: !color 9AC68C
+    rect-yellow:
+      fontName: Montserrat-Bold
+      fontSize: 10
+      textColor: !color F8C26E
+    rect-red:
+      fontName: Montserrat-Bold
+      fontSize: 10
+      textColor: !color EB6363
+    rect-grey:
+      fontName: Montserrat-Bold
+      fontSize: 10
+      textColor: !color D9D9D9
+    text-green:
+      fontName: Montserrat-Regular
+      fontSize: 10
+      textColor: !color 9AC68C
+    text-yellow:
+      fontName: Montserrat-Regular
+      fontSize: 10
+      textColor: !color F8C26E
+    text-red:
+      fontName: Montserrat-Regular
+      fontSize: 10
+      textColor: !color EB6363
+    text-grey:
+      fontName: Montserrat-Regular
+      fontSize: 10
+      textColor: !color D9D9D9
+    text-regular:
+      fontName: Montserrat-Regular
+      fontSize: 10
+      textColor: !color 333333
+      leading: 9
+
+  cadernos: &styles_cadernos
+    defaults: &styles_cadernos_defaults
+      table-index-numero: &styles_cadernos_defaults_table-index-numero
+        fontName: Fibra-Bold
+        fontSize: 10
+        alignment: !aln RIGHT
+      table-index-texto: &styles_cadernos_defaults_table-index-texto
+        fontName: Fibra-SemiBold
+        fontSize: 10
+        leading: 10
+      page-number-resumo: &styles_cadernos_defaults_page-number-resumo
+        fontName: Fibra
+        fontSize: 13
+      page-title: &styles_cadernos_defaults_page-title
+        fontName: Fibra-Bold
+        fontSize: 27
+    nutridna:
+      <<: *styles_cadernos_defaults
+      page color: !color 408734
+      chart pallete:
+        &styles_cadernos_nutridna_chart-pallete [1f3700, 47832a, 879a2d]
+      geno text pallete: [007F30, 47832A, 879A2D]
+      table-index-numero:
+        <<: *styles_cadernos_defaults_table-index-numero
+        textColor: 1F3700
+    lifedna:
+      <<: *styles_cadernos_defaults
+      page color: 2a6791
+      chart pallete:
+        &styles_cadernos_lifedna_chart-pallete [!color 111663, 373E94, 35B2E2]
+      geno text pallete: [!color 111663, 373e94, 35b2e2]
+      table-index-numero:
+        <<: *styles_cadernos_defaults_table-index-numero
+        textColor: !color 111663
+    beautydna:
+      <<: *styles_cadernos_defaults
+      page color: 623ea0
+      chart pallete:
+        &styles_cadernos_beautydna_chart-pallete [5a0762, !color 783175, cf65b6]
+      geno text pallete: [734c97, 44368c, !color 773683]
+      table-index-numero:
+        <<: *styles_cadernos_defaults_table-index-numero
+        textColor: 5a0762
+    minddna:
+      <<: *styles_cadernos_defaults
+      page color: cf3194
+      chart pallete:
+        &styles_cadernos_minddna_chart-pallete [b20d75, d1498b, ff70c8]
+      geno text pallete: [b20d75, d1498b, ff70c8]
+      table-index-numero:
+        <<: *styles_cadernos_defaults_table-index-numero
+        textColor: b20d75
+    fitdna:
+      <<: *styles_cadernos_defaults
+      page color: df6724
+      chart pallete:
+        &styles_cadernos_fitdna_chart-pallete [b24d0d, de7224, fb8e48]
+      geno text pallete: [b24d0d, de7224, fb8e48]
+      table-index-numero:
+        <<: *styles_cadernos_defaults_table-index-numero
+        textColor: b24d0d
+    fundna:
+      <<: *styles_cadernos_defaults
+      page color: f8c616
+      chart pallete:
+        &styles_cadernos_fundna_chart-pallete [F8C616, F8C616, F8C616]
+      geno text pallete: [f8c616]
+      table-index-numero:
+        <<: *styles_cadernos_defaults_table-index-numero
+        textColor: f8c616
+
+  caracteristicas: &styles_caracteristicas
+    resumo variável:
+      fontName: Fibra
+      fontSize: 13
+      alignment: !aln CENTER
+      leading: 18
+    resumo constante:
+      fontName: Fibra
+      fontSize: 10
+      alignment: !aln JUSTIFY
+    page-number:
+      fontName: Fibra
+      fontSize: 13
+      textColor: !color white
+    genotipo:
+      fontName: Fibra-SemiBold
+      fontSize: 12
+    genes:
+      fontName: Fibra-SemiBold
+      fontSize: 16
+    legenda do gráfico de pizza:
+      fontName: Fibra
+      fontSize: 13
+      alignment: !aln CENTER
+      leading: 20
+
+  laudos: &styles_laudos
+    capa: &styles_laudos_capa
+      fontName: Fibra-Bold
+      fontSize: 16
+    indice: &styles_laudos_indice
+      itens:
+      subitens:
+        - fontName: Fibra-Light
+          fontSize: 18
+          textColor: BC2F76
+        - fontName: Fibra-Light
+          fontSize: 18
+          textColor: B23270
+        - fontName: Fibra-Light
+          fontSize: 18
+          textColor: A83267
+    anexo: &styles_laudo_anexo
+      gene:
+        fontName: Fibra-Bold
+        fontSize: 13
+        leading: 16
+        # textColor: !color red
+      snps:
+        fontName: Fibra
+        fontSize: 11
+        leading: 14
+        # textColor: !color blue
+      page-number:
+        fontName: Fibra
+        fontSize: 13
+      cadernos: &styles_laudos_anexo_cadernos
+        default: &styles_laudos_anexo_cadernos_default
+          fontName: Fibra-Bold
+          fontSize: 20
+        nutridna:
+          <<: *styles_laudos_anexo_cadernos_default
+          textColor: !color 408734
+        lifedna:
+          <<: *styles_laudos_anexo_cadernos_default
+          textColor: 2a6791
+        beautydna:
+          <<: *styles_laudos_anexo_cadernos_default
+          textColor: 623ea0
+        minddna:
+          <<: *styles_laudos_anexo_cadernos_default
+          textColor: cf3194
+        fitdna:
+          <<: *styles_laudos_anexo_cadernos_default
+          textColor: df6724
+        fundna:
+          <<: *styles_laudos_anexo_cadernos_default
+          textColor: f8c616
+
+  cards:
+    title:
+      fontName: Fibra-Bold
+      fontSize: 12
+    gene:
+      fontName: Fibra-Bold
+      fontSize: 9
+    resultado-title:
+      fontName: Fibra-Bold
+      fontSize: 11
+    resultado-description:
+      fontName: Fibra-Light
+      fontSize: 10
+      alignment: !aln CENTER
+    referencias:
+      fontName: Fibra
+      fontSize: 8
+      alignment: !aln JUSTIFY
+      leading: 8
+
+  charts: &styles_charts
+    gráfico do risco absoluto: &styles_charts_grafico-de-risco-absoluto
+      innerRadiusFraction: 0.85
+      foreground color: # TODO
+        # lembrando que a cor definida em regras dos dados variáveis tem prioridade
+        # {op: regra, value: cor}
+        - { op: <=25, value: 7BB92B }
+        - { op: <=40, value: BFB91C }
+        - { op: <=70, value: BA6C10 }
+        - { op: <=100, value: !color 741601 }
+      background color: # TODO
+        # {op: regra, value: cor}
+        - { op: ==0, value: 7BB92B }
+        - { op: <=100, value: A8A8A8 }
+      display text:
+        &styles_charts_grafico-de-risco-absoluto_display-text # lembrando que o texto definido em regras dos dados variáveis tem prioridade
+        - { op: <=100, value: "{MANTER: 2.0f}%" }
+      display value:
+        &styles_charts_grafico-de-risco-absoluto_display-value # lembrando que o valor definido em regras dos dados variáveis tem prioridade
+        - { op: <=100, value: MANTER }
+      display text font:
+        fontName: Fibra-Bold
+        fontSize: 54
+    pizza frequência populacional: &styles_charts_pizza-frequencia-populacional
+      startAngle: 45
+      pallete:
+        nutridna: *styles_cadernos_nutridna_chart-pallete
+        lifedna: *styles_cadernos_lifedna_chart-pallete
+        beautydna: *styles_cadernos_beautydna_chart-pallete
+        minddna: *styles_cadernos_minddna_chart-pallete
+        fitdna: *styles_cadernos_fitdna_chart-pallete
+        fundna: *styles_cadernos_fundna_chart-pallete
+      labels:
+        fontName: Fibra-Bold
+        fontSize: 12
+        leading: 15
+      legenda:
+        - op: <=1
+          value: >
+            <font name="Fibra-UltraBold" size="20">&#60;1%</font>
+            <font name="Fibra-Light" size="13"> da população compartilha desse genótipo!</font>
+        - op: <=99
+          value: >
+            <font name="Fibra-UltraBold" size="20">{MANTER:.0f}%</font>
+            <font name="Fibra-Light" size="13"> da população compartilha desse genótipo!</font>
+        - op: <=100
+          value: >
+            <font name="Fibra-UltraBold" size="20">&#62;99%</font>
+            <font name="Fibra-Light" size="13"> da população compartilha desse genótipo!</font>
+    barras horizontais da ancestralidade:
+      &styles_charts_barras-horizontais-da-ancestralidade
+      max_width: 300
+      minimum_pct: 1
+      back_color: A7A6A6
+
+laudos: &laudos
+  padrão: &laudos_padrao
+    styles:
+      <<: *styles_laudos
+
+    desenhar em:
+      capa: true
+      indice: true
+
+    # os padrões de presença ou ausência são definidos aqui
+    ordem: &laudos_padrao_ordem
+      - capa
+      - carta
+      - indice
+      - glossario
+      - ancestralidade
+      - cadernos
+      - anexo
+      - contracapa
+
+    caracteristicas: &laudos_padrao_caracteristicas
+      gráfico do risco absoluto:
+        <<: *styles_charts_grafico-de-risco-absoluto
+        display text:
+          !flatten # lembrando que o texto definido em regras dos dados variáveis tem prioridade
+          - { op: ==0, value: Baixo risco }
+          - *styles_charts_grafico-de-risco-absoluto_display-text
+        display value:
+          !flatten # lembrando que o valor definido em regras dos dados variáveis tem prioridade
+          - { op: ==0, value: 10 }
+          - *styles_charts_grafico-de-risco-absoluto_display-value
+
+    cadernos: &laudos_padrao_cadernos
+      cadernos: [lifedna, nutridna, fitdna, minddna, beautydna, fundna]
+      possui resumo?: true
+
+logging: &logging
+  version: 1
+  disable_existing_loggers: true
+  formatters: &logging_formatters
+    standard:
+      format: "%(name)-12s [%(levelname)-7s]: %(message)s"
+  handlers: &logging_handlers
+    default:
+      class: logging.StreamHandler
+      level: DEBUG
+      formatter: standard
+      stream: "ext://sys.stdout" # Default is stderr
+  loggers: &logging_loggers
+    "": # root logger
+      handlers: ["default"]
+      level: WARNING
+      propagate: false
+    __main__: # if __name__ == '__main__'
+      handlers: ["default"]
+      level: DEBUG
+      propagate: false
+    laudo:
+      handlers: ["default"]
+      level: DEBUG
+      propagate: false
+    data_manager:
+      handlers: ["default"]
+      level: DEBUG
+      propagate: false
+    caderno:
+      handlers: ["default"]
+      level: DEBUG
+      propagate: false
+    caderno_fundna:
+      handlers: ["default"]
+      level: DEBUG
+      propagate: false
+    caracteristica:
+      handlers: ["default"]
+      level: DEBUG
+      propagate: false
+    caracteristica_card:
+      handlers: ["default"]
+      level: DEBUG
+      propagate: false
+    base:
+      handlers: ["default"]
+      level: DEBUG
+      propagate: false
+    pdf_helpers:
+      handlers: ["default"]
+      level: ERROR
+      propagate: false
+    helpers:
+      handlers: ["default"]
+      level: WARNING
+      propagate: false
+    config:
+      handlers: ["default"]
+      level: DEBUG
+      propagate: false
+    iadmix:
+      handlers: ["default"]
+      level: WARNING
+      propagate: false
+
+club_site:
+  level:
+  - { op: <=30, value: baixo}
+  - { op: <=70, value: intermediario}
+  - { op: <=100,value: alto}
+
+
+tqdm:
+  - pdf_helpers
+  - caracteristica
+  - caracteristica_card
+  - laudo
+  - __main__

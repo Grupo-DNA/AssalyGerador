@@ -1,0 +1,1781 @@
+Estresse Oxidativo	SOD2	rs4880	AA	2
+Estresse Oxidativo	SOD2	rs4880	AG	1
+Estresse Oxidativo	SOD2	rs4880	GG	0
+Estresse Oxidativo	CAT	rs1001179	CC	2
+Estresse Oxidativo	CAT	rs1001179	CT	1
+Estresse Oxidativo	CAT	rs1001179	TT	0
+Estresse Oxidativo	NFE2L2	rs6721961	TT	2
+Estresse Oxidativo	NFE2L2	rs6721961	TG	1
+Estresse Oxidativo	NFE2L2	rs6721961	GG	0
+Estresse Oxidativo	NQO1	rs1800566	AA	2
+Estresse Oxidativo	NQO1	rs1800566	AG	1
+Estresse Oxidativo	NQO1	rs1800566	GG	0
+Estresse Oxidativo	G6PD	rs1050828	TT	2
+Estresse Oxidativo	G6PD	rs1050828	TC	1
+Estresse Oxidativo	G6PD	rs1050828	CC	0
+Inflamação	IL6	rs1800795	GG	2
+Inflamação	IL6	rs1800795	GC	1
+Inflamação	IL6	rs1800795	CC	0
+Inflamação	IL6	rs1800796	GG	2
+Inflamação	IL6	rs1800796	GC	1
+Inflamação	IL6	rs1800796	CC	0
+Inflamação	IL6	rs1800797	GG	2
+Inflamação	IL6	rs1800797	GA	1
+Inflamação	IL6	rs1800797	AA	0
+Inflamação	IL1B	rs16944	AA	2
+Inflamação	IL1B	rs16944	AG	1
+Inflamação	IL1B	rs16944	GG	0
+Inflamação	TNF	rs1799964	CC	2
+Inflamação	TNF	rs1799964	CT	1
+Inflamação	TNF	rs1799964	TT	0
+Inflamação	TNF	rs1800630	AA	2
+Inflamação	TNF	rs1800630	AC	1
+Inflamação	TNF	rs1800630	CC	0
+Inflamação	IL1A	rs1800587	AA	2
+Inflamação	IL1A	rs1800587	AG	1
+Inflamação	IL1A	rs1800587	GG	0
+Inflamação	IL1RN	rs4252041	TT	2
+Inflamação	IL1RN	rs4252041	TC	1
+Inflamação	IL1RN	rs4252041	CC	0
+Inflamação	IL1RN	rs9005	AA	2
+Inflamação	IL1RN	rs9005	AG	1
+Inflamação	IL1RN	rs9005	GG	0
+Inflamação	TNF	rs1799724	TT	2
+Inflamação	TNF	rs1799724	TC	1
+Inflamação	TNF	rs1799724	CC	0
+Inflamação	TNF	rs1800629	AA	2
+Inflamação	TNF	rs1800629	AG	1
+Inflamação	TNF	rs1800629	GG	0
+Inflamação	TNF	rs3093726	CC	2
+Inflamação	TNF	rs3093726	CT	1
+Inflamação	TNF	rs3093726	TT	0
+Metilação	EBF1	rs2149954	TT	2
+Metilação	EBF1	rs2149954	TC	1
+Metilação	EBF1	rs2149954	CC	0
+Imunidade	HLA-DQA1	rs2187668	TT	2
+Imunidade	HLA-DQA1	rs2187668	TC	1
+Imunidade	HLA-DQA1	rs2187668	CC	0
+Imunidade	IL1A	rs17561	AA	2
+Imunidade	IL1A	rs17561	AC	1
+Imunidade	IL1A	rs17561	CC	0
+Imunidade	IL1B	rs1143627	AA	2
+Imunidade	IL1B	rs1143627	AG	1
+Imunidade	IL1B	rs1143627	GG	0
+Colágeno e Articulações	COL1A1	rs1800012	CC	2
+Colágeno e Articulações	COL1A1	rs1800012	CA	1
+Colágeno e Articulações	COL1A1	rs1800012	AA	0
+Colágeno e Articulações	CILP	rs2073711	AA	2
+Colágeno e Articulações	CILP	rs2073711	AG	1
+Colágeno e Articulações	CILP	rs2073711	GG	0
+Saúde Óssea	HLA-DQB1	rs7775228	TT	2
+Saúde Óssea	HLA-DQB1	rs7775228	TC	1
+Saúde Óssea	HLA-DQB1	rs7775228	CC	0
+Saúde Óssea	LRP5	rs3736228	TT	2
+Saúde Óssea	LRP5	rs3736228	TC	1
+Saúde Óssea	LRP5	rs3736228	CC	0
+Saúde Óssea	LRP5	rs4988321	AA	2
+Saúde Óssea	LRP5	rs4988321	AG	1
+Saúde Óssea	LRP5	rs4988321	GG	0
+Saúde Pulmonar	SERPINA1	rs17580	TT	2
+Saúde Pulmonar	SERPINA1	rs17580	TA	1
+Saúde Pulmonar	SERPINA1	rs17580	AA	0
+Saúde Pulmonar	SERPINA1	rs28929474	TT	2
+Saúde Pulmonar	SERPINA1	rs28929474	TC	1
+Saúde Pulmonar	SERPINA1	rs28929474	CC	0
+Saúde Pulmonar	ORMDL3	rs7216389	TT	2
+Saúde Pulmonar	ORMDL3	rs7216389	TC	1
+Saúde Pulmonar	ORMDL3	rs7216389	CC	0
+Saúde da Pele	MC1R	rs1805007	TT	2
+Saúde da Pele	MC1R	rs1805007	TC	1
+Saúde da Pele	MC1R	rs1805007	CC	0
+Saúde da Pele	TNF	rs1799724	CC	2
+Saúde da Pele	TNF	rs1799724	CT	1
+Saúde da Pele	TNF	rs1799724	TT	0
+Saúde da Pele	PNPLA3	rs738409	CC	2
+Saúde da Pele	PNPLA3	rs738409	CG	1
+Saúde da Pele	PNPLA3	rs738409	GG	0
+Saúde da Pele	STXBP5L	rs322458	CC	2
+Saúde da Pele	STXBP5L	rs322458	CT	1
+Saúde da Pele	STXBP5L	rs322458	TC	1
+Saúde da Pele	STXBP5L	rs322458	TT	0
+Saúde da Pele	OVOL1	rs478304	TT	2
+Saúde da Pele	OVOL1	rs478304	TG	1
+Saúde da Pele	OVOL1	rs478304	GG	0
+Saúde da Pele	TGFB2	rs1159268	AA	2
+Saúde da Pele	TGFB2	rs1159268	AG	1
+Saúde da Pele	TGFB2	rs1159268	GG	0
+Saúde da Pele	INAVA	rs296522	CC	2
+Saúde da Pele	INAVA	rs296522	CT	1
+Saúde da Pele	INAVA	rs296522	TC	1
+Saúde da Pele	INAVA	rs296522	TT	0
+Saúde da Pele	EDNRA	rs6842241	CC	2
+Saúde da Pele	EDNRA	rs6842241	CA	1
+Saúde da Pele	EDNRA	rs6842241	AA	0
+Saúde da Pele	SHB	rs4878737	TT	2
+Saúde da Pele	SHB	rs4878737	TG	1
+Saúde da Pele	SHB	rs4878737	GG	0
+Saúde da Pele	ASIP	rs4911414	TT	2
+Saúde da Pele	ASIP	rs4911414	TG	1
+Saúde da Pele	ASIP	rs4911414	GT	1
+Saúde da Pele	ASIP	rs4911414	GG	0
+Saúde da Pele	FST	rs38055	AA	2
+Saúde da Pele	FST	rs38055	AG	1
+Saúde da Pele	FST	rs38055	GG	0
+Saúde da Pele	CSTA	rs17265703	GG	2
+Saúde da Pele	CSTA	rs17265703	GA	1
+Saúde da Pele	CSTA	rs17265703	AA	0
+Saúde da Pele	PRDM1	rs9398069	TT	2
+Saúde da Pele	PRDM1	rs9398069	TC	1
+Saúde da Pele	PRDM1	rs9398069	CC	0
+Saúde da Pele	ASIP	rs1015362	CC	2
+Saúde da Pele	ASIP	rs1015362	CT	1
+Saúde da Pele	ASIP	rs1015362	TT	0
+Saúde da Pele	IRF4	rs12203592	TT	2
+Saúde da Pele	IRF4	rs12203592	TC	1
+Saúde da Pele	IRF4	rs12203592	CC	0
+Saúde da Pele	RALY	rs6059655	AA	2
+Saúde da Pele	RALY	rs6059655	AG	1
+Saúde da Pele	RALY	rs6059655	GG	0
+Saúde da Pele	MC1R	rs1805006	AA	2
+Saúde da Pele	MC1R	rs1805006	AC	1
+Saúde da Pele	MC1R	rs1805006	CC	0
+Saúde da Pele	SRPX	rs35318931	AA	2
+Saúde da Pele	SRPX	rs35318931	AG	1
+Saúde da Pele	SRPX	rs35318931	GG	0
+Intolerâncias e Alergias	EMSY, EMSY BRCA2 interacting transcriptional repressor	rs2212434	CC	2
+Intolerâncias e Alergias	EMSY, EMSY BRCA2 interacting transcriptional repressor	rs2212434	CT	1
+Intolerâncias e Alergias	EMSY, EMSY BRCA2 interacting transcriptional repressor	rs2212434	TT	0
+Intolerâncias e Alergias	SERPINB7	rs12964116	AA	2
+Intolerâncias e Alergias	SERPINB7	rs12964116	AG	1
+Intolerâncias e Alergias	SERPINB7	rs12964116	GG	0
+Doença Celíaca	HLA-DRA	rs2395182	TT	2
+Doença Celíaca	HLA-DRA	rs2395182	TG	1
+Doença Celíaca	HLA-DRA	rs2395182	GG	0
+Doença Celíaca	HLA-DQ8	rs7454108	CC	2
+Doença Celíaca	HLA-DQ8	rs7454108	CT	1
+Doença Celíaca	HLA-DQ8	rs7454108	TT	0
+Doença Celíaca	HLA-DQA1	rs2187668	TT	2
+Doença Celíaca	HLA-DQA1	rs2187668	TC	1
+Doença Celíaca	HLA-DQA1	rs2187668	CC	0
+Doença Celíaca	HLA-DQ	rs4713586	GG	2
+Doença Celíaca	HLA-DQ	rs4713586	GA	1
+Doença Celíaca	HLA-DQ	rs4713586	AA	0
+Intolerância à Lactose	MCM6	rs4988235	GG	2
+Intolerância à Lactose	MCM6	rs4988235	GA	1
+Intolerância à Lactose	MCM6	rs4988235	AA	0
+Intolerância à Lactose	LCT	rs2322659	CC	2
+Intolerância à Lactose	LCT	rs2322659	CT	1
+Intolerância à Lactose	LCT	rs2322659	TT	0
+Intolerâncias e Alergias	DAO	rs2052129	TT	2
+Intolerâncias e Alergias	DAO	rs2052129	TG	1
+Intolerâncias e Alergias	DAO	rs2052129	GG	0
+Saúde dos Olhos	ARMS2	rs10490924	TT	2
+Saúde dos Olhos	ARMS2	rs10490924	TG	1
+Saúde dos Olhos	ARMS2	rs10490924	GG	0
+Amiloidose	TTR	rs28933979	AA	2
+Amiloidose	TTR	rs28933979	AG	1
+Amiloidose	TTR	rs28933979	GG	0
+Disfunções Hormonais	NKX2-1	rs944289	TT	2
+Disfunções Hormonais	NKX2-1	rs944289	TC	1
+Disfunções Hormonais	NKX2-1	rs944289	CC	0
+Disfunções Hormonais	FOXE1	rs965513	AA	2
+Disfunções Hormonais	FOXE1	rs965513	AG	1
+Disfunções Hormonais	FOXE1	rs965513	GG	0
+Disfunções Hormonais	TSHR	rs121908866	AA	2
+Disfunções Hormonais	TSHR	rs121908866	AG	1
+Disfunções Hormonais	TSHR	rs121908866	GG	0
+Saúde Intestinal	GATA3	rs4143094	TT	2
+Saúde Intestinal	GATA3	rs4143094	TG	1
+Saúde Intestinal	GATA3	rs4143094	GG	0
+Saúde Intestinal	MUTYH	rs34612342	CC	2
+Saúde Intestinal	MUTYH	rs34612342	CT	1
+Saúde Intestinal	MUTYH	rs34612342	TT	0
+Saúde Intestinal	MUTYH	rs36053993	TT	2
+Saúde Intestinal	MUTYH	rs36053993	TC	1
+Saúde Intestinal	MUTYH	rs36053993	CC	0
+Saúde Intestinal	DAO	rs2052129	TT	2
+Saúde Intestinal	DAO	rs2052129	TG	1
+Saúde Intestinal	DAO	rs2052129	GG	0
+Saúde Mamária	BRCA1	rs1799950	CC	2
+Saúde Mamária	BRCA1	rs1799950	CT	1
+Saúde Mamária	BRCA1	rs1799950	TT	0
+Saúde Mamária	BRCA1	rs28897696	TT	2
+Saúde Mamária	BRCA1	rs28897696	TG	1
+Saúde Mamária	BRCA1	rs28897696	GG	0
+Saúde Mamária	BRCA2	rs144848	CC	2
+Saúde Mamária	BRCA2	rs144848	CA	1
+Saúde Mamária	BRCA2	rs144848	AA	0
+Endometriose	ESR1 	rs9340799	GG	2
+Endometriose	ESR1 	rs9340799	GA	1
+Endometriose	ESR1 	rs9340799	AA	0
+Emoções e Comportamento	COMT	rs4633	TT	2
+Emoções e Comportamento	COMT	rs4633	TC	1
+Emoções e Comportamento	COMT	rs4633	CC	0
+Emoções e Comportamento	ADRB2	rs1042713	GG	2
+Emoções e Comportamento	ADRB2	rs1042713	GA	1
+Emoções e Comportamento	ADRB2	rs1042713	AA	0
+Emoções e Comportamento	ADRB2	rs1042714	CC	2
+Emoções e Comportamento	ADRB2	rs1042714	CG	1
+Emoções e Comportamento	ADRB2	rs1042714	GG	0
+Emoções e Comportamento	HTR2A	rs6313	GG	2
+Emoções e Comportamento	HTR2A	rs6313	GA	1
+Emoções e Comportamento	HTR2A	rs6313	AA	0
+Emoções e Comportamento	ADRB3	rs4994	AA	2
+Emoções e Comportamento	ADRB3	rs4994	GA	1
+Emoções e Comportamento	ADRB3	rs4994	GG	0
+Emoções e Comportamento	ADRA1A	rs1048101	AA	2
+Emoções e Comportamento	ADRA1A	rs1048101	AG	1
+Emoções e Comportamento	ADRA1A	rs1048101	GG	0
+Comportamentos Adictos	CHRNA5 	rs2036527	AA	2
+Comportamentos Adictos	CHRNA5 	rs2036527	AG	1
+Comportamentos Adictos	CHRNA5 	rs2036527	GG	0
+Comportamentos Adictos	DRD2	rs1800497	AA	2
+Comportamentos Adictos	DRD2	rs1800497	AG	1
+Comportamentos Adictos	DRD2	rs1800497	GG	0
+Comportamentos Adictos	GCKR	rs1260326	TT	2
+Comportamentos Adictos	GCKR	rs1260326	TC	1
+Comportamentos Adictos	GCKR	rs1260326	CC	0
+Comportamentos Adictos	ADH1B	rs1229984	TT	2
+Comportamentos Adictos	ADH1B	rs1229984	TC	1
+Comportamentos Adictos	ADH1B	rs1229984	CC	0
+Comportamentos Adictos	FUT2 	rs492602	AA	2
+Comportamentos Adictos	FUT2 	rs492602	AG	1
+Comportamentos Adictos	FUT2 	rs492602	GG	0
+Comportamentos Adictos	GHS-R1A 	rs2232165	AA	2
+Comportamentos Adictos	GHS-R1A 	rs2232165	AG	1
+Comportamentos Adictos	GHS-R1A 	rs2232165	GG	0
+Comportamentos Adictos	OPRM1	rs1799971	GG	2
+Comportamentos Adictos	OPRM1	rs1799971	GA	1
+Comportamentos Adictos	OPRM1	rs1799971	AA	0
+Capacidade Auditiva	SIK3	rs681524	CC	2
+Capacidade Auditiva	SIK3	rs681524	TC	1
+Capacidade Auditiva	SIK3	rs681524	TT	0
+Longevidade	TERC	rs1317082	GG	2
+Longevidade	TERC	rs1317082	AG	1
+Longevidade	TERC	rs1317082	AA	0
+Transtornos de Humor	MAOA	rs6323	GG	2
+Transtornos de Humor	MAOA	rs6323	GT	1
+Transtornos de Humor	MAOA	rs6323	TT	0
+Transtornos de Humor	NEGR1	rs2568958	AA	2
+Transtornos de Humor	NEGR1	rs2568958	AG	1
+Transtornos de Humor	NEGR1	rs2568958	GG	0
+Transtornos de Humor	BAG5, APOPT-1	rs10149470	GG	2
+Transtornos de Humor	BAG5, APOPT-1	rs10149470	GA	1
+Transtornos de Humor	BAG5, APOPT-1	rs10149470	AA	0
+Transtornos de Humor	SLC12A5	rs12624433	AA	2
+Transtornos de Humor	SLC12A5	rs12624433	AG	1
+Transtornos de Humor	SLC12A5	rs12624433	GG	0
+Enxaqueca	LRP1	rs11172113	TT	2
+Enxaqueca	LRP1	rs11172113	TC	1
+Enxaqueca	LRP1	rs11172113	CC	0
+Emoções e Comportamento	COMT	rs4680	AA	2
+Emoções e Comportamento	COMT	rs4680	AG	1
+Emoções e Comportamento	COMT	rs4680	GG	0
+Enxaqueca	TRPM8	rs10166942	TT	2
+Enxaqueca	TRPM8	rs10166942	TC	1
+Enxaqueca	TRPM8	rs10166942	CC	0
+Enxaqueca	PGCP	rs1835740	TT	2
+Enxaqueca	PGCP	rs1835740	TC	1
+Enxaqueca	PGCP	rs1835740	CC	0
+Memória e Atenção	DRD2	rs1800497	AA	2
+Memória e Atenção	DRD2	rs1800497	AG	1
+Memória e Atenção	DRD2	rs1800497	GG	0
+Memória e Atenção	DRD2	rs1079597	TT	2
+Memória e Atenção	DRD2	rs1079597	TC	1
+Memória e Atenção	DRD2	rs1079597	CC	0
+Memória e Atenção	COMT	rs4680	GG	2
+Memória e Atenção	COMT	rs4680	GA	1
+Memória e Atenção	COMT	rs4680	AA	0
+Doenças Neurodegenerativas	APOE	rs429358	CC	2
+Doenças Neurodegenerativas	APOE	rs429358	CT	1
+Doenças Neurodegenerativas	APOE	rs429358	TT	0
+Doenças Neurodegenerativas	APOE	rs7412	CC	2
+Doenças Neurodegenerativas	APOE	rs7412	CT	1
+Doenças Neurodegenerativas	APOE	rs7412	TT	0
+Doenças Neurodegenerativas	SLC24A4	rs12590273	TT	2
+Doenças Neurodegenerativas	SLC24A4	rs12590273	TC	1
+Doenças Neurodegenerativas	SLC24A4	rs12590273	CC	0
+Doenças Neurodegenerativas	BIN1	rs4663105	CC	2
+Doenças Neurodegenerativas	BIN1	rs4663105	CA	1
+Doenças Neurodegenerativas	BIN1	rs4663105	AA	0
+Doenças Neurodegenerativas	ZCWPW1	rs1859788	AA	2
+Doenças Neurodegenerativas	ZCWPW1	rs1859788	AG	1
+Doenças Neurodegenerativas	ZCWPW1	rs1859788	GG	0
+Doenças Neurodegenerativas	TREM2	rs75932628	TT	2
+Doenças Neurodegenerativas	TREM2	rs75932628	TC	1
+Doenças Neurodegenerativas	TREM2	rs75932628	CC	0
+Doenças Neurodegenerativas	PSEN1	rs63750082	CC	2
+Doenças Neurodegenerativas	PSEN1	rs63750082	CG	1
+Doenças Neurodegenerativas	PSEN1	rs63750082	GG	0
+Doenças Neurodegenerativas	BIN1	rs6733839	TT	2
+Doenças Neurodegenerativas	BIN1	rs6733839	TC	1
+Doenças Neurodegenerativas	BIN1	rs6733839	CC	0
+Doenças Neurodegenerativas	CLU	rs7831810	GG	2
+Doenças Neurodegenerativas	CLU	rs7831810	GA	1
+Doenças Neurodegenerativas	CLU	rs7831810	AA	0
+Doenças Neurodegenerativas	CLU	rs9331888	CC	2
+Doenças Neurodegenerativas	CLU	rs9331888	CG	1
+Doenças Neurodegenerativas	CLU	rs9331888	GG	0
+Doenças Neurodegenerativas	CASS4	rs7274581	TT	2
+Doenças Neurodegenerativas	CASS4	rs7274581	TC	1
+Doenças Neurodegenerativas	CASS4	rs7274581	CC	0
+Doenças Neurodegenerativas	GAB2	rs2373115	CC	2
+Doenças Neurodegenerativas	GAB2	rs2373115	CA	1
+Doenças Neurodegenerativas	GAB2	rs2373115	AA	0
+Doenças Neurodegenerativas	GOLM1	rs7019241	CC	2
+Doenças Neurodegenerativas	GOLM1	rs7019241	CT	1
+Doenças Neurodegenerativas	GOLM1	rs7019241	TT	0
+Doenças Neurodegenerativas	CLU	rs11136000	CC	2
+Doenças Neurodegenerativas	CLU	rs11136000	CT	1
+Doenças Neurodegenerativas	CLU	rs11136000	TT	0
+Doenças Neurodegenerativas	PICALM	rs3851179	CC	2
+Doenças Neurodegenerativas	PICALM	rs3851179	CT	1
+Doenças Neurodegenerativas	PICALM	rs3851179	TT	0
+Doenças Neurodegenerativas	CR1	rs61822977	AA	2
+Doenças Neurodegenerativas	CR1	rs61822977	AG	1
+Doenças Neurodegenerativas	CR1	rs61822977	GG	0
+Doenças Neurodegenerativas	ZCWPW1	rs1476679	TT	2
+Doenças Neurodegenerativas	ZCWPW1	rs1476679	TC	1
+Doenças Neurodegenerativas	ZCWPW1	rs1476679	CC	0
+Doenças Neurodegenerativas	CHRNA2	rs2741342	CC	2
+Doenças Neurodegenerativas	CHRNA2	rs2741342	CT	1
+Doenças Neurodegenerativas	CHRNA2	rs2741342	TT	0
+Doenças Neurodegenerativas	CD33	rs3865444	CC	2
+Doenças Neurodegenerativas	CD33	rs3865444	CA	1
+Doenças Neurodegenerativas	CD33	rs3865444	AA	0
+Doenças Neurodegenerativas	MGMT	rs11016864	AA	2
+Doenças Neurodegenerativas	MGMT	rs11016864	AG	1
+Doenças Neurodegenerativas	MGMT	rs11016864	GG	0
+Doenças Neurodegenerativas	FERMT2	rs6572869	AA	2
+Doenças Neurodegenerativas	FERMT2	rs6572869	AG	1
+Doenças Neurodegenerativas	FERMT2	rs6572869	GG	0
+Doenças Neurodegenerativas	CR1	rs6656401	AA	2
+Doenças Neurodegenerativas	CR1	rs6656401	AG	1
+Doenças Neurodegenerativas	CR1	rs6656401	GG	0
+Doenças Neurodegenerativas	PLAU	rs2227564	TT	2
+Doenças Neurodegenerativas	PLAU	rs2227564	TC	1
+Doenças Neurodegenerativas	PLAU	rs2227564	CC	0
+Doenças Neurodegenerativas	OTC	rs5963409	AA	2
+Doenças Neurodegenerativas	OTC	rs5963409	AG	1
+Doenças Neurodegenerativas	OTC	rs5963409	GG	0
+Doenças Neurodegenerativas	PLD3	rs145999145	AA	2
+Doenças Neurodegenerativas	PLD3	rs145999145	AG	1
+Doenças Neurodegenerativas	PLD3	rs145999145	GG	0
+Doenças Neurodegenerativas	PSEN1	rs63750687	GG	2
+Doenças Neurodegenerativas	PSEN1	rs63750687	GC	1
+Doenças Neurodegenerativas	PSEN1	rs63750687	CC	0
+Doenças Neurodegenerativas	PSEN1	rs63750687	TT	2
+Doenças Neurodegenerativas	PSEN1	rs63750687	TC	1
+Doenças Neurodegenerativas	PSEN1	rs63750687	CC	0
+Doenças Neurodegenerativas	PSEN1	rs661	AA	2
+Doenças Neurodegenerativas	PSEN1	rs661	AG	1
+Doenças Neurodegenerativas	PSEN1	rs661	GG	0
+Doenças Neurodegenerativas	PSEN1	rs63750900	AA	2
+Doenças Neurodegenerativas	PSEN1	rs63750900	AG	1
+Doenças Neurodegenerativas	PSEN1	rs63750900	GG	0
+Doenças Neurodegenerativas	PSEN1	rs63749824	TT	2
+Doenças Neurodegenerativas	PSEN1	rs63749824	TC	1
+Doenças Neurodegenerativas	PSEN1	rs63749824	CC	0
+Doenças Neurodegenerativas	PSEN2	rs63749884	AA	2
+Doenças Neurodegenerativas	PSEN2	rs63749884	AG	1
+Doenças Neurodegenerativas	PSEN2	rs63749884	GG	0
+Doenças Neurodegenerativas	PSEN2	rs63750666	TT	2
+Doenças Neurodegenerativas	PSEN2	rs63750666	TC	1
+Doenças Neurodegenerativas	PSEN2	rs63750666	CC	0
+Doenças Neurodegenerativas	PSEN2	rs28936379	GG	2
+Doenças Neurodegenerativas	PSEN2	rs28936379	GA	1
+Doenças Neurodegenerativas	PSEN2	rs28936379	AA	0
+Doenças Neurodegenerativas	PSEN2	rs28936380	GG	2
+Doenças Neurodegenerativas	PSEN2	rs28936380	GC	1
+Doenças Neurodegenerativas	PSEN2	rs28936380	CC	0
+Doenças Neurodegenerativas	PSEN2	rs63749851	CC	2
+Doenças Neurodegenerativas	PSEN2	rs63749851	CA	1
+Doenças Neurodegenerativas	PSEN2	rs63749851	AA	0
+Doenças Neurodegenerativas	PSEN2	rs63750215	TT	2
+Doenças Neurodegenerativas	PSEN2	rs63750215	TA	1
+Doenças Neurodegenerativas	PSEN2	rs63750215	AA	0
+Doenças Neurodegenerativas	APP	rs63750066	TT	2
+Doenças Neurodegenerativas	APP	rs63750066	TC	1
+Doenças Neurodegenerativas	APP	rs63750066	CC	0
+Doenças Neurodegenerativas	LRRK2	rs34637584	AA	2
+Doenças Neurodegenerativas	LRRK2	rs34637584	AG	1
+Doenças Neurodegenerativas	LRRK2	rs34637584	GG	0
+Ciclo Circadiano	CLOCK	rs1801260	GG	2
+Ciclo Circadiano	CLOCK	rs1801260	GA	1
+Ciclo Circadiano	CLOCK	rs1801260	AA	0
+Ciclo Circadiano	PER3	rs228697	GG	2
+Ciclo Circadiano	PER3	rs228697	GC	1
+Ciclo Circadiano	PER3	rs228697	CC	0
+Desempenho Motor	BDNF 	rs6265	TT	2
+Desempenho Motor	BDNF 	rs6265	TC	1
+Desempenho Motor	BDNF 	rs6265	CC	0
+Resposta ao Tratamento para Depressão	HTR2A	rs7997012	AA	2
+Resposta ao Tratamento para Depressão	HTR2A	rs7997012	AG	1
+Resposta ao Tratamento para Depressão	HTR2A	rs7997012	GG	0
+Resposta ao Tratamento para Depressão	HTR1A	rs6295	GG	2
+Resposta ao Tratamento para Depressão	HTR1A	rs6295	GC	1
+Resposta ao Tratamento para Depressão	HTR1A	rs6295	CC	0
+Canabinóides	CNR1 	rs806368	CC	2
+Canabinóides	CNR1 	rs806368	CT	1
+Canabinóides	CNR1 	rs806368	TT	0
+Canabinóides	CNR1 	rs2023239	CC	2
+Canabinóides	CNR1 	rs2023239	CT	1
+Canabinóides	CNR1 	rs2023239	TT	0
+Canabinóides	ABCB2 	rs1045642	GG	2
+Canabinóides	ABCB2 	rs1045642	GA	1
+Canabinóides	ABCB2 	rs1045642	AA	0
+Canabinóides	FAAH	rs324420	AA	2
+Canabinóides	FAAH	rs324420	AC	1
+Canabinóides	FAAH	rs324420	CC	0
+Canabinóides	AKT1 	rs2494732	CC	2
+Canabinóides	AKT1 	rs2494732	CT	1
+Canabinóides	AKT1 	rs2494732	TT	0
+Canabinóides	DRD2 	rs1076560	AA	2
+Canabinóides	DRD2 	rs1076560	AC	1
+Canabinóides	DRD2 	rs1076560	CC	0
+Canabinóides	CYP2C19	rs17878459	CC	2
+Canabinóides	CYP2C19	rs17878459	CG	1
+Canabinóides	CYP2C19	rs17878459	GG	0
+Canabinóides	CYP2C19	rs4986893	AA	2
+Canabinóides	CYP2C19	rs4986893	AG	1
+Canabinóides	CYP2C19	rs4986893	GG	0
+Canabinóides	CYP2C19	rs56337013	TT	2
+Canabinóides	CYP2C19	rs56337013	TC	1
+Canabinóides	CYP2C19	rs56337013	CC	0
+Canabinóides	CYP2C19	rs72552267	AA	2
+Canabinóides	CYP2C19	rs72552267	AG	1
+Canabinóides	CYP2C19	rs72552267	GG	0
+Canabinóides	CYP2C19	rs72558186	AA	2
+Canabinóides	CYP2C19	rs72558186	AT	1
+Canabinóides	CYP2C19	rs72558186	TT	0
+Canabinóides	CYP2C19	rs41291556	CC	2
+Canabinóides	CYP2C19	rs41291556	CT	1
+Canabinóides	CYP2C19	rs41291556	TT	0
+Canabinóides	CYP2C19	rs12248560	CC	2
+Canabinóides	CYP2C19	rs12248560	CT	1
+Canabinóides	CYP2C19	rs12248560	TT	0
+Canabinóides	CYP3A4	rs35599367	AA	2
+Canabinóides	CYP3A4	rs35599367	AG	1
+Canabinóides	CYP3A4	rs35599367	GG	0
+Canabinóides	CYP3A4	rs12721629	AA	2
+Canabinóides	CYP3A4	rs12721629	AG	1
+Canabinóides	CYP3A4	rs12721629	GG	0
+Canabinóides	CYP3A4	rs55785340	GG	2
+Canabinóides	CYP3A4	rs55785340	GA	1
+Canabinóides	CYP3A4	rs55785340	AA	0
+Canabinóides	CYP3A4	rs67784355	AA	2
+Canabinóides	CYP3A4	rs67784355	AG	1
+Canabinóides	CYP3A4	rs67784355	GG	0
+Canabinóides	UGT1A9	rs58597806	AA	2
+Canabinóides	UGT1A9	rs58597806	AG	1
+Canabinóides	UGT1A9	rs58597806	GG	0
+Canabinóides	CYP2C9	rs1057910	CC	2
+Canabinóides	CYP2C9	rs1057910	CA	1
+Canabinóides	CYP2C9	rs1057910	AA	0
+Canabinóides	CYP2C9	rs28371685	TT	2
+Canabinóides	CYP2C9	rs28371685	TC	1
+Canabinóides	CYP2C9	rs28371685	CC	0
+Canabinóides	CYP2C9	rs28371686	GG	2
+Canabinóides	CYP2C9	rs28371686	GC	1
+Canabinóides	CYP2C9	rs28371686	CC	0
+Canabinóides	CYP2C9	rs72558189	AA	2
+Canabinóides	CYP2C9	rs72558189	AG	1
+Canabinóides	CYP2C9	rs72558189	GG	0
+Canabinóides	CYP2C9	rs1799853	TT	2
+Canabinóides	CYP2C9	rs1799853	TC	1
+Canabinóides	CYP2C9	rs1799853	CC	0
+Canabinóides	CYP2C9	rs72558187	CC	2
+Canabinóides	CYP2C9	rs72558187	CT	1
+Canabinóides	CYP2C9	rs72558187	TT	0
+Canabinóides	CYP1A2	rs762551	CC	2
+Canabinóides	CYP1A2	rs762551	CA	1
+Canabinóides	CYP1A2	rs762551	AA	0
+Canabinóides	CYP1A2	rs12720461	TT	2
+Canabinóides	CYP1A2	rs12720461	TC	1
+Canabinóides	CYP1A2	rs12720461	CC	0
+Canabinóides	CYP1A2	rs2069526	GG	2
+Canabinóides	CYP1A2	rs2069526	GT	1
+Canabinóides	CYP1A2	rs2069526	TT	0
+Canabinóides	CYP1A2	rs56276455	AA	2
+Canabinóides	CYP1A2	rs56276455	AG	1
+Canabinóides	CYP1A2	rs56276455	GG	0
+Canabinóides	CYP1A2	rs28399424	TT	2
+Canabinóides	CYP1A2	rs28399424	TC	1
+Canabinóides	CYP1A2	rs28399424	CC	0
+Canabinóides	CYP1A2	rs72547513	AA	2
+Canabinóides	CYP1A2	rs72547513	AC	1
+Canabinóides	CYP1A2	rs72547513	CC	0
+Saúde Cardiovascular	2q36.3	rs2943634	CC	2
+Saúde Cardiovascular	2q36.3	rs2943634	CA	1
+Saúde Cardiovascular	2q36.3	rs2943634	AA	0
+Saúde Cardiovascular	NOS3	rs2070744	CC	2
+Saúde Cardiovascular	NOS3	rs2070744	CT	1
+Saúde Cardiovascular	NOS3	rs2070744	TT	0
+Saúde Cardiovascular	NOS3	rs1800779	GG	2
+Saúde Cardiovascular	NOS3	rs1800779	GA	1
+Saúde Cardiovascular	NOS3	rs1800779	AA	0
+Saúde Cardiovascular	APOB	rs693	AA	2
+Saúde Cardiovascular	APOB	rs693	AG	1
+Saúde Cardiovascular	APOB	rs693	GG	0
+Saúde Cardiovascular	NOS3	rs891512	AA	2
+Saúde Cardiovascular	NOS3	rs891512	AG	1
+Saúde Cardiovascular	NOS3	rs891512	GG	0
+Saúde Cardiovascular	9p21.3	rs1333049	CC	2
+Saúde Cardiovascular	9p21.3	rs1333049	CG	1
+Saúde Cardiovascular	9p21.3	rs1333049	GG	0
+Saúde Cardiovascular	PPARy	rs1801282	GG	2
+Saúde Cardiovascular	PPARy	rs1801282	GC	1
+Saúde Cardiovascular	PPARy	rs1801282	CC	0
+Saúde Cardiovascular	APOC1	rs4420638	GG	2
+Saúde Cardiovascular	APOC1	rs4420638	GA	1
+Saúde Cardiovascular	APOC1	rs4420638	AA	0
+Saúde Cardiovascular	F2	rs1799963	AA	2
+Saúde Cardiovascular	F2	rs1799963	AG	1
+Saúde Cardiovascular	F2	rs1799963	GG	0
+Saúde Cardiovascular	F5	rs6025	TT	2
+Saúde Cardiovascular	F5	rs6025	TC	1
+Saúde Cardiovascular	F5	rs6025	CC	0
+Saúde Cardiovascular	CSRNP1	rs13084580	TT	2
+Saúde Cardiovascular	CSRNP1	rs13084580	TC	1
+Saúde Cardiovascular	CSRNP1	rs13084580	CC	0
+Saúde Cardiovascular	PROS1	rs6795524	GG	2
+Saúde Cardiovascular	PROS1	rs6795524	GA	1
+Saúde Cardiovascular	PROS1	rs6795524	AA	0
+Saúde Cardiovascular	FGG	rs2066865	AA	2
+Saúde Cardiovascular	FGG	rs2066865	AG	1
+Saúde Cardiovascular	FGG	rs2066865	GG	0
+Saúde Cardiovascular	F11	rs4253417	CC	2
+Saúde Cardiovascular	F11	rs4253417	CT	1
+Saúde Cardiovascular	F11	rs4253417	TT	0
+Saúde Cardiovascular	SLC44A2	rs2288904	GG	2
+Saúde Cardiovascular	SLC44A2	rs2288904	GA	1
+Saúde Cardiovascular	SLC44A2	rs2288904	AA	0
+Saúde Cardiovascular	F10	rs3211752	GG	2
+Saúde Cardiovascular	F10	rs3211752	GA	1
+Saúde Cardiovascular	F10	rs3211752	AA	0
+Saúde Cardiovascular	GP6	rs1654425	CC	2
+Saúde Cardiovascular	GP6	rs1654425	CT	1
+Saúde Cardiovascular	GP6	rs1654425	TT	0
+Saúde Cardiovascular	MYRF	rs174536	AA	2
+Saúde Cardiovascular	MYRF	rs174536	AC	1
+Saúde Cardiovascular	MYRF	rs174536	CC	0
+Saúde Cardiovascular	PEPD	rs731839	AA	2
+Saúde Cardiovascular	PEPD	rs731839	AG	1
+Saúde Cardiovascular	PEPD	rs731839	GG	0
+Saúde Cardiovascular	BRCC3	rs6048	AA	2
+Saúde Cardiovascular	BRCC3	rs6048	AG	1
+Saúde Cardiovascular	BRCC3	rs6048	GG	0
+Saúde Cardiovascular	GNB3	rs5443	TT	2
+Saúde Cardiovascular	GNB3	rs5443	TC	1
+Saúde Cardiovascular	GNB3	rs5443	CC	0
+Pressão Arterial Sistêmica	ADD1	rs4961	TT	2
+Pressão Arterial Sistêmica	ADD1	rs4961	TG	1
+Pressão Arterial Sistêmica	ADD1	rs4961	GG	0
+Pressão Arterial Sistêmica	NEDD4L	rs3865418	TT	2
+Pressão Arterial Sistêmica	NEDD4L	rs3865418	TC	1
+Pressão Arterial Sistêmica	NEDD4L	rs3865418	CC	0
+Pressão Arterial Sistêmica	WSCD2	rs9739493	CC	2
+Pressão Arterial Sistêmica	WSCD2	rs9739493	CT	1
+Pressão Arterial Sistêmica	WSCD2	rs9739493	TT	0
+Pressão Arterial Sistêmica	AGTR1	rs5186	CC	2
+Pressão Arterial Sistêmica	AGTR1	rs5186	CA	1
+Pressão Arterial Sistêmica	AGTR1	rs5186	AA	0
+Pressão Arterial Sistêmica	NEDD4L	rs2288774	CC	2
+Pressão Arterial Sistêmica	NEDD4L	rs2288774	CT	1
+Pressão Arterial Sistêmica	NEDD4L	rs2288774	TT	0
+Pressão Arterial Sistêmica	NEDD4L	rs4149601	AA	2
+Pressão Arterial Sistêmica	NEDD4L	rs4149601	AG	1
+Pressão Arterial Sistêmica	NEDD4L	rs4149601	GG	0
+Pressão Arterial Sistêmica	STK39	rs6749447	GG	2
+Pressão Arterial Sistêmica	STK39	rs6749447	GT	1
+Pressão Arterial Sistêmica	STK39	rs6749447	TT	0
+Dislipidemias	LPL	rs10503669	CC	2
+Dislipidemias	LPL	rs10503669	CA	1
+Dislipidemias	LPL	rs10503669	AA	0
+Dislipidemias	CETP	rs3764261	CC	2
+Dislipidemias	CETP	rs3764261	CA	1
+Dislipidemias	CETP	rs3764261	AA	0
+Dislipidemias	APOB	rs693	AA	2
+Dislipidemias	APOB	rs693	AG	1
+Dislipidemias	APOB	rs693	GG	0
+Dislipidemias	FADS1	rs174546	CC	2
+Dislipidemias	FADS1	rs174546	CT	1
+Dislipidemias	FADS1	rs174546	TT	0
+Dislipidemias	APOA5	rs3135506	CC	2
+Dislipidemias	APOA5	rs3135506	CG	1
+Dislipidemias	APOA5	rs3135506	GG	0
+Dislipidemias	APOA5	rs662799	GG	2
+Dislipidemias	APOA5	rs662799	GA	1
+Dislipidemias	APOA5	rs662799	AA	0
+Dislipidemias	GCKR	rs1260326	TT	2
+Dislipidemias	GCKR	rs1260326	TC	1
+Dislipidemias	GCKR	rs1260326	CC	0
+Dislipidemias	APOC1	rs4420638	GG	2
+Dislipidemias	APOC1	rs4420638	GA	1
+Dislipidemias	APOC1	rs4420638	AA	0
+Hematologia	F11	rs4253417	CC	2
+Hematologia	F11	rs4253417	CT	1
+Hematologia	F11	rs4253417	TT	0
+Hematologia	SLC44A2	rs2288904	GG	2
+Hematologia	SLC44A2	rs2288904	GA	1
+Hematologia	SLC44A2	rs2288904	AA	0
+Hematologia	F10	rs3211752	GG	2
+Hematologia	F10	rs3211752	GA	1
+Hematologia	F10	rs3211752	AA	0
+Hematologia	GP6	rs1654425	CC	2
+Hematologia	GP6	rs1654425	CT	1
+Hematologia	GP6	rs1654425	TT	0
+Hematologia	MYRF	rs174536	AA	2
+Hematologia	MYRF	rs174536	AC	1
+Hematologia	MYRF	rs174536	CC	0
+Hematologia	PEPD	rs731839	AA	2
+Hematologia	PEPD	rs731839	AG	1
+Hematologia	PEPD	rs731839	GG	0
+Hematologia	G6PD	rs1050828	TT	2
+Hematologia	G6PD	rs1050828	TC	1
+Hematologia	G6PD	rs1050828	CC	0
+Hematologia	BRCC3	rs6048	AA	2
+Hematologia	BRCC3	rs6048	AG	1
+Hematologia	BRCC3	rs6048	GG	0
+Hematologia	HFE	rs1800562	AA	2
+Hematologia	HFE	rs1800562	AG	1
+Hematologia	HFE	rs1800562	GG	0
+Hematologia	HFE 	rs1799945	GG	2
+Hematologia	HFE 	rs1799945	GC	1
+Hematologia	HFE 	rs1799945	CC	0
+Hematologia	HFE 	rs1800730	TT	2
+Hematologia	HFE 	rs1800730	TA	1
+Hematologia	HFE 	rs1800730	AA	0
+Comportamento Alimentar	DRD2	rs6277	GG	2
+Comportamento Alimentar	DRD2	rs6277	GA	1
+Comportamento Alimentar	DRD2	rs6277	AA	0
+Comportamento Alimentar	TANK	rs197273	AA	2
+Comportamento Alimentar	TANK	rs197273	AG	1
+Comportamento Alimentar	TANK	rs197273	GG	0
+Comportamento Alimentar	DRD2	rs1800497	AA	2
+Comportamento Alimentar	DRD2	rs1800497	AG	1
+Comportamento Alimentar	DRD2	rs1800497	GG	0
+Comportamento Alimentar	FGF21	rs838133	AA	2
+Comportamento Alimentar	FGF21	rs838133	AG	1
+Comportamento Alimentar	FGF21	rs838133	GG	0
+Comportamento Alimentar	CYP1A1 	rs2472297	TT	2
+Comportamento Alimentar	CYP1A1 	rs2472297	TC	1
+Comportamento Alimentar	CYP1A1 	rs2472297	CC	0
+Comportamento Alimentar	TAS2R38	rs713598	GG	2
+Comportamento Alimentar	TAS2R38	rs713598	GC	1
+Comportamento Alimentar	TAS2R38	rs713598	CC	0
+Comportamento Alimentar	MC4R	rs17782313	CC	2
+Comportamento Alimentar	MC4R	rs17782313	CT	1
+Comportamento Alimentar	MC4R	rs17782313	TT	0
+Composição Corporal	APOA5	rs662799	GG	2
+Composição Corporal	APOA5	rs662799	GA	1
+Composição Corporal	APOA5	rs662799	AA	0
+Composição Corporal	VCAN	rs2287926	AA	2
+Composição Corporal	VCAN	rs2287926	AG	1
+Composição Corporal	VCAN	rs2287926	GG	0
+Composição Corporal	PLIN1	rs894160	CC	2
+Composição Corporal	PLIN1	rs894160	CT	1
+Composição Corporal	PLIN1	rs894160	TT	0
+Deposição de Gordura	FTO	rs9939609	AA	2
+Deposição de Gordura	FTO	rs9939609	AT	1
+Deposição de Gordura	FTO	rs9939609	TT	0
+Deposição de Gordura	FTO	rs1421085	CC	2
+Deposição de Gordura	FTO	rs1421085	CT	1
+Deposição de Gordura	FTO	rs1421085	TT	0
+Deposição de Gordura	FTO	rs1121980	AA	2
+Deposição de Gordura	FTO	rs1121980	AG	1
+Deposição de Gordura	FTO	rs1121980	GG	0
+Deposição de Gordura	FTO	rs55872725	TT	2
+Deposição de Gordura	FTO	rs55872725	TC	1
+Deposição de Gordura	FTO	rs55872725	CC	0
+Deposição de Gordura	FTO	rs17817449	GG	2
+Deposição de Gordura	FTO	rs17817449	GT	1
+Deposição de Gordura	FTO	rs17817449	TT	0
+Deposição de Gordura	FTO	rs9941349	TT	2
+Deposição de Gordura	FTO	rs9941349	TC	1
+Deposição de Gordura	FTO	rs9941349	CC	0
+Deposição de Gordura	LEPR	rs1137101	GG	2
+Deposição de Gordura	LEPR	rs1137101	GA	1
+Deposição de Gordura	LEPR	rs1137101	AA	0
+Deposição de Gordura	APOA2	rs5082	GG	2
+Deposição de Gordura	APOA2	rs5082	GA	1
+Deposição de Gordura	APOA2	rs5082	AA	0
+Deposição de Gordura	MC4R	rs17782313	CC	2
+Deposição de Gordura	MC4R	rs17782313	CT	1
+Deposição de Gordura	MC4R	rs17782313	TT	0
+Deposição de Gordura	MC4R	rs10871777	GG	2
+Deposição de Gordura	MC4R	rs10871777	GA	1
+Deposição de Gordura	MC4R	rs10871777	AA	0
+Deposição de Gordura	PNPLA3	rs2073082	GG	2
+Deposição de Gordura	PNPLA3	rs2073082	GA	1
+Deposição de Gordura	PNPLA3	rs2073082	AA	0
+Deposição de Gordura	PNPLA3	rs6006460	GG	2
+Deposição de Gordura	PNPLA3	rs6006460	GT	1
+Deposição de Gordura	PNPLA3	rs6006460	TT	0
+Deposição de Gordura	PNPLA3	rs2281135	GG	2
+Deposição de Gordura	PNPLA3	rs2281135	GA	1
+Deposição de Gordura	PNPLA3	rs2281135	AA	0
+Deposição de Gordura	GCKR	rs814295	AA	2
+Deposição de Gordura	GCKR	rs814295	AG	1
+Deposição de Gordura	GCKR	rs814295	GG	0
+Deposição de Gordura	PEMT	rs7946	TT	2
+Deposição de Gordura	PEMT	rs7946	TC	1
+Deposição de Gordura	PEMT	rs7946	CC	0
+Deposição de Gordura	PNPLA3	rs2076212	TT	2
+Deposição de Gordura	PNPLA3	rs2076212	TG	1
+Deposição de Gordura	PNPLA3	rs2076212	GG	0
+Deposição de Gordura	PEMT	rs4646404	GG	2
+Deposição de Gordura	PEMT	rs4646404	GA	1
+Deposição de Gordura	PEMT	rs4646404	AA	0
+Deposição de Gordura	PNPLA3	rs738409	GG	2
+Deposição de Gordura	PNPLA3	rs738409	GC	1
+Deposição de Gordura	PNPLA3	rs738409	CC	0
+Deposição de Gordura	PNPLA3	rs2896019	GG	2
+Deposição de Gordura	PNPLA3	rs2896019	GT	1
+Deposição de Gordura	PNPLA3	rs2896019	TT	0
+Deposição de Gordura	PNPLA3	rs2294915	TT	2
+Deposição de Gordura	PNPLA3	rs2294915	TC	1
+Deposição de Gordura	PNPLA3	rs2294915	CC	0
+Deposição de Gordura	GCKR	rs146175795	AA	2
+Deposição de Gordura	GCKR	rs146175795	AG	1
+Deposição de Gordura	GCKR	rs146175795	GG	0
+Deposição de Gordura	GCKR	rs1260326	TT	2
+Deposição de Gordura	GCKR	rs1260326	TC	1
+Deposição de Gordura	GCKR	rs1260326	CC	0
+Deposição de Gordura	GCKR	rs780094	TT	2
+Deposição de Gordura	GCKR	rs780094	TC	1
+Deposição de Gordura	GCKR	rs780094	CC	0
+Deposição de Gordura	GCKR	rs780093	TT	2
+Deposição de Gordura	GCKR	rs780093	TC	1
+Deposição de Gordura	GCKR	rs780093	CC	0
+Deposição de Gordura	GCKR	rs780092	GG	2
+Deposição de Gordura	GCKR	rs780092	GA	1
+Deposição de Gordura	GCKR	rs780092	AA	0
+Deposição de Gordura	TM6SF2	rs58542926	TT	2
+Deposição de Gordura	TM6SF2	rs58542926	TC	1
+Deposição de Gordura	TM6SF2	rs58542926	CC	0
+Deposição de Gordura	NCAN	rs2228603	TT	2
+Deposição de Gordura	NCAN	rs2228603	TC	1
+Deposição de Gordura	NCAN	rs2228603	CC	0
+Deposição de Gordura	MC4R	rs12970134	AA	2
+Deposição de Gordura	MC4R	rs12970134	AG	1
+Deposição de Gordura	MC4R	rs12970134	GG	0
+Insulina e Glicose	chr3:55279372	rs358806	AA	2
+Insulina e Glicose	chr3:55279372	rs358806	AC	1
+Insulina e Glicose	chr3:55279372	rs358806	CC	0
+Insulina e Glicose	TRIB3	rs2295490	GG	2
+Insulina e Glicose	TRIB3	rs2295490	GA	1
+Insulina e Glicose	TRIB3	rs2295490	AA	0
+Insulina e Glicose	CDKAL1	rs7754840	CC	2
+Insulina e Glicose	CDKAL1	rs7754840	CG	1
+Insulina e Glicose	CDKAL1	rs7754840	GG	0
+Insulina e Glicose	CDKAL1	rs10946398	CC	2
+Insulina e Glicose	CDKAL1	rs10946398	CA	1
+Insulina e Glicose	CDKAL1	rs10946398	AA	0
+Insulina e Glicose	CDKAL1	rs7756992	GG	2
+Insulina e Glicose	CDKAL1	rs7756992	GA	1
+Insulina e Glicose	CDKAL1	rs7756992	AA	0
+Insulina e Glicose	CDKAL1	rs4712523	GG	2
+Insulina e Glicose	CDKAL1	rs4712523	GA	1
+Insulina e Glicose	CDKAL1	rs4712523	AA	0
+Insulina e Glicose	API5	rs9300039	CC	2
+Insulina e Glicose	API5	rs9300039	CA	1
+Insulina e Glicose	API5	rs9300039	AA	0
+Insulina e Glicose	SLC30A8	rs13266634	CC	2
+Insulina e Glicose	SLC30A8	rs13266634	CT	1
+Insulina e Glicose	SLC30A8	rs13266634	TT	0
+Insulina e Glicose	FTO	rs9939609	AA	2
+Insulina e Glicose	FTO	rs9939609	AT	1
+Insulina e Glicose	FTO	rs9939609	TT	0
+Insulina e Glicose	TCF7L2	rs7903146	TT	2
+Insulina e Glicose	TCF7L2	rs7903146	TC	1
+Insulina e Glicose	TCF7L2	rs7903146	CC	0
+Insulina e Glicose	TCF7L2	rs12255372	TT	2
+Insulina e Glicose	TCF7L2	rs12255372	TG	1
+Insulina e Glicose	TCF7L2	rs12255372	GG	0
+Insulina e Glicose	TCF7L2	rs7901695	CC	2
+Insulina e Glicose	TCF7L2	rs7901695	CT	1
+Insulina e Glicose	TCF7L2	rs7901695	TT	0
+Insulina e Glicose	TCF7L2	rs4506565	TT	2
+Insulina e Glicose	TCF7L2	rs4506565	TA	1
+Insulina e Glicose	TCF7L2	rs4506565	AA	0
+Insulina e Glicose	IGF2BP2	rs4402960	TT	2
+Insulina e Glicose	IGF2BP2	rs4402960	TG	1
+Insulina e Glicose	IGF2BP2	rs4402960	GG	0
+Insulina e Glicose	IGF2BP2	rs1470579	CC	2
+Insulina e Glicose	IGF2BP2	rs1470579	CA	1
+Insulina e Glicose	IGF2BP2	rs1470579	AA	0
+Insulina e Glicose	HHEX	rs7923837	GG	2
+Insulina e Glicose	HHEX	rs7923837	GA	1
+Insulina e Glicose	HHEX	rs7923837	AA	0
+Insulina e Glicose	KCNJ11	rs5219	TT	2
+Insulina e Glicose	KCNJ11	rs5219	TC	1
+Insulina e Glicose	KCNJ11	rs5219	CC	0
+Insulina e Glicose	KCNJ11	rs5215	CC	2
+Insulina e Glicose	KCNJ11	rs5215	CT	1
+Insulina e Glicose	KCNJ11	rs5215	TT	0
+Insulina e Glicose	SREBF1	rs11868035	GG	2
+Insulina e Glicose	SREBF1	rs11868035	GA	1
+Insulina e Glicose	SREBF1	rs11868035	AA	0
+Insulina e Glicose	PPARy	rs1801282	GG	2
+Insulina e Glicose	PPARy	rs1801282	GC	1
+Insulina e Glicose	PPARy	rs1801282	CC	0
+Insulina e Glicose	PDE4B	rs4655595	GG	2
+Insulina e Glicose	PDE4B	rs4655595	GA	1
+Insulina e Glicose	PDE4B	rs4655595	AA	0
+Insulina e Glicose	SLC11A2	rs12304921	GG	2
+Insulina e Glicose	SLC11A2	rs12304921	GA	1
+Insulina e Glicose	SLC11A2	rs12304921	AA	0
+Insulina e Glicose	ELMO1	rs741301	CC	2
+Insulina e Glicose	ELMO1	rs741301	CT	1
+Insulina e Glicose	ELMO1	rs741301	TT	0
+Danos e Lesões	SOD2	rs4880	AA	2
+Danos e Lesões	SOD2	rs4880	AG	1
+Danos e Lesões	SOD2	rs4880	GG	0
+Danos e Lesões	COL1A1	rs1800012	CC	2
+Danos e Lesões	COL1A1	rs1800012	CA	1
+Danos e Lesões	COL1A1	rs1800012	AA	0
+Danos e Lesões	CILP	rs2073711	AA	2
+Danos e Lesões	CILP	rs2073711	AG	1
+Danos e Lesões	CILP	rs2073711	GG	0
+Desempenho em Esportes de Endurance	ADRB3	rs4994	GG	2
+Desempenho em Esportes de Endurance	ADRB3	rs4994	AG	1
+Desempenho em Esportes de Endurance	ADRB3	rs4994	AA	0
+Elevação da Frequência Cardíaca	ACTN3	rs1815739	TT	2
+Elevação da Frequência Cardíaca	ACTN3	rs1815739	TC	1
+Elevação da Frequência Cardíaca	ACTN3	rs1815739	CC	0
+Elevação da Frequência Cardíaca	SNCAIP	rs4836027	TT	2
+Elevação da Frequência Cardíaca	SNCAIP	rs4836027	TC	1
+Elevação da Frequência Cardíaca	SNCAIP	rs4836027	CC	0
+Adaptabilidade esportiva	GSTP1	rs1695	AA	2
+Adaptabilidade esportiva	GSTP1	rs1695	AG	1
+Adaptabilidade esportiva	GSTP1	rs1695	GG	0
+Desempenho em Força e Potência	ACE	rs4343	GG	2
+Desempenho em Força e Potência	ACE	rs4343	GA	1
+Desempenho em Força e Potência	ACE	rs4343	AA	0
+Desempenho em Força e Potência	VCAN	rs2287926	AA	2
+Desempenho em Força e Potência	VCAN	rs2287926	AG	1
+Desempenho em Força e Potência	VCAN	rs2287926	GG	0
+Vitamina A	BCMO1	rs6564851	GG	2
+Vitamina A	BCMO1	rs6564851	GT	1
+Vitamina A	BCMO1	rs6564851	TT	0
+Vitaminas do Complexo B	SLC19A2	rs28937595	TT	2
+Vitaminas do Complexo B	SLC19A2	rs28937595	TC	1
+Vitaminas do Complexo B	SLC19A2	rs28937595	CC	0
+Vitaminas do Complexo B	SLC44A4	rs2736428	TT	2
+Vitaminas do Complexo B	SLC44A4	rs2736428	TC	1
+Vitaminas do Complexo B	SLC44A4	rs2736428	CC	0
+Vitaminas do Complexo B	FUT2	rs492602	AA	2
+Vitaminas do Complexo B	FUT2	rs492602	AG	1
+Vitaminas do Complexo B	FUT2	rs492602	GG	0
+Vitaminas do Complexo B	SLC44A4	rs2075798	AA	2
+Vitaminas do Complexo B	SLC44A4	rs2075798	AC	1
+Vitaminas do Complexo B	SLC44A4	rs2075798	CC	0
+Vitaminas do Complexo B	ALPL	rs4654748	TT	2
+Vitaminas do Complexo B	ALPL	rs4654748	TC	1
+Vitaminas do Complexo B	ALPL	rs4654748	CC	0
+Vitaminas do Complexo B	SLC19A2	rs121908540	AA	2
+Vitaminas do Complexo B	SLC19A2	rs121908540	AG	1
+Vitaminas do Complexo B	SLC19A2	rs121908540	GG	0
+Vitaminas do Complexo B	SLC44A4	rs12661281	AA	2
+Vitaminas do Complexo B	SLC44A4	rs12661281	AT	1
+Vitaminas do Complexo B	SLC44A4	rs12661281	TT	0
+Vitaminas do Complexo B	SLC44A4	rs4947332	TT	2
+Vitaminas do Complexo B	SLC44A4	rs4947332	TC	1
+Vitaminas do Complexo B	SLC44A4	rs4947332	CC	0
+Vitaminas do Complexo B	SLC44A4	rs614549	GG	2
+Vitaminas do Complexo B	SLC44A4	rs614549	GA	1
+Vitaminas do Complexo B	SLC44A4	rs614549	AA	0
+Vitaminas do Complexo B	SLC19A2	rs74315374	TT	2
+Vitaminas do Complexo B	SLC19A2	rs74315374	TC	1
+Vitaminas do Complexo B	SLC19A2	rs74315374	CC	0
+Vitaminas do Complexo B	SLC44A4	rs116706632	AA	2
+Vitaminas do Complexo B	SLC44A4	rs116706632	AG	1
+Vitaminas do Complexo B	SLC44A4	rs116706632	GG	0
+Vitamina C	SLC23A1	rs11950646	AA	2
+Vitamina C	SLC23A1	rs11950646	AG	1
+Vitamina C	SLC23A1	rs11950646	GG	0
+Vitamina C	SLC23A2	rs6053005	TT	2
+Vitamina C	SLC23A2	rs6053005	TC	1
+Vitamina C	SLC23A2	rs6053005	CC	0
+Vitamina D	VDR	rs2238140	GG	2
+Vitamina D	VDR	rs2238140	GA	1
+Vitamina D	VDR	rs2238140	AA	0
+Vitamina D	VDR	rs886441	AA	2
+Vitamina D	VDR	rs886441	AG	1
+Vitamina D	VDR	rs886441	GG	0
+Vitamina D	VDR	rs7975232	CC	2
+Vitamina D	VDR	rs7975232	CA	1
+Vitamina D	VDR	rs7975232	AA	0
+Vitamina D	VDR	rs12717991	CC	2
+Vitamina D	VDR	rs12717991	CT	1
+Vitamina D	VDR	rs12717991	TT	0
+Vitamina D	VDR	rs731236	AA	2
+Vitamina D	VDR	rs731236	AG	1
+Vitamina D	VDR	rs731236	GG	0
+Vitamina D	VDR	rs2239179	TT	2
+Vitamina D	VDR	rs2239179	TC	1
+Vitamina D	VDR	rs2239179	CC	0
+Vitamina D	GC	rs2282679	GG	2
+Vitamina D	GC	rs2282679	GT	1
+Vitamina D	GC	rs2282679	TT	0
+Vitamina D	CYP2R1	rs7129781	CC	2
+Vitamina D	CYP2R1	rs7129781	CT	1
+Vitamina D	CYP2R1	rs7129781	TT	0
+Vitamina D	VDR	rs1544410	TT	2
+Vitamina D	VDR	rs1544410	TC	1
+Vitamina D	VDR	rs1544410	CC	0
+Vitamina D	VDR	rs4516035	CC	2
+Vitamina D	VDR	rs4516035	CT	1
+Vitamina D	VDR	rs4516035	TT	0
+Vitamina D	VDR	rs56382517	GG	2
+Vitamina D	VDR	rs56382517	GA	1
+Vitamina D	VDR	rs56382517	AA	0
+Vitamina D	VDR	rs11574129	GG	2
+Vitamina D	VDR	rs11574129	GA	1
+Vitamina D	VDR	rs11574129	AA	0
+Vitamina D	VDR	rs10783218	AA	2
+Vitamina D	VDR	rs10783218	AG	1
+Vitamina D	VDR	rs10783218	GG	0
+Vitamina D	VDR	rs11574099	TT	2
+Vitamina D	VDR	rs11574099	TC	1
+Vitamina D	VDR	rs11574099	CC	0
+Vitamina D	VDR	rs2239181	CC	2
+Vitamina D	VDR	rs2239181	CA	1
+Vitamina D	VDR	rs2239181	AA	0
+Vitamina D	VDR	rs1540339	TT	2
+Vitamina D	VDR	rs1540339	TC	1
+Vitamina D	VDR	rs1540339	CC	0
+Vitamina D	VDR	rs2228570	AA	2
+Vitamina D	VDR	rs2228570	AG	1
+Vitamina D	VDR	rs2228570	GG	0
+Folato	MTHFR	rs1801133	AA	2
+Folato	MTHFR	rs1801133	AG	1
+Folato	MTHFR	rs1801133	GG	0
+Ferro	TF	rs3811647	AA	2
+Ferro	TF	rs3811647	AG	1
+Ferro	TF	rs3811647	GG	0
+Ferro	TMPRSS6	rs4820268	AA	2
+Ferro	TMPRSS6	rs4820268	AG	1
+Ferro	TMPRSS6	rs4820268	GG	0
+Ferro	TFR2	rs7385804	CC	2
+Ferro	TFR2	rs7385804	CA	1
+Ferro	TFR2	rs7385804	AA	0
+Metabolização de Cafeína	CYP1A2 	rs762551	CC	2
+Metabolização de Cafeína	CYP1A2 	rs762551	CA	1
+Metabolização de Cafeína	CYP1A2 	rs762551	AA	0
+Estresse Oxidativo	SOD2	rs4880	GA	1
+Estresse Oxidativo	CAT	rs1001179	TC	1
+Estresse Oxidativo	NFE2L2	rs6721961	GT	1
+Estresse Oxidativo	NQO1	rs1800566	GA	1
+Estresse Oxidativo	G6PD	rs1050828	CT	1
+Inflamação	IL6	rs1800795	CG	1
+Inflamação	IL6	rs1800796	CG	1
+Inflamação	IL6	rs1800797	AG	1
+Inflamação	IL1B	rs16944	GA	1
+Inflamação	TNF	rs1799964	TC	1
+Inflamação	TNF	rs1800630	CA	1
+Inflamação	IL1A	rs1800587	GA	1
+Inflamação	IL1RN	rs4252041	CT	1
+Inflamação	IL1RN	rs9005	GA	1
+Inflamação	TNF	rs1799724	CT	1
+Inflamação	TNF	rs1800629	GA	1
+Inflamação	TNF	rs3093726	TC	1
+Metilação	EBF1	rs2149954	CT	1
+Imunidade	HLA-DQA1	rs2187668	CT	1
+Imunidade	IL1A	rs17561	CA	1
+Imunidade	IL1B	rs1143627	GA	1
+Colágeno e Articulações	COL1A1	rs1800012	AC	1
+Colágeno e Articulações	CILP	rs2073711	GA	1
+Saúde Óssea	HLA-DQB1	rs7775228	CT	1
+Saúde Óssea	LRP5	rs3736228	CT	1
+Saúde Óssea	LRP5	rs4988321	GA	1
+Saúde Pulmonar	SERPINA1	rs17580	AT	1
+Saúde Pulmonar	SERPINA1	rs28929474	CT	1
+Saúde Pulmonar	ORMDL3	rs7216389	CT	1
+Saúde da Pele	MC1R	rs1805007	CT	1
+Saúde da Pele	TNF	rs1799724	TC	1
+Saúde da Pele	PNPLA3	rs738409	GC	1
+Saúde da Pele	STXBP5L	rs322458	TC	1
+Saúde da Pele	OVOL1	rs478304	GT	1
+Saúde da Pele	TGFB2	rs1159268	GA	1
+Saúde da Pele	INAVA	rs296522	TC	1
+Saúde da Pele	EDNRA	rs6842241	AC	1
+Saúde da Pele	SHB	rs4878737	GT	1
+Saúde da Pele	ASIP	rs4911414	GT	1
+Saúde da Pele	FST	rs38055	GA	1
+Saúde da Pele	CSTA	rs17265703	AG	1
+Saúde da Pele	PRDM1	rs9398069	CT	1
+Saúde da Pele	ASIP	rs1015362	TC	1
+Saúde da Pele	IRF4	rs12203592	CT	1
+Saúde da Pele	RALY	rs6059655	GA	1
+Saúde da Pele	MC1R	rs1805006	CA	1
+Saúde da Pele	SRPX	rs35318931	GA	1
+Saúde dos olhos	ARMS2	rs10490924	GT	1
+Disfunções Hormonais	NKX2-1	rs944289	CT	1
+Disfunções Hormonais	FOXE1	rs965513	GA	1
+Disfunções Hormonais	TSHR	rs121908866	GA	1
+Amiloidose	TTR	rs28933979	GA	1
+Saúde Intestinal	GATA3	rs4143094	GT	1
+Saúde Intestinal	MUTYH	rs34612342	TC	1
+Saúde Intestinal	MUTYH	rs36053993	CT	1
+Saúde Intestinal	DAO	rs2052129	GT	1
+Saúde Mamária	BRCA1	rs1799950	TC	1
+Saúde Mamária	BRCA1	rs28897696	GT	1
+Saúde Mamária	BRCA2	rs144848	AC	1
+Endometriose	ESR1 	rs9340799	AG	1
+Capacidade Auditiva	SIK3	rs681524	CT	1
+Longevidade	TERC	rs1317082	GA	1
+Transtornos de Humor	MAOA	rs6323	TG	1
+Transtornos de Humor	NEGR1	rs2568958	GA	1
+Transtornos de Humor	BAG5, APOPT-1	rs10149470	AG	1
+Transtornos de Humor	SLC12A5	rs12624433	GA	1
+Enxaqueca	LRP1	rs11172113	CT	1
+Emoções e Comportamento	COMT	rs4680	GA	1
+Enxaqueca	TRPM8	rs10166942	CT	1
+Enxaqueca	PGCP	rs1835740	CT	1
+Memória e Atenção	DRD2	rs1800497	GA	1
+Memória e Atenção	DRD2	rs1079597	CT	1
+Memória e Atenção	COMT	rs4680	AG	1
+Doenças Neurodegenerativas	APOE	rs429358	TC	1
+Doenças Neurodegenerativas	APOE	rs7412	TC	1
+Doenças Neurodegenerativas	SLC24A4	rs12590273	CT	1
+Doenças Neurodegenerativas	BIN1	rs4663105	AC	1
+Doenças Neurodegenerativas	ZCWPW1	rs1859788	GA	1
+Doenças Neurodegenerativas	TREM2	rs75932628	CT	1
+Doenças Neurodegenerativas	PSEN1	rs63750082	GC	1
+Doenças Neurodegenerativas	BIN1	rs6733839	CT	1
+Doenças Neurodegenerativas	CLU	rs7831810	AG	1
+Doenças Neurodegenerativas	CLU	rs9331888	GC	1
+Doenças Neurodegenerativas	CASS4	rs7274581	CT	1
+Doenças Neurodegenerativas	GAB2	rs2373115	AC	1
+Doenças Neurodegenerativas	GOLM1	rs7019241	TC	1
+Doenças Neurodegenerativas	CLU	rs11136000	TC	1
+Doenças Neurodegenerativas	PICALM	rs3851179	TC	1
+Doenças Neurodegenerativas	CR1	rs61822977	GA	1
+Doenças Neurodegenerativas	ZCWPW1	rs1476679	CT	1
+Doenças Neurodegenerativas	CHRNA2	rs2741342	TC	1
+Doenças Neurodegenerativas	CD33	rs3865444	AC	1
+Doenças Neurodegenerativas	MGMT	rs11016864	GA	1
+Doenças Neurodegenerativas	FERMT2	rs6572869	GA	1
+Doenças Neurodegenerativas	CR1	rs6656401	GA	1
+Doenças Neurodegenerativas	PLAU	rs2227564	CT	1
+Doenças Neurodegenerativas	OTC	rs5963409	GA	1
+Doenças Neurodegenerativas	PLD3	rs145999145	GA	1
+Doenças Neurodegenerativas	PSEN1	rs63750687	CG	1
+Doenças Neurodegenerativas	PSEN1	rs63750687	CT	1
+Doenças Neurodegenerativas	PSEN1	rs661	GA	1
+Doenças Neurodegenerativas	PSEN1	rs63750900	GA	1
+Doenças Neurodegenerativas	PSEN1	rs63749824	CT	1
+Doenças Neurodegenerativas	PSEN2	rs63749884	GA	1
+Doenças Neurodegenerativas	PSEN2	rs63750666	CT	1
+Doenças Neurodegenerativas	PSEN2	rs28936379	AG	1
+Doenças Neurodegenerativas	PSEN2	rs28936380	CG	1
+Doenças Neurodegenerativas	PSEN2	rs63749851	AC	1
+Doenças Neurodegenerativas	PSEN2	rs63750215	AT	1
+Doenças Neurodegenerativas	APP	rs63750066	CT	1
+Doenças Neurodegenerativas	LRRK2	rs34637584	GA	1
+Ciclo Circadiano	CLOCK	rs1801260	AG	1
+Ciclo Circadiano	PER3	rs228697	CG	1
+Desempenho Motor	BDNF 	rs6265	CT	1
+Canabinóides	CNR1 	rs806368	TC	1
+Canabinóides	CNR1 	rs2023239	TC	1
+Canabinóides	ABCB2 	rs1045642	AG	1
+Canabinóides	FAAH	rs324420	CA	1
+Canabinóides	AKT1 	rs2494732	TC	1
+Canabinóides	DRD2 	rs1076560	CA	1
+Canabinóides	CYP2C19	rs17878459	GC	1
+Canabinóides	CYP2C19	rs4986893	GA	1
+Canabinóides	CYP2C19	rs56337013	CT	1
+Canabinóides	CYP2C19	rs72552267	GA	1
+Canabinóides	CYP2C19	rs72558186	TA	1
+Canabinóides	CYP2C19	rs41291556	TC	1
+Canabinóides	CYP2C19	rs12248560	TC	1
+Canabinóides	CYP3A4	rs35599367	GA	1
+Canabinóides	CYP3A4	rs12721629	GA	1
+Canabinóides	CYP3A4	rs55785340	AG	1
+Canabinóides	CYP3A4	rs67784355	GA	1
+Canabinóides	UGT1A9	rs58597806	GA	1
+Canabinóides	CYP2C9	rs1057910	AC	1
+Canabinóides	CYP2C9	rs28371685	CT	1
+Canabinóides	CYP2C9	rs28371686	CG	1
+Canabinóides	CYP2C9	rs72558189	GA	1
+Canabinóides	CYP2C9	rs1799853	CT	1
+Canabinóides	CYP2C9	rs72558187	TC	1
+Canabinóides	CYP1A2	rs762551	AC	1
+Canabinóides	CYP1A2	rs12720461	CT	1
+Canabinóides	CYP1A2	rs2069526	TG	1
+Canabinóides	CYP1A2	rs56276455	GA	1
+Canabinóides	CYP1A2	rs28399424	CT	1
+Canabinóides	CYP1A2	rs72547513	CA	1
+Comportamentos Adictos	CHRNA5 	rs2036527	GA	1
+Comportamentos Adictos	DRD2	rs1800497	GA	1
+Comportamentos Adictos	GCKR	rs1260326	CT	1
+Comportamentos Adictos	ADH1B	rs1229984	CT	1
+Comportamentos Adictos	FUT2 	rs492602	GA	1
+Comportamentos Adictos	GHS-R1A 	rs2232165	GA	1
+Comportamentos Adictos	OPRM1	rs1799971	AG	1
+Emoções e Comportamento	COMT	rs4633	CT	1
+Emoções e Comportamento	ADRB2	rs1042713	AG	1
+Emoções e Comportamento	ADRB2	rs1042714	GC	1
+Emoções e Comportamento	HTR2A	rs6313	AG	1
+Emoções e Comportamento	ADRB3	rs4994	AG	1
+Emoções e Comportamento	ADRA1A	rs1048101	GA	1
+Saúde Cardiovascular	2q36.3	rs2943634	AC	1
+Saúde Cardiovascular	NOS3	rs2070744	TC	1
+Saúde Cardiovascular	NOS3	rs1800779	AG	1
+Saúde Cardiovascular	APOB	rs693	GA	1
+Saúde Cardiovascular	NOS3	rs891512	GA	1
+Saúde Cardiovascular	9p21.3	rs1333049	GC	1
+Saúde Cardiovascular	PPARy	rs1801282	CG	1
+Saúde Cardiovascular	APOC1	rs4420638	AG	1
+Saúde Cardiovascular	F2	rs1799963	GA	1
+Saúde Cardiovascular	F5	rs6025	CT	1
+Saúde Cardiovascular	CSRNP1	rs13084580	CT	1
+Saúde Cardiovascular	PROS1	rs6795524	AG	1
+Saúde Cardiovascular	FGG	rs2066865	GA	1
+Saúde Cardiovascular	F11	rs4253417	TC	1
+Saúde Cardiovascular	SLC44A2	rs2288904	AG	1
+Saúde Cardiovascular	F10	rs3211752	AG	1
+Saúde Cardiovascular	GP6	rs1654425	TC	1
+Saúde Cardiovascular	MYRF	rs174536	CA	1
+Saúde Cardiovascular	PEPD	rs731839	GA	1
+Saúde Cardiovascular	BRCC3	rs6048	GA	1
+Saúde Cardiovascular	GNB3	rs5443	CT	1
+Pressão Arterial Sistêmica	ADD1	rs4961	GT	1
+Pressão Arterial Sistêmica	NEDD4L	rs3865418	CT	1
+Pressão Arterial Sistêmica	WSCD2	rs9739493	TC	1
+Pressão Arterial Sistêmica	AGTR1	rs5186	AC	1
+Pressão Arterial Sistêmica	NEDD4L	rs2288774	TC	1
+Pressão Arterial Sistêmica	NEDD4L	rs4149601	GA	1
+Pressão Arterial Sistêmica	STK39	rs6749447	TG	1
+Dislipidemias	LPL	rs10503669	AC	1
+Dislipidemias	CETP	rs3764261	AC	1
+Dislipidemias	APOB	rs693	GA	1
+Dislipidemias	FADS1	rs174546	TC	1
+Dislipidemias	APOA5	rs3135506	GC	1
+Dislipidemias	APOA5	rs662799	AG	1
+Dislipidemias	GCKR	rs1260326	CT	1
+Dislipidemias	APOC1	rs4420638	AG	1
+Hematologia	F11	rs4253417	TC	1
+Hematologia	SLC44A2	rs2288904	AG	1
+Hematologia	F10	rs3211752	AG	1
+Hematologia	GP6	rs1654425	TC	1
+Hematologia	MYRF	rs174536	CA	1
+Hematologia	PEPD	rs731839	GA	1
+Hematologia	G6PD	rs1050828	CT	1
+Hematologia	BRCC3	rs6048	GA	1
+Hematologia	HFE	rs1800562	GA	1
+Hematologia	HFE	rs1799945	CG	1
+Hematologia	HFE	rs1800730	AT	1
+Comportamento Alimentar	DRD2	rs6277	AG	1
+Comportamento Alimentar	TANK	rs197273	GA	1
+Comportamento Alimentar	DRD2	rs1800497	GA	1
+Comportamento Alimentar	FGF21	rs838133	GA	1
+Comportamento Alimentar	CYP1A1 	rs2472297	CT	1
+Comportamento Alimentar	TAS2R38	rs713598	CG	1
+Comportamento Alimentar	MC4R	rs17782313	TC	1
+Composição Corporal	APOA5	rs662799	AG	1
+Composição Corporal	VCAN	rs2287926	GA	1
+Composição Corporal	PLIN1	rs894160	TC	1
+Deposição de Gordura	FTO	rs9939609	TA	1
+Deposição de Gordura	FTO	rs1421085	TC	1
+Deposição de Gordura	FTO	rs1121980	GA	1
+Deposição de Gordura	FTO	rs55872725	CT	1
+Deposição de Gordura	FTO	rs17817449	TG	1
+Deposição de Gordura	FTO	rs9941349	CT	1
+Deposição de Gordura	LEPR	rs1137101	AG	1
+Deposição de Gordura	APOA2	rs5082	AG	1
+Deposição de Gordura	MC4R	rs17782313	TC	1
+Deposição de Gordura	MC4R	rs10871777	AG	1
+Deposição de Gordura	PNPLA3	rs2073082	AG	1
+Deposição de Gordura	PNPLA3	rs6006460	TG	1
+Deposição de Gordura	PNPLA3	rs2281135	AG	1
+Deposição de Gordura	GCKR	rs814295	GA	1
+Deposição de Gordura	PEMT	rs7946	CT	1
+Deposição de Gordura	PNPLA3	rs2076212	GT	1
+Deposição de Gordura	PEMT	rs4646404	AG	1
+Deposição de Gordura	PNPLA3	rs738409	CG	1
+Deposição de Gordura	PNPLA3	rs2896019	TG	1
+Deposição de Gordura	PNPLA3	rs2294915	CT	1
+Deposição de Gordura	GCKR	rs146175795	GA	1
+Deposição de Gordura	GCKR	rs1260326	CT	1
+Deposição de Gordura	GCKR	rs780094	CT	1
+Deposição de Gordura	GCKR	rs780093	CT	1
+Deposição de Gordura	GCKR	rs780092	AG	1
+Deposição de Gordura	TM6SF2	rs58542926	CT	1
+Deposição de Gordura	NCAN	rs2228603	CT	1
+Deposição de Gordura	MC4R	rs12970134	GA	1
+Insulina e Glicose	chr3:55279372	rs358806	CA	1
+Insulina e Glicose	TRIB3	rs2295490	AG	1
+Insulina e Glicose	CDKAL1	rs7754840	GC	1
+Insulina e Glicose	CDKAL1	rs10946398	AC	1
+Insulina e Glicose	CDKAL1	rs7756992	AG	1
+Insulina e Glicose	CDKAL1	rs4712523	AG	1
+Insulina e Glicose	API5	rs9300039	AC	1
+Insulina e Glicose	SLC30A8	rs13266634	TC	1
+Insulina e Glicose	FTO	rs9939609	TA	1
+Insulina e Glicose	TCF7L2	rs7903146	CT	1
+Insulina e Glicose	TCF7L2	rs12255372	GT	1
+Insulina e Glicose	TCF7L2	rs7901695	TC	1
+Insulina e Glicose	TCF7L2	rs4506565	AT	1
+Insulina e Glicose	IGF2BP2	rs4402960	GT	1
+Insulina e Glicose	IGF2BP2	rs1470579	AC	1
+Insulina e Glicose	HHEX	rs7923837	AG	1
+Insulina e Glicose	KCNJ11	rs5219	CT	1
+Insulina e Glicose	KCNJ11	rs5215	TC	1
+Insulina e Glicose	SREBF1	rs11868035	AG	1
+Insulina e Glicose	PPARy	rs1801282	CG	1
+Insulina e Glicose	PDE4B	rs4655595	AG	1
+Insulina e Glicose	SLC11A2	rs12304921	AG	1
+Insulina e Glicose	ELMO1	rs741301	TC	1
+Danos e Lesões	SOD2	rs4880	GA	1
+Danos e Lesões	COL1A1	rs1800012	AC	1
+Danos e Lesões	CILP	rs2073711	GA	1
+Desempenho em Esportes de Endurance	ADRB3	rs4994	GA	1
+Elevação da Frequência Cardíaca	ACTN3	rs1815739	CT	1
+Elevação da Frequência Cardíaca	SNCAIP	rs4836027	CT	1
+Adaptabilidade esportiva	GSTP1	rs1695	GA	1
+Desempenho em Força e Potência	ACE	rs4343	AG	1
+Desempenho em Força e Potência	VCAN	rs2287926	GA	1
+Vitamina A	BCMO1	rs6564851	TG	1
+Vitaminas do Complexo B	SLC19A2	rs28937595	CT	1
+Vitaminas do Complexo B	SLC44A4	rs2736428	CT	1
+Vitaminas do Complexo B	FUT2	rs492602	GA	1
+Vitaminas do Complexo B	SLC44A4	rs2075798	CA	1
+Vitaminas do Complexo B	ALPL	rs4654748	CT	1
+Vitaminas do Complexo B	SLC19A2	rs121908540	GA	1
+Vitaminas do Complexo B	SLC44A4	rs12661281	TA	1
+Vitaminas do Complexo B	SLC44A4	rs4947332	CT	1
+Vitaminas do Complexo B	SLC44A4	rs614549	AG	1
+Vitaminas do Complexo B	SLC19A2	rs74315374	CT	1
+Vitaminas do Complexo B	SLC44A4	rs116706632	GA	1
+Vitamina C	SLC23A1	rs11950646	GA	1
+Vitamina C	SLC23A2	rs6053005	CT	1
+Vitamina D	VDR	rs2238140	AG	1
+Vitamina D	VDR	rs886441	GA	1
+Vitamina D	VDR	rs7975232	AC	1
+Vitamina D	VDR	rs12717991	TC	1
+Vitamina D	VDR	rs731236	GA	1
+Vitamina D	VDR	rs2239179	CT	1
+Vitamina D	GC	rs2282679	TG	1
+Vitamina D	CYP2R1	rs7129781	TC	1
+Vitamina D	VDR	rs1544410	CT	1
+Vitamina D	VDR	rs4516035	TC	1
+Vitamina D	VDR	rs56382517	AG	1
+Vitamina D	VDR	rs11574129	AG	1
+Vitamina D	VDR	rs10783218	GA	1
+Vitamina D	VDR	rs11574099	CT	1
+Vitamina D	VDR	rs2239181	AC	1
+Vitamina D	VDR	rs1540339	CT	1
+Vitamina D	VDR	rs2228570	GA	1
+Folato	MTHFR	rs1801133	GA	1
+Ferro	TF	rs3811647	GA	1
+Ferro	TMPRSS6	rs4820268	GA	1
+Ferro	TFR2	rs7385804	AC	1
+Metabolização de Cafeína	CYP1A2 	rs762551	AC	1
+Intolerâncias e Alergias	EMSY, EMSY BRCA2 interacting transcriptional repressor	rs2212434	TC	1
+Intolerâncias e Alergias	SERPINB7	rs12964116	GA	1
+Doença Celíaca	HLA-DRA	rs2395182	GT	1
+Doença Celíaca	HLA-DQ8	rs7454108	TC	1
+Doença Celíaca	HLA-DQA1	rs2187668	CT	1
+Doença Celíaca	HLA-DQ	rs4713586	AG	1
+Intolerância à Lactose	MCM6	rs4988235	AG	1
+Intolerância à Lactose	LCT	rs2322659	TC	1
+Intolerâncias e Alergias	DAO	rs2052129	GT	1
+Emoções e Comportamento	COMT	rs4818	GG	2
+Emoções e Comportamento	COMT	rs4818	GC	1
+Emoções e Comportamento	COMT	rs4818	CG	1
+Emoções e Comportamento	COMT	rs4818	CC	0
+Emoções e Comportamento	OPMR1	rs1799971	GG	2
+Emoções e Comportamento	OPMR1	rs1799971	GA	1
+Emoções e Comportamento	OPMR1	rs1799971	AG	1
+Emoções e Comportamento	OPMR1	rs1799971	AA	0
+Hematologia	F2	rs1799963	AA	2
+Hematologia	F2	rs1799963	AG	1
+Hematologia	F2	rs1799963	GA	1
+Hematologia	F2	rs1799963	GG	0
+Hematologia	F5	rs6025	TT	2
+Hematologia	F5	rs6025	TC	1
+Hematologia	F5	rs6025	CT	1
+Hematologia	F5	rs6025	CC	0
+Hematologia	CSRNP1	rs13084580	TT	2
+Hematologia	CSRNP1	rs13084580	TC	1
+Hematologia	CSRNP1	rs13084580	CT	1
+Hematologia	CSRNP1	rs13084580	CC	0
+Hematologia	PROS1	rs6795524	GG	2
+Hematologia	PROS1	rs6795524	GA	1
+Hematologia	PROS1	rs6795524	AG	1
+Hematologia	PROS1	rs6795524	AA	0
+Hematologia	FGG	rs2066865	AA	2
+Hematologia	FGG	rs2066865	AG	1
+Hematologia	FGG	rs2066865	GA	1
+Hematologia	FGG	rs2066865	GG	0
+Metabolização Alcoólica	ALDH2	rs671	AA	2
+Metabolização Alcoólica	ALDH2	rs671	AG	1
+Metabolização Alcoólica	ALDH2	rs671	GA	1
+Metabolização Alcoólica	ALDH2	rs671	GG	0
+Detoxificação	VKORC1	rs9923231	TT	2
+Detoxificação	VKORC1	rs9923231	TC	1
+Detoxificação	VKORC1	rs9923231	CT	1
+Detoxificação	VKORC1	rs9923231	CC	0
+Detoxificação	CYP2C9	rs1057910	CC	2
+Detoxificação	CYP2C9	rs1057910	CA	1
+Detoxificação	CYP2C9	rs1057910	AC	1
+Detoxificação	CYP2C9	rs1057910	AA	0
+Detoxificação	TPMT	rs1142345	CC	2
+Detoxificação	TPMT	rs1142345	CT	1
+Detoxificação	TPMT	rs1142345	TC	1
+Detoxificação	TPMT	rs1142345	TT	0
+Detoxificação	TPMT	rs1800462	GG	2
+Detoxificação	TPMT	rs1800462	GC	1
+Detoxificação	TPMT	rs1800462	CG	1
+Detoxificação	TPMT	rs1800462	CC	0
+Detoxificação	TPMT	rs1800584	TT	2
+Detoxificação	TPMT	rs1800584	TC	1
+Detoxificação	TPMT	rs1800584	CT	1
+Detoxificação	TPMT	rs1800584	CC	0
+Detoxificação	CYP4F2	rs2108622	TT	2
+Detoxificação	CYP4F2	rs2108622	TC	1
+Detoxificação	CYP4F2	rs2108622	CT	1
+Detoxificação	CYP4F2	rs2108622	CC	0
+Detoxificação	SLCO1B1	rs4149056	CC	2
+Detoxificação	SLCO1B1	rs4149056	CT	1
+Detoxificação	SLCO1B1	rs4149056	TC	1
+Detoxificação	SLCO1B1	rs4149056	TT	0
+Detoxificação	VKORC1	rs9934438	AA	2
+Detoxificação	VKORC1	rs9934438	AG	1
+Detoxificação	VKORC1	rs9934438	GA	1
+Detoxificação	VKORC1	rs9934438	GG	0
+Detoxificação	ABCG2	rs2231142	TT	2
+Detoxificação	ABCG2	rs2231142	TG	1
+Detoxificação	ABCG2	rs2231142	GT	1
+Detoxificação	ABCG2	rs2231142	GG	0
+Detoxificação	ABCB1	rs1045642	GG	2
+Detoxificação	ABCB1	rs1045642	GA	1
+Detoxificação	ABCB1	rs1045642	AG	1
+Detoxificação	ABCB1	rs1045642	AA	0
+Detoxificação	CYP2C9	rs1799853	TT	2
+Detoxificação	CYP2C9	rs1799853	TC	1
+Detoxificação	CYP2C9	rs1799853	CT	1
+Detoxificação	CYP2C9	rs1799853	CC	0
+Detoxificação	ABCB1	rs2032582	CC	2
+Detoxificação	ABCB1	rs2032582	CA	1
+Detoxificação	ABCB1	rs2032582	AC	1
+Detoxificação	ABCB1	rs2032582	AA	0
+Detoxificação	CYP2C9	rs28371686	GG	2
+Detoxificação	CYP2C9	rs28371686	GC	1
+Detoxificação	CYP2C9	rs28371686	CG	1
+Detoxificação	CYP2C9	rs28371686	CC	0
+Detoxificação	COMT	rs4680	AA	2
+Detoxificação	COMT	rs4680	AG	1
+Detoxificação	COMT	rs4680	GA	1
+Detoxificação	COMT	rs4680	GG	0
+Detoxificação	APOE	rs7412	TT	2
+Detoxificação	APOE	rs7412	TC	1
+Detoxificação	APOE	rs7412	CT	1
+Detoxificação	APOE	rs7412	CC	0
+Detoxificação	ATM	rs11212617	CC	2
+Detoxificação	ATM	rs11212617	CA	1
+Detoxificação	ATM	rs11212617	AC	1
+Detoxificação	ATM	rs11212617	AA	0
+Detoxificação	ERCC1	rs11615	GG	2
+Detoxificação	ERCC1	rs11615	GA	1
+Detoxificação	ERCC1	rs11615	AG	1
+Detoxificação	ERCC1	rs11615	AA	0
+Detoxificação	LDLR	rs1433099	CC	2
+Detoxificação	LDLR	rs1433099	CT	1
+Detoxificação	LDLR	rs1433099	TC	1
+Detoxificação	LDLR	rs1433099	TT	0
+Detoxificação	CETP	rs1532624	AA	2
+Detoxificação	CETP	rs1532624	AC	1
+Detoxificação	CETP	rs1532624	CA	1
+Detoxificação	CETP	rs1532624	CC	0
+Detoxificação	GSTP1	rs1695	GG	2
+Detoxificação	GSTP1	rs1695	GA	1
+Detoxificação	GSTP1	rs1695	AG	1
+Detoxificação	GSTP1	rs1695	AA	0
+Detoxificação	HMGCR	rs17238540	GG	2
+Detoxificação	HMGCR	rs17238540	GT	1
+Detoxificação	HMGCR	rs17238540	TG	1
+Detoxificação	HMGCR	rs17238540	TT	0
+Detoxificação	HMGCR	rs17671591	TT	2
+Detoxificação	HMGCR	rs17671591	TC	1
+Detoxificação	HMGCR	rs17671591	CT	1
+Detoxificação	HMGCR	rs17671591	CC	0
+Detoxificação	VKORC1	rs17708472	AA	2
+Detoxificação	VKORC1	rs17708472	AG	1
+Detoxificação	VKORC1	rs17708472	GA	1
+Detoxificação	VKORC1	rs17708472	GG	0
+Detoxificação	PPARG	rs1801282	GG	2
+Detoxificação	PPARG	rs1801282	GC	1
+Detoxificação	PPARG	rs1801282	CG	1
+Detoxificação	PPARG	rs1801282	CC	0
+Detoxificação	KDR	rs1870377	AA	2
+Detoxificação	KDR	rs1870377	AT	1
+Detoxificação	KDR	rs1870377	TA	1
+Detoxificação	KDR	rs1870377	TT	0
+Detoxificação	eNOS3	rs2070744	TT	2
+Detoxificação	eNOS3	rs2070744	TC	1
+Detoxificação	eNOS3	rs2070744	CT	1
+Detoxificação	eNOS3	rs2070744	CC	0
+Detoxificação	KDR	rs2071559	GG	2
+Detoxificação	KDR	rs2071559	GA	1
+Detoxificação	KDR	rs2071559	AG	1
+Detoxificação	KDR	rs2071559	AA	0
+Detoxificação	KDR	rs2305948	TT	2
+Detoxificação	KDR	rs2305948	TC	1
+Detoxificação	KDR	rs2305948	CT	1
+Detoxificação	KDR	rs2305948	CC	0
+Detoxificação	VKORC1	rs2359612	GG	2
+Detoxificação	VKORC1	rs2359612	GA	1
+Detoxificação	VKORC1	rs2359612	AG	1
+Detoxificação	VKORC1	rs2359612	AA	0
+Detoxificação	CYP2B6	rs28399499	CC	2
+Detoxificação	CYP2B6	rs28399499	CT	1
+Detoxificação	CYP2B6	rs28399499	TC	1
+Detoxificação	CYP2B6	rs28399499	TT	0
+Detoxificação	VKORC1	rs2884737	CC	2
+Detoxificação	VKORC1	rs2884737	CA	1
+Detoxificação	VKORC1	rs2884737	AC	1
+Detoxificação	VKORC1	rs2884737	AA	0
+Detoxificação	CYP2B6	rs3745274	TT	2
+Detoxificação	CYP2B6	rs3745274	TG	1
+Detoxificação	CYP2B6	rs3745274	GT	1
+Detoxificação	CYP2B6	rs3745274	GG	0
+Detoxificação	UGT1A1	rs4148323	AA	2
+Detoxificação	UGT1A1	rs4148323	AG	1
+Detoxificação	UGT1A1	rs4148323	GA	1
+Detoxificação	UGT1A1	rs4148323	GG	0
+Detoxificação	VEGFC	rs4604006	TT	2
+Detoxificação	VEGFC	rs4604006	TC	1
+Detoxificação	VEGFC	rs4604006	CT	1
+Detoxificação	VEGFC	rs4604006	CC	0
+Detoxificação	CYP2C19	rs4986893	AA	2
+Detoxificação	CYP2C19	rs4986893	AG	1
+Detoxificação	CYP2C19	rs4986893	GA	1
+Detoxificação	CYP2C19	rs4986893	GG	0
+Detoxificação	VKORC1	rs61742245	AA	2
+Detoxificação	VKORC1	rs61742245	AC	1
+Detoxificação	VKORC1	rs61742245	CA	1
+Detoxificação	VKORC1	rs61742245	CC	0
+Detoxificação	VKORC1	rs7294	TT	2
+Detoxificação	VKORC1	rs7294	TC	1
+Detoxificação	VKORC1	rs7294	CT	1
+Detoxificação	VKORC1	rs7294	CC	0
+Detoxificação	VKORC1	rs8050894	GG	2
+Detoxificação	VKORC1	rs8050894	GC	1
+Detoxificação	VKORC1	rs8050894	CG	1
+Detoxificação	VKORC1	rs8050894	CC	0
+Biogênese Mitocondrial	PGC1a	rs8192678	CC	2
+Biogênese Mitocondrial	PGC1a	rs8192678	CT	1
+Biogênese Mitocondrial	PGC1a	rs8192678	TC	1
+Biogênese Mitocondrial	PGC1a	rs8192678	TT	0
+Biogênese Mitocondrial	NQO1	rs1800566	AA	2
+Biogênese Mitocondrial	NQO1	rs1800566	AG	1
+Biogênese Mitocondrial	NQO1	rs1800566	GA	1
+Biogênese Mitocondrial	NQO1	rs1800566	GG	0
+Biogênese Mitocondrial	SOD 	rs4880	GG	2
+Biogênese Mitocondrial	SOD 	rs4880	AG	1
+Biogênese Mitocondrial	SOD 	rs4880	GA	1
+Biogênese Mitocondrial	SOD 	rs4880	AA	0
+Biogênese Mitocondrial	AMPD	rs17602729	AA	2
+Biogênese Mitocondrial	AMPD	rs17602729	AG	1
+Biogênese Mitocondrial	AMPD	rs17602729	GA	1
+Biogênese Mitocondrial	AMPD	rs17602729	GG	0
+Esquizofrenia	AS3MT	rs7085104	AA	2
+Esquizofrenia	AS3MT	rs7085104	AG	1
+Esquizofrenia	AS3MT	rs7085104	GA	1
+Esquizofrenia	AS3MT	rs7085104	GG	0
+Esquizofrenia	MAD1L0	rs6461049	TT	2
+Esquizofrenia	MAD1L0	rs6461049	TC	1
+Esquizofrenia	MAD1L0	rs6461049	CT	1
+Esquizofrenia	MAD1L0	rs6461049	CC	0
+Esquizofrenia	NFU1P2	rs1198588	TT	2
+Esquizofrenia	NFU1P2	rs1198588	AT	1
+Esquizofrenia	NFU1P2	rs1198588	TA	1
+Esquizofrenia	NFU1P2	rs1198588	AA	0
+Esquizofrenia	CACNA1C	rs1006737	AA	2
+Esquizofrenia	CACNA1C	rs1006737	AG	1
+Esquizofrenia	CACNA1C	rs1006737	GA	1
+Esquizofrenia	CACNA1C	rs1006737	GG	0
+Esquizofrenia	CACNB2	rs17691888	GG	2
+Esquizofrenia	CACNB2	rs17691888	GA	1
+Esquizofrenia	CACNB2	rs17691888	AG	1
+Esquizofrenia	CACNB2	rs17691888	AA	0
+Esquizofrenia	TSNARE1	rs4129585	AA	2
+Esquizofrenia	TSNARE1	rs4129585	AC	1
+Esquizofrenia	TSNARE1	rs4129585	CA	1
+Esquizofrenia	TSNARE1	rs4129585	CC	0
+Esquizofrenia	SNX18/NTM	rs7940866	TT	2
+Esquizofrenia	SNX18/NTM	rs7940866	AT	1
+Esquizofrenia	SNX18/NTM	rs7940866	TA	1
+Esquizofrenia	SNX18/NTM	rs7940866	AA	0
+Esquizofrenia	MAU2/GATAD2A	rs2905424	TT	2
+Esquizofrenia	MAU2/GATAD2A	rs2905424	TC	1
+Esquizofrenia	MAU2/GATAD2A	rs2905424	CT	1
+Esquizofrenia	MAU2/GATAD2A	rs2905424	CC	0
+Esquizofrenia	QPCT	rs2373000	TT	2
+Esquizofrenia	QPCT	rs2373000	TC	1
+Esquizofrenia	QPCT	rs2373000	CT	1
+Esquizofrenia	QPCT	rs2373000	CC	0
+Esquizofrenia	SLCO6A1	rs6878284	CC	2
+Esquizofrenia	SLCO6A1	rs6878284	CT	1
+Esquizofrenia	SLCO6A1	rs6878284	TC	1
+Esquizofrenia	SLCO6A1	rs6878284	TT	0
+Esquizofrenia	ITIH3	rs4687552	TT	2
+Esquizofrenia	ITIH3	rs4687552	TC	1
+Esquizofrenia	ITIH3	rs4687552	CT	1
+Esquizofrenia	ITIH3	rs4687552	CC	0
+Esquizofrenia	ZEB2	rs12991836	CC	2
+Esquizofrenia	ZEB2	rs12991836	CA	1
+Esquizofrenia	ZEB2	rs12991836	AC	1
+Esquizofrenia	ZEB2	rs12991836	AA	0
+Esquizofrenia	FTCDNL1	rs2949006	TT	2
+Esquizofrenia	FTCDNL1	rs2949006	TG	1
+Esquizofrenia	FTCDNL1	rs2949006	GT	1
+Esquizofrenia	FTCDNL1	rs2949006	GG	0
+Esquizofrenia	LOC105372125	rs4801131	CC	2
+Esquizofrenia	LOC105372125	rs4801131	CT	1
+Esquizofrenia	LOC105372125	rs4801131	TC	1
+Esquizofrenia	LOC105372125	rs4801131	TT	0
+Esquizofrenia	SNORC	rs778371	GG	2
+Esquizofrenia	SNORC	rs778371	GA	1
+Esquizofrenia	SNORC	rs778371	AG	1
+Esquizofrenia	SNORC	rs778371	AA	0
+Esquizofrenia	C12orf65	rs11532322	AA	2
+Esquizofrenia	C12orf65	rs11532322	AG	1
+Esquizofrenia	C12orf65	rs11532322	GA	1
+Esquizofrenia	C12orf65	rs11532322	GG	0
+Esquizofrenia	SDCCAG8	rs1538774	GG	2
+Esquizofrenia	SDCCAG8	rs1538774	GC	1
+Esquizofrenia	SDCCAG8	rs1538774	CG	1
+Esquizofrenia	SDCCAG8	rs1538774	CC	0
+Esquizofrenia	LINC02057/SMIM15-AS1	rs171748	AA	2
+Esquizofrenia	LINC02057/SMIM15-AS1	rs171748	AG	1
+Esquizofrenia	LINC02057/SMIM15-AS1	rs171748	GA	1
+Esquizofrenia	LINC02057/SMIM15-AS1	rs171748	GA	0
+Esquizofrenia	LINC01470 	rs2910032	CC	2
+Esquizofrenia	LINC01470 	rs2910032	CT	1
+Esquizofrenia	LINC01470 	rs2910032	TC	1
+Esquizofrenia	LINC01470 	rs2910032	TT	0
+Esclerose	UNC13A	rs12608932	CC	2
+Esclerose	SOD1	rs80265967	CC	2
+Esclerose	KIF5A	rs113247976	TT	2
+Esclerose	CFAP410	rs75087725	AA	2
+Depressão	NEGR1	rs2568958	AA	2
+Depressão	VRK2	rs1568452	TT	2
+Depressão	BEND4	rs34937911	TT	2
+Depressão	TLR4	rs913930	GG	2
+Depressão	GRM5	rs7932640	TT	2
+Depressão	SOX5	rs78337797	TT	2
+Depressão	KLC1	rs10149470	G/A	2
+Depressão	SLC12A5	rs12624433	AA	2
+Esclerose	UNC13A	rs12608932	CA	1
+Esclerose	SOD1	rs80265967	CA	1
+Esclerose	KIF5A	rs113247976	TC	1
+Esclerose	CFAP410	rs75087725	AC	1
+Depressão	NEGR1	rs2568958	AG	1
+Depressão	VRK2	rs1568452	TC	1
+Depressão	BEND4	rs34937911	TC	1
+Depressão	TLR4	rs913930	AG	1
+Depressão	GRM5	rs7932640	TC	1
+Depressão	SOX5	rs78337797	TG	1
+Depressão	KLC1	rs10149470	AG	1
+Depressão	SLC12A5	rs12624433	AG	1
+Esclerose	UNC13A	rs12608932	AC	1
+Esclerose	SOD1	rs80265967	AC	1
+Esclerose	KIF5A	rs113247976	CT	1
+Esclerose	CFAP410	rs75087725	CA	1
+Depressão	NEGR1	rs2568958	GA	1
+Depressão	VRK2	rs1568452	CT	1
+Depressão	BEND4	rs34937911	CT	1
+Depressão	TLR4	rs913930	GA	1
+Depressão	GRM5	rs7932640	CT	1
+Depressão	SOX5	rs78337797	GT	1
+Depressão	KLC1	rs10149470	GA	1
+Depressão	SLC12A5	rs12624433	GA	1
+Esclerose	UNC13A	rs12608932	AA	0
+Esclerose	SOD1	rs80265967	AA	0
+Esclerose	KIF5A	rs113247976	CC	0
+Esclerose	CFAP410	rs75087725	CC	0
+Depressão	NEGR1	rs2568958	GG	0
+Depressão	VRK2	rs1568452	CC	0
+Depressão	BEND4	rs34937911	CC	0
+Depressão	TLR4	rs913930	AA	0
+Depressão	GRM5	rs7932640	CC	0
+Depressão	SOX5	rs78337797	GG	0
+Depressão	KLC1	rs10149470	AA	0
+Depressão	SLC12A5	rs12624433	GG	0
+Parkinson	GBA	rs35749011	AA	2
+Parkinson	NUCKS1/SLC41A1	rs823118	TT	2
+Parkinson	SIPA1L2	rs10797576	TT	2
+Parkinson	TMEM163/CCNT2	rs6430538	CC	2
+Parkinson	STK39	rs1474055	TT	2
+Parkinson	MCCC1	rs12637471	GG	2
+Parkinson	TMEM175/DGKQ	rs34311866	CC	2
+Parkinson	SNCA	rs356182	GG	2
+Parkinson	HLA-DRB6/HLA-DQA1	rs9275326	CC	2
+Parkinson	KLHL7/NUPL2/GPNMB	rs199347	AA	2
+Parkinson	MIR4697	rs329648	TT	2
+Parkinson	OGFOD2	rs11060180	AA	2
+Parkinson	GCH1	rs11158026	CC	2
+Parkinson	TMEM229B	rs1555399	TT	2
+Parkinson	VPS13C	rs2414739	AA	2
+Parkinson	ZNF646/KAT8	rs14235	AA	2
+Parkinson	SYT4	rs12456492	GG	2
+Parkinson	LSM7	rs62120679	TT	2
+Parkinson	GBA	rs35749011	AG	1
+Parkinson	NUCKS1/SLC41A1	rs823118	TC	1
+Parkinson	SIPA1L2	rs10797576	TC	1
+Parkinson	TMEM163/CCNT2	rs6430538	CT	1
+Parkinson	STK39	rs1474055	TC	1
+Parkinson	MCCC1	rs12637471	GA	1
+Parkinson	TMEM175/DGKQ	rs34311866	CT	1
+Parkinson	SNCA	rs356182	GA	1
+Parkinson	HLA-DRB6/HLA-DQA1	rs9275326	CT	1
+Parkinson	KLHL7/NUPL2/GPNMB	rs199347	AG	1
+Parkinson	MIR4697	rs329648	TC	1
+Parkinson	OGFOD2	rs11060180	AG	1
+Parkinson	GCH1	rs11158026	CT	1
+Parkinson	TMEM229B	rs1555399	AT	1
+Parkinson	VPS13C	rs2414739	AG	1
+Parkinson	ZNF646/KAT8	rs14235	AG	1
+Parkinson	SYT4	rs12456492	GA	1
+Parkinson	LSM7	rs62120679	TC	1
+Parkinson	GBA	rs35749011	GA	1
+Parkinson	NUCKS1/SLC41A1	rs823118	CT	1
+Parkinson	SIPA1L2	rs10797576	CT	1
+Parkinson	TMEM163/CCNT2	rs6430538	TC	1
+Parkinson	STK39	rs1474055	CT	1
+Parkinson	MCCC1	rs12637471	AG	1
+Parkinson	TMEM175/DGKQ	rs34311866	TC	1
+Parkinson	SNCA	rs356182	AG	1
+Parkinson	HLA-DRB6/HLA-DQA1	rs9275326	TC	1
+Parkinson	KLHL7/NUPL2/GPNMB	rs199347	GA	1
+Parkinson	MIR4697	rs329648	CT	1
+Parkinson	OGFOD2	rs11060180	GA	1
+Parkinson	GCH1	rs11158026	TC	1
+Parkinson	TMEM229B	rs1555399	TA	1
+Parkinson	VPS13C	rs2414739	GA	1
+Parkinson	ZNF646/KAT8	rs14235	GA	1
+Parkinson	SYT4	rs12456492	AG	1
+Parkinson	LSM7	rs62120679	CT	1
+Parkinson	GBA	rs35749011	GG	0
+Parkinson	NUCKS1/SLC41A1	rs823118	CC	0
+Parkinson	SIPA1L2	rs10797576	CC	0
+Parkinson	TMEM163/CCNT2	rs6430538	TT	0
+Parkinson	STK39	rs1474055	CC	0
+Parkinson	MCCC1	rs12637471	AA	0
+Parkinson	TMEM175/DGKQ	rs34311866	TT	0
+Parkinson	SNCA	rs356182	AA	0
+Parkinson	HLA-DRB6/HLA-DQA1	rs9275326	TT	0
+Parkinson	KLHL7/NUPL2/GPNMB	rs199347	GG	0
+Parkinson	MIR4697	rs329648	CC	0
+Parkinson	OGFOD2	rs11060180	GG	0
+Parkinson	GCH1	rs11158026	TT	0
+Parkinson	TMEM229B	rs1555399	AA	0
+Parkinson	VPS13C	rs2414739	GG	0
+Parkinson	ZNF646/KAT8	rs14235	GG	0
+Parkinson	SYT4	rs12456492	AA	0
+Parkinson	LSM7	rs62120679	CC	0
+Ansiedade	MTCH1/FGD2	rs708012	TT	2
+Ansiedade	MTCH1/FGD2	rs708012	TC	1
+Ansiedade	MTCH1/FGD2	rs708012	CC	0
+Ansiedade	MTCH1/FGD2	rs708012	CT	1
+Alzheimer	APOE	rs429358	CC	2
+Alzheimer	APOE	rs7412	CC	2
+Alzheimer	CR1	rs61822977	AA	2
+Alzheimer	BIN1	rs6733839	TT	2
+Alzheimer	ZCWPW1	rs1476679	TT	2
+Alzheimer	CHRNA2	rs2741342	CC	2
+Alzheimer	CLU	rs7831810	GG	2
+Alzheimer	CLU	rs9331888	CC	2
+Alzheimer	FERMT2	rs6572869	AA	2
+Alzheimer	SLC24A4	rs12590273	TT	2
+Alzheimer	CASS4	rs7274581	TT	2
+Alzheimer	CR1	rs6656401	AA	2
+Alzheimer	BIN1	rs4663105	CC	2
+Alzheimer	ZCWPW1	rs1859788	AA	2
+Alzheimer	PLAU	rs2227564	TT	2
+Alzheimer	GAB2	rs2373115	CC	2
+Alzheimer	OTC	rs5963409	AA	2
+Alzheimer	GOLM1	rs7019241	CC	2
+Alzheimer	PLD3	rs145999145	AA	2
+Alzheimer	TREM2	rs75932628	TT	2
+Alzheimer	CD33	rs3865444	CC	2
+Alzheimer	CLU	rs11136000	CC	2
+Alzheimer	PICALM	rs3851179	CC	2
+Alzheimer	MGMT	rs11016864	AA	2
+Alzheimer	APOE	rs429358	CT	1
+Alzheimer	APOE	rs7412	CT	1
+Alzheimer	CR1	rs61822977	AG	1
+Alzheimer	BIN1	rs6733839	TC	1
+Alzheimer	ZCWPW1	rs1476679	TC	1
+Alzheimer	CHRNA2	rs2741342	CT	1
+Alzheimer	CLU	rs7831810	GA	1
+Alzheimer	CLU	rs9331888	CG	1
+Alzheimer	FERMT2	rs6572869	AG	1
+Alzheimer	SLC24A4	rs12590273	TC	1
+Alzheimer	CASS4	rs7274581	TC	1
+Alzheimer	CR1	rs6656401	AG	1
+Alzheimer	BIN1	rs4663105	CA	1
+Alzheimer	ZCWPW1	rs1859788	AG	1
+Alzheimer	PLAU	rs2227564	TC	1
+Alzheimer	GAB2	rs2373115	CA	1
+Alzheimer	OTC	rs5963409	AG	1
+Alzheimer	GOLM1	rs7019241	CT	1
+Alzheimer	PLD3	rs145999145	AG	1
+Alzheimer	TREM2	rs75932628	TC	1
+Alzheimer	CD33	rs3865444	CA	1
+Alzheimer	CLU	rs11136000	CT	1
+Alzheimer	PICALM	rs3851179	CT	1
+Alzheimer	MGMT	rs11016864	AG	1
+Alzheimer	APOE	rs429358	TC	1
+Alzheimer	APOE	rs7412	TC	1
+Alzheimer	CR1	rs61822977	GA	1
+Alzheimer	BIN1	rs6733839	CT	1
+Alzheimer	ZCWPW1	rs1476679	CT	1
+Alzheimer	CHRNA2	rs2741342	TC	1
+Alzheimer	CLU	rs7831810	AG	1
+Alzheimer	CLU	rs9331888	GC	1
+Alzheimer	FERMT2	rs6572869	GA	1
+Alzheimer	SLC24A4	rs12590273	CT	1
+Alzheimer	CASS4	rs7274581	CT	1
+Alzheimer	CR1	rs6656401	GA	1
+Alzheimer	BIN1	rs4663105	AC	1
+Alzheimer	ZCWPW1	rs1859788	GA	1
+Alzheimer	PLAU	rs2227564	CT	1
+Alzheimer	GAB2	rs2373115	AC	1
+Alzheimer	OTC	rs5963409	GA	1
+Alzheimer	GOLM1	rs7019241	TC	1
+Alzheimer	PLD3	rs145999145	GA	1
+Alzheimer	TREM2	rs75932628	CT	1
+Alzheimer	CD33	rs3865444	AC	1
+Alzheimer	CLU	rs11136000	TC	1
+Alzheimer	PICALM	rs3851179	TC	1
+Alzheimer	MGMT	rs11016864	GA	1
+Alzheimer	APOE	rs429358	TT	0
+Alzheimer	APOE	rs7412	TT	0
+Alzheimer	CR1	rs61822977	GG	0
+Alzheimer	BIN1	rs6733839	CC	0
+Alzheimer	ZCWPW1	rs1476679	CC	0
+Alzheimer	CHRNA2	rs2741342	TT	0
+Alzheimer	CLU	rs7831810	AA	0
+Alzheimer	CLU	rs9331888	GG	0
+Alzheimer	FERMT2	rs6572869	GG	0
+Alzheimer	SLC24A4	rs12590273	CC	0
+Alzheimer	CASS4	rs7274581	CC	0
+Alzheimer	CR1	rs6656401	GG	0
+Alzheimer	BIN1	rs4663105	AA	0
+Alzheimer	ZCWPW1	rs1859788	GG	0
+Alzheimer	PLAU	rs2227564	CC	0
+Alzheimer	GAB2	rs2373115	AA	0
+Alzheimer	OTC	rs5963409	GG	0
+Alzheimer	GOLM1	rs7019241	TT	0
+Alzheimer	PLD3	rs145999145	GG	0
+Alzheimer	TREM2	rs75932628	CC	0
+Alzheimer	CD33	rs3865444	AA	0
+Alzheimer	CLU	rs11136000	TT	0
+Alzheimer	PICALM	rs3851179	TT	0
+Alzheimer	MGMT	rs11016864	GG	0
