@@ -17,7 +17,7 @@ class AncestralidadeMaker:
     def __init__(self, paciente: Paciente):
         self.paciente = paciente
         self.ancestries = paciente.ancestralidades
-
+    
     def pin_coordinates(self, pin):
         pin_coordinates_dict = {
             "Itália, Europa (TSI)": (288, 280),
