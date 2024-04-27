@@ -240,7 +240,7 @@ class _Config:
     def register_styles(self):
         def _is_font_dict(data) -> TypeGuard[dict]:
             return isinstance(data, dict) and "fontName" in data
-
+        
         def _register_styles(data: Union[dict, list], root: str = ""):
             # logger.debug(f"Received {root=!r} and {data=!r}")
             if _is_font_dict(data):

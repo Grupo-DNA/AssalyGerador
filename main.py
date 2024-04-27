@@ -35,6 +35,7 @@ try:
 	sheet = service.spreadsheets()
 	result = sheet.values().get(spreadsheetId=SAMPLE_SPREADSHEET_ID, range=SAMPLE_RANGE_NAME).execute()
 	values = result.get('values', [])
+
 except HttpError as err:
 	print(err)
 

@@ -13,6 +13,6 @@ def refatorar_txt(input_file, output_file):
             f.write(line)
 
 if __name__ == "__main__":
-    input_file = "CLUB003420.txt"
-    output_file = "CLUB003420.txt"
+    input_file = "CLUB003421.txt"
+    output_file = "CLUB003421.txt"
     refatorar_txt(input_file, output_file)

@@ -1404,6 +1404,7 @@ def make_descri_box(name, canv, snp, posy, height):
 	canv.drawString(41, posy, name)
 
 def write_descri(name, canv, posy, dicio):
+
 	par = Paragraph(dicio[name], style=CONFIG.styles["ancestralidade.text-regular"])
 	w, h = par.wrap(513, 1)
 	lines = h/9
