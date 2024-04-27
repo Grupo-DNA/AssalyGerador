@@ -1,6 +1,6 @@
-#
+#Generated Laudos
 /Laudos Gerados/*.pdf
 
-*.json
-
+#Security stuff
+token.json
 credentials.json
