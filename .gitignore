@@ -1,4 +1,6 @@
 #
 /Laudos Gerados/*.pdf
+
 *.json
+
 credentials.json
