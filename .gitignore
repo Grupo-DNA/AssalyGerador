@@ -1,6 +1,7 @@
 # Ignore all PDF files in the Laudos Gerados directory
-Model/Laudos Gerados/*.pdf
+Model/Laudos Gerados/** 
+
 
 # Ignore security-related files
 token.json
-Controller/auth/credentials.json
+Controller/auth/**
