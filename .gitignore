@@ -1,0 +1,6 @@
+# Ignore all PDF files in the Laudos Gerados directory
+/Laudos Gerados/*.pdf
+
+# Ignore security-related files
+token.json
+Controller/auth/credentials.json
