@@ -17,15 +17,14 @@ from reportlab.lib.styles import ParagraphStyle, getSampleStyleSheet
 from reportlab.pdfbase import pdfmetrics, ttfonts
 
 if __name__ == "packages.config":
-    from .exceptions import ConfigError
+    from Controller.controller.exceptions import ConfigError
 else:
-    from exceptions import ConfigError
+    from Controller.controller.exceptions import ConfigError
 
 
 _user_configpath = Path(__file__).resolve().parent.parent / "config.yaml"
-_global_configpath = Path(__file__).resolve().parent / "Files" / "config.yaml"
-_default_configpath = Path(__file__).resolve().parent / \
-    "Files" / "Defaults" / "config.yaml"
+_global_configpath = Path(__file__).resolve().parent / "DataFiles" /"Files"/ "config.yaml"
+_default_configpath = Path(__file__).resolve().parent.parent / "DataFiles" / "Files"/ "Defaults" / "config.yaml"
 _DIRNAME = Path(__file__).resolve().parent
 
 
@@ -109,6 +108,7 @@ def constructor_path(loader, node):
        pathb: /full/path/to/root/b}
     }
     """
+    
     seq = loader.construct_sequence(node)
     out_seq: list[str] = []
     for i in seq:  # this might deal with yaml shenanigans that I've not seen yet
@@ -121,6 +121,7 @@ def constructor_path(loader, node):
     if out.is_absolute() and out.exists():
         return out
     nout = _DIRNAME / out
+    print(_DIRNAME)
     if nout.is_absolute() and nout.exists():
         return nout
     else:

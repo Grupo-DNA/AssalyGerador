@@ -2,7 +2,7 @@ from reportlab.pdfgen import canvas
 from reportlab.lib.pagesizes import A4
 from reportlab.platypus import Paragraph
 from io import BytesIO
-from config import CONFIG
+from Controller.controller.config import CONFIG
 from pypdf import PageObject, PdfReader
 from datetime import date
 import os
