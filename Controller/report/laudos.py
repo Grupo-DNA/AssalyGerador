@@ -11,7 +11,6 @@ import math
 from ancestralidade import AncestralidadeMaker
 from base import Paciente
 from reportlab.lib.colors import HexColor
-from Controller.controller.auxiliar_functions import *
 
 def style(canv, name):
 	style = CONFIG.styles[name]
@@ -274,54 +273,38 @@ def find_color(name, snp):
     else:
         return 3  # Vermelho
 	
-def read_SNPs(service, ID):
-    print("Lendo dados brutos...\n")
-    print("Procurando arquivo no drive...")
-
-    file_id = get_file_id(service, ID)
-    if not file_id:
-        print(f"Dado Bruto {ID} não encontrado no Drive.")
-        return -1
-
-    filename = f"bruto_{ID}.txt"
-    download_file(service, file_id, filename)
-
-    snp_file_path = os.path.join("Files", "SNPs.txt")
-    snps = []
-    with open(snp_file_path, "r") as file:
-        snps = [line.strip() for line in file.readlines()]
-
-    if not os.path.exists(filename):
-        print(f"Dado Bruto {ID} não encontrado.")
-        return -1
-
-    delimiter = get_file_delimiter(filename)
-    total_lines = sum(1 for _ in open(filename, encoding="utf-8"))
-    progress_bar = tqdm(total=total_lines)
-    snp_dict = {line.split("\t")[0]: line.split("\t")[1:] for line in snps}
-
-    with open(filename, encoding="utf-8") as file:
-        for line in file:
-            if re.match(r'rs\d+', line):
-                break
-            progress_bar.update(1)
-
-        callback = get_callback_fromline(line, delimiter)
-        for line in file:
-            if not line.strip() or line.startswith("#") or not re.match(r'rs\d+', line):
-                continue
-            rsid, a1, a2 = callback(line, delimiter)
-            if rsid in snp_dict:
-                snp_dict[rsid] = [a1, a2] + snp_dict[rsid][1:]
-            progress_bar.update(1)
-    
-    progress_bar.close()
-    os.remove(filename)
-
-    snps = [f"{rsid}\t{data[0]}\t{data[1]}\t{data[2]}" if data[0] != "--" else f"{rsid}\t--\t{data[1]}\t{data[2]}" for rsid, data in snp_dict.items()]
-
-    print("Dados brutos lidos\n")
-    return snps
+# Arquivo SNPs.txt vai ser montado dentro do programa com os dados de cada paciente
+def read_SNPs(ID):
+	print("Lendo dados brutos...\n")
+	endereco = os.path.join("Files", "SNPs.txt")
+	snp = []
+	with open(endereco, "r") as file:
+		reading = file.readlines()
+		for line in reading:
+			line = line.replace("\n", "")
+			snp.append(line)
+	endereco = os.path.join("Brutos", f"{ID}.txt")
+	if os.path.exists(endereco) == False:
+		endereco = os.path.join("Brutos", f"{ID}_23andMe.txt")
+	if os.path.exists(endereco) == False:
+		print(f"Dado Bruto {ID} não encontrado.")
+		return -1
+	with open(endereco, "r") as file:
+		reading = file.readlines()
+		for i in range(len(snp)):
+			check = 0
+			sp = snp[i].split("\t")
+			for line in reading:
+				line = line.replace("\n", "")
+				bruto = line.split("\t")
+				if sp[0] == bruto[0]:
+					snp[i] = sp[0]+"\t"+bruto[3]+"\t"+sp[2]+"\t"+sp[3]
+					check = 1
+					break
+			if check == 0:
+				snp[i] = sp[0]+"\t"+"--"+"\t"+sp[2]+"\t"+sp[3]
+	print("Dados brutos lidos\n")
+	return snp
 
 def make_rect_color(name, canv, posx, posy, snp, width):
 	num=find_color(name,snp)
