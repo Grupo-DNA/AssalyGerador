@@ -1,7 +1,7 @@
 paths:
   template: !path &template ['DataFiles', Files, Template]
   ancestralidade:
-    iadmix: !path &paths_ancestralidade_IADMIX [iadmix]
+    iadmix: !path &paths_ancestralidade_IADMIX [report, iadmix]
     iadmix freq file:
       !path [
         *paths_ancestralidade_IADMIX,
