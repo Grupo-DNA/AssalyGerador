@@ -25,7 +25,7 @@ else:
 _user_configpath = Path(__file__).resolve().parent.parent / "config.yaml"
 _global_configpath = Path(__file__).resolve().parent / "DataFiles" /"Files"/ "config.yaml"
 _default_configpath = Path(__file__).resolve().parent.parent / "DataFiles" / "Files"/ "Defaults" / "config.yaml"
-_DIRNAME = Path(__file__).resolve().parent
+_DIRNAME = Path(__file__).resolve().parent.parent
 
 
 logger = logging.getLogger("config")
