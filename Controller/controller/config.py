@@ -198,44 +198,44 @@ class _Config:
         try:
             pdfmetrics.registerFont(ttfonts.TTFont("Montserrat", "Montserrat-Black.ttf"))
         except:
-            endereco = os.path.join("Files", "Constants", "Fonts", "Montserrat-Black.ttf")
+            endereco = os.path.join("../Controller", "DataFiles", "Files", "Constants", "Fonts", "Montserrat-Black.ttf")
             print('Endereco buscado:',endereco)
             pdfmetrics.registerFont(ttfonts.TTFont("Montserrat", endereco))
         
         try:
             pdfmetrics.registerFont(ttfonts.TTFont("Montserrat-Bold", "Montserrat-Bold.ttf"))
         except:
-            endereco = os.path.join("Files", "Constants", "Fonts", "Montserrat-Bold.ttf")
+            endereco = os.path.join("../Controller", "DataFiles", "Files", "Constants", "Fonts", "Montserrat-Black.ttf")
             pdfmetrics.registerFont(ttfonts.TTFont("Montserrat-Bold", endereco))
 
         try:
             pdfmetrics.registerFont(ttfonts.TTFont("Montserrat-SemiBold", "Montserrat-SemiBold.ttf"))
         except:
-            endereco = os.path.join("Files", "Constants", "Fonts", "Montserrat-SemiBold.ttf")
+            endereco = os.path.join("../Controller", "DataFiles", "Files", "Constants", "Fonts", "Montserrat-Black.ttf")
             pdfmetrics.registerFont(ttfonts.TTFont("Montserrat-SemiBold", endereco))
         
         try:
             pdfmetrics.registerFont(ttfonts.TTFont("Montserrat-Extra-Bold", "Montserrat-ExtraBold.ttf"))
         except:
-            endereco = os.path.join("Files", "Constants", "Fonts", "Montserrat-ExtraBold.ttf")
+            endereco = os.path.join("../Controller", "DataFiles", "Files", "Constants", "Fonts", "Montserrat-Black.ttf")
             pdfmetrics.registerFont(ttfonts.TTFont("Montserrat Extra Bold", endereco))
         
         try:
             pdfmetrics.registerFont(ttfonts.TTFont("Montserrat-Light", "Montserrat-Light.ttf"))
         except:
-            endereco = os.path.join("Files", "Constants", "Fonts", "Montserrat-Light.ttf")
+            endereco = os.path.join("../Controller", "DataFiles", "Files", "Constants", "Fonts", "Montserrat-Black.ttf")
             pdfmetrics.registerFont(ttfonts.TTFont("Montserrat Light", endereco))
         
         try:
             pdfmetrics.registerFont(ttfonts.TTFont("Montserrat-Regular", "Montserrat-Regular.ttf"))
         except:
-            endereco = os.path.join("Files", "Constants", "Fonts", "Montserrat-Regular.ttf")
+            endereco = os.path.join("../Controller", "DataFiles", "Files", "Constants", "Fonts", "Montserrat-Black.ttf")
             pdfmetrics.registerFont(ttfonts.TTFont("Montserrat-Regular", endereco))
         
         try:
             pdfmetrics.registerFont(ttfonts.TTFont("Montserrat-Medium", "Montserrat-Medium.ttf"))
         except:
-            endereco = os.path.join("Files", "Constants", "Fonts", "Montserrat-Medium.ttf")
+            endereco = os.path.join("../Controller", "DataFiles", "Files", "Constants", "Fonts", "Montserrat-Black.ttf")
             pdfmetrics.registerFont(ttfonts.TTFont("Montserrat-Medium", endereco))
 
     def register_styles(self):
