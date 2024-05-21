@@ -223,7 +223,7 @@ class _Config:
         try:
             pdfmetrics.registerFont(ttfonts.TTFont("Montserrat-Light", "Montserrat-Light.ttf"))
         except:
-            endereco = os.path.join("Files", "Constants", "Fonts", "Montserrat-Light.ttf")
+            endereco = os.path.join("../Controller", "DataFiles", "Files", "Constants", "Fonts", "Montserrat-Light.ttf")
             pdfmetrics.registerFont(ttfonts.TTFont("Montserrat Light", endereco))
         
         try:

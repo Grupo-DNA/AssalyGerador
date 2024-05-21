@@ -4,9 +4,9 @@
 """Script que permite a criação de uma página PDF contendo dados da ancestralidade."""
 
 if __name__ == "packages.ancestralidade":
-    from .base import Ancestralidade, Continente, Paciente, Population
+    from Controller.report.base import Ancestralidade, Continente, Paciente, Population
 else:
-    from base import Ancestralidade, Continente, Paciente, Population
+    from Controller.report.base import Ancestralidade, Continente, Paciente, Population
 
 class AncestralidadeMaker:
     """
