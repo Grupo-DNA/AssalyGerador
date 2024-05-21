@@ -8,8 +8,8 @@ from datetime import date
 import os
 import sys
 import math
-from ancestralidade import AncestralidadeMaker
-from base import Paciente
+from Controller.report.ancestralidade import AncestralidadeMaker
+from Controller.report.base import Paciente
 from reportlab.lib.colors import HexColor
 
 def style(canv, name):

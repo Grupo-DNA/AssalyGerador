@@ -27,7 +27,7 @@ if not creds or not creds.valid:
 		creds.refresh(Request())
 	else:
 		flow = InstalledAppFlow.from_client_secrets_file(
-			'credentials.json', SCOPES)
+			'../Controller/auth/credentials.json', SCOPES)
 		creds = flow.run_local_server(port=0)
 	with open('token.json', 'w') as token:
 		token.write(creds.to_json())
@@ -37,7 +37,7 @@ try:
 	sheet = service.spreadsheets()
 	result = sheet.values().get(spreadsheetId=SAMPLE_SPREADSHEET_ID, range=SAMPLE_RANGE_NAME).execute()
 	values = result.get('values', [])
-
+	
 except HttpError as err:
 	print(err)
 
