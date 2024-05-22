@@ -8,6 +8,7 @@ from google.oauth2.credentials import Credentials
 from google_auth_oauthlib.flow import InstalledAppFlow
 from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError
+from Controller.report.leituraDados import read_SNPs
 
 
 # If modifying these scopes, delete the file token.json.
@@ -37,9 +38,11 @@ try:
 	sheet = service.spreadsheets()
 	result = sheet.values().get(spreadsheetId=SAMPLE_SPREADSHEET_ID, range=SAMPLE_RANGE_NAME).execute()
 	values = result.get('values', [])
-	
+	print(values)
 except HttpError as err:
 	print(err)
+
+#TODO precisa ficar baixando dado?
 
 with open("gerar.txt", "r") as handle:
 	reading = handle.readlines()

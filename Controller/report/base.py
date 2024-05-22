@@ -19,14 +19,14 @@ import pandas as pd
 from reportlab.lib.colors import Color, HexColor
 
 if __name__ in ("__main__", "base"):
-    from config import CONFIG
-    from exceptions import NoSNPFoundError, RestrictionError
-    from helpers import (csv_reader, eval_rule, get_file_delimiter,get_temp_filename, truncate)
+    from Controller.controller.config import CONFIG
+    from Controller.controller.exceptions import NoSNPFoundError, RestrictionError
+    from Controller.controller.helpers import (csv_reader, eval_rule, get_file_delimiter,get_temp_filename, truncate)
     from iadmix.runancestry import ancestry_pipeline_genotypes
 else:
-    from .config import CONFIG
-    from .exceptions import NoSNPFoundError, RestrictionError
-    from .helpers import (csv_reader, eval_rule, get_file_delimiter,get_temp_filename, truncate)
+    from Controller.controller.config import CONFIG
+    from Controller.controller.exceptions import NoSNPFoundError, RestrictionError
+    from Controller.controller.helpers import (csv_reader, eval_rule, get_file_delimiter,get_temp_filename, truncate)
     from .iadmix.runancestry import ancestry_pipeline_genotypes
 
 

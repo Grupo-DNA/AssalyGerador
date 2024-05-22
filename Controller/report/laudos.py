@@ -18,7 +18,7 @@ def style(canv, name):
 	canv.setFillColor(style.textColor)
 
 def dicio_descri():
-	endereco = os.path.join("Files", "Descri.txt")
+	endereco = os.path.join("../Controller", "DataFiles", "Files", "Descri.txt")
 	dicio = {}
 	with open(endereco, "r") as file:
 		r = file.readlines()
@@ -231,8 +231,8 @@ def draw_rs_rotas(outpdf, snp, canv, name, column, posy):
 
 # calculo PRS rotas
 def find_color(name, snp):
-    lista_file_path = os.path.join("Files", "Lista.txt")
-    efeitos_file_path = os.path.join("Files", "Efeitos.txt")
+    lista_file_path = os.path.join("../Controller", "DataFiles", "Files", "Lista.txt")
+    efeitos_file_path = os.path.join("../Controller", "DataFiles", "Files", "Efeitos.txt")
     
     # Mapeando o nome "Glicação" para "Insulina e Glicose", se aplicável
     if name == "Glicação":
@@ -273,39 +273,6 @@ def find_color(name, snp):
     else:
         return 3  # Vermelho
 	
-# Arquivo SNPs.txt vai ser montado dentro do programa com os dados de cada paciente
-def read_SNPs(ID):
-	print("Lendo dados brutos...\n")
-	endereco = os.path.join("Files", "SNPs.txt")
-	snp = []
-	with open(endereco, "r") as file:
-		reading = file.readlines()
-		for line in reading:
-			line = line.replace("\n", "")
-			snp.append(line)
-	endereco = os.path.join("Brutos", f"{ID}.txt")
-	if os.path.exists(endereco) == False:
-		endereco = os.path.join("Brutos", f"{ID}_23andMe.txt")
-	if os.path.exists(endereco) == False:
-		print(f"Dado Bruto {ID} não encontrado.")
-		return -1
-	with open(endereco, "r") as file:
-		reading = file.readlines()
-		for i in range(len(snp)):
-			check = 0
-			sp = snp[i].split("\t")
-			for line in reading:
-				line = line.replace("\n", "")
-				bruto = line.split("\t")
-				if sp[0] == bruto[0]:
-					snp[i] = sp[0]+"\t"+bruto[3]+"\t"+sp[2]+"\t"+sp[3]
-					check = 1
-					break
-			if check == 0:
-				snp[i] = sp[0]+"\t"+"--"+"\t"+sp[2]+"\t"+sp[3]
-	print("Dados brutos lidos\n")
-	return snp
-
 def make_rect_color(name, canv, posx, posy, snp, width):
 	num=find_color(name,snp)
 	#Green
@@ -387,9 +354,9 @@ def ancestralidade(outpdf, ID, name):
 	txt = name.split(" ")[0].capitalize() + ", de acordo com seu mapeamento, você possui"
 	c.drawString(100, 710, txt)
 
-	endereco = os.path.join("Brutos", f"{ID}.txt")
+	endereco = os.path.join("../Controller", "DataFiles", "Brutos", f"{ID}.txt")
 	if os.path.exists(endereco) == False:
-		endereco = os.path.join("Brutos", f"{ID}_23andMe.txt")
+		endereco = os.path.join("../Controller", "DataFiles", "Brutos", f"{ID}_23andMe.txt")
 	ances = AncestralidadeMaker(Paciente(endereco))
 
 	# .highest devolve a população e o valor percentual da maior população do paciente
@@ -487,13 +454,13 @@ def make_petal_color(outpdf, canv, name, posx, posy, pos, x, y, snp, big):
 	#print("color", num)
 	if num == 1:
 		#print(f"Pet{big}G{pos}.png")
-		endereco = os.path.join(os.path.join("Files", "Holobionte"), f"Pet{big}G{pos}.png")
+		endereco = os.path.join(os.path.join("../Controller", "DataFiles", "Files", "Holobionte"), f"Pet{big}G{pos}.png")
 	elif num == 2:
 		#print(f"Pet{big}Y{pos}.png")
-		endereco = os.path.join(os.path.join("Files", "Holobionte"), f"Pet{big}Y{pos}.png")
+		endereco = os.path.join(os.path.join("../Controller", "DataFiles", "Files", "Holobionte"), f"Pet{big}Y{pos}.png")
 	elif num == 3:
 		#print(f"Pet{big}R{pos}.png")
-		endereco = os.path.join(os.path.join("Files", "Holobionte"), f"Pet{big}R{pos}.png")
+		endereco = os.path.join(os.path.join("../Controller", "DataFiles", "Files", "Holobionte"), f"Pet{big}R{pos}.png")
 	else:
 		#print("\n\nERRO Pétalas\n\n")
 		print('valor inesperados')
@@ -705,12 +672,13 @@ def holobionte(outpdf, snp):
 	# 	c.drawImage(endereco, posx, posy, width=x, height=y, mask='auto')
 
 	for i in range(6):
-		endereco = os.path.join(os.path.join("Files", "Holobionte"), f"Ball{i}.png")
+		endereco = os.path.join(os.path.join("../Controller", "DataFiles", "Files", "Holobionte"), f"Ball{i}.png")
+
 		c.drawImage(endereco, posx, posy, width=x, height=y, mask='auto')
 		make_petal_color(outpdf, c, names[i], posx, posy, i+1, x, y, snp, 0)
 		make_petal_color(outpdf, c, names_outer[i], posx, posy, i+1, x, y, snp, 1)
 
-	endereco = os.path.join(os.path.join("Files", "Holobionte"), "PetalSmall.png")
+	endereco = os.path.join(os.path.join("../Controller", "DataFiles", "Files", "Holobionte"), "PetalSmall.png")
 	c.drawImage(endereco, posx, posy, width=x, height=y, mask='auto')
 
 	# c.drawString(460, 443, "Intestinal")
@@ -769,7 +737,7 @@ def holobionte(outpdf, snp):
 	find_impactful(outpdf, c, names[count], snp, 165, 513)
 	c.drawString(155, 305, names_outer[count])
 	find_impactful(outpdf, c, names_outer[count], snp, 155, 305)
-	endereco = os.path.join(os.path.join("Files", "Holobionte"), "homem.png")
+	endereco = os.path.join(os.path.join("../Controller", "DataFiles", "Files", "Holobionte"), "homem.png")
 	c.drawImage(endereco, ((595-x*0.9)/2), ((842-y*0.9)/2), width=x*0.9, height=y*0.9, mask='auto')
 
 	c.save()
@@ -785,7 +753,7 @@ def rotas_nutrientes(outpdf,snp):
 	template = PdfReader(open(endereco, "rb"), strict=False)
 	packet = BytesIO()
 	c = canvas.Canvas(packet, pagesize=A4)
-	endereco = os.path.join("Files", "Rotas.txt")
+	endereco = os.path.join("../Controller", "DataFiles", "Files", "Rotas.txt")
 	found = 0
 	size = 750
 	col = 0
@@ -835,7 +803,7 @@ def rotas_dietas(outpdf,snp):
 	template = PdfReader(open(endereco, "rb"), strict=False)
 	packet = BytesIO()
 	c = canvas.Canvas(packet, pagesize=A4)
-	endereco = os.path.join("Files", "Rotas.txt")
+	endereco = os.path.join("../Controller", "DataFiles", "Files", "Rotas.txt")
 	found = 0
 	size = 750
 	col = 0
@@ -883,7 +851,7 @@ def rotas_sistemico(outpdf,snp,sex):
 	template = PdfReader(open(endereco, "rb"), strict=False)
 	packet = BytesIO()
 	c = canvas.Canvas(packet, pagesize=A4)
-	endereco = os.path.join("Files", "Rotas.txt")
+	endereco = os.path.join("../Controller","DataFiles", "Files", "Rotas.txt")
 	found = 0
 	size = 750
 	col = 0
@@ -934,7 +902,7 @@ def rotas_atividades(outpdf,snp):
 	template = PdfReader(open(endereco, "rb"), strict=False)
 	packet = BytesIO()
 	c = canvas.Canvas(packet, pagesize=A4)
-	endereco = os.path.join("Files", "Rotas.txt")
+	endereco = os.path.join("../Controller", "DataFiles", "Files", "Rotas.txt")
 	found = 0
 	size = 750
 	col = 0
@@ -982,7 +950,7 @@ def rotas_cardio(outpdf,snp):
 	template = PdfReader(open(endereco, "rb"), strict=False)
 	packet = BytesIO()
 	c = canvas.Canvas(packet, pagesize=A4)
-	endereco = os.path.join("Files", "Rotas.txt")
+	endereco = os.path.join("../Controller", "DataFiles", "Files", "Rotas.txt")
 	found = 0
 	size = 750
 	col = 0
@@ -1030,7 +998,7 @@ def rotas_saudemental(outpdf,snp):
 	template = PdfReader(open(endereco, "rb"), strict=False)
 	packet = BytesIO()
 	c = canvas.Canvas(packet, pagesize=A4)
-	endereco = os.path.join("Files", "Rotas.txt")
+	endereco = os.path.join("../Controller","DataFiles", "Files", "Rotas.txt")
 	found = 0
 	size = 750
 	col = 0
@@ -1078,7 +1046,7 @@ def rotas_energia(outpdf,snp):
 	template = PdfReader(open(endereco, "rb"), strict=False)
 	packet = BytesIO()
 	c = canvas.Canvas(packet, pagesize=A4)
-	endereco = os.path.join("Files", "Rotas.txt")
+	endereco = os.path.join("../Controller", "DataFiles", "Files", "Rotas.txt")
 	found = 0
 	size = 750
 	col = 0
@@ -1126,7 +1094,7 @@ def rotas_sinalizacao(outpdf,snp):
 	template = PdfReader(open(endereco, "rb"), strict=False)
 	packet = BytesIO()
 	c = canvas.Canvas(packet, pagesize=A4)
-	endereco = os.path.join("Files", "Rotas.txt")
+	endereco = os.path.join("../Controller", "DataFiles", "Files", "Rotas.txt")
 	found = 0
 	size = 750
 	col = 0
@@ -1217,7 +1185,7 @@ def visao_geral_test(outpdf, snp, sex):
 	draw_risco_visao(c)
 	posx = 25
 	h = 650
-	endereco = os.path.join("Files", "Rotas.txt")
+	endereco = os.path.join("../Controller", "DataFiles", "Files", "Rotas.txt")
 	title = ""
 	names = []
 	
@@ -1306,7 +1274,7 @@ def visao_geral(outpdf, snp, sex):
 	draw_risco_visao(c)
 	posx = 25
 	h = 650
-	endereco = os.path.join("Files", "Rotas.txt")
+	endereco = os.path.join("../Controller", "DataFiles", "Files", "Rotas.txt")
 	title = ""
 	counter = 0
 
@@ -1428,7 +1396,7 @@ def descri_sinalizacao(outpdf,snp,dicio):
 	c = canvas.Canvas(packet, pagesize=A4)
 	found = 0
 	names = []
-	endereco = os.path.join("Files", "Rotas.txt")
+	endereco = os.path.join("../Controller", "DataFiles", "Files", "Rotas.txt")
 	with open(endereco, "r") as file:
 		r = file.readlines()
 		for line in r:
@@ -1470,7 +1438,7 @@ def descri_sistemico(outpdf,snp,dicio,sex):
 	c = canvas.Canvas(packet, pagesize=A4)
 	found = 0
 	names = []
-	endereco = os.path.join("Files", "Rotas.txt")
+	endereco = os.path.join("../Controller","DataFiles", "Files", "Rotas.txt")
 	with open(endereco, "r") as file:
 		r = file.readlines()
 		for line in r:
@@ -1531,7 +1499,7 @@ def descri_sistemico(outpdf,snp,dicio,sex):
 def descri_saudemental(outpdf,snp,dicio):
 	found = 0
 	names = []
-	endereco = os.path.join("Files", "Rotas.txt")
+	endereco = os.path.join("../Controller", "DataFiles", "Files", "Rotas.txt")
 	with open(endereco, "r") as file:
 		r = file.readlines()
 		for line in r:
@@ -1618,7 +1586,7 @@ def descri_cardio(outpdf,snp,dicio):
 	c = canvas.Canvas(packet, pagesize=A4)
 	found = 0
 	names = []
-	endereco = os.path.join("Files", "Rotas.txt")
+	endereco = os.path.join("../Controller", "DataFiles", "Files", "Rotas.txt")
 	with open(endereco, "r") as file:
 		r = file.readlines()
 		for line in r:
@@ -1829,7 +1797,6 @@ def gene_efeitos(outpdf,snp):
 	semef = []
 	print(snp)
 	print(len(snp))
-	print("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA")
 	for i in range(len(snp)):
 		val = int(0)
 		sp = snp[i].split("\t")
