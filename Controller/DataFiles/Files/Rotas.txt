@@ -7,7 +7,7 @@ Vitamina D
 Ferro
 
 Resposta à Dietas
-Doença Celíaca
+Doenças Crônicas
 Intolerâncias e Alergias
 Intolerância à Lactose
 Metabolização Alcoólica
@@ -41,21 +41,30 @@ Dislipidemias
 Pressão Arterial Sistêmica
 
 Saúde Mental
-Doenças Neurodegenerativas
+Tdah
+Otimismo
+Medo por Trauma
+Demencia
+Raiva
+Estresse
 Esquizofrenia
 Ansiedade
 Depressão
-Parkinson
-Esclerose
-Alzheimer
 Ciclo Circadiano
 Transtornos de Humor
 Memória e Atenção
-Enxaqueca
 Canabinóides
 Comportamentos Adictos
 Emoções e Comportamento
+
+Neuro
+Doenças Neurodegenerativas
+Parkinson
+Esclerose
+Alzheimer
 Desempenho Motor
+Enxaqueca
+
 
 Energia e Metabolismo
 Insulina e Glicose

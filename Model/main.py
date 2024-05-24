@@ -9,7 +9,7 @@ from google_auth_oauthlib.flow import InstalledAppFlow
 from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError
 from Controller.report.leituraDados import read_SNPs
-
+from Controller.controller.auxiliar_functions import *
 
 # If modifying these scopes, delete the file token.json.
 SCOPES = ['https://www.googleapis.com/auth/spreadsheets.readonly']
@@ -18,6 +18,10 @@ SCOPES = ['https://www.googleapis.com/auth/spreadsheets.readonly']
 SAMPLE_SPREADSHEET_ID = '1bj0Hn9Oo0wl2TkwDFYGBEzm-RK1WDcOEo9d4uOTnfiU'
 #SAMPLE_RANGE_NAME = 'Usuários próprios BD Club!B3:E'
 SAMPLE_RANGE_NAME = 'Usuários BD Club 2.0!B3:E'
+service = build('drive', 'v3', credentials=login(), static_discovery=False) 
+
+config_logger()
+logger = get_logger()
 
 # Autorização Planilha
 creds = None
@@ -42,7 +46,6 @@ try:
 except HttpError as err:
 	print(err)
 
-#TODO precisa ficar baixando dado?
 
 with open("gerar.txt", "r") as handle:
 	reading = handle.readlines()
@@ -61,6 +64,7 @@ with open("gerar.txt", "r") as handle:
 				snp = read_SNPs(ID)
 				if snp == -1:
 					break
+
 				outpdf = PdfWriter()
 				dicio = dicio_descri()
 				laudo_capa(outpdf, name)
