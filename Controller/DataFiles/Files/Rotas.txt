@@ -1,13 +1,11 @@
-Necessidade de Nutrientes
+
+Nutrição
 Vitamina A
 Vitaminas do Complexo B
 Vitamina C
 Folato
 Vitamina D
 Ferro
-
-Resposta à Dietas
-Doenças Crônicas
 Intolerâncias e Alergias
 Intolerância à Lactose
 Metabolização Alcoólica
@@ -28,13 +26,12 @@ Endometriose
 
 Atividades Físicas
 Danos e Lesões
-Elevação da Frequência Cardíaca
 Colágeno e Articulações
+Adaptabilidade esportiva
 Desempenho em Esportes de Endurance
 Desempenho em Força e Potência
-Adaptabilidade esportiva
+Elevação da Frequência Cardíaca
 
-Saúde Cardiovascular
 Saúde Cardiovascular
 Hematologia
 Dislipidemias
@@ -43,8 +40,8 @@ Pressão Arterial Sistêmica
 Saúde Mental
 Tdah
 Otimismo
-Medo por Trauma
-Demencia
+Medo Por Trauma
+Demência
 Raiva
 Estresse
 Esquizofrenia
@@ -57,17 +54,25 @@ Canabinóides
 Comportamentos Adictos
 Emoções e Comportamento
 
+Doenças Crônicas
+Doença Celíaca
+Diabetes tipo 2
+Fibromialgia
+Hemocromatose
+Síndrome Metabólica
+Obesidade
+Psoríase
+
 Neuro
-Doenças Neurodegenerativas
 Parkinson
 Esclerose
 Alzheimer
 Desempenho Motor
 Enxaqueca
+Neuropatia hereditaria
+Doenças Neurodegenerativas
 
-
-Energia e Metabolismo
-Insulina e Glicose
+Metabolismo
 Deposição de Gordura
 Composição Corporal
 Comportamento Alimentar
@@ -79,4 +84,18 @@ Inflamação
 Detoxificação
 Imunidade
 Biogênese Mitocondrial
+
+Envelhecimento
+Capacidade antioxidante
+Disco invertebral
+Fotoenvelhecimento
+Osteoartrite
+Perda ossea 
+Degeneracao macular
+Catarata 
+Artrite reumatoide 
+Aging
+Envelhecimento epigenetico
+Otosclerose
+Telomero
 

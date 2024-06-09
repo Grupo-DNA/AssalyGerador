@@ -8,7 +8,6 @@ paths:
         DATA,
         hapmap3.8populations.hg38.freqs,
       ]
-
 styles:
   ancestralidade: &styles_ancestralidade
     capa-nome:
@@ -66,15 +65,15 @@ styles:
     rect-green:
       fontName: Montserrat-Bold
       fontSize: 10
-      textColor: !color 9AC68C
+      textColor: !color 77DD77
     rect-yellow:
       fontName: Montserrat-Bold
       fontSize: 10
-      textColor: !color F8C26E
+      textColor: !color FDFD96
     rect-red:
       fontName: Montserrat-Bold
       fontSize: 10
-      textColor: !color EB6363
+      textColor: !color FF6961
     rect-grey:
       fontName: Montserrat-Bold
       fontSize: 10
@@ -197,6 +196,10 @@ styles:
       fontSize: 13
       alignment: !aln CENTER
       leading: 20
+    ancestralidade.visao-geral-risco-small:
+      fontName: Helvetica
+      fontSize: 8
+      textColor: colors.black
 
   laudos: &styles_laudos
     capa: &styles_laudos_capa

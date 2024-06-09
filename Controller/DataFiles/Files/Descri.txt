@@ -3,30 +3,30 @@ Inflamação	Indivíduos que apresentam alelos de risco nos genes relacionados a
 Metilação	Variações genéticas na rota de metilação estão relacionadas ao desenvolvimento ósseo e neurogênese, supressores tumorais e malignidades.
 Imunidade	Os marcadores genéticos presentes nessa rota estão associados a resposta imunológica e também a doenças autoimunes.
 Detoxificação	A rota genômica de detoxificação está bastante relacionada aos mecanismos de reparo porém especialmente ao reparo de lesões no DNA. Indivíduos com genótipos de risco nos genes analisados apresentam maior risco de carcinogênese e outras patologias.
-Biogênese Mitocondrial	A rota genômica de biogênese mitocondrial se refere a capacidade do indivíduo de regular termgênese, gerenciamento de energia e consequentemente, volume, tamanho e número de mitocôndrias presentes nas células.
-Saúde Óssea	Apresentar genótipos de alto impacto nos genes presentes nesta rota, implica uma densidade mineral óssea menor e maior risco de osteoporose.
+Biogênese Mitocondrial	A rota genômica de biogênese mitocondrial se refere a capacidade do indivíduo de regular termogênese, gerenciamento de energia e consequentemente, volume, tamanho e número de mitocôndrias presentes nas células.
+Saúde Óssea	Apresentar genótipos de alto impacto nos genes presentes nesta rota implica uma densidade mineral óssea menor e maior risco de osteoporose.
 Saúde Pulmonar	Essa rota está relacionada a produção de enzimas protetoras de danos no tecido pulmonar e linfócitos T CD4+ que ocasionam na ocorrência de doenças pulmonares.
 Saúde da Pele	O perfil genético de alto risco na rota de saúde da pele está relacionado a maior susceptibilidade a melanoma, envelhecimento precoce, menor capacidade antioxidante e outras inflamações cutâneas.
 Saúde dos Olhos	Variações genéticas de alto risco para a saúde dos olhos estão relacionadas a maior propensão a degeneração macular.
-Disfunções Hormonais	O perfil genético de alto risco nesta rota está relacionado a dificuldades na codificação de proteínas, enzimas e hormônios tiroidianos importantes para a regulação geral do organismo.
+Disfunções Hormonais	O perfil genético de alto risco nesta rota está relacionado a dificuldades na codificação de proteínas, enzimas e hormônios tireoidianos importantes para a regulação geral do organismo.
 Amiloidose	As variantes genéticas analisadas nesta rota estão associadas ao desenvolvimento de polineuropatia amiloide familiar, angiopatia amiloide retiniana e angiopatia amiloide coroidal.
 Saúde Intestinal	Nessa sessão você encontra análises genéticas relacionadas a saúde do epitélio intestinal e consequente alterações absortivas e inflamatórias.
-Saúde da Mulher	A rota saúde da mulher aborda informações pertinentes ao cuidado necessário e frequênte no público feminino, por exemplo: endometriose, câncer de mama, câncer de útero.
+Saúde da Mulher	A rota saúde da mulher aborda informações pertinentes ao cuidado necessário e frequente no público feminino, por exemplo: endometriose, câncer de mama, câncer de útero.
 Capacidade Auditiva	Aqui encontra-se análises genéticas relacionadas a produção de proteínas quinases necessárias para o bom funcionamento da capacidade auditiva.
-Longevidade	Nesta rota são análisadas propensões genéticas associadas ao encurtamento de telômeros e consequente maior ou menor longevidade.
-Emoções e Comportamento	As variações genéticas analisadas nesta rota estão relacionadas a regulação de receptores adrenérgicos e neurotransmissores como por exemplo serotonina, adrenalina, dopamina, entre outros. Deste modo, alterações genéticas nestes campos estão associadas a mudanças nos mecanismos farmacológicos, psicológicos  e neurais.
-Comportamentos Adictos	São analisadas variantes genéticas associadas a maior propensão a alcoolismo, vícios em opioides e depêndencia a cannabidiol.
+Longevidade	Nesta rota são analisadas propensões genéticas associadas ao encurtamento de telômeros e consequente maior ou menor longevidade.
+Emoções e Comportamento	As variações genéticas analisadas nesta rota estão relacionadas a regulação de receptores adrenérgicos e neurotransmissores como por exemplo serotonina, adrenalina, dopamina, entre outros. Deste modo, alterações genéticas nestes campos estão associadas a mudanças nos mecanismos farmacológicos, psicológicos e neurais.
+Comportamentos Adictos	São analisadas variantes genéticas associadas a maior propensão a alcoolismo, vícios em opioides e dependência a cannabidiol.
 Transtornos de Humor	São analisadas variantes genéticas associadas a maior propensão a desordens depressivas e comportamentos melancólicos, capacidade cognitiva e autismo.
 Enxaqueca	As variantes genéticas analisadas nesta rota são associadas ao manejo do estresse mental e propensão a enxaqueca.
 Memória e Atenção	As variantes genéticas analisadas nesta rota são associadas aos receptores de neurotransmissores ligadas a desordens neuropsiquiátricas e dificuldade em ter foco e atenção.
-Doenças Neurodegenerativas	As variantes genéticas analisadas nesta rota são associadas a propensão a desenvolver parkinson, alzheimer e alzheimer precoce. São alterações associadas a manutenção das redes neurais.
+Doenças Neurodegenerativas	As variantes genéticas analisadas nesta rota são associadas a propensão a desenvolver Parkinson, Alzheimer e Alzheimer precoce. São alterações associadas a manutenção das redes neurais.
 Ciclo Circadiano	Aqui são analisadas propensões genéticas a apresentar melhor ou pior desempenho em atividades cotidianas dependendo do horário cronológico em qual o indivíduo exerce tais atividades.
 Desempenho Motor	Genótipos de alto risco nessas análises estão associadas a diferenças no sistema motor do cérebro, menor plasticidade e dificuldades na aprendizagem motora de curto prazo.
-Canabinóides	As variantes genéticas analisadas nesta rota são associadas  a maneira como o indivíduo metaboliza canabinoides.
-Saúde Cardiovascular	As variantes genéticas analisadas nesta rota são associadas ao risco de doenças coronarianas, arritimias cardíacas  e outras patologias cardíacas.
+Canabinóides	As variantes genéticas analisadas nesta rota são associadas a maneira como o indivíduo metaboliza canabinoides.
+Saúde Cardiovascular	As variantes genéticas analisadas nesta rota são associadas ao risco de doenças coronarianas, arritmias cardíacas e outras patologias cardíacas.
 Pressão Arterial Sistêmica	As variantes genéticas analisadas nesta rota são associadas ao manejo da pressão arterial sistêmica e ao risco aumentado de desenvolver hipertensão mediante o consumo excessivo de sódio.
 Dislipidemias	As variantes genéticas analisadas nesta rota são associadas aos volumes séricos de lipoproteínas de alta e baixa densidade e triglicerídeos.
-Hematologia	Aqui são analisadas propensões genéticas relacionadas ao funcionamento de peptídeos que influenciam na ocorrência de trombose, agregação plaquetária e outras disfuncções circulatórias.
+Hematologia	Aqui são analisadas propensões genéticas relacionadas ao funcionamento de peptídeos que influenciam na ocorrência de trombose, agregação plaquetária e outras disfunções circulatórias.
 Comportamento Alimentar	Nesta sessão são analisadas propensões genéticas associadas as escolhas alimentares que o indivíduo realiza e a percepção pela saciedade.
 Composição Corporal	As variantes genéticas analisadas nesta rota são associadas ao maior ou menor volume de massa muscular.
 Deposição de Gordura	As variantes genéticas analisadas nesta rota são associadas a propensão genética ao maior volume de tecido adiposo.
@@ -35,24 +35,31 @@ Danos e Lesões	As variantes genéticas analisadas nesta rota são associadas ao
 Desempenho em Esportes de Endurance	As variantes genéticas analisadas nesta rota são associadas a ter um desempenho padrão ou menos adaptado a atividades de endurance/resistência.
 Elevação da Frequência Cardíaca	As variantes genéticas analisadas nesta rota são associadas a capacidade cronotrópica do indivíduo e consequente capacidade de adaptação a treinos de longa duração que demandam melhores níveis de VO2 máximo.
 Adaptabilidade esportiva	As variantes genéticas analisadas nesta rota são associadas a capacidade de adaptação fisiológica facilitada em resposta aos treinos realizados.
-Desempenho em Força e Potência	As variantes genéticas analisadas nesta rota são associadas a fenótipos de melhor adaptação à atividades que envolvem força e potência.
-Colágeno e Articulações	As variantes genéticas analisadas nesta rota são associadas a doenças musculoesqueléticas, degeneração do disco invertebral, redução de líquido sinuvial e outras condições reumatóides.
+Desempenho em Força e Potência	As variantes genéticas analisadas nesta rota são associadas a fenótipos de melhor adaptação a atividades que envolvem força e potência.
+Colágeno e Articulações	As variantes genéticas analisadas nesta rota são associadas a doenças musculoesqueléticas, degeneração do disco invertebral, redução de líquido sinuvial e outras condições reumatoides.
 Vitamina A	As variantes genéticas analisadas nesta rota são associadas a absorção e metabolização de vitamina A.
 Vitaminas do Complexo B	As variantes genéticas analisadas nesta rota são associadas a absorção e metabolização de vitaminas do complexo B.
 Vitamina C	As variantes genéticas analisadas nesta rota são associadas a absorção e metabolização de vitamina C.
 Vitamina D	As variantes genéticas analisadas nesta rota são associadas a absorção e metabolização de vitamina D.
 Folato	As variantes genéticas analisadas nesta rota são associadas a absorção e metabolização de ácido fólico.
 Ferro	As variantes genéticas analisadas nesta rota são associadas a absorção e metabolização de ferro.
-Metabolização de Cafeína	As variantes genéticas analisadas nesta rota são associadas velocidade de metabolização de cafeína.
+Metabolização de Cafeína	As variantes genéticas analisadas nesta rota são associadas a velocidade de metabolização de cafeína.
 Intolerâncias e Alergias	As variantes genéticas analisadas nesta rota são associadas a capacidade de metabolizar histamina e outros componentes com potencial alergênico e a maneira como ocorre a resposta imune do indivíduo.
 Metabolização Alcoólica	As variantes genéticas analisadas nesta rota são associadas a menor atividade de enzimas metabolizadoras de álcool, ocasionando maior dificuldade para processamento dos metabólitos, mais comum em populações asiáticas.
 Doença Celíaca	As variantes genéticas analisadas nesta rota são associadas com a propensão a desenvolver doença celíaca pois a ingestão de glúten pode gerar uma resposta alérgica.
 Intolerância à Lactose	As variantes genéticas analisadas nesta rota são associadas com a capacidade de produzir a enzima lactase, responsável pela absorção da lactose.
 Saúde Mamária	As variantes genéticas analisadas nesta rota são associadas com alterações nos genes BRCA repressores de tumor. Tais alterações estão relacionadas com uma maior incidência de câncer de mama pela perda da capacidade de impedir a proliferação de células tumorais portadoras de material genético alterado.
-Endometriose	As variantes genéticas analisadas nesta rota são associadas com o crescimento de células do endometrio de maneira anômala e capazes de implantação em regiões externas à cavidade uterina, causando complicações no aparelho reprodutor feminino, intestino e cavidade abdominal.
-Esquizofrenia	Variantes relacionadas à maiores predisposições à esquizofrenia podem estar relacionados à vias de sinalização mediadas por cálcio (CACNA1C/CACNB2). 
+Endometriose	As variantes genéticas analisadas nesta rota são associadas com o crescimento de células do endométrio de maneira anômala e capazes de implantação em regiões externas à cavidade uterina, causando complicações no aparelho reprodutor feminino, intestino e cavidade abdominal.
+Esquizofrenia	Variantes relacionadas a maiores predisposições à esquizofrenia podem estar relacionadas à vias de sinalização mediadas por cálcio (CACNA1C/CACNB2).
 Esclerose	Os genes analisados para a predisposição à Esclerose Lateral Amiotrófica estão relacionados a perturbações no transporte mediado por vesículas e sugerem iniciação da doença de forma autônoma nas células neuronais glutamatérgicas.
 Depressão	A etiologia da depressão é complexa, mas seu desenvolvimento está relacionado à estrutura sináptica e à neurotransmissão. Sua herdabilidade pode estar importantemente associada às regiões cerebrais pré-frontais.
-Parkinson	As variantes analisadas nessa rota estão relacionados aos processos de autofagia, biologia lisossômica e sobrevivência neuronal, desempenhando papel fundamental no risco de doença de Parkinson (PD).
+Parkinson	As variantes analisadas nessa rota estão relacionadas aos processos de autofagia, biologia lisossômica e sobrevivência neuronal, desempenhando papel fundamental no risco de doença de Parkinson (PD).
 Alzheimer	Os polimorfismos de nucleotídeo único nesta rota genômica estão associados ao desenvolvimento da doença de Alzheimer de início tardio (LOAD) por meio de dados de estudos de associação em todo o genoma.
 Ansiedade	A ansiedade social é uma característica neurocomportamental que possui uma base hereditária, e se manifesta através do medo e da hesitação em contextos sociais.
+Tdah	Os marcadores genéticos associados ao TDAH (Transtorno de Déficit de Atenção e Hiperatividade) estão relacionados a variações na dopamina e em outros neurotransmissores, afetando a atenção, impulsividade e hiperatividade.
+Otimismo	As variantes genéticas associadas ao otimismo estão relacionadas a mecanismos de neurotransmissão e regulação emocional, influenciando a predisposição a uma perspectiva positiva diante da vida.
+Medo Por Trauma	As variantes genéticas associadas ao medo por trauma estão relacionadas à resposta ao estresse pós-traumático e à regulação dos sistemas de medo e memória, influenciando a recuperação e resiliência após eventos traumáticos.
+Demência	As variantes genéticas associadas à demência estão relacionadas à degradação neuronal e aos processos de acumulação de proteínas beta-amiloides, influenciando a propensão ao desenvolvimento de condições como a doença de Alzheimer e outras demências.
+Raiva	As variantes genéticas associadas à raiva estão relacionadas à regulação dos neurotransmissores e às respostas ao estresse, influenciando a predisposição a comportamentos impulsivos e reações intensas de raiva.
+Estresse	As variantes genéticas associadas ao estresse estão relacionadas à resposta do eixo hipotálamo-hipófise-adrenal e à regulação hormonal, influenciando a maneira como o corpo lida com situações estressantes e a susceptibilidade a distúrbios relacionados ao estresse.
+Envelhecimento  As variantes genéticas associadas ao envelhecimento precoce estão relacionadas aos processos de reparo celular e manutenção do DNA, influenciando a taxa de envelhecimento celular e a predisposição a sinais de envelhecimento antes do esperado.

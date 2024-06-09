@@ -18,10 +18,6 @@ SCOPES = ['https://www.googleapis.com/auth/spreadsheets.readonly']
 SAMPLE_SPREADSHEET_ID = '1bj0Hn9Oo0wl2TkwDFYGBEzm-RK1WDcOEo9d4uOTnfiU'
 #SAMPLE_RANGE_NAME = 'Usuários próprios BD Club!B3:E'
 SAMPLE_RANGE_NAME = 'Usuários BD Club 2.0!B3:E'
-service = build('drive', 'v3', credentials=login(), static_discovery=False) 
-
-config_logger()
-logger = get_logger()
 
 # Autorização Planilha
 creds = None
@@ -32,7 +28,7 @@ if not creds or not creds.valid:
 		creds.refresh(Request())
 	else:
 		flow = InstalledAppFlow.from_client_secrets_file(
-			'../Controller/auth/credentials.json', SCOPES)
+			'credentials.json', SCOPES)
 		creds = flow.run_local_server(port=0)
 	with open('token.json', 'w') as token:
 		token.write(creds.to_json())
@@ -42,10 +38,9 @@ try:
 	sheet = service.spreadsheets()
 	result = sheet.values().get(spreadsheetId=SAMPLE_SPREADSHEET_ID, range=SAMPLE_RANGE_NAME).execute()
 	values = result.get('values', [])
-	print(values)
+
 except HttpError as err:
 	print(err)
-
 
 with open("gerar.txt", "r") as handle:
 	reading = handle.readlines()
@@ -64,7 +59,6 @@ with open("gerar.txt", "r") as handle:
 				snp = read_SNPs(ID)
 				if snp == -1:
 					break
-
 				outpdf = PdfWriter()
 				dicio = dicio_descri()
 				laudo_capa(outpdf, name)
@@ -72,30 +66,30 @@ with open("gerar.txt", "r") as handle:
 				holobionte(outpdf, snp)
 				print('holobionte gerada')
 				rotas_resultados(outpdf)
-				visao_geral_test(outpdf, snp, sex)
-				rotas_nutrientes(outpdf, snp)
-				rotas_dietas(outpdf, snp)
-				rotas_sistemico(outpdf, snp, sex)
-				rotas_atividades(outpdf, snp)
-				rotas_cardio(outpdf, snp)
-				rotas_saudemental(outpdf, snp)
-				rotas_energia(outpdf, snp)
-				rotas_sinalizacao(outpdf, snp)
-				rotas_descri(outpdf)
+				#visao_geral_test(outpdf, snp, sex)
+				#rotas_nutrientes(outpdf, snp)
+				#rotas_dietas(outpdf, snp)
+				#rotas_sistemico(outpdf, snp, sex)
+				#rotas_atividades(outpdf, snp)
+				#rotas_cardio(outpdf, snp)
+				#rotas_saudemental(outpdf, snp)
+				#rotas_energia(outpdf, snp)
+				#rotas_sinalizacao(outpdf, snp)
+				#rotas_descri(outpdf)
 				print('Rotas Geradas')
-				descri_sinalizacao(outpdf, snp, dicio)
-				descri_sistemico(outpdf, snp, dicio, sex)
-				descri_saudemental(outpdf, snp, dicio)
-				descri_cardio(outpdf, snp, dicio)
-				descri_energia(outpdf, snp, dicio)
-				descri_atividades(outpdf, snp, dicio)
-				descri_nutrientes(outpdf, snp, dicio)
-				descri_dietas(outpdf, snp, dicio)
-				print('Descricao gerada')
-				sum_genes(outpdf)
+				#descri_sinalizacao(outpdf, snp, dicio)
+				#descri_sistemico(outpdf, snp, dicio, sex)
+				#descri_saudemental(outpdf, snp, dicio)
+				#descri_cardio(outpdf, snp, dicio)
+				#descri_energia(outpdf, snp, dicio)
+				#descri_atividades(outpdf, snp, dicio)
+				#descri_nutrientes(outpdf, snp, dicio)
+				#descri_dietas(outpdf, snp, dicio)
+				#print('Descricao gerada')
+				#sum_genes(outpdf)
 				print('A chamar funcao de genes')
-				gene_efeitos(outpdf, snp)
-				contatos(outpdf)
+				#gene_efeitos(outpdf, snp)
+				#contatos(outpdf)
 				laudo_salvar(outpdf, name)
 				
 				print(f"Laudo Assaly {ID} - {name} gerado com sucesso\n\n")

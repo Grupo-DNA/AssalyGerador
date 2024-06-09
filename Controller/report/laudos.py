@@ -24,8 +24,13 @@ def dicio_descri():
 		r = file.readlines()
 		for line in r:
 			sp = line.replace("\n", "").split("\t")
-			dicio[sp[0]] = sp[1]
+			if len(sp) == 2:
+				dicio[sp[0]] = sp[1]
+			else:
+				print(f"Line format error: {line}")
 	return dicio
+
+
 
 def switch_highest(high):
 	if high == "europeus":
@@ -73,6 +78,7 @@ def draw_box_rota(col,y,w,h,h2,name,canv,snp):
 	elif "sem efeito" in name.lower():
 		num = 4
 	else:
+		print('box rota, com snp - ',snp)
 		num = find_color(name,snp)
 	#Green
 	if num == 1:
@@ -108,7 +114,7 @@ def count_genes_size(name):
 		ini = 22
 	count = 0
 	check = 0
-	endereco = os.path.join("Files", "Lista.txt")
+	endereco = os.path.join("../Controller", "DataFiles", "Files", "Lista.txt")
 	with open(endereco, "r") as file:
 		r = file.readlines()
 		for line in r:
@@ -138,8 +144,8 @@ def draw_rs_rotas(outpdf, snp, canv, name, column, posy):
 	baixo = []
 	semef = []
 	check = 0
-	endereco = os.path.join("Files", "Lista.txt")
-	end2 = os.path.join("Files", "Efeitos.txt")
+	endereco = os.path.join("../Controller", "DataFiles", "Files", "Lista.txt")
+	end2 = os.path.join("../Controller", "DataFiles", "Files", "Efeitos.txt")
 	conjunto_genes_unicos = set()
 	with open(endereco, "r") as file:
 		r = file.readlines()
@@ -229,51 +235,168 @@ def draw_rs_rotas(outpdf, snp, canv, name, column, posy):
 			counter += 1
 		count -= 1
 
-# calculo PRS rotas
-def find_color(name, snp):
-    lista_file_path = os.path.join("../Controller", "DataFiles", "Files", "Lista.txt")
-    efeitos_file_path = os.path.join("../Controller", "DataFiles", "Files", "Efeitos.txt")
-    
-    # Mapeando o nome "Glicação" para "Insulina e Glicose", se aplicável
-    if name == "Glicação":
-        name = "Insulina e Glicose"
-    
-    found_name = False
-    calc = 0
-    maxval = 0
-    
-    # Abrindo o arquivo Lista.txt e iterando sobre suas linhas
-    with open(lista_file_path, "r") as lista_file:
-        for line in lista_file:
-            fields = line.strip().split("\t")
-            # Verificando se encontramos o nome desejado
-            if not found_name:
-                if fields[0] == name:
-                    found_name = True
-                continue
-            if fields[0] == "":
-                break  # Interrompe o loop se encontrar uma linha vazia
-            if fields[0][0] == 'r' and fields[0][1] == 's':
-                for snp_entry in snp:
-                    snp_fields = snp_entry.split("\t")
-                    if fields[0] == snp_fields[0] and snp_fields[1] != "--":
-                        with open(efeitos_file_path, "r") as efeitos_file:
-                            for efeito_line in efeitos_file:
-                                efeito_fields = efeito_line.strip().split("\t")
-                                if efeito_fields[0] == name and efeito_fields[2] == fields[0] and efeito_fields[3] == snp_fields[1]:
-                                    calc += int(efeito_fields[4])
-                                    maxval += 2
-    if maxval == 0:
-        return 4
-    color = calc / maxval
-    if color < 0.3:
-        return 1  # Verde
-    elif color < 0.7:
-        return 2  # Amarelo
-    else:
-        return 3  # Vermelho
+def read_file(file_path):
+	with open(file_path, "r") as file:
+		return file.readlines()
 	
+def find_color(name, snp):
+	print('Nome que está sendo passado para a função:', name)
+	lista_file_path = os.path.join("../Controller", "DataFiles", "Files", "Lista.txt")
+	efeitos_file_path = os.path.join('../Controller', "DataFiles", "Files", "Efeitos.txt")
+	routes_file_path = os.path.join('../Controller', "DataFiles", "Files", "Rotas.txt")
+
+	# Carregar o dicionário de rotas e características
+	routes_dict = load_routes(routes_file_path)
+	print('Dicionário de rotas carregado:', routes_dict)
+	
+	if name == "Glicação":
+		name = "Insulina e Glicose"
+
+	# Obter características associadas ao nome
+	characteristics = get_route_characteristics(name, routes_dict)
+	if len(characteristics) < 2:  # Se for uma característica individual
+		characteristics = [name]
+	print('Características identificadas:', characteristics)
+	print('Características achadas para a rota', name, '++++', characteristics)
+	
+	calc = 0
+	maxval = 0
+	
+	try:
+		print('Lendo os arquivos de dados...')
+		lista_lines = read_file(lista_file_path)
+		efeitos_lines = read_file(efeitos_file_path)
+
+		# Pré-processar os efeitos em um dicionário para busca rápida
+		efeitos_dict = {}
+		for efeito_line in efeitos_lines:
+			efeito_line = efeito_line.strip()
+			if not efeito_line:  # Ignorar linhas vazias
+				continue
+			efeito_fields = efeito_line.split("\t")
+			if len(efeito_fields) >= 5:
+				characteristic = efeito_fields[0]
+				snp_id = efeito_fields[2]
+				genotype = efeito_fields[3]
+				effect = int(efeito_fields[4])
+				if characteristic not in efeitos_dict:
+					efeitos_dict[characteristic] = {}
+				if snp_id not in efeitos_dict[characteristic]:
+					efeitos_dict[characteristic][snp_id] = {}
+				efeitos_dict[characteristic][snp_id][genotype] = effect
+		print('Dicionário de efeitos processado:')
+	except Exception as e:
+		print('Erro ao montar o dicionário de efeitos...', e) 
+
+	# Processar cada característica
+	for characteristic in characteristics:
+		found_name = False
+
+		# Abrindo o arquivo Lista.txt e iterando sobre suas linhas
+		with open(lista_file_path, "r") as lista_file:
+			for line in lista_file:
+				fields = line.strip().split("\t")
+				
+				# Verificando se encontramos o nome desejado
+				if not found_name:
+					if fields[0] == characteristic:
+						found_name = True
+						print(f'Nome {characteristic} achado')
+					continue
+				
+				if fields[0] == "":
+					break  # Interrompe o loop se encontrar uma linha vazia
+				
+				if fields[0].startswith('rs'):  # Se a linha começa com 'rs', é um SNP
+					snp_id = fields[0]
+					for snp_entry in snp:
+						snp_fields = snp_entry.split("\t")
+						if snp_id == snp_fields[0] and snp_fields[1] != "--":
+							genotype = snp_fields[1]
+							if (characteristic in efeitos_dict and snp_id in efeitos_dict[characteristic]
+									and genotype in efeitos_dict[characteristic][snp_id]):
+								effect = efeitos_dict[characteristic][snp_id][genotype]
+								calc += effect
+								maxval += 2
+								print(f'Match found: Characteristic: {characteristic}, SNP: {snp_id}, Genotype: {genotype}, Effect: {effect}, Calc: {calc}, Maxval: {maxval}')
+
+	if maxval == 0:
+		print("Maxval is 0, returning default color code 4")
+		return 4  # Default color code if no effects found
+	
+	color = calc / maxval
+	print(f'Color ratio calculated: {color}')
+	if color < 0.3:
+		print("Returning color code 1 (Verde)")
+		return 1  # Verde
+	elif color < 0.7:
+		print("Returning color code 2 (Amarelo)")
+		return 2  # Amarelo
+	else:
+		print("Returning color code 3 (Vermelho)")
+		return 3  # Vermelho
+
+	
+def read_file(file_path):
+
+	with open(file_path, "r") as file:
+		return file.readlines()
+
+def load_routes(routes_file_path):
+	"""
+	Carrega as rotas e suas características a partir de um arquivo e as organiza em um dicionário.
+
+	:param routes_file_path: Caminho para o arquivo que contém as rotas e suas características.
+	:return: Dicionário com rotas como chaves e listas de características como valores.
+	"""
+	routes_dict = {}
+	try:
+		with open(routes_file_path, 'r') as file:
+			lines = file.readlines()
+		
+		current_route = None
+
+		for line in lines:
+			line = line.strip()
+			if not line:  # Ignorar linhas vazias
+				current_route = None
+				continue
+			
+			if current_route is None:
+				# Detectar nova rota
+				current_route = line
+				routes_dict[current_route] = []
+			else:
+				# Adicionar característica à rota atual
+				routes_dict[current_route].append(line)
+
+	except FileNotFoundError:
+		print(f"File not found: {routes_file_path}")
+	except Exception as e:
+		print(f"An error occurred: {e}")
+	
+	return routes_dict
+
+def get_route_characteristics(name, routes_dict):
+	if name == "":
+		pass
+	"""
+	Obtém as características associadas a uma rota ou retorna o nome da característica se for uma característica.
+
+	:param name: Nome da rota ou característica.
+	:param routes_dict: Dicionário com rotas como chaves e listas de características como valores.
+	:return: Lista de características associadas à rota ou a própria característica.
+	"""
+	if name in routes_dict:
+		# Se o nome estiver nas rotas, retornar todas as características associadas a essa rota
+		return routes_dict[name]
+	else:
+		# Caso contrário, retornar o nome como uma característica única
+		return [name]
+
 def make_rect_color(name, canv, posx, posy, snp, width):
+	print('make rect color')
+	print(snp)
 	num=find_color(name,snp)
 	#Green
 	if num == 1:
@@ -444,6 +567,9 @@ def ancestralidade(outpdf, ID, name):
 	print("Ancestralidade gerada\n")
 
 def make_petal_color(outpdf, canv, name, posx, posy, pos, x, y, snp, big):
+	if name == "":
+		pass
+	print('NOME QUE ESTA NA PETAL COLOR', name)
 	num = find_color(name, snp)
 	print('valor do num:',num)
 	endereco=None
@@ -454,9 +580,9 @@ def make_petal_color(outpdf, canv, name, posx, posy, pos, x, y, snp, big):
 	#print("color", num)
 	if num == 1:
 		#print(f"Pet{big}G{pos}.png")
-		endereco = os.path.join(os.path.join("../Controller", "DataFiles", "Files", "Holobionte"), f"Pet{big}G{pos}.png")
+		endereco = os.path.join(os.path.join("../Controller", "DataFiles","Files", "Holobionte"), f"Pet{big}G{pos}.png")
 	elif num == 2:
-		#print(f"Pet{big}Y{pos}.png")
+		print(f"Pet{big}Y{pos}.png")
 		endereco = os.path.join(os.path.join("../Controller", "DataFiles", "Files", "Holobionte"), f"Pet{big}Y{pos}.png")
 	elif num == 3:
 		#print(f"Pet{big}R{pos}.png")
@@ -466,74 +592,53 @@ def make_petal_color(outpdf, canv, name, posx, posy, pos, x, y, snp, big):
 		print('valor inesperados')
 	canv.drawImage(endereco, posx, posy, width=x, height=y, mask='auto')
 
-def find_impactful(outpdf, canv, name, snp, x, y):
-	endereco = os.path.join("Files", "Lista.txt")
-	end2 = os.path.join("Files", "Efeitos.txt")
-	check = 0
-	alto = []
-	if name == "Glicação":
-		name = "Insulina e Glicose"
-	if name == "Intestinal":
-		name = "Saúde Intestinal"
-	with open(endereco, "r") as file:
-		reading = file.readlines()
-		for line in reading:
-			sep = line.replace("\n", "").split("\t")
-			if check == 1:
-				if sep[0] == "":
-					break
-				elif sep[0][0] == 'r' and sep[0][1] == 's':
-					for i in range(len(snp)):
-						sp = snp[i].split("\t")
-						with open(end2, "r") as f:
-							r = f.readlines()
-							for l in r:
-								sep2 = l.replace("\n", "").split("\t")
-								if sep2[0] == name and sep2[2] == sep[0] and sep2[3] == sp[1]:
-									if sep[0] == sp[0] and sep2[4] == "2" and sp[3] not in alto:
-										if ", " in sp[3]:
-											genes = sp[3].split(", ")
-											for gene in genes:
-												alto.append(gene)
-										else:
-											alto.append(sp[3])
-										break
-			elif sep[0] == name:
-				check = 1
 
-	style = CONFIG.styles["ancestralidade.gene"]
-	canv.setFont(style.fontName, style.fontSize)
-	canv.setFillColor(style.textColor)
-	col = 0
-	line = 1
-	tp = ""
-	if len(alto) == 0:
-		canv.drawString(x, y-10*line, "Sem genes de")
-		canv.drawString(x, y-20*line, "alto risco")
-	while 0 < len(alto):
-		if line >= 9:
-			print("Texto do Holobionte saindo do espaço definido. O programa será terminado.")
-			exit(-5)
-		if col == 0:
-			tp = alto.pop(0)
-		elif len(tp)+2+len(alto[0]) > 18:
-			pass
-		else:
-			tp = f"{tp}, {alto.pop(0)}"
-		col += 1
-		if col == 3:
-			canv.drawString(x, y-10*line, tp)
-			col = 0
-			line += 1
-	if col != 0:
-		canv.drawString(x, y-10*line, tp)
-	style = CONFIG.styles["ancestralidade.holo"]
-	canv.setFont(style.fontName, style.fontSize)
-	canv.setFillColor(style.textColor)
+def find_impactful(outpdf, canv, name, snp, x, y):
+	if name == "":
+		pass
+	print(f"Chamando find_impactful para {name} nas coordenadas ({x}, {y})")
+	routes_file_path = os.path.join("../Controller", "DataFiles", "Files", "Rotas.txt")
+	characteristics = get_route_characteristics(name, routes_file_path)
+
+	# Limitar a três características
+	shown_characteristics = characteristics[:3]
+	remaining_characteristics_count = max(0, len(characteristics) - 3)
+
+	# Ajustar o tamanho da fonte diretamente
+	canv.setFont("Helvetica", 7)  # Fonte Helvetica com tamanho 8
+	canv.setFillColorRGB(0, 0, 0)  # Cor preta
+
+	# Ajustar a posição inicial para um pouco abaixo do nome da rota
+	y -= 12
+	print(f"Posição inicial ajustada para características: ({x}, {y})")
+
+	if not shown_characteristics:
+		print("Nenhuma característica encontrada")
+		canv.drawString(x, y, "Sem características")
+	else:
+		for characteristic in shown_characteristics:
+			print(f"Escrevendo característica '{characteristic}' nas coordenadas ({x}, {y})")
+			canv.drawString(x, y, characteristic)
+			y -= 12  # Ajustar a posição y para a próxima linha
+	
+	canv.setFont("Helvetica", 6)  # Fonte Helvetica com tamanho 8
+	canv.setFillColorRGB(0, 0, 0)  # Cor preta
+
+
+	if remaining_characteristics_count > 0:
+		y -= 1
+		x+= 10
+		remaining_text = f"+ {remaining_characteristics_count}"
+		print(f"Escrevendo informação adicional '{remaining_text}' nas coordenadas ({x}, {y})")
+		canv.drawString(x, y, remaining_text)
+
+	canv.setFont("Helvetica-Bold", 10)
+	canv.setFillColorRGB(0.2, 0.2, 0.2)  # Cor cinza escuro para mais contraste
+
 
 def find_impactful_visao_geral(outpdf, canv, name, snp, x, y):
-	endereco = os.path.join("Files", "Lista.txt")
-	end2 = os.path.join("Files", "Efeitos.txt")
+	endereco = os.path.join("../Controller", "DataFiles", "Files", "Lista.txt")
+	end2 = os.path.join("../Controller", "DataFiles", "Files", "Efeitos.txt")
 	check = 0
 	alto = []
 	with open(endereco, "r") as file:
@@ -543,9 +648,9 @@ def find_impactful_visao_geral(outpdf, canv, name, snp, x, y):
 			if check == 1:
 				if sep[0] == "":
 					break
-				elif sep[0][0] == 'r' and sep[0][1] == 's':
-					for i in range(len(snp)):
-						sp = snp[i].split("\t")
+				elif sep[0].startswith('rs'):
+					for snp_entry in snp:
+						sp = snp_entry.split("\t")
 						with open(end2, "r") as f:
 							r = f.readlines()
 							for l in r:
@@ -565,25 +670,23 @@ def find_impactful_visao_geral(outpdf, canv, name, snp, x, y):
 	style = CONFIG.styles["ancestralidade.visao-geral-risco"]
 	canv.setFont(style.fontName, style.fontSize)
 	canv.setFillColor(style.textColor)
-	#canv.setFillColorRGB(0,0,0)
-	tp = ""
-	x += 7
-	y += 3
+	# canv.setFillColorRGB(0,0,0)
+
+	x += 10
+	y += 5
 	if len(alto) == 0:
 		canv.drawString(x, y, "Sem genes de alto risco")
-	while 0 < len(alto):
-			if tp != "":
-				tp = f"{tp}, {alto.pop(0)}"
-			else:
-				tp = alto.pop(0)
-	canv.drawString(x, y, tp)
+	else:
+		tp = ", ".join(alto)
+		canv.drawString(x, y, tp)
+
 	style = CONFIG.styles["ancestralidade.holo"]
 	canv.setFont(style.fontName, style.fontSize)
 	canv.setFillColor(style.textColor)
 
 def find_impactful_blue(outpdf, canv, name, snp, x, y):
-	endereco = os.path.join("Files", "Lista.txt")
-	end2 = os.path.join("Files", "Efeitos.txt")
+	endereco = os.path.join("../Controller", "DataFiles", "Files", "Lista.txt")
+	end2 = os.path.join("../Controller", "DataFiles", "Files", "Efeitos.txt")
 	if name == "Movimento":
 		names = ["Danos e Lesões", "Desempenho em Esportes de Endurance", "Adaptabilidade esportiva", "Desempenho em Força e Potência", "Elevação da Frequência Cardíaca", "Colágeno e Articulações"]
 	elif name == "Neurológico":
@@ -650,102 +753,81 @@ def find_impactful_blue(outpdf, canv, name, snp, x, y):
 	canv.setFillColor(style.textColor)
 
 def holobionte(outpdf, snp):
-	endereco = os.path.join(CONFIG.template, "holobionte.pdf")
+	
+	endereco = os.path.join("../Controller", "DataFiles", "Files", "Template", "holobionte.pdf")
 	template = PdfReader(open(endereco, "rb"), strict=False)
 	packet = BytesIO()
 	c = canvas.Canvas(packet, pagesize=A4)
 
+	c.setFont("Helvetica-Bold", 10)
+	c.setFillColorRGB(0.2, 0.2, 0.2)  # Cor cinza escuro para mais contraste
+
 	x = 1373 * 0.4
 	y = 1197 * 0.4
-	posx = (595-x)/2
-	posy = (872-y)/2
-	names = ["Inflamação", "Glicação", "Biogênese Mitocondrial", "Detoxificação", "Imunidade", "Metilação"]
-	names_outer = ["Alzheimer", "Parkinson", "Esclerose", "Depressão", "Esquizofrenia", "Ansiedade"]
-	count = 0
-	
-	style = CONFIG.styles["ancestralidade.holo-pet-big"]
-	c.setFont(style.fontName, style.fontSize)
-	c.setFillColor(style.textColor)
+	posx = (595 - x) / 2
+	posy = (872 - y) / 2
+	names = ["", "Saúde Mental", "Doenças Crônicas", "", "Envelhecimento", "Neuro"]
+	names_outer = ["Atividades Físicas", "Saúde Cardiovascular", "Nutrição", 'Sinalização Celular', "Metabolismo", "Sistêmico"]
 
-	# for i in range(1,5):
-	# 	endereco = os.path.join(os.path.join("Files", "Holobionte"), f"PetBig{i}.png")
-	# 	c.drawImage(endereco, posx, posy, width=x, height=y, mask='auto')
+	num_names = len(names)
+	num_names_outer = len(names_outer)
 
-	for i in range(6):
-		endereco = os.path.join(os.path.join("../Controller", "DataFiles", "Files", "Holobionte"), f"Ball{i}.png")
+	for i in range(num_names):
+		ball_path = os.path.join("../Controller", "DataFiles", "Files", "Holobionte", f"Ball{i}.png")
+		print(f"Desenhando imagem: {ball_path}")
+		c.drawImage(ball_path, posx, posy, width=x, height=y, mask='auto')
+		make_petal_color(outpdf, c, names[i], posx, posy, i + 1, x, y, snp, 0)
 
-		c.drawImage(endereco, posx, posy, width=x, height=y, mask='auto')
-		make_petal_color(outpdf, c, names[i], posx, posy, i+1, x, y, snp, 0)
-		make_petal_color(outpdf, c, names_outer[i], posx, posy, i+1, x, y, snp, 1)
+		if i < num_names_outer:
+			make_petal_color(outpdf, c, names_outer[i], posx, posy, i + 1, x, y, snp, 1)
 
-	endereco = os.path.join(os.path.join("../Controller", "DataFiles", "Files", "Holobionte"), "PetalSmall.png")
-	c.drawImage(endereco, posx, posy, width=x, height=y, mask='auto')
+	petal_small_path = os.path.join("../Controller", "DataFiles", "Files", "Holobionte", "PetalSmall.png")
+	c.drawImage(petal_small_path, posx, posy, width=x, height=y, mask='auto')
 
-	# c.drawString(460, 443, "Intestinal")
-	# find_impactful(outpdf, c, "Intestinal", snp, 460, 443)
-	
-	# c.setFont(style.fontName, style.fontSize)
-	# c.setFillColor(style.textColor)
-	# c.drawString(355, 610, "Cardiovascular")
-	# find_impactful_blue(outpdf, c, "Cardiovascular", snp, 355, 610)
-	
-	# c.setFont(style.fontName, style.fontSize)
-	# c.setFillColor(style.textColor)
-	# c.drawString(160, 610, "Neurológico")
-	# find_impactful_blue(outpdf, c, "Neurológico", snp, 160, 610)
-	
-	# c.setFont(style.fontName, style.fontSize)
-	# c.setFillColor(style.textColor)
-	# c.drawString(70, 443, "Movimento")
-	# find_impactful_blue(outpdf, c, "Movimento", snp, 70, 443)
+	# Write names on petals with the original positions
+	names_positions = [
+		(278, 580),  # COR AZUL
+		(375, 522),  # Saúde Mental
+		(369, 409),  # Doença Crônica
+		(295, 324),  # COR AZUL
+		(170, 404),  # Envelhecimento
+		(177, 520)  # Neuro
+	]
 
-	style = CONFIG.styles["ancestralidade.holo"]
-	c.setFont(style.fontName, style.fontSize)
-	c.setFillColor(style.textColor)
+	names_outer_positions = [
+		(53, 458),   # Fisica
+		(149, 620),  # Cardio
+		(344, 625),  # Nutri
+		(453, 458),  # Celular
+		(359, 305),  # Metabolismo
+		(144, 310)   # Sistemico
+	]
 
-	# Escrevendo nas pétalas internas e externas
-	# Código comentado escreve os genes de risco de cada pétala externa, bastando cadastrar cada rota corretamente nos arquivos
-	count = 0
-	c.drawString(272, 570, names[count])
-	find_impactful(outpdf, c, names[count], snp, 272, 570)
-	c.drawString(65, 458, names_outer[count])
-	find_impactful(outpdf, c, names_outer[count], snp, 65, 458)
-	count += 1
-	c.drawString(365, 513, names[count])
-	find_impactful(outpdf, c, names[count], snp, 365, 513)
-	c.drawString(155, 620, names_outer[count])
-	find_impactful(outpdf, c, names_outer[count], snp, 155, 620)
-	count += 1
-	space = names[count].split(" ", 1)
-	c.drawString(365, 388, space[0])
-	c.drawString(365, 378, space[1])
-	find_impactful(outpdf, c, names[count], snp, 365, 378)
-	c.drawString(365, 620, names_outer[count])
-	find_impactful(outpdf, c, names_outer[count], snp, 365, 620)
-	count += 1
-	c.drawString(260, 315, names[count])
-	find_impactful(outpdf, c, names[count], snp, 260, 315)
-	c.drawString(465, 458, names_outer[count])
-	find_impactful(outpdf, c, names_outer[count], snp, 465, 458)
-	count += 1
-	c.drawString(170, 388, names[count])
-	find_impactful(outpdf, c, names[count], snp, 170, 388)
-	c.drawString(365, 305, names_outer[count])
-	find_impactful(outpdf, c, names_outer[count], snp, 365, 305)
-	count += 1
-	c.drawString(165, 513, names[count])
-	find_impactful(outpdf, c, names[count], snp, 165, 513)
-	c.drawString(155, 305, names_outer[count])
-	find_impactful(outpdf, c, names_outer[count], snp, 155, 305)
-	endereco = os.path.join(os.path.join("../Controller", "DataFiles", "Files", "Holobionte"), "homem.png")
-	c.drawImage(endereco, ((595-x*0.9)/2), ((842-y*0.9)/2), width=x*0.9, height=y*0.9, mask='auto')
+	for count in range(num_names):
+		posx_name, posy_name = names_positions[count]
+		print(f"Escrevendo nome '{names[count]}' nas coordenadas ({posx_name}, {posy_name})")
+		posy_name = posy_name - 14
+		posx_name = posx_name - 14
+
+		c.drawString(posx_name, posy_name, names[count])
+		find_impactful(outpdf, c, names[count], snp, posx_name, posy_name)  # Ajustar posição y
+
+		if count < num_names_outer:
+			posx_outer, posy_outer = names_outer_positions[count]
+			print(f"Escrevendo nome '{names_outer[count]}' nas coordenadas ({posx_outer}, {posy_outer})")
+			c.drawString(posx_outer, posy_outer, names_outer[count])
+			find_impactful(outpdf, c, names_outer[count], snp, posx_outer, posy_outer)
+
+	homem_image_path = os.path.join("../Controller", "DataFiles", "Files", "Holobionte", "homem.png")
+	c.drawImage(homem_image_path, (595 - x * 0.9) / 2, (842 - y * 0.9) / 2, width=x * 0.9, height=y * 0.9, mask='auto')
 
 	c.save()
 	inpdf = PdfReader(packet)
 	for pageidx in range(len(template.pages)):
-		pagina: PageObject = template.pages[pageidx]
+		pagina = template.pages[pageidx]
 		pagina.merge_page(inpdf.pages[pageidx])
 	outpdf.add_page(pagina)
+
 	print("Holobionte gerado\n")
 
 def rotas_nutrientes(outpdf,snp):
@@ -1240,6 +1322,7 @@ def visao_geral_test(outpdf, snp, sex):
 						par.drawOn(c, posx, h+28)
 						counter = 0
 					rota = names.pop(0)
+					print('rota',rota)
 					make_rect_color(rota,c,posx,h,snp,0)
 					c.setFillColorRGB(255,255,255)
 					c.drawString(32, h, rota)
@@ -1258,7 +1341,6 @@ def visao_geral_test(outpdf, snp, sex):
 				title = item
 			else:
 				names.append(item)
-
 	c.save()
 	inpdf = PdfReader(packet)
 	endereco = os.path.join(CONFIG.template, "rotas.pdf")
@@ -1321,10 +1403,10 @@ def visao_geral(outpdf, snp, sex):
 				if name == 'Saúde Mamária' or name == 'Endometriose':
 					if 'm' in sex or 'M' in sex:
 						continue
-				make_rect_color(name,c,posx,h,snp,0)
+				#make_rect_color(name,c,posx,h,snp,0)
 				c.setFillColorRGB(255,255,255)
 				c.drawString(32, h, name)
-				make_rect_color(name,c,posx,h-24,snp,0)
+				#make_rect_color(name,c,posx,h-24,snp,0)
 				c.setFillColorRGB(255,255,255)
 				find_impactful_visao_geral(outpdf, c, name, snp, posx, h-24)
 				h -= 48
@@ -1367,13 +1449,15 @@ def make_descri_box(name, canv, snp, posy, height):
 	canv.setStrokeColorRGB(0.56,0.75,0.82)
 	height += 47
 	canv.rect(27,posy-height+6,537,height, stroke=1, fill=0)
-	make_rect_color(name,canv,26.5,posy,snp,537.5)
+	#make_rect_color(name,canv,26.5,posy,snp,537.5)
 	canv.setFillColorRGB(255,255,255)
 	canv.drawString(41, posy, name)
 
 def write_descri(name, canv, posy, dicio):
-
+	print(dicio[name])
+	
 	par = Paragraph(dicio[name], style=CONFIG.styles["ancestralidade.text-regular"])
+	
 	w, h = par.wrap(513, 1)
 	lines = h/9
 	lines -= 2
@@ -1628,7 +1712,7 @@ def descri_energia(outpdf,snp,dicio):
 	c = canvas.Canvas(packet, pagesize=A4)
 	found = 0
 	names = []
-	endereco = os.path.join("Files", "Rotas.txt")
+	endereco = os.path.join("../Controller", "DataFiles", "Files", "Rotas.txt")
 	with open(endereco, "r") as file:
 		r = file.readlines()
 		for line in r:
@@ -1670,7 +1754,7 @@ def descri_atividades(outpdf,snp,dicio):
 	c = canvas.Canvas(packet, pagesize=A4)
 	found = 0
 	names = []
-	endereco = os.path.join("Files", "Rotas.txt")
+	endereco = os.path.join("../Controller", "DataFiles", "Files", "Rotas.txt")
 	with open(endereco, "r") as file:
 		r = file.readlines()
 		for line in r:
@@ -1712,7 +1796,7 @@ def descri_nutrientes(outpdf,snp,dicio):
 	c = canvas.Canvas(packet, pagesize=A4)
 	found = 0
 	names = []
-	endereco = os.path.join("Files", "Rotas.txt")
+	endereco = os.path.join("../Controller", "DataFiles", "Files", "Rotas.txt")
 	with open(endereco, "r") as file:
 		r = file.readlines()
 		for line in r:
@@ -1754,7 +1838,7 @@ def descri_dietas(outpdf,snp,dicio):
 	c = canvas.Canvas(packet, pagesize=A4)
 	found = 0
 	names = []
-	endereco = os.path.join("Files", "Rotas.txt")
+	endereco = os.path.join("../Controller", "DataFiles", "Files", "Rotas.txt")
 	with open(endereco, "r") as file:
 		r = file.readlines()
 		for line in r:
@@ -1789,34 +1873,67 @@ def descri_dietas(outpdf,snp,dicio):
 	outpdf.add_page(pagina)
 	print("Descrição Dietas gerada\n")
 
-def gene_efeitos(outpdf,snp):
-	end2 = os.path.join("Files", "Efeitos.txt")
-	baixo = []
-	medio = []
-	alto = []
-	semef = []
-	print(snp)
-	print(len(snp))
-	for i in range(len(snp)):
-		val = int(0)
-		sp = snp[i].split("\t")
-		if sp[1] == "--":
-			semef.append(f"{sp[0]}\t{sp[1]}")
-		else:
-			with open(end2, "r") as f:
-				reading = f.readlines()
-				for l in reading:
-					sep2 = l.replace("\n", "").split("\t")
-					print(sep2)
-					if sep2[2] == sp[0] and sep2[3] == sp[1]:
-						if int(sep2[4]) > int(val):
-							val = int(sep2[4])
-			if str(val) == "0":
-				baixo.append(f"{sp[0]}\t{sp[1]}\t{sp[3]}")
-			elif str(val) == "1":
-				medio.append(f"{sp[0]}\t{sp[1]}\t{sp[3]}")
-			elif str(val) == "2":
-				alto.append(f"{sp[0]}\t{sp[1]}\t{sp[3]}")
+def gene_efeitos(outpdf, snp):
+	def read_effects_file(filepath):
+		with open(filepath, "r") as file:
+			return [line.strip().split("\t") for line in file.readlines()]
+
+	def classify_snps(snp_list, effects):
+		low_risk = []
+		medium_risk = []
+		high_risk = []
+		no_effect = []
+
+		for snp in snp_list:
+			sp = snp.split("\t")
+			if len(sp) < 2 or sp[1] == "--":
+				no_effect.append(snp)
+				continue
+
+			max_val = 0
+			for effect in effects:
+				if len(effect) < 5:
+					continue
+				if effect[2] == sp[0] and effect[3] == sp[1]:
+					max_val = max(max_val, int(effect[4]))
+
+			if max_val == 0:
+				low_risk.append(snp)
+			elif max_val == 1:
+				medium_risk.append(snp)
+			elif max_val == 2:
+				high_risk.append(snp)
+
+		return low_risk, medium_risk, high_risk, no_effect
+
+	def draw_genes(c, genes, title, style, gene_style, column):
+		posx = switch_column(column)
+		posy = 692
+		count = 0
+		for gene_info in genes:
+			if count >= 22:
+				break
+			sp = gene_info.split("\t")
+			if len(sp) < 3:
+				continue
+			c.setFont(style.fontName, style.fontSize)
+			c.setFillColor(style.textColor)
+			c.drawString(posx, posy, sp[0])
+			c.setFont(gene_style.fontName, gene_style.fontSize)
+			c.setFillColor(gene_style.textColor)
+			c.drawString(posx, posy + 10, sp[3])
+			c.drawString(posx + 130, posy + 10, sp[1])
+			count += 1
+			posy -= 30
+
+		size = count * 30 + 28
+		draw_box_rota(column, 740 - size, 170, size, 24, title, c, snp)
+		return count
+
+	end2 = os.path.join("../Controller", "DataFiles", "Files", "Efeitos.txt")
+	effects = read_effects_file(end2)
+	
+	low_risk, medium_risk, high_risk, no_effect = classify_snps(snp, effects)
 
 	endereco = os.path.join(CONFIG.template, "genes-por-efeito.pdf")
 	template = PdfReader(open(endereco, "rb"), strict=False)
@@ -1824,154 +1941,31 @@ def gene_efeitos(outpdf,snp):
 	c = canvas.Canvas(packet, pagesize=A4)
 	column = 0
 	style = CONFIG.styles["ancestralidade.gene"]
-	
-	gene_style = CONFIG.styles["ancestralidade.text-red"]
-	rep = 0
-	while rep < len(alto):
-		if column == 3:
-			column = 0
-			c.save()
-			inpdf = PdfReader(packet)
-			for pageidx in range(len(template.pages)):
-				pagina: PageObject = template.pages[pageidx]
-				pagina.merge_page(inpdf.pages[pageidx])
-			outpdf.add_page(pagina)
-			endereco = os.path.join(CONFIG.template, "genes-por-efeito.pdf")
-			template = PdfReader(open(endereco, "rb"), strict=False)
-			packet = BytesIO()
-			c = canvas.Canvas(packet, pagesize=A4)
-		posx = switch_column(column)
-		posy = 692
-		count = 0
-		while count < 22 and (count+rep) < len(alto):
-			sp = alto[count+rep].split("\t")
-			c.setFont(style.fontName, style.fontSize)
-			c.setFillColor(style.textColor)
-			c.drawString(posx, posy, sp[0])
-			for i in range(len(snp)):
-				seu_gene = snp[i].split("\t")
-				if sp[0] == seu_gene[0]:
-					c.setFont(gene_style.fontName, gene_style.fontSize)
-					c.setFillColor(gene_style.textColor)
-					c.drawString(posx, posy+10, seu_gene[3])
-					c.drawString(posx+130, posy+10, seu_gene[1])
-			count += 1
-			posy -= 30
-		size = count*30+28
-		draw_box_rota(column,740-size,170,size,24,"ALTO RISCO",c,snp)
-		column += 1
-		rep += count
 
-	gene_style = CONFIG.styles["ancestralidade.text-yellow"]
-	rep = 0
-	while rep < len(medio):
-		if column == 3:
-			column = 0
-			c.save()
-			inpdf = PdfReader(packet)
-			for pageidx in range(len(template.pages)):
-				pagina: PageObject = template.pages[pageidx]
-				pagina.merge_page(inpdf.pages[pageidx])
-			outpdf.add_page(pagina)
-			endereco = os.path.join(CONFIG.template, "genes-por-efeito.pdf")
-			template = PdfReader(open(endereco, "rb"), strict=False)
-			packet = BytesIO()
-			c = canvas.Canvas(packet, pagesize=A4)
-		posx = switch_column(column)
-		posy = 692
-		count = 0
-		while count < 22 and (count+rep) < len(medio):
-			sp = medio[count+rep].split("\t")
-			c.setFont(style.fontName, style.fontSize)
-			c.setFillColor(style.textColor)
-			c.drawString(posx, posy, sp[0])
-			for i in range(len(snp)):
-				seu_gene = snp[i].split("\t")
-				if sp[0] == seu_gene[0]:
-					c.setFont(gene_style.fontName, gene_style.fontSize)
-					c.setFillColor(gene_style.textColor)
-					c.drawString(posx, posy+10, seu_gene[3])
-					c.drawString(posx+130, posy+10, seu_gene[1])
-			count += 1
-			posy -= 30
-		size = count*30+28
-		draw_box_rota(column,740-size,170,size,24,"MÉDIO RISCO",c,snp)
-		column += 1
-		rep += count
+	for risk_group, title, gene_style in [
+		(high_risk, "ALTO RISCO", CONFIG.styles["ancestralidade.text-red"]),
+		(medium_risk, "MÉDIO RISCO", CONFIG.styles["ancestralidade.text-yellow"]),
+		(low_risk, "BAIXO RISCO", CONFIG.styles["ancestralidade.text-green"]),
+		(no_effect, "SEM EFEITO", CONFIG.styles["ancestralidade.text-grey"])
+	]:
+		rep = 0
+		while rep < len(risk_group):
+			if column == 3:
+				column = 0
+				c.save()
+				inpdf = PdfReader(packet)
+				for pageidx in range(len(template.pages)):
+					pagina: PageObject = template.pages[pageidx]
+					pagina.merge_page(inpdf.pages[pageidx])
+				outpdf.add_page(pagina)
+				packet = BytesIO()
+				c = canvas.Canvas(packet, pagesize=A4)
 
-	gene_style = CONFIG.styles["ancestralidade.text-green"]
-	rep = 0
-	while rep < len(baixo):
-		if column == 3:
-			column = 0
-			c.save()
-			inpdf = PdfReader(packet)
-			for pageidx in range(len(template.pages)):
-				pagina: PageObject = template.pages[pageidx]
-				pagina.merge_page(inpdf.pages[pageidx])
-			outpdf.add_page(pagina)
-			endereco = os.path.join(CONFIG.template, "genes-por-efeito.pdf")
-			template = PdfReader(open(endereco, "rb"), strict=False)
-			packet = BytesIO()
-			c = canvas.Canvas(packet, pagesize=A4)
-		posx = switch_column(column)
-		posy = 692
-		count = 0
-		while count < 22 and (count+rep) < len(baixo):
-			sp = baixo[count+rep].split("\t")
-			c.setFont(style.fontName, style.fontSize)
-			c.setFillColor(style.textColor)
-			c.drawString(posx, posy, sp[0])
-			for i in range(len(snp)):
-				seu_gene = snp[i].split("\t")
-				if sp[0] == seu_gene[0]:
-					c.setFont(gene_style.fontName, gene_style.fontSize)
-					c.setFillColor(gene_style.textColor)
-					c.drawString(posx, posy+10, seu_gene[3])
-					c.drawString(posx+130, posy+10, seu_gene[1])
-			count += 1
-			posy -= 30
-		size = count*30+28
-		draw_box_rota(column,740-size,170,size,24,"BAIXO RISCO",c,snp)
-		column += 1
-		rep += count
-
-	gene_style = CONFIG.styles["ancestralidade.text-grey"]
-	rep = 0
-	while rep < len(semef):
-		if column == 3:
-			column = 0
-			c.save()
-			inpdf = PdfReader(packet)
-			for pageidx in range(len(template.pages)):
-				pagina: PageObject = template.pages[pageidx]
-				pagina.merge_page(inpdf.pages[pageidx])
-			outpdf.add_page(pagina)
-			endereco = os.path.join(CONFIG.template, "genes-por-efeito.pdf")
-			template = PdfReader(open(endereco, "rb"), strict=False)
-			packet = BytesIO()
-			c = canvas.Canvas(packet, pagesize=A4)
-		posx = switch_column(column)
-		posy = 692
-		count = 0
-		while count < 22 and (count+rep) < len(semef):
-			sp = semef[count+rep].split("\t")
-			c.setFont(style.fontName, style.fontSize)
-			c.setFillColor(style.textColor)
-			c.drawString(posx, posy, sp[0])
-			for i in range(len(snp)):
-				seu_gene = snp[i].split("\t")
-				if sp[0] == seu_gene[0]:
-					c.setFont(gene_style.fontName, gene_style.fontSize)
-					c.setFillColor(gene_style.textColor)
-					c.drawString(posx, posy+10, seu_gene[3])
-					c.drawString(posx+130, posy+10, seu_gene[1])
-			count += 1
-			posy -= 30
-		size = count*30+28
-		draw_box_rota(column,740-size,170,size,24,"SEM EFEITO",c,snp)
-		column += 1
-		rep += count
+			posx = switch_column(column)
+			posy = 692
+			count = draw_genes(c, risk_group[rep:rep + 22], title, style, gene_style, column)
+			column += 1
+			rep += count
 
 	c.save()
 	inpdf = PdfReader(packet)

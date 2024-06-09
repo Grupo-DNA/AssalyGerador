@@ -7,7 +7,6 @@ from googleapiclient.http import MediaIoBaseDownload
 from Controller.controller.logger import *
 from Controller.controller.logger import logger_str
 from datetime import datetime
-from AssalyGerador.Controller.controller.Drive.getBrutos import *
 
 DNA_REGEX = re.compile(r"[ACTGD-]{2}")
 

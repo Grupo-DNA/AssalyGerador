@@ -849,7 +849,9 @@ Elevação da Frequência Cardíaca	SNCAIP	rs4836027	TC	1
 Elevação da Frequência Cardíaca	SNCAIP	rs4836027	CC	0
 Adaptabilidade esportiva	GSTP1	rs1695	AA	2
 Adaptabilidade esportiva	GSTP1	rs1695	AG	1
-Adaptabilidade esportiva	GSTP1	rs1695	GG	0
+Adaptabilidade espo
+
+rtiva	GSTP1	rs1695	GG	0
 Desempenho em Força e Potência	ACE	rs4343	GG	2
 Desempenho em Força e Potência	ACE	rs4343	GA	1
 Desempenho em Força e Potência	ACE	rs4343	AA	0
@@ -1679,10 +1681,10 @@ Parkinson	VPS13C	rs2414739	GG	0
 Parkinson	ZNF646/KAT8	rs14235	GG	0
 Parkinson	SYT4	rs12456492	AA	0
 Parkinson	LSM7	rs62120679	CC	0
-Ansiedade	MTCH1/FGD2	rs708012	TT	2
-Ansiedade	MTCH1/FGD2	rs708012	TC	1
-Ansiedade	MTCH1/FGD2	rs708012	CC	0
-Ansiedade	MTCH1/FGD2	rs708012	CT	1
+Ansiedade	MTCH1	rs708012	TT	2
+Ansiedade	MTCH1	rs708012	TC	1
+Ansiedade	MTCH1	rs708012	CC	0
+Ansiedade	MTCH1	rs708012	CT	1
 Alzheimer	APOE	rs429358	CC	2
 Alzheimer	APOE	rs7412	CC	2
 Alzheimer	CR1	rs61822977	AA	2
@@ -1779,3 +1781,1459 @@ Alzheimer	CD33	rs3865444	AA	0
 Alzheimer	CLU	rs11136000	TT	0
 Alzheimer	PICALM	rs3851179	TT	0
 Alzheimer	MGMT	rs11016864	GG	0
+Estresse	OXTR	rs53576	AA	2
+Estresse	OXTR	rs53576	AG	1
+Estresse	OXTR	rs53576	GA	1
+Estresse	OXTR	rs53576	GG	0
+Ciclo Circadiano	TSHZ1	rs1025601	CC	2
+Ciclo Circadiano	TSHZ1	rs1025601	CT	1
+Ciclo Circadiano	TSHZ1	rs1025601	TC	1
+Ciclo Circadiano	TSHZ1	rs1025601	TT	0
+Ciclo Circadiano	PLCL1	rs1064213	AA	2
+Ciclo Circadiano	PLCL1	rs1064213	AG	1
+Ciclo Circadiano	PLCL1	rs1064213	GA	1
+Ciclo Circadiano	PLCL1	rs1064213	GG	0
+Ciclo Circadiano	MADD	rs10838687	TT	2
+Ciclo Circadiano	MADD	rs10838687	TG	1
+Ciclo Circadiano	MADD	rs10838687	GT	1
+Ciclo Circadiano	MADD	rs10838687	GG	0
+Ciclo Circadiano	TRIM33/BCAS2	rs11102807	GG	2
+Ciclo Circadiano	TRIM33/BCAS2	rs11102807	GA	1
+Ciclo Circadiano	TRIM33/BCAS2	rs11102807	AG	1
+Ciclo Circadiano	TRIM33/BCAS2	rs11102807	AA	0
+Ciclo Circadiano	RASD1	rs11545787	GG	2
+Ciclo Circadiano	RASD1	rs11545787	GA	1
+Ciclo Circadiano	RASD1	rs11545787	AG	1
+Ciclo Circadiano	RASD1	rs11545787	AA	0
+Ciclo Circadiano	COPZ2	rs12051	GG	2
+Ciclo Circadiano	COPZ2	rs12051	GA	1
+Ciclo Circadiano	COPZ2	rs12051	AG	1
+Ciclo Circadiano	COPZ2	rs12051	AA	0
+Ciclo Circadiano	INADL	rs12140153	GG	2
+Ciclo Circadiano	INADL	rs12140153	GT	1
+Ciclo Circadiano	INADL	rs12140153	TG	1
+Ciclo Circadiano	INADL	rs12140153	TT	0
+Ciclo Circadiano	GOSR2/RPRML	rs12600452	AA	2
+Ciclo Circadiano	GOSR2/RPRML	rs12600452	AG	1
+Ciclo Circadiano	GOSR2/RPRML	rs12600452	GA	1
+Ciclo Circadiano	GOSR2/RPRML	rs12600452	GG	0
+Ciclo Circadiano	ANKRD42/CCDC90B	rs1278402	AA	2
+Ciclo Circadiano	ANKRD42/CCDC90B	rs1278402	AG	1
+Ciclo Circadiano	ANKRD42/CCDC90B	rs1278402	GA	1
+Ciclo Circadiano	ANKRD42/CCDC90B	rs1278402	GG	0
+Ciclo Circadiano	FTO	rs1421085	CC	2
+Ciclo Circadiano	FTO	rs1421085	CT	1
+Ciclo Circadiano	FTO	rs1421085	TC	1
+Ciclo Circadiano	FTO	rs1421085	TT	0
+Ciclo Circadiano	STIM2	rs1502249	AA	2
+Ciclo Circadiano	STIM2	rs1502249	AG	1
+Ciclo Circadiano	STIM2	rs1502249	GA	1
+Ciclo Circadiano	STIM2	rs1502249	GG	0
+Ciclo Circadiano	ASB7	rs1873958	AA	2
+Ciclo Circadiano	ASB7	rs1873958	AG	1
+Ciclo Circadiano	ASB7	rs1873958	GA	1
+Ciclo Circadiano	ASB7	rs1873958	GG	0
+Ciclo Circadiano	KCNH2	rs2072413	CC	2
+Ciclo Circadiano	KCNH2	rs2072413	CT	1
+Ciclo Circadiano	KCNH2	rs2072413	TC	1
+Ciclo Circadiano	KCNH2	rs2072413	TT	0
+Ciclo Circadiano	POU3F4	rs213462	CC	2
+Ciclo Circadiano	POU3F4	rs213462	CA	1
+Ciclo Circadiano	POU3F4	rs213462	AC	1
+Ciclo Circadiano	POU3F4	rs213462	AA	0
+Ciclo Circadiano	TET1	rs2298117	CC	2
+Ciclo Circadiano	TET1	rs2298117	CT	1
+Ciclo Circadiano	TET1	rs2298117	TC	1
+Ciclo Circadiano	TET1	rs2298117	TT	0
+Ciclo Circadiano	HCRTR2	rs2653349	AA	2
+Ciclo Circadiano	HCRTR2	rs2653349	AG	1
+Ciclo Circadiano	HCRTR2	rs2653349	GA	1
+Ciclo Circadiano	HCRTR2	rs2653349	GG	0
+Ciclo Circadiano	PPP3CA	rs2850979	CC	2
+Ciclo Circadiano	PPP3CA	rs2850979	CT	1
+Ciclo Circadiano	PPP3CA	rs2850979	TC	1
+Ciclo Circadiano	PPP3CA	rs2850979	TT	0
+Ciclo Circadiano	FAM155B	rs3747463	CC	2
+Ciclo Circadiano	FAM155B	rs3747463	CT	1
+Ciclo Circadiano	FAM155B	rs3747463	TC	1
+Ciclo Circadiano	FAM155B	rs3747463	TT	0
+Ciclo Circadiano	SLC6A13	rs3782860	TT	2
+Ciclo Circadiano	SLC6A13	rs3782860	TC	1
+Ciclo Circadiano	SLC6A13	rs3782860	CT	1
+Ciclo Circadiano	SLC6A13	rs3782860	CC	0
+Ciclo Circadiano	BTBD9	rs3923809	GG	2
+Ciclo Circadiano	BTBD9	rs3923809	GA	1
+Ciclo Circadiano	BTBD9	rs3923809	AG	1
+Ciclo Circadiano	BTBD9	rs3923809	AA	0
+Ciclo Circadiano	ETV1/DGKB	rs4027217	CC	2
+Ciclo Circadiano	ETV1/DGKB	rs4027217	CA	1
+Ciclo Circadiano	ETV1/DGKB	rs4027217	AC	1
+Ciclo Circadiano	ETV1/DGKB	rs4027217	AA	0
+Ciclo Circadiano	TEX14	rs412000	GG	2
+Ciclo Circadiano	TEX14	rs412000	GC	1
+Ciclo Circadiano	TEX14	rs412000	CG	1
+Ciclo Circadiano	TEX14	rs412000	CC	0
+Ciclo Circadiano	ADAM10	rs4775086	GG	2
+Ciclo Circadiano	ADAM10	rs4775086	GA	1
+Ciclo Circadiano	ADAM10	rs4775086	AG	1
+Ciclo Circadiano	ADAM10	rs4775086	AA	0
+Ciclo Circadiano	ZBTB16	rs4936290	CC	2
+Ciclo Circadiano	ZBTB16	rs4936290	CA	1
+Ciclo Circadiano	ZBTB16	rs4936290	AC	1
+Ciclo Circadiano	ZBTB16	rs4936290	AA	0
+Ciclo Circadiano	HDAC4	rs62182135	CC	2
+Ciclo Circadiano	HDAC4	rs62182135	CA	1
+Ciclo Circadiano	HDAC4	rs62182135	AC	1
+Ciclo Circadiano	HDAC4	rs62182135	AA	0
+Ciclo Circadiano	PTPRD	rs6477309	TT	2
+Ciclo Circadiano	PTPRD	rs6477309	TC	1
+Ciclo Circadiano	PTPRD	rs6477309	CT	1
+Ciclo Circadiano	PTPRD	rs6477309	CC	0
+Ciclo Circadiano	FEZF1	rs6968240	AA	2
+Ciclo Circadiano	FEZF1	rs6968240	AC	1
+Ciclo Circadiano	FEZF1	rs6968240	CA	1
+Ciclo Circadiano	FEZF1	rs6968240	CC	0
+Ciclo Circadiano	CLRN1/MED12L	rs7649164	TT	2
+Ciclo Circadiano	CLRN1/MED12L	rs7649164	TG	1
+Ciclo Circadiano	CLRN1/MED12L	rs7649164	GT	1
+Ciclo Circadiano	CLRN1/MED12L	rs7649164	GG	0
+Ciclo Circadiano	PRIM2/GUSBP4	rs9476310	TT	2
+Ciclo Circadiano	PRIM2/GUSBP4	rs9476310	TC	1
+Ciclo Circadiano	PRIM2/GUSBP4	rs9476310	CT	1
+Ciclo Circadiano	PRIM2/GUSBP4	rs9476310	CC	0
+Ciclo Circadiano	ARGLU1/FAM155A	rs9558942	CC	2
+Ciclo Circadiano	ARGLU1/FAM155A	rs9558942	CT	1
+Ciclo Circadiano	ARGLU1/FAM155A	rs9558942	TC	1
+Ciclo Circadiano	ARGLU1/FAM155A	rs9558942	TT	0
+Ciclo Circadiano	CELF4	rs9950528	GG	2
+Ciclo Circadiano	CELF4	rs9950528	GA	1
+Ciclo Circadiano	CELF4	rs9950528	AG	1
+Ciclo Circadiano	CELF4	rs9950528	AA	0
+Tdah	DRD2	rs1800497	AA	2
+Tdah	DRD2	rs1800497	AG	1
+Tdah	DRD2	rs1800497	GA	1
+Tdah	DRD2	rs1800497	GG	0
+Raiva	FYN	rs2148710	TT	2
+Raiva	FYN	rs2148710	TC	1
+Raiva	FYN	rs2148710	CT	1
+Raiva	FYN	rs2148710	CC	0
+Otimismo	LINC01221	rs322931	AA	2
+Otimismo	LINC01221	rs322931	AG	1
+Otimismo	LINC01221	rs322931	GA	1
+Otimismo	LINC01221	rs322931	GG	0
+Medo Por Trauma	TSNARE1	rs2400707	AA	2
+Medo Por Trauma	TSNARE1	rs2400707	AG	1
+Medo Por Trauma	TSNARE1	rs2400707	GA	1
+Medo Por Trauma	TSNARE1	rs2400707	GG	0
+Demência	GBA	rs2230288	CC	2
+Demência	GBA	rs2230288	CT	1
+Demência	GBA	rs2230288	TC	1
+Demência	GBA	rs2230288	TT	0
+Demência	SNCA-AS1	rs7680557	CC	2
+Demência	SNCA-AS1	rs7680557	CA	1
+Demência	SNCA-AS1	rs7680557	AC	1
+Demência	SNCA-AS1	rs7680557	AA	0
+Demência	APOE	rs769449	GG	2
+Demência	APOE	rs769449	GA	1
+Demência	APOE	rs769449	AG	1
+Demência	APOE	rs769449	AA	0
+Neuropatia hereditaria	BSCL2	rs137852972	CC	2
+Neuropatia hereditaria	BSCL2	rs137852972	CT	1
+Neuropatia hereditaria	BSCL2	rs137852972	TC	1
+Neuropatia hereditaria	BSCL2	rs137852972	TT	0
+Neuropatia hereditaria	BSCL2	rs137852973	AA	2
+Neuropatia hereditaria	BSCL2	rs137852973	AG	1
+Neuropatia hereditaria	BSCL2	rs137852973	GA	1
+Neuropatia hereditaria	BSCL2	rs137852973	GG	0
+Neuropatia hereditaria	DYNC1H1	rs587780564	TT	2
+Neuropatia hereditaria	DYNC1H1	rs587780564	TC	1
+Neuropatia hereditaria	DYNC1H1	rs587780564	CT	1
+Neuropatia hereditaria	DYNC1H1	rs587780564	CC	0
+Neuropatia hereditaria	FIG4	rs121908287	CC	2
+Neuropatia hereditaria	FIG4	rs121908287	CT	1
+Neuropatia hereditaria	FIG4	rs121908287	TC	1
+Neuropatia hereditaria	FIG4	rs121908287	TT	0
+Neuropatia hereditaria	GDAP1	rs104894078	TT	2
+Neuropatia hereditaria	GDAP1	rs104894078	TC	1
+Neuropatia hereditaria	GDAP1	rs104894078	CT	1
+Neuropatia hereditaria	GDAP1	rs104894078	CC	0
+Neuropatia hereditaria	GDAP1	rs397515442	GG	2
+Neuropatia hereditaria	GDAP1	rs397515442	GA	1
+Neuropatia hereditaria	GDAP1	rs397515442	AG	1
+Neuropatia hereditaria	GDAP1	rs397515442	AA	0
+Neuropatia hereditaria	GDAP1	rs28937906	TT	2
+Neuropatia hereditaria	GDAP1	rs28937906	TC	1
+Neuropatia hereditaria	GDAP1	rs28937906	CT	1
+Neuropatia hereditaria	GDAP1	rs28937906	CC	0
+Neuropatia hereditaria	GJB1	rs104894812	AA	2
+Neuropatia hereditaria	GJB1	rs104894812	AG	1
+Neuropatia hereditaria	GJB1	rs104894812	GA	1
+Neuropatia hereditaria	GJB1	rs104894812	GG	0
+Neuropatia hereditaria	IGHMBP2	rs780594709	TT	2
+Neuropatia hereditaria	IGHMBP2	rs780594709	TC	1
+Neuropatia hereditaria	IGHMBP2	rs780594709	CT	1
+Neuropatia hereditaria	IGHMBP2	rs780594709	CC	0
+Neuropatia hereditaria	IGHMBP2	rs137852667	AA	2
+Neuropatia hereditaria	IGHMBP2	rs137852667	AG	1
+Neuropatia hereditaria	IGHMBP2	rs137852667	GA	1
+Neuropatia hereditaria	IGHMBP2	rs137852667	GG	0
+Neuropatia hereditaria	LITAF	rs104894519	TT	2
+Neuropatia hereditaria	LITAF	rs104894519	TC	1
+Neuropatia hereditaria	LITAF	rs104894519	CT	1
+Neuropatia hereditaria	LITAF	rs104894519	CC	0
+Neuropatia hereditaria	MED25	rs145770066	TT	2
+Neuropatia hereditaria	MED25	rs145770066	TC	1
+Neuropatia hereditaria	MED25	rs145770066	CT	1
+Neuropatia hereditaria	MED25	rs145770066	CC	0
+Neuropatia hereditaria	MFN2	rs119103263	TT	2
+Neuropatia hereditaria	MFN2	rs119103263	TC	1
+Neuropatia hereditaria	MFN2	rs119103263	CT	1
+Neuropatia hereditaria	MFN2	rs119103263	CC	0
+Neuropatia hereditaria	MFN2	rs863224967	GG	2
+Neuropatia hereditaria	MFN2	rs863224967	GA	1
+Neuropatia hereditaria	MFN2	rs863224967	AG	1
+Neuropatia hereditaria	MFN2	rs863224967	AA	0
+Neuropatia hereditaria	MFN2	rs138382758	AA	2
+Neuropatia hereditaria	MFN2	rs138382758	AG	1
+Neuropatia hereditaria	MFN2	rs138382758	GA	1
+Neuropatia hereditaria	MFN2	rs138382758	GG	0
+Neuropatia hereditaria	MFN2	rs119103267	TT	2
+Neuropatia hereditaria	MFN2	rs119103267	TC	1
+Neuropatia hereditaria	MFN2	rs119103267	CT	1
+Neuropatia hereditaria	MFN2	rs119103267	CC	0
+Neuropatia hereditaria	MPZ	rs121913601	AA	2
+Neuropatia hereditaria	MPZ	rs121913601	AG	1
+Neuropatia hereditaria	MPZ	rs121913601	GA	1
+Neuropatia hereditaria	MPZ	rs121913601	GG	0
+Neuropatia hereditaria	MPZ	rs281865128	GG	2
+Neuropatia hereditaria	MPZ	rs281865128	GC	1
+Neuropatia hereditaria	MPZ	rs281865128	CG	1
+Neuropatia hereditaria	MPZ	rs281865128	CC	0
+Neuropatia hereditaria	MPZ	rs121913586	GG	2
+Neuropatia hereditaria	MPZ	rs121913586	GC	1
+Neuropatia hereditaria	MPZ	rs121913586	CG	1
+Neuropatia hereditaria	MPZ	rs121913586	CC	0
+Neuropatia hereditaria	NEFL	rs58982919	CC	2
+Neuropatia hereditaria	NEFL	rs58982919	CT	1
+Neuropatia hereditaria	NEFL	rs58982919	TC	1
+Neuropatia hereditaria	NEFL	rs58982919	TT	0
+Neuropatia hereditaria	NEFL	rs62636503	TT	2
+Neuropatia hereditaria	NEFL	rs62636503	TC	1
+Neuropatia hereditaria	NEFL	rs62636503	CT	1
+Neuropatia hereditaria	NEFL	rs62636503	CC	0
+Neuropatia hereditaria	PMP22	rs104894619	AA	2
+Neuropatia hereditaria	PMP22	rs104894619	AG	1
+Neuropatia hereditaria	PMP22	rs104894619	GA	1
+Neuropatia hereditaria	PMP22	rs104894619	GG	0
+Neuropatia hereditaria	REEP1	rs189652973	TT	2
+Neuropatia hereditaria	REEP1	rs189652973	TC	1
+Neuropatia hereditaria	REEP1	rs189652973	CT	1
+Neuropatia hereditaria	REEP1	rs189652973	CC	0
+Neuropatia hereditaria	SCN9A	rs200945460	TT	2
+Neuropatia hereditaria	SCN9A	rs200945460	TA	1
+Neuropatia hereditaria	SCN9A	rs200945460	AT	1
+Neuropatia hereditaria	SCN9A	rs200945460	AA	0
+Neuropatia hereditaria	SH3TC2	rs80359890	GG	2
+Neuropatia hereditaria	SH3TC2	rs80359890	GA	1
+Neuropatia hereditaria	SH3TC2	rs80359890	AG	1
+Neuropatia hereditaria	SH3TC2	rs80359890	AA	0
+Neuropatia hereditaria	SH3TC2	rs80338931	AA	2
+Neuropatia hereditaria	SH3TC2	rs80338931	AG	1
+Neuropatia hereditaria	SH3TC2	rs80338931	GA	1
+Neuropatia hereditaria	SH3TC2	rs80338931	GG	0
+Neuropatia hereditaria	SH3TC2	rs80338933	AA	2
+Neuropatia hereditaria	SH3TC2	rs80338933	AG	1
+Neuropatia hereditaria	SH3TC2	rs80338933	GA	1
+Neuropatia hereditaria	SH3TC2	rs80338933	GG	0
+Neuropatia hereditaria	SH3TC2	rs80338934	AA	2
+Neuropatia hereditaria	SH3TC2	rs80338934	AG	1
+Neuropatia hereditaria	SH3TC2	rs80338934	GA	1
+Neuropatia hereditaria	SH3TC2	rs80338934	GG	0
+Neuropatia hereditaria	TRPV4	rs121912633	TT	2
+Neuropatia hereditaria	TRPV4	rs121912633	TC	1
+Neuropatia hereditaria	TRPV4	rs121912633	CT	1
+Neuropatia hereditaria	TRPV4	rs121912633	CC	0
+Enxaqueca	TRPM8	rs10166942	TT	2
+Enxaqueca	TRPM8	rs10166942	TC	1
+Enxaqueca	TRPM8	rs10166942	CT	1
+Enxaqueca	TRPM8	rs10166942	CC	0
+Enxaqueca	LRP1	rs11172113	TT	2
+Enxaqueca	LRP1	rs11172113	TC	1
+Enxaqueca	LRP1	rs11172113	CT	1
+Enxaqueca	LRP1	rs11172113	CC	0
+Enxaqueca	PRDM16	rs2651899	CC	2
+Enxaqueca	PRDM16	rs2651899	CT	1
+Enxaqueca	PRDM16	rs2651899	TC	1
+Enxaqueca	PRDM16	rs2651899	TT	0
+Esclerose multipla	MMEL1	rs4648356	CC	2
+Esclerose multipla	MMEL1	rs4648356	CA	1
+Esclerose multipla	MMEL1	rs4648356	AC	1
+Esclerose multipla	MMEL1	rs4648356	AA	0
+Esclerose multipla	RGS1	rs1323292	AA	2
+Esclerose multipla	RGS1	rs1323292	AG	1
+Esclerose multipla	RGS1	rs1323292	GA	1
+Esclerose multipla	RGS1	rs1323292	GG	0
+Esclerose multipla	IL12A-AS1	rs1014486	CC	2
+Esclerose multipla	IL12A-AS1	rs1014486	CT	1
+Esclerose multipla	IL12A-AS1	rs1014486	TC	1
+Esclerose multipla	IL12A-AS1	rs1014486	TT	0
+Esclerose multipla	PTPRK,THEMIS	rs802734	AA	2
+Esclerose multipla	PTPRK,THEMIS	rs802734	AG	1
+Esclerose multipla	PTPRK,THEMIS	rs802734	GA	1
+Esclerose multipla	PTPRK,THEMIS	rs802734	GG	0
+Esclerose multipla	ZMIZ1	rs1250550	AA	2
+Esclerose multipla	ZMIZ1	rs1250550	AC	1
+Esclerose multipla	ZMIZ1	rs1250550	CA	1
+Esclerose multipla	ZMIZ1	rs1250550	CC	0
+Esclerose multipla	CDK4	rs2069502	CC	2
+Esclerose multipla	CDK4	rs2069502	CT	1
+Esclerose multipla	CDK4	rs2069502	TC	1
+Esclerose multipla	CDK4	rs2069502	TT	0
+Esclerose multipla	UNC13A	rs12608932	CC	2
+Esclerose multipla	UNC13A	rs12608932	CA	1
+Esclerose multipla	UNC13A	rs12608932	AC	1
+Esclerose multipla	UNC13A	rs12608932	AA	0
+Esclerose multipla	SOD1	rs80265967	CC	2
+Esclerose multipla	SOD1	rs80265967	CA	1
+Esclerose multipla	SOD1	rs80265967	AC	1
+Esclerose multipla	SOD1	rs80265967	AA	0
+Esclerose multipla	KIF5A	rs113247976	TT	2
+Esclerose multipla	KIF5A	rs113247976	TC	1
+Esclerose multipla	KIF5A	rs113247976	CT	1
+Esclerose multipla	KIF5A	rs113247976	CC	0
+Esclerose multipla	CFAP410	rs75087725	AA	2
+Esclerose multipla	CFAP410	rs75087725	AC	1
+Esclerose multipla	CFAP410	rs75087725	CA	1
+Esclerose multipla	CFAP410	rs75087725	CC	0
+Epilepsia	AL132875.2	rs346291	CC	2
+Epilepsia	AL132875.2	rs346291	CT	1
+Epilepsia	AL132875.2	rs346291	TC	1
+Epilepsia	AL132875.2	rs346291	TT	0
+Epilepsia	AL132875.2	rs9341799	CC	2
+Epilepsia	AL132875.2	rs9341799	CT	1
+Epilepsia	AL132875.2	rs9341799	TC	1
+Epilepsia	AL132875.2	rs9341799	TT	0
+Epilepsia	ADCY9	rs2601828	TT	2
+Epilepsia	ADCY9	rs2601828	TC	1
+Epilepsia	ADCY9	rs2601828	CT	1
+Epilepsia	ADCY9	rs2601828	CC	0
+Epilepsia	PRKCB	rs1989647	AA	2
+Epilepsia	PRKCB	rs1989647	AG	1
+Epilepsia	PRKCB	rs1989647	GA	1
+Epilepsia	PRKCB	rs1989647	GG	0
+Glioma	TERT	rs2736100	CC	2
+Glioma	TERT	rs2736100	CA	1
+Glioma	TERT	rs2736100	AC	1
+Glioma	TERT	rs2736100	AA	0
+Glioma	CCDC26	rs4295627	GG	2
+Glioma	CCDC26	rs4295627	GT	1
+Glioma	CCDC26	rs4295627	TG	1
+Glioma	CCDC26	rs4295627	TT	0
+Glioma	CCDC26	rs891835	GG	2
+Glioma	CCDC26	rs891835	GT	1
+Glioma	CCDC26	rs891835	TG	1
+Glioma	CCDC26	rs891835	TT	0
+Glioma	CDKN2A/B	rs4977756	GG	2
+Glioma	CDKN2A/B	rs4977756	GA	1
+Glioma	CDKN2A/B	rs4977756	AG	1
+Glioma	CDKN2A/B	rs4977756	AA	0
+Glioma	PHLDB1	rs498872	AA	2
+Glioma	PHLDB1	rs498872	AG	1
+Glioma	PHLDB1	rs498872	GA	1
+Glioma	PHLDB1	rs498872	GG	0
+Glioma	RTEL1	rs6010620	GG	2
+Glioma	RTEL1	rs6010620	GA	1
+Glioma	RTEL1	rs6010620	AG	1
+Glioma	RTEL1	rs6010620	AA	0
+Glioma	CDKN2A/B	rs1412829	GG	2
+Glioma	CDKN2A/B	rs1412829	GA	1
+Glioma	CDKN2A/B	rs1412829	AG	1
+Glioma	CDKN2A/B	rs1412829	AA	0
+Glioma	RTEL1	rs4809324	CC	2
+Glioma	RTEL1	rs4809324	CT	1
+Glioma	RTEL1	rs4809324	TC	1
+Glioma	RTEL1	rs4809324	TT	0
+Glioma	EGFR	rs11979158	AA	2
+Glioma	EGFR	rs11979158	AG	1
+Glioma	EGFR	rs11979158	GA	1
+Glioma	EGFR	rs11979158	GG	0
+Glioma	EGFR	rs2252586	TT	2
+Glioma	EGFR	rs2252586	TC	1
+Glioma	EGFR	rs2252586	CT	1
+Glioma	EGFR	rs2252586	CC	0
+Glioma	TP53	rs78378222	GG	2
+Glioma	TP53	rs78378222	GT	1
+Glioma	TP53	rs78378222	TG	1
+Glioma	TP53	rs78378222	TT	0
+Glioma Near	TERC	rs1920116	GG	2
+Glioma Near	TERC	rs1920116	GA	1
+Glioma Near	TERC	rs1920116	AG	1
+Glioma Near	TERC	rs1920116	AA	0
+Glioma	ETFA	rs1801591	AA	2
+Glioma	ETFA	rs1801591	AG	1
+Glioma	ETFA	rs1801591	GA	1
+Glioma	ETFA	rs1801591	GG	0
+Glioma	LMF1	rs3751667	TT	2
+Glioma	LMF1	rs3751667	TC	1
+Glioma	LMF1	rs3751667	CT	1
+Glioma	LMF1	rs3751667	CC	0
+Glioma	TERT	rs10069690	TT	2
+Glioma	TERT	rs10069690	TC	1
+Glioma	TERT	rs10069690	CT	1
+Glioma	TERT	rs10069690	CC	0
+Vitamina B12	MUT	rs1141321	TT	2
+Vitamina B12	MUT	rs1141321	TC	1
+Vitamina B12	MUT	rs1141321	CT	1
+Vitamina B12	MUT	rs1141321	CC	0
+Vitamina B12	MUT	rs9473555	CC	2
+Vitamina B12	MUT	rs9473555	CG	1
+Vitamina B12	MUT	rs9473555	GC	1
+Vitamina B12	MUT	rs9473555	GG	0
+Vitamina B12	FUT2	rs492602	AA	2
+Vitamina B12	FUT2	rs492602	AG	1
+Vitamina B12	FUT2	rs492602	GA	1
+Vitamina B12	FUT2	rs492602	GG	0
+Vitamina B12	FUT2	rs602662	GG	2
+Vitamina B12	FUT2	rs602662	GA	1
+Vitamina B12	FUT2	rs602662	AG	1
+Vitamina B12	FUT2	rs602662	AA	0
+Vitamina B6	ALPL	rs4654748	CC	2
+Vitamina B6	ALPL	rs4654748	CT	1
+Vitamina B6	ALPL	rs4654748	TC	1
+Vitamina B6	ALPL	rs4654748	TT	0
+Histamina	DAO	rs2052129	TT	2
+Histamina	DAO	rs2052129	TG	1
+Histamina	DAO	rs2052129	GT	1
+Histamina	DAO	rs2052129	GG	0
+Capacidade antioxidante	NQO1	rs1800566	AA	2
+Capacidade antioxidante	NQO1	rs1800566	AG	1
+Capacidade antioxidante	NQO1	rs1800566	GA	1
+Capacidade antioxidante	NQO1	rs1800566	GG	0
+Capacidade antioxidante	SOD2	rs4880	AA	2
+Capacidade antioxidante	SOD2	rs4880	AG	1
+Capacidade antioxidante	SOD2	rs4880	GA	1
+Capacidade antioxidante	SOD2	rs4880	GG	0
+Capacidade antioxidante	NFE2L2	rs6721961	TT	2
+Capacidade antioxidante	NFE2L2	rs6721961	TG	1
+Capacidade antioxidante	NFE2L2	rs6721961	GT	1
+Capacidade antioxidante	NFE2L2	rs6721961	GG	0
+Capacidade antioxidante	CAT	rs1001179	CC	2
+Capacidade antioxidante	CAT	rs1001179	CT	1
+Capacidade antioxidante	CAT	rs1001179	TC	1
+Capacidade antioxidante	CAT	rs1001179	TT	0
+Disco invertebral	C6orf106	rs2814982	TT	2
+Disco invertebral	C6orf106	rs2814982	TC	1
+Disco invertebral	C6orf106	rs2814982	CT	1
+Disco invertebral	C6orf106	rs2814982	CC	0
+Disco invertebral	SLC13A1	rs28364172	AA	2
+Disco invertebral	SLC13A1	rs28364172	AG	1
+Disco invertebral	SLC13A1	rs28364172	GA	1
+Disco invertebral	SLC13A1	rs28364172	GG	0
+Disco invertebral	SERPINA1	rs28929474	TT	2
+Disco invertebral	SERPINA1	rs28929474	TC	1
+Disco invertebral	SERPINA1	rs28929474	CT	1
+Disco invertebral	SERPINA1	rs28929474	CC	0
+Disco invertebral	GDF5	rs143384	GG	2
+Disco invertebral	GDF5	rs143384	GA	1
+Disco invertebral	GDF5	rs143384	AG	1
+Disco invertebral	GDF5	rs143384	AA	0
+Fotoenvelhecimento	IRF4	rs12203592	TT	2
+Fotoenvelhecimento	IRF4	rs12203592	TC	1
+Fotoenvelhecimento	IRF4	rs12203592	CT	1
+Fotoenvelhecimento	IRF4	rs12203592	CC	0
+Fotoenvelhecimento	MC1R	rs1805007	TT	2
+Fotoenvelhecimento	MC1R	rs1805007	TC	1
+Fotoenvelhecimento	MC1R	rs1805007	CT	1
+Fotoenvelhecimento	MC1R	rs1805007	CC	0
+Fotoenvelhecimento	MC1R	rs1805008	TT	2
+Fotoenvelhecimento	MC1R	rs1805008	TC	1
+Fotoenvelhecimento	MC1R	rs1805008	CT	1
+Fotoenvelhecimento	MC1R	rs1805008	CC	0
+Osteoartrite	SLC39A8	rs13107325	TT	2
+Osteoartrite	SLC39A8	rs13107325	TC	1
+Osteoartrite	SLC39A8	rs13107325	CT	1
+Osteoartrite	SLC39A8	rs13107325	CC	0
+Osteoartrite	IL11	rs4252548	TT	2
+Osteoartrite	IL11	rs4252548	TC	1
+Osteoartrite	IL11	rs4252548	CT	1
+Osteoartrite	IL11	rs4252548	CC	0
+Osteoartrite	ZC3H11B	rs2820443	CC	2
+Osteoartrite	ZC3H11B	rs2820443	CT	1
+Osteoartrite	ZC3H11B	rs2820443	TC	1
+Osteoartrite	ZC3H11B	rs2820443	TT	0
+Osteoartrite	GLIS3	rs10974438	AA	2
+Osteoartrite	GLIS3	rs10974438	AC	1
+Osteoartrite	GLIS3	rs10974438	CA	1
+Osteoartrite	GLIS3	rs10974438	CC	0
+Osteoartrite	GDF5	rs143384	AA	0
+Osteoartrite	GDF5	rs143384	AG	1
+Osteoartrite	GDF5	rs143384	GA	1
+Osteoartrite	GDF5	rs143384	GG	2
+Perda ossea	WNT2B	rs3790608	GG	2
+Perda ossea	WNT2B	rs3790608	GA	1
+Perda ossea	WNT2B	rs3790608	AG	1
+Perda ossea	WNT2B	rs3790608	AA	0
+Perda ossea	LOC100506797	rs1878526	GG	2
+Perda ossea	LOC100506797	rs1878526	GA	1
+Perda ossea	LOC100506797	rs1878526	AG	1
+Perda ossea	LOC100506797	rs1878526	AA	0
+Perda ossea	EN1	rs3754855	AA	2
+Perda ossea	EN1	rs3754855	AG	1
+Perda ossea	EN1	rs3754855	GA	1
+Perda ossea	EN1	rs3754855	GG	0
+Perda ossea	FZD7	rs10931982	TT	2
+Perda ossea	FZD7	rs10931982	TC	1
+Perda ossea	FZD7	rs10931982	CT	1
+Perda ossea	FZD7	rs10931982	CC	0
+Perda ossea	RSPO3	rs9482770	TT	2
+Perda ossea	RSPO3	rs9482770	TC	1
+Perda ossea	RSPO3	rs9482770	CT	1
+Perda ossea	RSPO3	rs9482770	CC	0
+Perda ossea	MIR148A	rs87	AA	2
+Perda ossea	MIR148A	rs87	AG	1
+Perda ossea	MIR148A	rs87	GA	1
+Perda ossea	MIR148A	rs87	GG	0
+Perda ossea	WNT16	rs3779381	AA	2
+Perda ossea	WNT16	rs3779381	AG	1
+Perda ossea	WNT16	rs3779381	GA	1
+Perda ossea	WNT16	rs3779381	GG	0
+Perda ossea	CADM1	rs1048932	CC	2
+Perda ossea	CADM1	rs1048932	CA	1
+Perda ossea	CADM1	rs1048932	AC	1
+Perda ossea	CADM1	rs1048932	AA	0
+Degeneracao macular	CFI	rs10033900	TT	2
+Degeneracao macular	CFI	rs10033900	TC	1
+Degeneracao macular	CFI	rs10033900	CT	1
+Degeneracao macular	CFI	rs10033900	CC	0
+Degeneracao macular	VEGFA	rs943080	TT	2
+Degeneracao macular	VEGFA	rs943080	TC	1
+Degeneracao macular	VEGFA	rs943080	CT	1
+Degeneracao macular	VEGFA	rs943080	CC	0
+Degeneracao macular	RAD51B	rs61985136	TT	2
+Degeneracao macular	RAD51B	rs61985136	TC	1
+Degeneracao macular	RAD51B	rs61985136	CT	1
+Degeneracao macular	RAD51B	rs61985136	CC	0
+Degeneracao macular	LIPC	rs2043085	TT	2
+Degeneracao macular	LIPC	rs2043085	TC	1
+Degeneracao macular	LIPC	rs2043085	CT	1
+Degeneracao macular	LIPC	rs2043085	CC	0
+Degeneracao macular	C3	rs2230199	GG	2
+Degeneracao macular	C3	rs2230199	GC	1
+Degeneracao macular	C3	rs2230199	CG	1
+Degeneracao macular	C3	rs2230199	CC	0
+Degeneracao macular	APOE	rs429358	TT	2
+Degeneracao macular	APOE	rs429358	TC	1
+Degeneracao macular	APOE	rs429358	CT	1
+Degeneracao macular	APOE	rs429358	CC	0
+Degeneracao macular	SYN3/TIMP3	rs5754227	TT	2
+Degeneracao macular	SYN3/TIMP3	rs5754227	TC	1
+Degeneracao macular	SYN3/TIMP3	rs5754227	CT	1
+Degeneracao macular	SYN3/TIMP3	rs5754227	CC	0
+Degeneracao macular	SLC16A8	rs8135665	TT	2
+Degeneracao macular	SLC16A8	rs8135665	TC	1
+Degeneracao macular	SLC16A8	rs8135665	CT	1
+Degeneracao macular	SLC16A8	rs8135665	CC	0
+Degeneracao macular	COL4A3	rs11884770	CC	2
+Degeneracao macular	COL4A3	rs11884770	CT	1
+Degeneracao macular	COL4A3	rs11884770	TC	1
+Degeneracao macular	COL4A3	rs11884770	TT	0
+Catarata Near	TRIB2	rs890069	CC	2
+Catarata Near	TRIB2	rs890069	CT	1
+Catarata Near	TRIB2	rs890069	TC	1
+Catarata Near	TRIB2	rs890069	TT	0
+Catarata	KCNQ5	rs7744813	AA	2
+Catarata	KCNQ5	rs7744813	AC	1
+Catarata	KCNQ5	rs7744813	CA	1
+Catarata	KCNQ5	rs7744813	CC	0
+Catarata	ZNF800	rs62621812	AA	2
+Catarata	ZNF800	rs62621812	AG	1
+Catarata	ZNF800	rs62621812	GA	1
+Catarata	ZNF800	rs62621812	GG	0
+Catarata	BIN3-EGR3	rs12114462	CC	2
+Catarata	BIN3-EGR3	rs12114462	CT	1
+Catarata	BIN3-EGR3	rs12114462	TC	1
+Catarata	BIN3-EGR3	rs12114462	TT	0
+Catarata	CDKN2B-DMRTA1	rs1679013	TT	2
+Catarata	CDKN2B-DMRTA1	rs1679013	TC	1
+Catarata	CDKN2B-DMRTA1	rs1679013	CT	1
+Catarata	CDKN2B-DMRTA1	rs1679013	CC	0
+Catarata	RBFOX1	rs10500355	AA	2
+Catarata	RBFOX1	rs10500355	AT	1
+Catarata	RBFOX1	rs10500355	TA	1
+Catarata	RBFOX1	rs10500355	TT	0
+Catarata	SEPT9	rs9038	TT	2
+Catarata	SEPT9	rs9038	TC	1
+Catarata	SEPT9	rs9038	CT	1
+Catarata	SEPT9	rs9038	CC	0
+Artrite reumatoide	POU3F1	rs883220	CC	2
+Artrite reumatoide	POU3F1	rs883220	CA	1
+Artrite reumatoide	POU3F1	rs883220	AC	1
+Artrite reumatoide	POU3F1	rs883220	AA	0
+Artrite reumatoide	PTPN22	rs2476601	AA	2
+Artrite reumatoide	PTPN22	rs2476601	AG	1
+Artrite reumatoide	PTPN22	rs2476601	GA	1
+Artrite reumatoide	PTPN22	rs2476601	GG	0
+Artrite reumatoide	CD2	rs798000	CC	2
+Artrite reumatoide	CD2	rs798000	CT	1
+Artrite reumatoide	CD2	rs798000	TC	1
+Artrite reumatoide	CD2	rs798000	TT	0
+Artrite reumatoide	IL6R	rs2228145	AA	2
+Artrite reumatoide	IL6R	rs2228145	AC	1
+Artrite reumatoide	IL6R	rs2228145	CA	1
+Artrite reumatoide	IL6R	rs2228145	CC	0
+Artrite reumatoide	REL	rs34695944	CC	2
+Artrite reumatoide	REL	rs34695944	CT	1
+Artrite reumatoide	REL	rs34695944	TC	1
+Artrite reumatoide	REL	rs34695944	TT	0
+Artrite reumatoide	STAT4	rs7574865	TT	2
+Artrite reumatoide	STAT4	rs7574865	TG	1
+Artrite reumatoide	STAT4	rs7574865	GT	1
+Artrite reumatoide	STAT4	rs7574865	GG	0
+Artrite reumatoide	CD28,CTLA4	rs1980422	CC	2
+Artrite reumatoide	CD28,CTLA4	rs1980422	CT	1
+Artrite reumatoide	CD28,CTLA4	rs1980422	TC	1
+Artrite reumatoide	CD28,CTLA4	rs1980422	TT	0
+Artrite reumatoide	DNASE1L3	rs35677470	AA	2
+Artrite reumatoide	DNASE1L3	rs35677470	AG	1
+Artrite reumatoide	DNASE1L3	rs35677470	GA	1
+Artrite reumatoide	DNASE1L3	rs35677470	GG	0
+Artrite reumatoide	ANKRD55	rs71624119	GG	2
+Artrite reumatoide	ANKRD55	rs71624119	GA	1
+Artrite reumatoide	ANKRD55	rs71624119	AG	1
+Artrite reumatoide	ANKRD55	rs71624119	AA	0
+Artrite reumatoide	TNFAIP3	rs6920220	AA	2
+Artrite reumatoide	TNFAIP3	rs6920220	AG	1
+Artrite reumatoide	TNFAIP3	rs6920220	GA	1
+Artrite reumatoide	TNFAIP3	rs6920220	GG	0
+Artrite reumatoide	TNFAIP3	rs58721818	TT	2
+Artrite reumatoide	TNFAIP3	rs58721818	TC	1
+Artrite reumatoide	TNFAIP3	rs58721818	CT	1
+Artrite reumatoide	TNFAIP3	rs58721818	CC	0
+Artrite reumatoide	CCL21	rs2812378	GG	2
+Artrite reumatoide	CCL21	rs2812378	GA	1
+Artrite reumatoide	CCL21	rs2812378	AG	1
+Artrite reumatoide	CCL21	rs2812378	AA	0
+Artrite reumatoide	IL2RA/PRKCQ	rs947474	AA	2
+Artrite reumatoide	IL2RA/PRKCQ	rs947474	AG	1
+Artrite reumatoide	IL2RA/PRKCQ	rs947474	GA	1
+Artrite reumatoide	IL2RA/PRKCQ	rs947474	GG	0
+Artrite reumatoide	DDX6	rs4938573	TT	2
+Artrite reumatoide	DDX6	rs4938573	TC	1
+Artrite reumatoide	DDX6	rs4938573	CT	1
+Artrite reumatoide	DDX6	rs4938573	CC	0
+Artrite reumatoide	TLE3	rs8026898	AA	2
+Artrite reumatoide	TLE3	rs8026898	AG	1
+Artrite reumatoide	TLE3	rs8026898	GA	1
+Artrite reumatoide	TLE3	rs8026898	GG	0
+Artrite reumatoide	IRF8	rs13330176	AA	2
+Artrite reumatoide	IRF8	rs13330176	AT	1
+Artrite reumatoide	IRF8	rs13330176	TA	1
+Artrite reumatoide	IRF8	rs13330176	TT	0
+Artrite reumatoide	TYK2	rs34536443	GG	2
+Artrite reumatoide	TYK2	rs34536443	GC	1
+Artrite reumatoide	TYK2	rs34536443	CG	1
+Artrite reumatoide	TYK2	rs34536443	CC	0
+Artrite reumatoide	TYK2	rs34536443	GG	2
+Artrite reumatoide	TYK2	rs34536443	GC	1
+Artrite reumatoide	TYK2	rs34536443	CG	1
+Artrite reumatoide	TYK2	rs34536443	CC	0
+Artrite reumatoide	TYK2	rs35018800	GG	2
+Artrite reumatoide	TYK2	rs35018800	GA	1
+Artrite reumatoide	TYK2	rs35018800	AG	1
+Artrite reumatoide	TYK2	rs35018800	AA	0
+Artrite reumatoide	TYK2	rs12720356	AA	2
+Artrite reumatoide	TYK2	rs12720356	AC	1
+Artrite reumatoide	TYK2	rs12720356	CA	1
+Artrite reumatoide	TYK2	rs12720356	CC	0
+Artrite reumatoide	TYK2	rs12720356	AA	2
+Artrite reumatoide	TYK2	rs12720356	AC	1
+Artrite reumatoide	TYK2	rs12720356	CA	1
+Artrite reumatoide	TYK2	rs12720356	CC	0
+Artrite reumatoide	CD40	rs6032662	TT	2
+Artrite reumatoide	CD40	rs6032662	TC	1
+Artrite reumatoide	CD40	rs6032662	CT	1
+Artrite reumatoide	CD40	rs6032662	CC	0
+Artrite reumatoide	RCAN1	rs2834512	GG	2
+Artrite reumatoide	RCAN1	rs2834512	GA	1
+Artrite reumatoide	RCAN1	rs2834512	AG	1
+Artrite reumatoide	RCAN1	rs2834512	AA	0
+Artrite reumatoide	RUNX1	rs9979383	TT	2
+Artrite reumatoide	RUNX1	rs9979383	TC	1
+Artrite reumatoide	RUNX1	rs9979383	CT	1
+Artrite reumatoide	RUNX1	rs9979383	CC	0
+Artrite reumatoide	IRAK1	rs13397	AA	2
+Artrite reumatoide	IRAK1	rs13397	AG	1
+Artrite reumatoide	IRAK1	rs13397	GA	1
+Artrite reumatoide	IRAK1	rs13397	GG	0
+Aging	LPA	rs10455872	AA	2
+Aging	LPA	rs10455872	AG	1
+Aging	LPA	rs10455872	GA	1
+Aging	LPA	rs10455872	GG	0
+Aging	CDKN2B-AS1	rs7859727	CC	2
+Aging	CDKN2B-AS1	rs7859727	CT	1
+Aging	CDKN2B-AS1	rs7859727	TC	1
+Aging	CDKN2B-AS1	rs7859727	TT	0
+Aging	LDLR	rs6511720	TT	2
+Aging	LDLR	rs6511720	TG	1
+Aging	LDLR	rs6511720	GT	1
+Aging	LDLR	rs6511720	GG	0
+Aging	APOE	rs429358	TT	2
+Aging	APOE	rs429358	TC	1
+Aging	APOE	rs429358	CT	1
+Aging	APOE	rs429358	CC	0
+Envelhecimento epigenetico	ACYP2	rs11125529	AA	2
+Envelhecimento epigenetico	ACYP2	rs11125529	AC	1
+Envelhecimento epigenetico	ACYP2	rs11125529	CA	1
+Envelhecimento epigenetico	ACYP2	rs11125529	CC	0
+Envelhecimento epigenetico	TERT	rs7705526	AA	2
+Envelhecimento epigenetico	TERT	rs7705526	AC	1
+Envelhecimento epigenetico	TERT	rs7705526	CA	1
+Envelhecimento epigenetico	TERT	rs7705526	CC	0
+Envelhecimento epigenetico	TERT	rs2736100	CC	2
+Envelhecimento epigenetico	TERT	rs2736100	CA	1
+Envelhecimento epigenetico	TERT	rs2736100	AC	1
+Envelhecimento epigenetico	TERT	rs2736100	AA	0
+Envelhecimento epigenetico	STN1	rs9420907	CC	2
+Envelhecimento epigenetico	STN1	rs9420907	CA	1
+Envelhecimento epigenetico	STN1	rs9420907	AC	1
+Envelhecimento epigenetico	STN1	rs9420907	AA	0
+Envelhecimento epigenetico	RTEL1	rs755017	GG	2
+Envelhecimento epigenetico	RTEL1	rs755017	GA	1
+Envelhecimento epigenetico	RTEL1	rs755017	AG	1
+Envelhecimento epigenetico	RTEL1	rs755017	AA	0
+Otosclerose	AHSG	rs4917	TT	2
+Otosclerose	AHSG	rs4917	TC	1
+Otosclerose	AHSG	rs4917	CT	1
+Otosclerose	AHSG	rs4917	CC	0
+Otosclerose	MAML2	rs553652	AA	2
+Otosclerose	MAML2	rs553652	AG	1
+Otosclerose	MAML2	rs553652	GA	1
+Otosclerose	MAML2	rs553652	GG	0
+Otosclerose	PREX1	rs6066825	GG	2
+Otosclerose	PREX1	rs6066825	GA	1
+Otosclerose	PREX1	rs6066825	AG	1
+Otosclerose	PREX1	rs6066825	AA	0
+Otosclerose	SMAD3	rs2118612	CC	2
+Otosclerose	SMAD3	rs2118612	CT	1
+Otosclerose	SMAD3	rs2118612	TC	1
+Otosclerose	SMAD3	rs2118612	TT	0
+Telomero	TERC	rs1317082	AA	2
+Telomero	TERC	rs1317082	AG	1
+Telomero	TERC	rs1317082	GA	1
+Telomero	TERC	rs1317082	GG	0
+Doença celíaca	RGS1	rs2816316	AA	2
+Doença celíaca	RGS1	rs2816316	AC	1
+Doença celíaca	RGS1	rs2816316	CA	1
+Doença celíaca	RGS1	rs2816316	CC	0
+Doença celíaca	REL	rs13003464	GG	2
+Doença celíaca	REL	rs13003464	GA	1
+Doença celíaca	REL	rs13003464	AG	1
+Doença celíaca	REL	rs13003464	AA	0
+Doença celíaca	IL18RAP,IL1RL1	rs917997	TT	2
+Doença celíaca	IL18RAP,IL1RL1	rs917997	TC	1
+Doença celíaca	IL18RAP,IL1RL1	rs917997	CT	1
+Doença celíaca	IL18RAP,IL1RL1	rs917997	CC	0
+Doença celíaca	ITGA4,UBE2E3	rs13010713	GG	2
+Doença celíaca	ITGA4,UBE2E3	rs13010713	GA	1
+Doença celíaca	ITGA4,UBE2E3	rs13010713	AG	1
+Doença celíaca	ITGA4,UBE2E3	rs13010713	AA	0
+Doença celíaca	ICOS	rs4675374	TT	2
+Doença celíaca	ICOS	rs4675374	TC	1
+Doença celíaca	ICOS	rs4675374	CT	1
+Doença celíaca	ICOS	rs4675374	CC	0
+Doença celíaca	CCR1	rs13098911	TT	2
+Doença celíaca	CCR1	rs13098911	TC	1
+Doença celíaca	CCR1	rs13098911	CT	1
+Doença celíaca	CCR1	rs13098911	CC	0
+Doença celíaca	IL12A	rs17810546	GG	2
+Doença celíaca	IL12A	rs17810546	GA	1
+Doença celíaca	IL12A	rs17810546	AG	1
+Doença celíaca	IL12A	rs17810546	AA	0
+Doença celíaca	LPP	rs1464510	AA	2
+Doença celíaca	LPP	rs1464510	AC	1
+Doença celíaca	LPP	rs1464510	CA	1
+Doença celíaca	LPP	rs1464510	CC	0
+Doença celíaca IL2,	KIAA1109	rs13151961	AA	2
+Doença celíaca IL2,	KIAA1109	rs13151961	AG	1
+Doença celíaca IL2,	KIAA1109	rs13151961	GA	1
+Doença celíaca IL2,	KIAA1109	rs13151961	GG	0
+Doença celíaca HLA-DQA1,	HLA-DQB1	rs2187668	TT	2
+Doença celíaca HLA-DQA1,	HLA-DQB1	rs2187668	TC	1
+Doença celíaca HLA-DQA1,	HLA-DQB1	rs2187668	CT	1
+Doença celíaca HLA-DQA1,	HLA-DQB1	rs2187668	CC	0
+Doença celíaca	TNFAIP3	rs2327832	GG	2
+Doença celíaca	TNFAIP3	rs2327832	GA	1
+Doença celíaca	TNFAIP3	rs2327832	AG	1
+Doença celíaca	TNFAIP3	rs2327832	AA	0
+Doença celíaca	TAGAP	rs1738074	TT	2
+Doença celíaca	TAGAP	rs1738074	TC	1
+Doença celíaca	TAGAP	rs1738074	CT	1
+Doença celíaca	TAGAP	rs1738074	CC	0
+Doença celíaca	SH2B3	rs653178	CC	2
+Doença celíaca	SH2B3	rs653178	CT	1
+Doença celíaca	SH2B3	rs653178	TC	1
+Doença celíaca	SH2B3	rs653178	TT	0
+Doença celíaca	PTPN2	rs1893217	GG	2
+Doença celíaca	PTPN2	rs1893217	GA	1
+Doença celíaca	PTPN2	rs1893217	AG	1
+Doença celíaca	PTPN2	rs1893217	AA	0
+Doença celíaca	MMEL1	rs3748816	AA	2
+Doença celíaca	MMEL1	rs3748816	AG	1
+Doença celíaca	MMEL1	rs3748816	GA	1
+Doença celíaca	MMEL1	rs3748816	GG	0
+Doença celíaca	RUNX3	rs10903122	GG	2
+Doença celíaca	RUNX3	rs10903122	GA	1
+Doença celíaca	RUNX3	rs10903122	AG	1
+Doença celíaca	RUNX3	rs10903122	AA	0
+Doença celíaca	CD80	rs11712165	GG	2
+Doença celíaca	CD80	rs11712165	GT	1
+Doença celíaca	CD80	rs11712165	TG	1
+Doença celíaca	CD80	rs11712165	TT	0
+Doença celíaca	BACH2	rs10806425	AA	2
+Doença celíaca	BACH2	rs10806425	AC	1
+Doença celíaca	BACH2	rs10806425	CA	1
+Doença celíaca	BACH2	rs10806425	CC	0
+Doença celíaca	THEMIS	rs802734	GG	0
+Doença celíaca	THEMIS	rs802734	GA	1
+Doença celíaca	THEMIS	rs802734	AG	1
+Doença celíaca	THEMIS	rs802734	AA	2
+Doença celíaca	MYC	rs9792269	AA	2
+Doença celíaca	MYC	rs9792269	AG	1
+Doença celíaca	MYC	rs9792269	GA	1
+Doença celíaca	MYC	rs9792269	GG	0
+Doença celíaca	ZMIZ1	rs1250552	AA	2
+Doença celíaca	ZMIZ1	rs1250552	AG	1
+Doença celíaca	ZMIZ1	rs1250552	GA	1
+Doença celíaca	ZMIZ1	rs1250552	GG	0
+Doença celíaca	ETS1	rs11221332	TT	2
+Doença celíaca	ETS1	rs11221332	TC	1
+Doença celíaca	ETS1	rs11221332	CT	1
+Doença celíaca	ETS1	rs11221332	CC	0
+Doença celíaca	PRM1	rs12928822	CC	2
+Doença celíaca	PRM1	rs12928822	CT	1
+Doença celíaca	PRM1	rs12928822	TC	1
+Doença celíaca	PRM1	rs12928822	TT	0
+Doença celíaca	ICOSLG	rs4819388	CC	2
+Doença celíaca	ICOSLG	rs4819388	CT	1
+Doença celíaca	ICOSLG	rs4819388	TC	1
+Doença celíaca	ICOSLG	rs4819388	TT	0
+Fibromialgia	MYT1L	rs11127292	TT	2
+Fibromialgia	MYT1L	rs11127292	TC	1
+Fibromialgia	MYT1L	rs11127292	CT	1
+Fibromialgia	MYT1L	rs11127292	CC	0
+Esteatose	PNPLA3	rs738409	GG	2
+Esteatose	PNPLA3	rs738409	GC	1
+Esteatose	PNPLA3	rs738409	CG	1
+Esteatose	PNPLA3	rs738409	CC	0
+Esteatose	PNPLA3	rs2294915	TT	2
+Esteatose	PNPLA3	rs2294915	TC	1
+Esteatose	PNPLA3	rs2294915	CT	1
+Esteatose	PNPLA3	rs2294915	CC	0
+Esteatose	TRIB1	rs2954038	CC	2
+Esteatose	TRIB1	rs2954038	CA	1
+Esteatose	TRIB1	rs2954038	AC	1
+Esteatose	TRIB1	rs2954038	AA	0
+Diabetes tipo 2	PROX1	rs340874	CC	2
+Diabetes tipo 2	PROX1	rs340874	CT	1
+Diabetes tipo 2	PROX1	rs340874	TC	1
+Diabetes tipo 2	PROX1	rs340874	TT	0
+Diabetes tipo 2	GCKR	rs780094	CC	2
+Diabetes tipo 2	GCKR	rs780094	CT	1
+Diabetes tipo 2	GCKR	rs780094	TC	1
+Diabetes tipo 2	GCKR	rs780094	TT	0
+Diabetes tipo 2	THADA	rs10203174	CC	2
+Diabetes tipo 2	THADA	rs10203174	CT	1
+Diabetes tipo 2	THADA	rs10203174	TC	1
+Diabetes tipo 2	THADA	rs10203174	TT	0
+Diabetes tipo 2	BCL11A	rs243088	TT	2
+Diabetes tipo 2	BCL11A	rs243088	TA	1
+Diabetes tipo 2	BCL11A	rs243088	AT	1
+Diabetes tipo 2	BCL11A	rs243088	AA	0
+Diabetes tipo 2	BCL11A	rs243021	AA	2
+Diabetes tipo 2	BCL11A	rs243021	AG	1
+Diabetes tipo 2	BCL11A	rs243021	GA	1
+Diabetes tipo 2	BCL11A	rs243021	GG	0
+Diabetes tipo 2	RBMS1	rs7593730	CC	2
+Diabetes tipo 2	RBMS1	rs7593730	CT	1
+Diabetes tipo 2	RBMS1	rs7593730	TC	1
+Diabetes tipo 2	RBMS1	rs7593730	TT	0
+Diabetes tipo 2	GRB14	rs13389219	CC	2
+Diabetes tipo 2	GRB14	rs13389219	CT	1
+Diabetes tipo 2	GRB14	rs13389219	TC	1
+Diabetes tipo 2	GRB14	rs13389219	TT	0
+Diabetes tipo 2	GRB14	rs3923113	AA	2
+Diabetes tipo 2	GRB14	rs3923113	AC	1
+Diabetes tipo 2	GRB14	rs3923113	CA	1
+Diabetes tipo 2	GRB14	rs3923113	CC	0
+Diabetes tipo 2	IRS1	rs2943640	CC	2
+Diabetes tipo 2	IRS1	rs2943640	CA	1
+Diabetes tipo 2	IRS1	rs2943640	AC	1
+Diabetes tipo 2	IRS1	rs2943640	AA	0
+Diabetes tipo 2	IRS1	rs7578326	AA	2
+Diabetes tipo 2	IRS1	rs7578326	AG	1
+Diabetes tipo 2	IRS1	rs7578326	GA	1
+Diabetes tipo 2	IRS1	rs7578326	GG	0
+Diabetes tipo 2	PPARG	rs1801282	CC	2
+Diabetes tipo 2	PPARG	rs1801282	CG	1
+Diabetes tipo 2	PPARG	rs1801282	GC	1
+Diabetes tipo 2	PPARG	rs1801282	GG	0
+Diabetes tipo 2	PPARG	rs13081389	AA	2
+Diabetes tipo 2	PPARG	rs13081389	AG	1
+Diabetes tipo 2	PPARG	rs13081389	GA	1
+Diabetes tipo 2	PPARG	rs13081389	GG	0
+Diabetes tipo 2	UBE2E2	rs1496653	AA	2
+Diabetes tipo 2	UBE2E2	rs1496653	AG	1
+Diabetes tipo 2	UBE2E2	rs1496653	GA	1
+Diabetes tipo 2	UBE2E2	rs1496653	GG	0
+Diabetes tipo 2	PSMD6	rs831571	CC	2
+Diabetes tipo 2	PSMD6	rs831571	CT	1
+Diabetes tipo 2	PSMD6	rs831571	TC	1
+Diabetes tipo 2	PSMD6	rs831571	TT	0
+Diabetes tipo 2	ADAMTS9	rs6795735	CC	2
+Diabetes tipo 2	ADAMTS9	rs6795735	CT	1
+Diabetes tipo 2	ADAMTS9	rs6795735	TC	1
+Diabetes tipo 2	ADAMTS9	rs6795735	TT	0
+Diabetes tipo 2	ADCY5	rs11717195	TT	2
+Diabetes tipo 2	ADCY5	rs11717195	TC	1
+Diabetes tipo 2	ADCY5	rs11717195	CT	1
+Diabetes tipo 2	ADCY5	rs11717195	CC	0
+Diabetes tipo 2	ADCY5	rs11708067	AA	2
+Diabetes tipo 2	ADCY5	rs11708067	AG	1
+Diabetes tipo 2	ADCY5	rs11708067	GA	1
+Diabetes tipo 2	ADCY5	rs11708067	GG	0
+Diabetes tipo 2	IGF2BP2	rs1470579	CC	2
+Diabetes tipo 2	IGF2BP2	rs1470579	CA	1
+Diabetes tipo 2	IGF2BP2	rs1470579	AC	1
+Diabetes tipo 2	IGF2BP2	rs1470579	AA	0
+Diabetes tipo 2	IGF2BP2	rs6769511	CC	2
+Diabetes tipo 2	IGF2BP2	rs6769511	CT	1
+Diabetes tipo 2	IGF2BP2	rs6769511	TC	1
+Diabetes tipo 2	IGF2BP2	rs6769511	TT	0
+Diabetes tipo 2	ST64GAL1	rs16861329	CC	2
+Diabetes tipo 2	ST64GAL1	rs16861329	CT	1
+Diabetes tipo 2	ST64GAL1	rs16861329	TC	1
+Diabetes tipo 2	ST64GAL1	rs16861329	TT	0
+Diabetes tipo 2	WFS1	rs4458523	GG	2
+Diabetes tipo 2	WFS1	rs4458523	GT	1
+Diabetes tipo 2	WFS1	rs4458523	TG	1
+Diabetes tipo 2	WFS1	rs4458523	TT	0
+Diabetes tipo 2	WFS1	rs1801214	TT	2
+Diabetes tipo 2	WFS1	rs1801214	TC	1
+Diabetes tipo 2	WFS1	rs1801214	CT	1
+Diabetes tipo 2	WFS1	rs1801214	CC	0
+Diabetes tipo 2	ANKRD55	rs459193	GG	2
+Diabetes tipo 2	ANKRD55	rs459193	GA	1
+Diabetes tipo 2	ANKRD55	rs459193	AG	1
+Diabetes tipo 2	ANKRD55	rs459193	AA	0
+Diabetes tipo 2	ZBED3	rs4457053	GG	2
+Diabetes tipo 2	ZBED3	rs4457053	GA	1
+Diabetes tipo 2	ZBED3	rs4457053	AG	1
+Diabetes tipo 2	ZBED3	rs4457053	AA	0
+Diabetes tipo 2	CDKAL1	rs7756992	GG	2
+Diabetes tipo 2	CDKAL1	rs7756992	GA	1
+Diabetes tipo 2	CDKAL1	rs7756992	AG	1
+Diabetes tipo 2	CDKAL1	rs7756992	AA	0
+Diabetes tipo 2	CDKAL1	rs10440833	AA	2
+Diabetes tipo 2	CDKAL1	rs10440833	AT	1
+Diabetes tipo 2	CDKAL1	rs10440833	TA	1
+Diabetes tipo 2	CDKAL1	rs10440833	TT	0
+Diabetes tipo 2	DGKB	rs17168486	TT	2
+Diabetes tipo 2	DGKB	rs17168486	TC	1
+Diabetes tipo 2	DGKB	rs17168486	CT	1
+Diabetes tipo 2	DGKB	rs17168486	CC	0
+Diabetes tipo 2	JAZF1	rs849135	GG	2
+Diabetes tipo 2	JAZF1	rs849135	GA	1
+Diabetes tipo 2	JAZF1	rs849135	AG	1
+Diabetes tipo 2	JAZF1	rs849135	AA	0
+Diabetes tipo 2	JAZF1	rs849134	AA	2
+Diabetes tipo 2	JAZF1	rs849134	AG	1
+Diabetes tipo 2	JAZF1	rs849134	GA	1
+Diabetes tipo 2	JAZF1	rs849134	GG	0
+Diabetes tipo 2	GCK	rs4607517	AA	2
+Diabetes tipo 2	GCK	rs4607517	AG	1
+Diabetes tipo 2	GCK	rs4607517	GA	1
+Diabetes tipo 2	GCK	rs4607517	GG	0
+Diabetes tipo 2	ANK1	rs516946	CC	2
+Diabetes tipo 2	ANK1	rs516946	CT	1
+Diabetes tipo 2	ANK1	rs516946	TC	1
+Diabetes tipo 2	ANK1	rs516946	TT	0
+Diabetes tipo 2	TP53INP1	rs7845219	TT	2
+Diabetes tipo 2	TP53INP1	rs7845219	TC	1
+Diabetes tipo 2	TP53INP1	rs7845219	CT	1
+Diabetes tipo 2	TP53INP1	rs7845219	CC	0
+Diabetes tipo 2	TP53INP1	rs896854	TT	2
+Diabetes tipo 2	TP53INP1	rs896854	TC	1
+Diabetes tipo 2	TP53INP1	rs896854	CT	1
+Diabetes tipo 2	TP53INP1	rs896854	CC	0
+Diabetes tipo 2	SLC30A8	rs3802177	GG	2
+Diabetes tipo 2	SLC30A8	rs3802177	GA	1
+Diabetes tipo 2	SLC30A8	rs3802177	AG	1
+Diabetes tipo 2	SLC30A8	rs3802177	AA	0
+Diabetes tipo 2	CDKN2A/B	rs10811661	TT	2
+Diabetes tipo 2	CDKN2A/B	rs10811661	TC	1
+Diabetes tipo 2	CDKN2A/B	rs10811661	CT	1
+Diabetes tipo 2	CDKN2A/B	rs10811661	CC	0
+Diabetes tipo 2	CDKN2A/B	rs10965250	GG	2
+Diabetes tipo 2	CDKN2A/B	rs10965250	GA	1
+Diabetes tipo 2	CDKN2A/B	rs10965250	AG	1
+Diabetes tipo 2	CDKN2A/B	rs10965250	AA	0
+Diabetes tipo 2	TLE4	rs17791513	AA	2
+Diabetes tipo 2	TLE4	rs17791513	AG	1
+Diabetes tipo 2	TLE4	rs17791513	GA	1
+Diabetes tipo 2	TLE4	rs17791513	GG	0
+Diabetes tipo 2	TLE4	rs13292136	CC	2
+Diabetes tipo 2	TLE4	rs13292136	CT	1
+Diabetes tipo 2	TLE4	rs13292136	TC	1
+Diabetes tipo 2	TLE4	rs13292136	TT	0
+Diabetes tipo 2	TLE1	rs2796441	GG	2
+Diabetes tipo 2	TLE1	rs2796441	GA	1
+Diabetes tipo 2	TLE1	rs2796441	AG	1
+Diabetes tipo 2	TLE1	rs2796441	AA	0
+Diabetes tipo 2	CDC123/CAMK1D	rs11257655	TT	2
+Diabetes tipo 2	CDC123/CAMK1D	rs11257655	TC	1
+Diabetes tipo 2	CDC123/CAMK1D	rs11257655	CT	1
+Diabetes tipo 2	CDC123/CAMK1D	rs11257655	CC	0
+Diabetes tipo 2	HHEX/IDE	rs5015480	CC	2
+Diabetes tipo 2	HHEX/IDE	rs5015480	CT	1
+Diabetes tipo 2	HHEX/IDE	rs5015480	TC	1
+Diabetes tipo 2	HHEX/IDE	rs5015480	TT	0
+Diabetes tipo 2	KCNQ1	rs163184	GG	2
+Diabetes tipo 2	KCNQ1	rs163184	GT	1
+Diabetes tipo 2	KCNQ1	rs163184	TG	1
+Diabetes tipo 2	KCNQ1	rs163184	TT	0
+Diabetes tipo 2	KCNQ1	rs231362	GG	2
+Diabetes tipo 2	KCNQ1	rs231362	GA	1
+Diabetes tipo 2	KCNQ1	rs231362	AG	1
+Diabetes tipo 2	KCNQ1	rs231362	AA	0
+Diabetes tipo 2	KCNJ11	rs5215	CC	2
+Diabetes tipo 2	KCNJ11	rs5215	CT	1
+Diabetes tipo 2	KCNJ11	rs5215	TC	1
+Diabetes tipo 2	KCNJ11	rs5215	TT	0
+Diabetes tipo 2	ARAP1/(CENTD2)	rs1552224	AA	2
+Diabetes tipo 2	ARAP1/(CENTD2)	rs1552224	AC	1
+Diabetes tipo 2	ARAP1/(CENTD2)	rs1552224	CA	1
+Diabetes tipo 2	ARAP1/(CENTD2)	rs1552224	CC	0
+Diabetes tipo 2	MTNR1B	rs10830963	GG	2
+Diabetes tipo 2	MTNR1B	rs10830963	GC	1
+Diabetes tipo 2	MTNR1B	rs10830963	CG	1
+Diabetes tipo 2	MTNR1B	rs10830963	CC	0
+Diabetes tipo 2	CCND2	rs11063069	GG	2
+Diabetes tipo 2	CCND2	rs11063069	GA	1
+Diabetes tipo 2	CCND2	rs11063069	AG	1
+Diabetes tipo 2	CCND2	rs11063069	AA	0
+Diabetes tipo 2	HMGA2	rs2261181	TT	2
+Diabetes tipo 2	HMGA2	rs2261181	TC	1
+Diabetes tipo 2	HMGA2	rs2261181	CT	1
+Diabetes tipo 2	HMGA2	rs2261181	CC	0
+Diabetes tipo 2	HMGA2	rs1531343	CC	2
+Diabetes tipo 2	HMGA2	rs1531343	CG	1
+Diabetes tipo 2	HMGA2	rs1531343	GC	1
+Diabetes tipo 2	HMGA2	rs1531343	GG	0
+Diabetes tipo 2	HMGA2	rs2612035	GG	2
+Diabetes tipo 2	HMGA2	rs2612035	GA	1
+Diabetes tipo 2	HMGA2	rs2612035	AG	1
+Diabetes tipo 2	HMGA2	rs2612035	AA	0
+Diabetes tipo 2	TSPAN8/LGR5	rs4760790	AA	2
+Diabetes tipo 2	TSPAN8/LGR5	rs4760790	AG	1
+Diabetes tipo 2	TSPAN8/LGR5	rs4760790	GA	1
+Diabetes tipo 2	TSPAN8/LGR5	rs4760790	GG	0
+Diabetes tipo 2	HNF1A/(TCF1)	rs12427353	GG	2
+Diabetes tipo 2	HNF1A/(TCF1)	rs12427353	GC	1
+Diabetes tipo 2	HNF1A/(TCF1)	rs12427353	CG	1
+Diabetes tipo 2	HNF1A/(TCF1)	rs12427353	CC	0
+Diabetes tipo 2	HNF1A/(TCF1)	rs7957197	TT	2
+Diabetes tipo 2	HNF1A/(TCF1)	rs7957197	TA	1
+Diabetes tipo 2	HNF1A/(TCF1)	rs7957197	AT	1
+Diabetes tipo 2	HNF1A/(TCF1)	rs7957197	AA	0
+Diabetes tipo 2	SPRY2	rs1359790	GG	2
+Diabetes tipo 2	SPRY2	rs1359790	GA	1
+Diabetes tipo 2	SPRY2	rs1359790	AG	1
+Diabetes tipo 2	SPRY2	rs1359790	AA	0
+Diabetes tipo 2	HMG20A	rs7178572	GG	2
+Diabetes tipo 2	HMG20A	rs7178572	GA	1
+Diabetes tipo 2	HMG20A	rs7178572	AG	1
+Diabetes tipo 2	HMG20A	rs7178572	AA	0
+Diabetes tipo 2	PRC1	rs12899811	GG	2
+Diabetes tipo 2	PRC1	rs12899811	GA	1
+Diabetes tipo 2	PRC1	rs12899811	AG	1
+Diabetes tipo 2	PRC1	rs12899811	AA	0
+Diabetes tipo 2	PRC1	rs8042680	AA	2
+Diabetes tipo 2	PRC1	rs8042680	AC	1
+Diabetes tipo 2	PRC1	rs8042680	CA	1
+Diabetes tipo 2	PRC1	rs8042680	CC	0
+Diabetes tipo 2	FTO	rs9936385	CC	2
+Diabetes tipo 2	FTO	rs9936385	CT	1
+Diabetes tipo 2	FTO	rs9936385	TC	1
+Diabetes tipo 2	FTO	rs9936385	TT	0
+Diabetes tipo 2	FTO	rs11642841	AA	2
+Diabetes tipo 2	FTO	rs11642841	AC	1
+Diabetes tipo 2	FTO	rs11642841	CA	1
+Diabetes tipo 2	FTO	rs11642841	CC	0
+Diabetes tipo 2	BCAR1	rs7202877	TT	2
+Diabetes tipo 2	BCAR1	rs7202877	TG	1
+Diabetes tipo 2	BCAR1	rs7202877	GT	1
+Diabetes tipo 2	BCAR1	rs7202877	GG	0
+Diabetes tipo 2	HNF1B/(TCF2)	rs4430796	GG	2
+Diabetes tipo 2	HNF1B/(TCF2)	rs4430796	GA	1
+Diabetes tipo 2	HNF1B/(TCF2)	rs4430796	AG	1
+Diabetes tipo 2	HNF1B/(TCF2)	rs4430796	AA	0
+Diabetes tipo 2	HNF1B/(TCF2)	rs11651755	CC	2
+Diabetes tipo 2	HNF1B/(TCF2)	rs11651755	CT	1
+Diabetes tipo 2	HNF1B/(TCF2)	rs11651755	TC	1
+Diabetes tipo 2	HNF1B/(TCF2)	rs11651755	TT	0
+Diabetes tipo 2	MC4R	rs12970134	AA	2
+Diabetes tipo 2	MC4R	rs12970134	AG	1
+Diabetes tipo 2	MC4R	rs12970134	GA	1
+Diabetes tipo 2	MC4R	rs12970134	GG	0
+Diabetes tipo 2	MC4R	rs11873305	AA	2
+Diabetes tipo 2	MC4R	rs11873305	AC	1
+Diabetes tipo 2	MC4R	rs11873305	CA	1
+Diabetes tipo 2	MC4R	rs11873305	CC	0
+Diabetes tipo 2	CILP2	rs10401969	CC	2
+Diabetes tipo 2	CILP2	rs10401969	CT	1
+Diabetes tipo 2	CILP2	rs10401969	TC	1
+Diabetes tipo 2	CILP2	rs10401969	TT	0
+Hemocromatose	WDR75–SLC40A1	rs744653	CC	2
+Hemocromatose	WDR75–SLC40A1	rs744653	CT	1
+Hemocromatose	WDR75–SLC40A1	rs744653	TC	1
+Hemocromatose	WDR75–SLC40A1	rs744653	TT	0
+Hemocromatose	TF	rs8177240	TT	2
+Hemocromatose	TF	rs8177240	TG	1
+Hemocromatose	TF	rs8177240	GT	1
+Hemocromatose	TF	rs8177240	GG	0
+Hemocromatose	TFRC	rs9990333	CC	2
+Hemocromatose	TFRC	rs9990333	CT	1
+Hemocromatose	TFRC	rs9990333	TC	1
+Hemocromatose	TFRC	rs9990333	TT	0
+Hemocromatose HF	E	rs1800562	GG	2
+Hemocromatose HF	E	rs1800562	GA	1
+Hemocromatose HF	E	rs1800562	AG	1
+Hemocromatose HF	E	rs1800562	AA	0
+Hemocromatose	HFE	rs1799945	CC	2
+Hemocromatose	HFE	rs1799945	CG	1
+Hemocromatose	HFE	rs1799945	GC	1
+Hemocromatose	HFE	rs1799945	GG	0
+Hemocromatose	TFR2	rs7385804	CC	2
+Hemocromatose	TFR2	rs7385804	CA	1
+Hemocromatose	TFR2	rs7385804	AC	1
+Hemocromatose	TFR2	rs7385804	AA	0
+Hemocromatose	NAT2	rs4921915	GG	2
+Hemocromatose	NAT2	rs4921915	GA	1
+Hemocromatose	NAT2	rs4921915	AG	1
+Hemocromatose	NAT2	rs4921915	AA	0
+Hemocromatose	ABO	rs651007	TT	2
+Hemocromatose	ABO	rs651007	TC	1
+Hemocromatose	ABO	rs651007	CT	1
+Hemocromatose	ABO	rs651007	CC	0
+Hemocromatose	ARNTL	rs6486121	TT	2
+Hemocromatose	ARNTL	rs6486121	TC	1
+Hemocromatose	ARNTL	rs6486121	CT	1
+Hemocromatose	ARNTL	rs6486121	CC	0
+Hemocromatose	FADS2	rs174577	CC	2
+Hemocromatose	FADS2	rs174577	CA	1
+Hemocromatose	FADS2	rs174577	AC	1
+Hemocromatose	FADS2	rs174577	AA	0
+Hemocromatose	TEX14	rs411988	AA	2
+Hemocromatose	TEX14	rs411988	AG	1
+Hemocromatose	TEX14	rs411988	GA	1
+Hemocromatose	TEX14	rs411988	GG	0
+Hemocromatose	TMPRSS6	rs855791	AA	2
+Hemocromatose	TMPRSS6	rs855791	AG	1
+Hemocromatose	TMPRSS6	rs855791	GA	1
+Hemocromatose	TMPRSS6	rs855791	GG	0
+Síndrome Metabólica	ZPR1	rs964184	GG	2
+Síndrome Metabólica	ZPR1	rs964184	GC	1
+Síndrome Metabólica	ZPR1	rs964184	CG	1
+Síndrome Metabólica	ZPR1	rs964184	CC	0
+Síndrome Metabólica	CETP	rs247617	CC	2
+Síndrome Metabólica	CETP	rs247617	CA	1
+Síndrome Metabólica	CETP	rs247617	AC	1
+Síndrome Metabólica	CETP	rs247617	AA	0
+Síndrome Metabólica	CD300LG	rs72836561	TT	2
+Síndrome Metabólica	CD300LG	rs72836561	TC	1
+Síndrome Metabólica	CD300LG	rs72836561	CT	1
+Síndrome Metabólica	CD300LG	rs72836561	CC	0
+Síndrome Metabólica	ANGPTL4	rs116843064	GG	2
+Síndrome Metabólica	ANGPTL4	rs116843064	GA	1
+Síndrome Metabólica	ANGPTL4	rs116843064	AG	1
+Síndrome Metabólica	ANGPTL4	rs116843064	AA	0
+Síndrome Metabólica	APOB	rs673548	GG	2
+Síndrome Metabólica	APOB	rs673548	GA	1
+Síndrome Metabólica	APOB	rs673548	AG	1
+Síndrome Metabólica	APOB	rs673548	AA	0
+Síndrome Metabólica	FADS2	rs1535	GG	2
+Síndrome Metabólica	FADS2	rs1535	GA	1
+Síndrome Metabólica	FADS2	rs1535	AG	1
+Síndrome Metabólica	FADS2	rs1535	AA	0
+Síndrome Metabólica	VEGFA	rs998584	AA	2
+Síndrome Metabólica	VEGFA	rs998584	AC	1
+Síndrome Metabólica	VEGFA	rs998584	CA	1
+Síndrome Metabólica	VEGFA	rs998584	CC	0
+Síndrome Metabólica	CMIP	rs2925979	TT	2
+Síndrome Metabólica	CMIP	rs2925979	TC	1
+Síndrome Metabólica	CMIP	rs2925979	CT	1
+Síndrome Metabólica	CMIP	rs2925979	CC	0
+Síndrome Metabólica	CELF1	rs7124681	AA	2
+Síndrome Metabólica	CELF1	rs7124681	AC	1
+Síndrome Metabólica	CELF1	rs7124681	CA	1
+Síndrome Metabólica	CELF1	rs7124681	CC	0
+Síndrome Metabólica	GCKR	rs1260326	TT	2
+Síndrome Metabólica	GCKR	rs1260326	TC	1
+Síndrome Metabólica	GCKR	rs1260326	CT	1
+Síndrome Metabólica	GCKR	rs1260326	CC	0
+Síndrome Metabólica	LOC157273	rs9987289	AA	2
+Síndrome Metabólica	LOC157273	rs9987289	AG	1
+Síndrome Metabólica	LOC157273	rs9987289	GA	1
+Síndrome Metabólica	LOC157273	rs9987289	GG	0
+Síndrome Metabólica	HNF4A	rs1800961	TT	2
+Síndrome Metabólica	HNF4A	rs1800961	TC	1
+Síndrome Metabólica	HNF4A	rs1800961	CT	1
+Síndrome Metabólica	HNF4A	rs1800961	CC	0
+Síndrome Metabólica	LINC01625	rs632057	TT	2
+Síndrome Metabólica	LINC01625	rs632057	TG	1
+Síndrome Metabólica	LINC01625	rs632057	GT	1
+Síndrome Metabólica	LINC01625	rs632057	GG	0
+Síndrome Metabólica	PDXDC1	rs11075253	CC	2
+Síndrome Metabólica	PDXDC1	rs11075253	CA	1
+Síndrome Metabólica	PDXDC1	rs11075253	AC	1
+Síndrome Metabólica	PDXDC1	rs11075253	AA	0
+Síndrome Metabólica	SNX10	rs1534696	CC	2
+Síndrome Metabólica	SNX10	rs1534696	CA	1
+Síndrome Metabólica	SNX10	rs1534696	AC	1
+Síndrome Metabólica	SNX10	rs1534696	AA	0
+Síndrome Metabólica	TMEM18	rs7563362	GG	2
+Síndrome Metabólica	TMEM18	rs7563362	GA	1
+Síndrome Metabólica	TMEM18	rs7563362	AG	1
+Síndrome Metabólica	TMEM18	rs7563362	AA	0
+Síndrome Metabólica	SLC39A8	rs13107325	TT	2
+Síndrome Metabólica	SLC39A8	rs13107325	TC	1
+Síndrome Metabólica	SLC39A8	rs13107325	CT	1
+Síndrome Metabólica	SLC39A8	rs13107325	CC	0
+Síndrome Metabólica	SEC16B	rs10913469	CC	2
+Síndrome Metabólica	SEC16B	rs10913469	CT	1
+Síndrome Metabólica	SEC16B	rs10913469	TC	1
+Síndrome Metabólica	SEC16B	rs10913469	TT	0
+Síndrome Metabólica	KCNH2	rs56282717	GG	2
+Síndrome Metabólica	KCNH2	rs56282717	GA	1
+Síndrome Metabólica	KCNH2	rs56282717	AG	1
+Síndrome Metabólica	KCNH2	rs56282717	AA	0
+Síndrome Metabólica	ABCA1	rs11789603	CC	2
+Síndrome Metabólica	ABCA1	rs11789603	CT	1
+Síndrome Metabólica	ABCA1	rs11789603	TC	1
+Síndrome Metabólica	ABCA1	rs11789603	TT	0
+Síndrome Metabólica	BCDIN3D	rs7138803	AA	2
+Síndrome Metabólica	BCDIN3D	rs7138803	AG	1
+Síndrome Metabólica	BCDIN3D	rs7138803	GA	1
+Síndrome Metabólica	BCDIN3D	rs7138803	GG	0
+Síndrome Metabólica	NAT2	rs4921913	CC	2
+Síndrome Metabólica	NAT2	rs4921913	CT	1
+Síndrome Metabólica	NAT2	rs4921913	TC	1
+Síndrome Metabólica	NAT2	rs4921913	TT	0
+Síndrome Metabólica	POC5	rs2307111	TT	2
+Síndrome Metabólica	POC5	rs2307111	TC	1
+Síndrome Metabólica	POC5	rs2307111	CT	1
+Síndrome Metabólica	POC5	rs2307111	CC	0
+Obesidade	FTO	rs9939609	AA	2
+Obesidade	FTO	rs9939609	AT	1
+Obesidade	FTO	rs9939609	TA	1
+Obesidade	FTO	rs9939609	TT	0
+Obesidade	MC4R	rs17782313	CC	2
+Obesidade	MC4R	rs17782313	CT	1
+Obesidade	MC4R	rs17782313	TC	1
+Obesidade	MC4R	rs17782313	TT	0
+Obesidade	TMEM18	rs6548238	CC	2
+Obesidade	TMEM18	rs6548238	CT	1
+Obesidade	TMEM18	rs6548238	TC	1
+Obesidade	TMEM18	rs6548238	TT	0
+Obesidade	GNPDA2	rs10938397	GG	2
+Obesidade	GNPDA2	rs10938397	GA	1
+Obesidade	GNPDA2	rs10938397	AG	1
+Obesidade	GNPDA2	rs10938397	AA	0
+Obesidade	SH2B1	rs7498665	GG	2
+Obesidade	SH2B1	rs7498665	GA	1
+Obesidade	SH2B1	rs7498665	AG	1
+Obesidade	SH2B1	rs7498665	AA	0
+Obesidade	MTCH2	rs10838738	GG	2
+Obesidade	MTCH2	rs10838738	GA	1
+Obesidade	MTCH2	rs10838738	AG	1
+Obesidade	MTCH2	rs10838738	AA	0
+Obesidade	KCTD15	rs11084753	GG	2
+Obesidade	KCTD15	rs11084753	GA	1
+Obesidade	KCTD15	rs11084753	AG	1
+Obesidade	KCTD15	rs11084753	AA	0
+Obesidade	NEGR1	rs2815752	AA	2
+Obesidade	NEGR1	rs2815752	AG	1
+Obesidade	NEGR1	rs2815752	GA	1
+Obesidade	NEGR1	rs2815752	GG	0
+Obesidade	ETV5	rs7647305	CC	2
+Obesidade	ETV5	rs7647305	CT	1
+Obesidade	ETV5	rs7647305	TC	1
+Obesidade	ETV5	rs7647305	TT	0
+Obesidade	BDNF	rs4923461	AA	2
+Obesidade	BDNF	rs4923461	AG	1
+Obesidade	BDNF	rs4923461	GA	1
+Obesidade	BDNF	rs4923461	GG	0
+Obesidade	SEC16B	rs10913469	CC	2
+Obesidade	SEC16B	rs10913469	CT	1
+Obesidade	SEC16B	rs10913469	TC	1
+Obesidade	SEC16B	rs10913469	TT	0
+Obesidade	RBJ	rs713586	CC	2
+Obesidade	RBJ	rs713586	CT	1
+Obesidade	RBJ	rs713586	TC	1
+Obesidade	RBJ	rs713586	TT	0
+Obesidade	GPRC5B	rs12444979	CC	2
+Obesidade	GPRC5B	rs12444979	CT	1
+Obesidade	GPRC5B	rs12444979	TC	1
+Obesidade	GPRC5B	rs12444979	TT	0
+Obesidade	MAP2K5	rs2241423	GG	2
+Obesidade	MAP2K5	rs2241423	GA	1
+Obesidade	MAP2K5	rs2241423	AG	1
+Obesidade	MAP2K5	rs2241423	AA	0
+Obesidade	QPCTL	rs2287019	CC	2
+Obesidade	QPCTL	rs2287019	CT	1
+Obesidade	QPCTL	rs2287019	TC	1
+Obesidade	QPCTL	rs2287019	TT	0
+Obesidade	TNNI3K	rs1514175	AA	2
+Obesidade	TNNI3K	rs1514175	AG	1
+Obesidade	TNNI3K	rs1514175	GA	1
+Obesidade	TNNI3K	rs1514175	GG	0
+Obesidade	SLC39A8	rs13107325	TT	2
+Obesidade	SLC39A8	rs13107325	TC	1
+Obesidade	SLC39A8	rs13107325	CT	1
+Obesidade	SLC39A8	rs13107325	CC	0
+Obesidade	FLJ35779	rs2112347	TT	2
+Obesidade	FLJ35779	rs2112347	TG	1
+Obesidade	FLJ35779	rs2112347	GT	1
+Obesidade	FLJ35779	rs2112347	GG	0
+Obesidade	LRRN6C	rs10968576	GG	2
+Obesidade	LRRN6C	rs10968576	GA	1
+Obesidade	LRRN6C	rs10968576	AG	1
+Obesidade	LRRN6C	rs10968576	AA	0
+Obesidade	TMEM160	rs3810291	AA	2
+Obesidade	TMEM160	rs3810291	AG	1
+Obesidade	TMEM160	rs3810291	GA	1
+Obesidade	TMEM160	rs3810291	GG	0
+Obesidade	CADM2	rs13078807	GG	2
+Obesidade	CADM2	rs13078807	GA	1
+Obesidade	CADM2	rs13078807	AG	1
+Obesidade	CADM2	rs13078807	AA	0
+Obesidade	PRKD1	rs11847697	TT	2
+Obesidade	PRKD1	rs11847697	TC	1
+Obesidade	PRKD1	rs11847697	CT	1
+Obesidade	PRKD1	rs11847697	CC	0
+Obesidade	LRP1B	rs2890652	CC	2
+Obesidade	LRP1B	rs2890652	CT	1
+Obesidade	LRP1B	rs2890652	TC	1
+Obesidade	LRP1B	rs2890652	TT	0
+Obesidade	PTBP2	rs1555543	CC	2
+Obesidade	PTBP2	rs1555543	CA	1
+Obesidade	PTBP2	rs1555543	AC	1
+Obesidade	PTBP2	rs1555543	AA	0
+Obesidade	MTIF3	rs4771122	GG	2
+Obesidade	MTIF3	rs4771122	GA	1
+Obesidade	MTIF3	rs4771122	AG	1
+Obesidade	MTIF3	rs4771122	AA	0
+Obesidade	RPL27A	rs4929949	CC	2
+Obesidade	RPL27A	rs4929949	CT	1
+Obesidade	RPL27A	rs4929949	TC	1
+Obesidade	RPL27A	rs4929949	TT	0
+Obesidade	NUDT3	rs206936	GG	2
+Obesidade	NUDT3	rs206936	GA	1
+Obesidade	NUDT3	rs206936	AG	1
+Obesidade	NUDT3	rs206936	AA	0
+Obesidade	NRXN3	rs10150332	CC	2
+Obesidade	NRXN3	rs10150332	CT	1
+Obesidade	NRXN3	rs10150332	TC	1
+Obesidade	NRXN3	rs10150332	TT	0
+Obesidade	TFAP2B	rs987237	GG	2
+Obesidade	TFAP2B	rs987237	GA	1
+Obesidade	TFAP2B	rs987237	AG	1
+Obesidade	TFAP2B	rs987237	AA	0
+Psoríase	IL23R	rs9988642	TT	2
+Psoríase	IL23R	rs9988642	TC	1
+Psoríase	IL23R	rs9988642	CT	1
+Psoríase	IL23R	rs9988642	CC	0
+Psoríase	LCE3B/LCE3D	rs6677595	TT	2
+Psoríase	LCE3B/LCE3D	rs6677595	TC	1
+Psoríase	LCE3B/LCE3D	rs6677595	CT	1
+Psoríase	LCE3B/LCE3D	rs6677595	CC	0
+Psoríase	LRRC7	rs10789285	GG	2
+Psoríase	LRRC7	rs10789285	GT	1
+Psoríase	LRRC7	rs10789285	TG	1
+Psoríase	LRRC7	rs10789285	TT	0
+Psoríase	B3GNT2	rs10865331	AA	2
+Psoríase	B3GNT2	rs10865331	AG	1
+Psoríase	B3GNT2	rs10865331	GA	1
+Psoríase	B3GNT2	rs10865331	GG	0
+Psoríase	KCNH7/IFIH1	rs17716942	TT	2
+Psoríase	KCNH7/IFIH1	rs17716942	TC	1
+Psoríase	KCNH7/IFIH1	rs17716942	CT	1
+Psoríase	KCNH7/IFIH1	rs17716942	CC	0
+Psoríase	TP63	rs28512356	CC	2
+Psoríase	TP63	rs28512356	CA	1
+Psoríase	TP63	rs28512356	AC	1
+Psoríase	TP63	rs28512356	AA	0
+Psoríase	NFKBIZ	rs7637230	AA	2
+Psoríase	NFKBIZ	rs7637230	AG	1
+Psoríase	NFKBIZ	rs7637230	GA	1
+Psoríase	NFKBIZ	rs7637230	GG	0
+Psoríase	TNIP1	rs2233278	CC	2
+Psoríase	TNIP1	rs2233278	CG	1
+Psoríase	TNIP1	rs2233278	GC	1
+Psoríase	TNIP1	rs2233278	GG	0
+Psoríase	IL12B	rs12188300	TT	2
+Psoríase	IL12B	rs12188300	TA	1
+Psoríase	IL12B	rs12188300	AT	1
+Psoríase	IL12B	rs12188300	AA	0
+Psoríase	TRAF3IP2	rs33980500	TT	2
+Psoríase	TRAF3IP2	rs33980500	TC	1
+Psoríase	TRAF3IP2	rs33980500	CT	1
+Psoríase	TRAF3IP2	rs33980500	CC	0
+Psoríase	TNFAIP3	rs582757	CC	2
+Psoríase	TNFAIP3	rs582757	CT	1
+Psoríase	TNFAIP3	rs582757	TC	1
+Psoríase	TNFAIP3	rs582757	TT	0
+Psoríase	TAGAP	rs2451258	CC	2
+Psoríase	TAGAP	rs2451258	CT	1
+Psoríase	TAGAP	rs2451258	TC	1
+Psoríase	TAGAP	rs2451258	TT	0
+Psoríase	DDX58	rs11795343	TT	2
+Psoríase	DDX58	rs11795343	TC	1
+Psoríase	DDX58	rs11795343	CT	1
+Psoríase	DDX58	rs11795343	CC	0
+Psoríase	CAMK2G/FUT11	rs2675662	AA	2
+Psoríase	CAMK2G/FUT11	rs2675662	AG	1
+Psoríase	CAMK2G/FUT11	rs2675662	GA	1
+Psoríase	CAMK2G/FUT11	rs2675662	GG	0
+Psoríase	RPS6KA4/PRDX5	rs694739	AA	2
+Psoríase	RPS6KA4/PRDX5	rs694739	AG	1
+Psoríase	RPS6KA4/PRDX5	rs694739	GA	1
+Psoríase	RPS6KA4/PRDX5	rs694739	GG	0
+Psoríase	COG6	rs34394770	TT	2
+Psoríase	COG6	rs34394770	TC	1
+Psoríase	COG6	rs34394770	CT	1
+Psoríase	COG6	rs34394770	CC	0
+Psoríase	LOC144817	rs9533962	CC	2
+Psoríase	LOC144817	rs9533962	CT	1
+Psoríase	LOC144817	rs9533962	TC	1
+Psoríase	LOC144817	rs9533962	TT	0
+Psoríase	NFKBIA	rs8016947	GG	2
+Psoríase	NFKBIA	rs8016947	GT	1
+Psoríase	NFKBIA	rs8016947	TG	1
+Psoríase	NFKBIA	rs8016947	TT	0
+Psoríase	CARD14	rs11652075	CC	2
+Psoríase	CARD14	rs11652075	CT	1
+Psoríase	CARD14	rs11652075	TC	1
+Psoríase	CARD14	rs11652075	TT	0
+Psoríase	TYK2	rs34536443	GG	2
+Psoríase	TYK2	rs34536443	GC	1
+Psoríase	TYK2	rs34536443	CG	1
+Psoríase	TYK2	rs34536443	CC	0
+Psoríase	ILF3/CARM1	rs892085	AA	2
+Psoríase	ILF3/CARM1	rs892085	AG	1
+Psoríase	ILF3/CARM1	rs892085	GA	1
+Psoríase	ILF3/CARM1	rs892085	GG	0
+Psoríase	RUNX1	rs8128234	TT	2
+Psoríase	RUNX1	rs8128234	TC	1
+Psoríase	RUNX1	rs8128234	CT	1
+Psoríase	RUNX1	rs8128234	CC	0
