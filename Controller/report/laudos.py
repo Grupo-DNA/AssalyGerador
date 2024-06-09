@@ -288,8 +288,9 @@ def find_color(name, snp):
 	except Exception as e:
 		print('Erro ao montar o dicionário de efeitos...', e) 
 
-	# Processar cada característica
+   # Processar cada característica
 	for characteristic in characteristics:
+		print('Característica da vez:', characteristic)
 		found_name = False
 
 		# Abrindo o arquivo Lista.txt e iterando sobre suas linhas
@@ -319,6 +320,12 @@ def find_color(name, snp):
 								calc += effect
 								maxval += 2
 								print(f'Match found: Characteristic: {characteristic}, SNP: {snp_id}, Genotype: {genotype}, Effect: {effect}, Calc: {calc}, Maxval: {maxval}')
+							else:
+								print(f'SNP {snp_id} with genotype {genotype} not found in efeitos_dict for characteristic {characteristic}')
+						else:
+							print(f'SNP {snp_id} not matched with SNP entry or genotype is "--"')
+				else:
+					print(f'Line does not start with rs, ignoring: {fields[0]}')
 
 	if maxval == 0:
 		print("Maxval is 0, returning default color code 4")
@@ -590,15 +597,19 @@ def make_petal_color(outpdf, canv, name, posx, posy, pos, x, y, snp, big):
 	else:
 		#print("\n\nERRO Pétalas\n\n")
 		print('valor inesperados')
+	if name == " ":
+		endereco = os.path.join(os.path.join("../Controller", "DataFiles", "Files", "Holobionte"), f"PetG{pos}.png")
+
 	canv.drawImage(endereco, posx, posy, width=x, height=y, mask='auto')
 
 
 def find_impactful(outpdf, canv, name, snp, x, y):
-	if name == "":
+	if name == " ":
 		pass
 	print(f"Chamando find_impactful para {name} nas coordenadas ({x}, {y})")
 	routes_file_path = os.path.join("../Controller", "DataFiles", "Files", "Rotas.txt")
-	characteristics = get_route_characteristics(name, routes_file_path)
+	routes_dict = load_routes(routes_file_path)
+	characteristics = get_route_characteristics(name, routes_dict)
 
 	# Limitar a três características
 	shown_characteristics = characteristics[:3]
@@ -610,6 +621,7 @@ def find_impactful(outpdf, canv, name, snp, x, y):
 
 	# Ajustar a posição inicial para um pouco abaixo do nome da rota
 	y -= 12
+	x+= 8
 	print(f"Posição inicial ajustada para características: ({x}, {y})")
 
 	if not shown_characteristics:
@@ -623,7 +635,6 @@ def find_impactful(outpdf, canv, name, snp, x, y):
 	
 	canv.setFont("Helvetica", 6)  # Fonte Helvetica com tamanho 8
 	canv.setFillColorRGB(0, 0, 0)  # Cor preta
-
 
 	if remaining_characteristics_count > 0:
 		y -= 1
@@ -766,7 +777,7 @@ def holobionte(outpdf, snp):
 	y = 1197 * 0.4
 	posx = (595 - x) / 2
 	posy = (872 - y) / 2
-	names = ["", "Saúde Mental", "Doenças Crônicas", "", "Envelhecimento", "Neuro"]
+	names = [" ", "Saúde Mental", "Doenças Crônicas", " ", "Envelhecimento", "Neuro"]
 	names_outer = ["Atividades Físicas", "Saúde Cardiovascular", "Nutrição", 'Sinalização Celular', "Metabolismo", "Sistêmico"]
 
 	num_names = len(names)
@@ -788,7 +799,7 @@ def holobionte(outpdf, snp):
 	names_positions = [
 		(278, 580),  # COR AZUL
 		(375, 522),  # Saúde Mental
-		(369, 409),  # Doença Crônica
+		(366, 409),  # Doença Crônica
 		(295, 324),  # COR AZUL
 		(170, 404),  # Envelhecimento
 		(177, 520)  # Neuro

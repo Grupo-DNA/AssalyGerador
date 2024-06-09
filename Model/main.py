@@ -66,7 +66,7 @@ with open("gerar.txt", "r") as handle:
 				holobionte(outpdf, snp)
 				print('holobionte gerada')
 				rotas_resultados(outpdf)
-				#visao_geral_test(outpdf, snp, sex)
+				visao_geral_test(outpdf, snp, sex)
 				#rotas_nutrientes(outpdf, snp)
 				#rotas_dietas(outpdf, snp)
 				#rotas_sistemico(outpdf, snp, sex)
