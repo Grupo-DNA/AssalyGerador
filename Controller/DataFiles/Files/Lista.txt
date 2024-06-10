@@ -450,7 +450,7 @@ Raiva
 rs2148710	FYN
 
 Estresse
-rs53576 OXTR
+rs53576	OXTR
 
 Elevação da Frequência Cardíaca
 rs1815739	ACTN3

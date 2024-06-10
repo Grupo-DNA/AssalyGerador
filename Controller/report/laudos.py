@@ -239,110 +239,107 @@ def read_file(file_path):
 	with open(file_path, "r") as file:
 		return file.readlines()
 	
-def find_color(name, snp):
-	print('Nome que está sendo passado para a função:', name)
+def find_color(trait_name, snp_data):
+	print(snp_data)
+	sleep
+	
+	
+	print('Trait being processed:', trait_name)
+
 	lista_file_path = os.path.join("../Controller", "DataFiles", "Files", "Lista.txt")
-	efeitos_file_path = os.path.join('../Controller', "DataFiles", "Files", "Efeitos.txt")
+	effects_file_path = os.path.join('../Controller', "DataFiles", "Files", "Efeitos.txt")
 	routes_file_path = os.path.join('../Controller', "DataFiles", "Files", "Rotas.txt")
 
-	# Carregar o dicionário de rotas e características
 	routes_dict = load_routes(routes_file_path)
-	print('Dicionário de rotas carregado:', routes_dict)
-	
-	if name == "Glicação":
-		name = "Insulina e Glicose"
 
-	# Obter características associadas ao nome
-	characteristics = get_route_characteristics(name, routes_dict)
-	if len(characteristics) < 2:  # Se for uma característica individual
-		characteristics = [name]
-	print('Características identificadas:', characteristics)
-	print('Características achadas para a rota', name, '++++', characteristics)
+	if trait_name == "Glicação":
+		trait_name = "Insulina e Glicose"
+
+	related_traits = get_route_characteristics(trait_name, routes_dict)
+	if len(related_traits) < 2:
+		related_traits = [trait_name]
 	
-	calc = 0
-	maxval = 0
+	print('Related traits for', trait_name, ':', related_traits)
+	
+	total_effect = 0
+	max_possible_effect = 0
 	
 	try:
-		print('Lendo os arquivos de dados...')
 		lista_lines = read_file(lista_file_path)
-		efeitos_lines = read_file(efeitos_file_path)
+		effects_lines = read_file(effects_file_path)
 
-		# Pré-processar os efeitos em um dicionário para busca rápida
-		efeitos_dict = {}
-		for efeito_line in efeitos_lines:
-			efeito_line = efeito_line.strip()
-			if not efeito_line:  # Ignorar linhas vazias
+		effects_dict = {}
+		for line in effects_lines:
+			line = line.strip()
+			if not line:
 				continue
-			efeito_fields = efeito_line.split("\t")
-			if len(efeito_fields) >= 5:
-				characteristic = efeito_fields[0]
-				snp_id = efeito_fields[2]
-				genotype = efeito_fields[3]
-				effect = int(efeito_fields[4])
-				if characteristic not in efeitos_dict:
-					efeitos_dict[characteristic] = {}
-				if snp_id not in efeitos_dict[characteristic]:
-					efeitos_dict[characteristic][snp_id] = {}
-				efeitos_dict[characteristic][snp_id][genotype] = effect
-		print('Dicionário de efeitos processado:')
+			fields = line.split("\t")
+			if len(fields) >= 5:
+				trait = fields[0]
+				snp_id = fields[2]
+				genotype = fields[3]
+				effect = int(fields[4])
+				if trait not in effects_dict:
+					effects_dict[trait] = {}
+				if snp_id not in effects_dict[trait]:
+					effects_dict[trait][snp_id] = {}
+				effects_dict[trait][snp_id][genotype] = effect
+
+				#ID=23177081028823
 	except Exception as e:
-		print('Erro ao montar o dicionário de efeitos...', e) 
+		print('Error processing effects dictionary:', e)
 
-   # Processar cada característica
-	for characteristic in characteristics:
-		print('Característica da vez:', characteristic)
-		found_name = False
+	for trait in related_traits:
+		print('Processing trait:', trait)
+		found_trait = False
 
-		# Abrindo o arquivo Lista.txt e iterando sobre suas linhas
 		with open(lista_file_path, "r") as lista_file:
 			for line in lista_file:
 				fields = line.strip().split("\t")
-				
-				# Verificando se encontramos o nome desejado
-				if not found_name:
-					if fields[0] == characteristic:
-						found_name = True
-						print(f'Nome {characteristic} achado')
+
+				if not found_trait:
+					if fields[0] == trait:
+						found_trait = True
+						print(f'Trait {trait} found in Lista.txt')
 					continue
-				
+
 				if fields[0] == "":
-					break  # Interrompe o loop se encontrar uma linha vazia
-				
-				if fields[0].startswith('rs'):  # Se a linha começa com 'rs', é um SNP
+					break
+
+				if fields[0].startswith('rs'):
 					snp_id = fields[0]
-					for snp_entry in snp:
+					for snp_entry in snp_data:
 						snp_fields = snp_entry.split("\t")
 						if snp_id == snp_fields[0] and snp_fields[1] != "--":
 							genotype = snp_fields[1]
-							if (characteristic in efeitos_dict and snp_id in efeitos_dict[characteristic]
-									and genotype in efeitos_dict[characteristic][snp_id]):
-								effect = efeitos_dict[characteristic][snp_id][genotype]
-								calc += effect
-								maxval += 2
-								print(f'Match found: Characteristic: {characteristic}, SNP: {snp_id}, Genotype: {genotype}, Effect: {effect}, Calc: {calc}, Maxval: {maxval}')
+							if (trait in effects_dict and snp_id in effects_dict[trait]
+									and genotype in effects_dict[trait][snp_id]):
+								effect = effects_dict[trait][snp_id][genotype]
+								total_effect += effect
+								max_possible_effect += 2
+								print(f'Match found: Trait: {trait}, SNP: {snp_id}, Genotype: {genotype}, Effect: {effect}, Total Effect: {total_effect}, Max Possible Effect: {max_possible_effect}')
 							else:
-								print(f'SNP {snp_id} with genotype {genotype} not found in efeitos_dict for characteristic {characteristic}')
+								print(f'SNP {snp_id} with genotype {genotype} not found in effects_dict for trait {trait}')
 						else:
 							print(f'SNP {snp_id} not matched with SNP entry or genotype is "--"')
 				else:
 					print(f'Line does not start with rs, ignoring: {fields[0]}')
 
-	if maxval == 0:
-		print("Maxval is 0, returning default color code 4")
+	if max_possible_effect == 0:
+		print("Max possible effect is 0, returning default color code 4")
 		return 4  # Default color code if no effects found
 	
-	color = calc / maxval
-	print(f'Color ratio calculated: {color}')
-	if color < 0.3:
-		print("Returning color code 1 (Verde)")
-		return 1  # Verde
-	elif color < 0.7:
-		print("Returning color code 2 (Amarelo)")
-		return 2  # Amarelo
+	effect_ratio = total_effect / max_possible_effect
+	print(f'Effect ratio calculated: {effect_ratio}')
+	if effect_ratio < 0.3:
+		print("Returning color code 1 (Green)")
+		return 1  # Green
+	elif effect_ratio < 0.7:
+		print("Returning color code 2 (Yellow)")
+		return 2  # Yellow
 	else:
-		print("Returning color code 3 (Vermelho)")
-		return 3  # Vermelho
-
+		print("Returning color code 3 (Red)")
+		return 3  # Red
 	
 def read_file(file_path):
 
@@ -403,7 +400,6 @@ def get_route_characteristics(name, routes_dict):
 
 def make_rect_color(name, canv, posx, posy, snp, width):
 	print('make rect color')
-	print(snp)
 	num=find_color(name,snp)
 	#Green
 	if num == 1:
