@@ -11,6 +11,7 @@ import math
 from Controller.report.ancestralidade import AncestralidadeMaker
 from Controller.report.base import Paciente
 from reportlab.lib.colors import HexColor
+from time import sleep
 
 def style(canv, name):
 	style = CONFIG.styles[name]
@@ -241,9 +242,7 @@ def read_file(file_path):
 	
 def find_color(trait_name, snp_data):
 	print(snp_data)
-	sleep
-	
-	
+
 	print('Trait being processed:', trait_name)
 
 	lista_file_path = os.path.join("../Controller", "DataFiles", "Files", "Lista.txt")
@@ -263,6 +262,7 @@ def find_color(trait_name, snp_data):
 	
 	total_effect = 0
 	max_possible_effect = 0
+	sleep
 	
 	try:
 		lista_lines = read_file(lista_file_path)
@@ -270,6 +270,7 @@ def find_color(trait_name, snp_data):
 
 		effects_dict = {}
 		for line in effects_lines:
+			
 			line = line.strip()
 			if not line:
 				continue
@@ -285,13 +286,13 @@ def find_color(trait_name, snp_data):
 					effects_dict[trait][snp_id] = {}
 				effects_dict[trait][snp_id][genotype] = effect
 
-				#ID=23177081028823
 	except Exception as e:
 		print('Error processing effects dictionary:', e)
 
 	for trait in related_traits:
 		print('Processing trait:', trait)
 		found_trait = False
+
 
 		with open(lista_file_path, "r") as lista_file:
 			for line in lista_file:
@@ -328,10 +329,11 @@ def find_color(trait_name, snp_data):
 	if max_possible_effect == 0:
 		print("Max possible effect is 0, returning default color code 4")
 		return 4  # Default color code if no effects found
+		
 	
 	effect_ratio = total_effect / max_possible_effect
 	print(f'Effect ratio calculated: {effect_ratio}')
-	if effect_ratio < 0.3:
+	if effect_ratio < 0.3: 
 		print("Returning color code 1 (Green)")
 		return 1  # Green
 	elif effect_ratio < 0.7:
@@ -847,6 +849,7 @@ def rotas_nutrientes(outpdf,snp):
 	size = 750
 	col = 0
 	with open(endereco, "r") as file:
+		print('lendo endereco')
 		r = file.readlines()
 		for line in r:
 			item = line.replace("\n", "")
@@ -878,7 +881,8 @@ def rotas_nutrientes(outpdf,snp):
 				size -= h + 10
 				draw_rs_rotas(outpdf, snp, c, item, col, size+5)
 				draw_box_rota(col,size,170,h,24,item,c,snp)
-			if item == "Necessidade de Nutrientes":
+			if item == "Nutrição":
+				print('achei nutricao em rotas')
 				found = 1
 	c.save()
 	inpdf = PdfReader(packet)
@@ -1169,7 +1173,7 @@ def rotas_energia(outpdf,snp):
 				size -= h + 10
 				draw_rs_rotas(outpdf, snp, c, item, col, size+5)
 				draw_box_rota(col,size,170,h,24,item,c,snp)
-			if item == "Energia e Metabolismo":
+			if item == "Metabolismo":
 				found = 1
 	c.save()
 	inpdf = PdfReader(packet)
@@ -1329,7 +1333,6 @@ def visao_geral_test(outpdf, snp, sex):
 						par.drawOn(c, posx, h+28)
 						counter = 0
 					rota = names.pop(0)
-					print('rota',rota)
 					make_rect_color(rota,c,posx,h,snp,0)
 					c.setFillColorRGB(255,255,255)
 					c.drawString(32, h, rota)
@@ -1430,8 +1433,10 @@ def visao_geral(outpdf, snp, sex):
 	outpdf.add_page(pagina)
 
 def sum_genes(outpdf):
-	endereco = os.path.join(CONFIG.template, "capa-sumario.pdf")
+	endereco = os.path.join(CONFIG.template,"capa-sumario.pdf")
+	print(endereco)
 	template = PdfReader(open(endereco, "rb"), strict=False)
+	print(len(template.pages))
 	for pageidx in range(len(template.pages)):
 		pagina: PageObject = template.pages[pageidx]
 	outpdf.add_page(pagina)
@@ -1439,6 +1444,7 @@ def sum_genes(outpdf):
 def contatos(outpdf):
 	endereco = os.path.join(CONFIG.template, "verso.pdf")
 	template = PdfReader(open(endereco, "rb"), strict=False)
+	print('tamanho do template.pages',len(template.pages))
 	for pageidx in range(len(template.pages)):
 		pagina: PageObject = template.pages[pageidx]
 	outpdf.add_page(pagina)
@@ -1453,10 +1459,11 @@ def laudo_salvar(outpdf, name):
 		outpdf.write(file)
 
 def make_descri_box(name, canv, snp, posy, height):
+	print('chamando descri box')
 	canv.setStrokeColorRGB(0.56,0.75,0.82)
 	height += 47
 	canv.rect(27,posy-height+6,537,height, stroke=1, fill=0)
-	#make_rect_color(name,canv,26.5,posy,snp,537.5)
+	make_rect_color(name,canv,26.5,posy,snp,537.5)
 	canv.setFillColorRGB(255,255,255)
 	canv.drawString(41, posy, name)
 
@@ -1485,6 +1492,8 @@ def descri_sinalizacao(outpdf,snp,dicio):
 	template = PdfReader(open(endereco, "rb"), strict=False)
 	packet = BytesIO()
 	c = canvas.Canvas(packet, pagesize=A4)
+	c.setFont("Helvetica-Bold", 10)
+	c.setFillColorRGB(0.2, 0.2, 0.2)
 	found = 0
 	names = []
 	endereco = os.path.join("../Controller", "DataFiles", "Files", "Rotas.txt")
@@ -1527,6 +1536,8 @@ def descri_sistemico(outpdf,snp,dicio,sex):
 	template = PdfReader(open(endereco, "rb"), strict=False)
 	packet = BytesIO()
 	c = canvas.Canvas(packet, pagesize=A4)
+	c.setFont("Helvetica-Bold", 10)
+	c.setFillColorRGB(0.2, 0.2, 0.2)
 	found = 0
 	names = []
 	endereco = os.path.join("../Controller","DataFiles", "Files", "Rotas.txt")
@@ -1588,6 +1599,7 @@ def descri_sistemico(outpdf,snp,dicio,sex):
 # 	print("Descrição Sistêmico 2 gerada\n")
 
 def descri_saudemental(outpdf,snp,dicio):
+	
 	found = 0
 	names = []
 	endereco = os.path.join("../Controller", "DataFiles", "Files", "Rotas.txt")
@@ -1611,6 +1623,8 @@ def descri_saudemental(outpdf,snp,dicio):
 			template = PdfReader(open(endereco, "rb"), strict=False)
 			packet = BytesIO()
 			c = canvas.Canvas(packet, pagesize=A4)
+			c.setFont("Helvetica-Bold", 10)
+			c.setFillColorRGB(0.2, 0.2, 0.2)
 			min_heigh = min(tam, 7)
 			if(min_heigh == 7):
 				high += 7
@@ -1675,6 +1689,8 @@ def descri_cardio(outpdf,snp,dicio):
 	template = PdfReader(open(endereco, "rb"), strict=False)
 	packet = BytesIO()
 	c = canvas.Canvas(packet, pagesize=A4)
+	c.setFont("Helvetica-Bold", 10)
+	c.setFillColorRGB(0.2, 0.2, 0.2)
 	found = 0
 	names = []
 	endereco = os.path.join("../Controller", "DataFiles", "Files", "Rotas.txt")
@@ -1717,6 +1733,8 @@ def descri_energia(outpdf,snp,dicio):
 	template = PdfReader(open(endereco, "rb"), strict=False)
 	packet = BytesIO()
 	c = canvas.Canvas(packet, pagesize=A4)
+	c.setFont("Helvetica-Bold", 10)
+	c.setFillColorRGB(0.2, 0.2, 0.2)
 	found = 0
 	names = []
 	endereco = os.path.join("../Controller", "DataFiles", "Files", "Rotas.txt")
@@ -1728,7 +1746,7 @@ def descri_energia(outpdf,snp,dicio):
 				break
 			if found == 1:
 				names.append(item)
-			if item == "Energia e Metabolismo":
+			if item == "Metabolismo":
 				found = 1
 	if len(names) > 7:
 		make_descri_generic(names[:7], c, snp, dicio)
@@ -1759,6 +1777,8 @@ def descri_atividades(outpdf,snp,dicio):
 	template = PdfReader(open(endereco, "rb"), strict=False)
 	packet = BytesIO()
 	c = canvas.Canvas(packet, pagesize=A4)
+	c.setFont("Helvetica-Bold", 10)
+	c.setFillColorRGB(0.2, 0.2, 0.2)
 	found = 0
 	names = []
 	endereco = os.path.join("../Controller", "DataFiles", "Files", "Rotas.txt")
@@ -1801,6 +1821,8 @@ def descri_nutrientes(outpdf,snp,dicio):
 	template = PdfReader(open(endereco, "rb"), strict=False)
 	packet = BytesIO()
 	c = canvas.Canvas(packet, pagesize=A4)
+	c.setFont("Helvetica-Bold", 10)
+	c.setFillColorRGB(0.2, 0.2, 0.2)
 	found = 0
 	names = []
 	endereco = os.path.join("../Controller", "DataFiles", "Files", "Rotas.txt")
@@ -1812,7 +1834,7 @@ def descri_nutrientes(outpdf,snp,dicio):
 				break
 			if found == 1:
 				names.append(item)
-			if item == "Necessidade de Nutrientes":
+			if item == "Nutrição":
 				found = 1
 	if len(names) > 7:
 		make_descri_generic(names[:7], c, snp, dicio)
@@ -1881,103 +1903,107 @@ def descri_dietas(outpdf,snp,dicio):
 	print("Descrição Dietas gerada\n")
 
 def gene_efeitos(outpdf, snp):
-	def read_effects_file(filepath):
-		with open(filepath, "r") as file:
-			return [line.strip().split("\t") for line in file.readlines()]
+    print('Iniciando a geração do sumário de efeitos dos genes')
 
-	def classify_snps(snp_list, effects):
-		low_risk = []
-		medium_risk = []
-		high_risk = []
-		no_effect = []
+    def read_effects_file(filepath):
+        with open(filepath, "r") as file:
+            return [line.strip().split("\t") for line in file.readlines()]
 
-		for snp in snp_list:
-			sp = snp.split("\t")
-			if len(sp) < 2 or sp[1] == "--":
-				no_effect.append(snp)
-				continue
+    def classify_snps(snp_list, effects):
+        print('Classificando SNPs')
+        low_risk = []
+        medium_risk = []
+        high_risk = []
+        no_effect = []
 
-			max_val = 0
-			for effect in effects:
-				if len(effect) < 5:
-					continue
-				if effect[2] == sp[0] and effect[3] == sp[1]:
-					max_val = max(max_val, int(effect[4]))
+        for snp in snp_list:
+            sp = snp.split("\t")
+            if len(sp) < 2 or sp[1] == "--":
+                no_effect.append(snp)
+                continue
 
-			if max_val == 0:
-				low_risk.append(snp)
-			elif max_val == 1:
-				medium_risk.append(snp)
-			elif max_val == 2:
-				high_risk.append(snp)
+            max_val = 0
+            for effect in effects:
+                if len(effect) < 5:
+                    continue
+                if effect[2] == sp[0] and effect[3] == sp[1]:
+                    max_val = max(max_val, int(effect[4]))
 
-		return low_risk, medium_risk, high_risk, no_effect
+            if max_val == 0:
+                low_risk.append(snp)
+            elif max_val == 1:
+                medium_risk.append(snp)
+            elif max_val == 2:
+                high_risk.append(snp)
 
-	def draw_genes(c, genes, title, style, gene_style, column):
-		posx = switch_column(column)
-		posy = 692
-		count = 0
-		for gene_info in genes:
-			if count >= 22:
-				break
-			sp = gene_info.split("\t")
-			if len(sp) < 3:
-				continue
-			c.setFont(style.fontName, style.fontSize)
-			c.setFillColor(style.textColor)
-			c.drawString(posx, posy, sp[0])
-			c.setFont(gene_style.fontName, gene_style.fontSize)
-			c.setFillColor(gene_style.textColor)
-			c.drawString(posx, posy + 10, sp[3])
-			c.drawString(posx + 130, posy + 10, sp[1])
-			count += 1
-			posy -= 30
+        return low_risk, medium_risk, high_risk, no_effect
 
-		size = count * 30 + 28
-		draw_box_rota(column, 740 - size, 170, size, 24, title, c, snp)
-		return count
+    def draw_genes(c, genes, title, style, gene_style, column):
+        print(f'Desenhando genes para a coluna {column}')
+        posx = switch_column(column)
+        posy = 692
+        count = 0
+        for gene_info in genes:
+            if count >= 22:
+                break
+            sp = gene_info.split("\t")
+            if len(sp) < 3:
+                continue
+            c.setFont(style.fontName, style.fontSize)
+            c.setFillColor(style.textColor)
+            c.drawString(posx, posy, sp[0])
+            c.setFont(gene_style.fontName, gene_style.fontSize)
+            c.setFillColor(gene_style.textColor)
+            c.drawString(posx, posy + 10, sp[3])
+            c.drawString(posx + 130, posy + 10, sp[1])
+            count += 1
+            posy -= 30
 
-	end2 = os.path.join("../Controller", "DataFiles", "Files", "Efeitos.txt")
-	effects = read_effects_file(end2)
-	
-	low_risk, medium_risk, high_risk, no_effect = classify_snps(snp, effects)
+        size = count * 30 + 28
+        draw_box_rota(column, 740 - size, 170, size, 24, title, c, snp)
+        return count
 
-	endereco = os.path.join(CONFIG.template, "genes-por-efeito.pdf")
-	template = PdfReader(open(endereco, "rb"), strict=False)
-	packet = BytesIO()
-	c = canvas.Canvas(packet, pagesize=A4)
-	column = 0
-	style = CONFIG.styles["ancestralidade.gene"]
+    end2 = os.path.join("../Controller", "DataFiles", "Files", "Efeitos.txt")
+    effects = read_effects_file(end2)
+    
+    low_risk, medium_risk, high_risk, no_effect = classify_snps(snp, effects)
 
-	for risk_group, title, gene_style in [
-		(high_risk, "ALTO RISCO", CONFIG.styles["ancestralidade.text-red"]),
-		(medium_risk, "MÉDIO RISCO", CONFIG.styles["ancestralidade.text-yellow"]),
-		(low_risk, "BAIXO RISCO", CONFIG.styles["ancestralidade.text-green"]),
-		(no_effect, "SEM EFEITO", CONFIG.styles["ancestralidade.text-grey"])
-	]:
-		rep = 0
-		while rep < len(risk_group):
-			if column == 3:
-				column = 0
-				c.save()
-				inpdf = PdfReader(packet)
-				for pageidx in range(len(template.pages)):
-					pagina: PageObject = template.pages[pageidx]
-					pagina.merge_page(inpdf.pages[pageidx])
-				outpdf.add_page(pagina)
-				packet = BytesIO()
-				c = canvas.Canvas(packet, pagesize=A4)
+    endereco = os.path.join(CONFIG.template, "genes-por-efeito.pdf")
+    template = PdfReader(open(endereco, "rb"), strict=False)
+    template_page = template.pages[0]
 
-			posx = switch_column(column)
-			posy = 692
-			count = draw_genes(c, risk_group[rep:rep + 22], title, style, gene_style, column)
-			column += 1
-			rep += count
+    packet = BytesIO()
+    c = canvas.Canvas(packet, pagesize=A4)
+    column = 0
+    style = CONFIG.styles["ancestralidade.gene"]
 
-	c.save()
-	inpdf = PdfReader(packet)
-	for pageidx in range(len(template.pages)):
-		pagina: PageObject = template.pages[pageidx]
-		pagina.merge_page(inpdf.pages[pageidx])
-	outpdf.add_page(pagina)
-	print("Sumário de Genes gerado\n")
+    for risk_group, title, gene_style in [
+        (high_risk, "ALTO RISCO", CONFIG.styles["ancestralidade.text-red"]),
+        (medium_risk, "MÉDIO RISCO", CONFIG.styles["ancestralidade.text-yellow"]),
+        (low_risk, "BAIXO RISCO", CONFIG.styles["ancestralidade.text-green"]),
+        (no_effect, "SEM EFEITO", CONFIG.styles["ancestralidade.text-grey"])
+    ]:
+        rep = 0
+        while rep < len(risk_group):
+            if column == 3:
+                column = 0
+                c.save()
+                inpdf = PdfReader(packet)
+                pagina = PageObject.create_blank_page(width=A4[0], height=A4[1])
+                pagina.merge_page(template_page)
+                pagina.merge_page(inpdf.pages[0])
+                outpdf.add_page(pagina)
+                packet = BytesIO()
+                c = canvas.Canvas(packet, pagesize=A4)
+
+            count = draw_genes(c, risk_group[rep:rep + 22], title, style, gene_style, column)
+            column += 1
+            rep += count
+
+    c.save()
+    inpdf = PdfReader(packet)
+    pagina = PageObject.create_blank_page(width=A4[0], height=A4[1])
+    pagina.merge_page(template_page)
+    pagina.merge_page(inpdf.pages[0])
+    outpdf.add_page(pagina)
+    print("Sumário de genes gerado com sucesso\n")

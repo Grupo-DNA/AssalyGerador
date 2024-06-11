@@ -2389,10 +2389,10 @@ Artrite reumatoide	STAT4	rs7574865	TT	2
 Artrite reumatoide	STAT4	rs7574865	TG	1
 Artrite reumatoide	STAT4	rs7574865	GT	1
 Artrite reumatoide	STAT4	rs7574865	GG	0
-Artrite reumatoide	CD28,CTLA4	rs1980422	CC	2
-Artrite reumatoide	CD28,CTLA4	rs1980422	CT	1
-Artrite reumatoide	CD28,CTLA4	rs1980422	TC	1
-Artrite reumatoide	CD28,CTLA4	rs1980422	TT	0
+Artrite reumatoide	CTLA4	rs1980422	CC	2
+Artrite reumatoide	CTLA4	rs1980422	CT	1
+Artrite reumatoide	CTLA4	rs1980422	TC	1
+Artrite reumatoide	CTLA4	rs1980422	TT	0
 Artrite reumatoide	DNASE1L3	rs35677470	AA	2
 Artrite reumatoide	DNASE1L3	rs35677470	AG	1
 Artrite reumatoide	DNASE1L3	rs35677470	GA	1

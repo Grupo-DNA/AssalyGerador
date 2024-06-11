@@ -108,7 +108,6 @@ def constructor_path(loader, node):
        pathb: /full/path/to/root/b}
     }
     """
-    
     seq = loader.construct_sequence(node)
     out_seq: list[str] = []
     for i in seq:  # this might deal with yaml shenanigans that I've not seen yet

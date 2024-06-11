@@ -69,54 +69,33 @@ def get_file_delimiter(filepath: str, encoding: str = None):
         return by_order[0]
 
 def read_SNPs(ID):
-    print("Lendo dados brutos...\n")
-    
-    # Endereço do arquivo SNPs.txt
-    snps_file_path = os.path.join("../Controller", "DataFiles", "Files", "SNPs.txt")
-    print(snps_file_path)
-    
-    # Lendo SNPs
-    snp_list = []
-    with open(snps_file_path, "r") as file:
-        for line in file:
-            line = line.strip()
-            snp_list.append(line)
-    
-    # Determinando o caminho do arquivo bruto
-    raw_data_path = os.path.join("../Controller", "DataFiles", "Brutos", f"{ID}.txt")
-    if not os.path.exists(raw_data_path):
-        raw_data_path = os.path.join("Brutos", f"{ID}_23andMe.txt")
-    if not os.path.exists(raw_data_path):
-        print(f"Dado Bruto {ID} não encontrado.")
-        return -1
-    
-    # Lendo o arquivo bruto
-    encoding = get_file_encoding(raw_data_path)
-    delimiter = get_file_delimiter(raw_data_path, encoding=encoding)
-    with open(raw_data_path, "r", encoding=encoding) as file:
-        raw_data_lines = file.readlines()
-    
-    # Determinando o callback apropriado
-    callback = get_callback_fromline(raw_data_lines[0], delimiter)
-    
-    # Criando um dicionário de genótipos a partir do arquivo bruto
-    genotype_dict = {}
-    for line in raw_data_lines:
-        if not line.strip() or line.startswith("#") or not re.match(r'rs\d+', line):
-            continue
-        rsid, a1, a2 = callback(line, delimiter)
-        if rsid:
-            genotype_dict[rsid] = f"{a1}{a2}"
-    
-    # Atualizando a lista de SNPs com genótipos lidos do arquivo bruto
-    for i in range(len(snp_list)):
-        snp_fields = snp_list[i].split("\t")
-        rsid = snp_fields[0]
-        if rsid in genotype_dict:
-            genotype = genotype_dict[rsid]
-            snp_list[i] = f"{rsid}\t{genotype}\t{snp_fields[2]}\t{snp_fields[3]}"
-        else:
-            snp_list[i] = f"{rsid}\t--\t{snp_fields[2]}\t{snp_fields[3]}"
-    
-    print("Dados brutos lidos\n")
-    return snp_list
+	print("Lendo dados brutos...\n")
+	endereco = os.path.join("../Controller", "DataFiles", "Files", "SNPs.txt")
+	snp = []
+	with open(endereco, "r") as file:
+		reading = file.readlines()
+		for line in reading:
+			line = line.replace("\n", "")
+			snp.append(line)
+	endereco = os.path.join("../Controller", "DataFiles", "Brutos", f"{ID}.txt")
+	if os.path.exists(endereco) == False:
+		endereco = os.path.join("../Controller", "DataFiles", "Brutos", f"{ID}_23andMe.txt")
+	if os.path.exists(endereco) == False:
+		print(f"Dado Bruto {ID} não encontrado.")
+		return -1
+	with open(endereco, "r") as file:
+		reading = file.readlines()
+		for i in range(len(snp)):
+			check = 0
+			sp = snp[i].split("\t")
+			for line in reading:
+				line = line.replace("\n", "")
+				bruto = line.split("\t")
+				if sp[0] == bruto[0]:
+					snp[i] = sp[0]+"\t"+bruto[3]+"\t"+sp[2]+"\t"+sp[3]
+					check = 1
+					break
+			if check == 0:
+				snp[i] = sp[0]+"\t"+"--"+"\t"+sp[2]+"\t"+sp[3]
+	print("Dados brutos lidos\n")
+	return snp
