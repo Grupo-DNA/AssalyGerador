@@ -1492,8 +1492,7 @@ def descri_sinalizacao(outpdf,snp,dicio):
 	template = PdfReader(open(endereco, "rb"), strict=False)
 	packet = BytesIO()
 	c = canvas.Canvas(packet, pagesize=A4)
-	c.setFont("Helvetica-Bold", 10)
-	c.setFillColorRGB(0.2, 0.2, 0.2)
+	c.setFont("Helvetica", 12) 
 	found = 0
 	names = []
 	endereco = os.path.join("../Controller", "DataFiles", "Files", "Rotas.txt")
@@ -1821,7 +1820,7 @@ def descri_nutrientes(outpdf,snp,dicio):
 	template = PdfReader(open(endereco, "rb"), strict=False)
 	packet = BytesIO()
 	c = canvas.Canvas(packet, pagesize=A4)
-	c.setFont("Helvetica-Bold", 10)
+	c.setFont("Helvetica", 10)
 	c.setFillColorRGB(0.2, 0.2, 0.2)
 	found = 0
 	names = []

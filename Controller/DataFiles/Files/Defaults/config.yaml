@@ -96,7 +96,7 @@ styles:
       fontSize: 10
       textColor: !color D9D9D9
     text-regular:
-      fontName: Montserrat-Regular
+      fontName: Helvetica
       fontSize: 10
       textColor: !color 333333
       leading: 9

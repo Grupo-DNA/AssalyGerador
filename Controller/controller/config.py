@@ -199,7 +199,7 @@ class _Config:
         except:
             endereco = os.path.join("../Controller", "DataFiles", "Files", "Constants", "Fonts", "Montserrat-Black.ttf")
             print('Endereco buscado:',endereco)
-            pdfmetrics.registerFont(ttfonts.TTFont("Montserrat", endereco))
+            pdfmetrics.registerFont(ttfonts.TTFont("Montserrat-Black", endereco))
         
         try:
             pdfmetrics.registerFont(ttfonts.TTFont("Montserrat-Bold", "Montserrat-Bold.ttf"))
