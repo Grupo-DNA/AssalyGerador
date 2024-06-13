@@ -13,6 +13,10 @@ from Controller.report.base import Paciente
 from reportlab.lib.colors import HexColor
 from time import sleep
 
+def isred(item,snp):
+	return find_color(item,snp) == 3
+
+
 def style(canv, name):
 	style = CONFIG.styles[name]
 	canv.setFont(style.fontName, style.fontSize)
@@ -241,8 +245,6 @@ def read_file(file_path):
 		return file.readlines()
 	
 def find_color(trait_name, snp_data):
-	print(snp_data)
-
 	print('Trait being processed:', trait_name)
 
 	lista_file_path = os.path.join("../Controller", "DataFiles", "Files", "Lista.txt")
@@ -318,11 +320,7 @@ def find_color(trait_name, snp_data):
 								effect = effects_dict[trait][snp_id][genotype]
 								total_effect += effect
 								max_possible_effect += 2
-								print(f'Match found: Trait: {trait}, SNP: {snp_id}, Genotype: {genotype}, Effect: {effect}, Total Effect: {total_effect}, Max Possible Effect: {max_possible_effect}')
-							else:
-								print(f'SNP {snp_id} with genotype {genotype} not found in effects_dict for trait {trait}')
-						else:
-							print(f'SNP {snp_id} not matched with SNP entry or genotype is "--"')
+						
 				else:
 					print(f'Line does not start with rs, ignoring: {fields[0]}')
 
@@ -401,6 +399,8 @@ def get_route_characteristics(name, routes_dict):
 		return [name]
 
 def make_rect_color(name, canv, posx, posy, snp, width):
+	if name == "Tendência a alterações cognitivas":
+		name ="Demência"
 	print('make rect color')
 	num=find_color(name,snp)
 	#Green
@@ -1459,7 +1459,7 @@ def laudo_salvar(outpdf, name):
 		outpdf.write(file)
 
 def make_descri_box(name, canv, snp, posy, height):
-	print('chamando descri box')
+	
 	canv.setStrokeColorRGB(0.56,0.75,0.82)
 	height += 47
 	canv.rect(27,posy-height+6,537,height, stroke=1, fill=0)
@@ -1488,6 +1488,7 @@ def make_descri_generic(names,c,snp,dicio):
 		posy -= posy_step+h-15
 
 def descri_sinalizacao(outpdf,snp,dicio):
+	
 	endereco = os.path.join(CONFIG.template, "descricao-sinalizacao.pdf")
 	template = PdfReader(open(endereco, "rb"), strict=False)
 	packet = BytesIO()
@@ -1504,6 +1505,10 @@ def descri_sinalizacao(outpdf,snp,dicio):
 				break
 			if found == 1:
 				names.append(item)
+
+				if isred(item,snp):
+					dicio[item]=f"Os seus resultados genéticos indicam uma predisposição aumentada para {item}. É importante lembrar que essa é apenas uma parte do quadro geral da sua saúde. Fatores como um estilo de vida saudável, suporte emocional adequado e estratégias de manejo de estresse podem ajudar significativamente a mitigar esse risco. {dicio[item]}"
+
 			if item == "Sinalização Celular":
 				found = 1
 	if len(names) > 7:
@@ -1547,9 +1552,13 @@ def descri_sistemico(outpdf,snp,dicio,sex):
 			if found == 1 and item == "":
 				break
 			if found == 1:
+				if isred(item,snp):
+					dicio[item]=f"Os seus resultados genéticos indicam uma predisposição aumentada para {item}. É importante lembrar que essa é apenas uma parte do quadro geral da sua saúde. Fatores como um estilo de vida saudável, suporte emocional adequado e estratégias de manejo de estresse podem ajudar significativamente a mitigar esse risco. {dicio[item]}"
+				
 				if item == 'Saúde Mamária' or item == 'Endometriose':
 					if 'm' in sex or 'M' in sex:
 						continue
+				
 				names.append(item)
 			if item == "Sistêmico":
 				found = 1
@@ -1609,7 +1618,18 @@ def descri_saudemental(outpdf,snp,dicio):
 			if found == 1 and item == "":
 				break
 			if found == 1:
+				if isred(item,snp):
+					if item == "Depressão":
+						item = "Risco aumentado á desregulação do humor"
+						dicio[item] =  dicio["Depressão"]
+
+					elif item == "Demência":
+						item = "Tendência a alterações cognitivas"
+						dicio[item] = dicio["Demência"]
 				names.append(item)
+				print(names)
+				dicio[item]=f"Os seus resultados genéticos indicam uma predisposição aumentada para {item}. É importante lembrar que essa é apenas uma parte do quadro geral da sua saúde. {dicio[item]}"
+			
 			if item == "Saúde Mental":
 				found = 1
 	if len(names) > 7:		
@@ -1700,6 +1720,8 @@ def descri_cardio(outpdf,snp,dicio):
 			if found == 1 and item == "":
 				break
 			if found == 1:
+				if isred(item,snp):
+					dicio[item]=f"Os seus resultados genéticos indicam uma predisposição aumentada para {item}. É importante lembrar que essa é apenas uma parte do quadro geral da sua saúde. Fatores como um estilo de vida saudável, suporte emocional adequado e estratégias de manejo de estresse podem ajudar significativamente a mitigar esse risco. {dicio[item]}"
 				names.append(item)
 			if item == "Saúde Cardiovascular":
 				found = 1
@@ -1745,6 +1767,8 @@ def descri_energia(outpdf,snp,dicio):
 				break
 			if found == 1:
 				names.append(item)
+				if isred(item,snp):
+					dicio[item]=f"Os seus resultados genéticos indicam uma predisposição aumentada para {item}. É importante lembrar que essa é apenas uma parte do quadro geral da sua saúde. Fatores como um estilo de vida saudável, suporte emocional adequado e estratégias de manejo de estresse podem ajudar significativamente a mitigar esse risco. {dicio[item]}"
 			if item == "Metabolismo":
 				found = 1
 	if len(names) > 7:
@@ -1789,6 +1813,9 @@ def descri_atividades(outpdf,snp,dicio):
 				break
 			if found == 1:
 				names.append(item)
+				print(names)
+				if isred(item,snp):
+					dicio[item]=f"Os seus resultados genéticos indicam uma predisposição aumentada para {item}. É importante lembrar que essa é apenas uma parte do quadro geral da sua saúde. Fatores como um estilo de vida saudável, suporte emocional adequado e estratégias de manejo de estresse podem ajudar significativamente a mitigar esse risco. {dicio[item]}"
 			if item == "Atividades Físicas":
 				found = 1
 	if len(names) > 7:
@@ -1833,6 +1860,8 @@ def descri_nutrientes(outpdf,snp,dicio):
 				break
 			if found == 1:
 				names.append(item)
+				if isred(item,snp):
+					dicio[item]=f"Os seus resultados genéticos indicam uma predisposição aumentada para {item}. É importante lembrar que essa é apenas uma parte do quadro geral da sua saúde. Fatores como um estilo de vida saudável, suporte emocional adequado e estratégias de manejo de estresse podem ajudar significativamente a mitigar esse risco. {dicio[item]}"
 			if item == "Nutrição":
 				found = 1
 	if len(names) > 7:

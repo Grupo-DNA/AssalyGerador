@@ -7,7 +7,6 @@ from googleapiclient.http import MediaIoBaseDownload
 from Controller.controller.logger import *
 from Controller.controller.logger import logger_str
 from datetime import datetime
-
 DNA_REGEX = re.compile(r"[ACTGD-]{2}")
 
 
