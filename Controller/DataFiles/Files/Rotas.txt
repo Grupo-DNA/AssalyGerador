@@ -1,4 +1,3 @@
-
 Nutrição
 Vitamina A
 Vitaminas do Complexo B
@@ -13,23 +12,22 @@ Metabolização de Cafeína
 
 Sistêmico
 Saúde Intestinal
-Amiloidose
+Saúde da Pele
 Capacidade Auditiva
 Longevidade
 Saúde Pulmonar
 Saúde Óssea
-Saúde da Pele
-Saúde dos Olhos
+Amiloidose
 Disfunções Hormonais
 Saúde Mamária
 Endometriose
 
 Atividades Físicas
-Danos e Lesões
-Colágeno e Articulações
-Adaptabilidade esportiva
 Desempenho em Esportes de Endurance
 Desempenho em Força e Potência
+Colágeno e Articulações
+Danos e Lesões
+Adaptabilidade Esportiva
 Elevação da Frequência Cardíaca
 
 Saúde Cardiovascular
@@ -38,9 +36,10 @@ Dislipidemias
 Pressão Arterial Sistêmica
 
 Saúde Mental
-Tdah
+TDAH
 Otimismo
-Medo Por Trauma
+Emoções e Comportamento
+Medo por Trauma
 Demência
 Raiva
 Estresse
@@ -52,11 +51,10 @@ Transtornos de Humor
 Memória e Atenção
 Canabinóides
 Comportamentos Adictos
-Emoções e Comportamento
 
 Doenças Crônicas
 Doença Celíaca
-Diabetes tipo 2
+Diabetes Tipo 2
 Fibromialgia
 Hemocromatose
 Síndrome Metabólica
@@ -64,13 +62,13 @@ Obesidade
 Psoríase
 
 Neuro
+Neuropatia Hereditária
+Doenças Neurodegenerativas
+Desempenho Motor
 Parkinson
 Esclerose
 Alzheimer
-Desempenho Motor
 Enxaqueca
-Neuropatia hereditaria
-Doenças Neurodegenerativas
 
 Metabolismo
 Deposição de Gordura
@@ -86,16 +84,15 @@ Imunidade
 Biogênese Mitocondrial
 
 Envelhecimento
-Capacidade antioxidante
-Disco invertebral
+Capacidade Antioxidante
+Disco Intervertebral
 Fotoenvelhecimento
 Osteoartrite
-Perda ossea
-Degeneracao macular
+Perda Óssea
+Degeneração Macular
 Catarata
-Artrite reumatoide
-Aging
-Envelhecimento epigenetico
+Artrite Reumatoide
+Envelhecimento
+Envelhecimento Epigenético
 Otosclerose
-Telomero
-
+Telômero

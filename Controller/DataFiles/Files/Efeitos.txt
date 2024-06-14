@@ -847,8 +847,8 @@ Elevação da Frequência Cardíaca	ACTN3	rs1815739	CC	0
 Elevação da Frequência Cardíaca	SNCAIP	rs4836027	TT	2
 Elevação da Frequência Cardíaca	SNCAIP	rs4836027	TC	1
 Elevação da Frequência Cardíaca	SNCAIP	rs4836027	CC	0
-Adaptabilidade esportiva	GSTP1	rs1695	AA	2
-Adaptabilidade esportiva	GSTP1	rs1695	AG	1
+Adaptabilidade Esportiva	GSTP1	rs1695	AA	2
+Adaptabilidade Esportiva	GSTP1	rs1695	AG	1
 Adaptabilidade espo
 
 rtiva	GSTP1	rs1695	GG	0
@@ -1237,7 +1237,7 @@ Danos e Lesões	CILP	rs2073711	GA	1
 Desempenho em Esportes de Endurance	ADRB3	rs4994	GA	1
 Elevação da Frequência Cardíaca	ACTN3	rs1815739	CT	1
 Elevação da Frequência Cardíaca	SNCAIP	rs4836027	CT	1
-Adaptabilidade esportiva	GSTP1	rs1695	GA	1
+Adaptabilidade Esportiva	GSTP1	rs1695	GA	1
 Desempenho em Força e Potência	ACE	rs4343	AG	1
 Desempenho em Força e Potência	VCAN	rs2287926	GA	1
 Vitamina A	BCMO1	rs6564851	TG	1
@@ -1909,10 +1909,10 @@ Ciclo Circadiano	CELF4	rs9950528	GG	2
 Ciclo Circadiano	CELF4	rs9950528	GA	1
 Ciclo Circadiano	CELF4	rs9950528	AG	1
 Ciclo Circadiano	CELF4	rs9950528	AA	0
-Tdah	DRD2	rs1800497	AA	2
-Tdah	DRD2	rs1800497	AG	1
-Tdah	DRD2	rs1800497	GA	1
-Tdah	DRD2	rs1800497	GG	0
+TDAH	DRD2	rs1800497	AA	2
+TDAH	DRD2	rs1800497	AG	1
+TDAH	DRD2	rs1800497	GA	1
+TDAH	DRD2	rs1800497	GG	0
 Raiva	FYN	rs2148710	TT	2
 Raiva	FYN	rs2148710	TC	1
 Raiva	FYN	rs2148710	CT	1
@@ -1921,10 +1921,10 @@ Otimismo	LINC01221	rs322931	AA	2
 Otimismo	LINC01221	rs322931	AG	1
 Otimismo	LINC01221	rs322931	GA	1
 Otimismo	LINC01221	rs322931	GG	0
-Medo Por Trauma	TSNARE1	rs2400707	AA	2
-Medo Por Trauma	TSNARE1	rs2400707	AG	1
-Medo Por Trauma	TSNARE1	rs2400707	GA	1
-Medo Por Trauma	TSNARE1	rs2400707	GG	0
+Medo por Trauma	TSNARE1	rs2400707	AA	2
+Medo por Trauma	TSNARE1	rs2400707	AG	1
+Medo por Trauma	TSNARE1	rs2400707	GA	1
+Medo por Trauma	TSNARE1	rs2400707	GG	0
 Demência	GBA	rs2230288	CC	2
 Demência	GBA	rs2230288	CT	1
 Demência	GBA	rs2230288	TC	1

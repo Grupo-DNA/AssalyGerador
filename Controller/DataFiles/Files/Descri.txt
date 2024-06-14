@@ -34,7 +34,7 @@ Insulina e Glicose	As variantes genéticas analisadas nesta rota são associadas
 Danos e Lesões	As variantes genéticas analisadas nesta rota são associadas ao maior ou menor risco de lesões tendinosas, danos musculares e capacidade de regeneração pós treino.
 Desempenho em Esportes de Endurance	As variantes genéticas analisadas nesta rota são associadas a ter um desempenho padrão ou menos adaptado a atividades de endurance/resistência.
 Elevação da Frequência Cardíaca	As variantes genéticas analisadas nesta rota são associadas a capacidade cronotrópica do indivíduo e consequente capacidade de adaptação a treinos de longa duração que demandam melhores níveis de VO2 máximo.
-Adaptabilidade esportiva	As variantes genéticas analisadas nesta rota são associadas a capacidade de adaptação fisiológica facilitada em resposta aos treinos realizados.
+Adaptabilidade Esportiva	As variantes genéticas analisadas nesta rota são associadas a capacidade de adaptação fisiológica facilitada em resposta aos treinos realizados.
 Desempenho em Força e Potência	As variantes genéticas analisadas nesta rota são associadas a fenótipos de melhor adaptação a atividades que envolvem força e potência.
 Colágeno e Articulações	As variantes genéticas analisadas nesta rota são associadas a doenças musculoesqueléticas, degeneração do disco invertebral, redução de líquido sinuvial e outras condições reumatoides.
 Vitamina A	As variantes genéticas analisadas nesta rota são associadas a absorção e metabolização de vitamina A.
@@ -56,9 +56,9 @@ Depressão	A etiologia da depressão é complexa, mas seu desenvolvimento está 
 Parkinson	As variantes analisadas nessa rota estão relacionadas aos processos de autofagia, biologia lisossômica e sobrevivência neuronal, desempenhando papel fundamental no risco de doença de Parkinson (PD).
 Alzheimer	Os polimorfismos de nucleotídeo único nesta rota genômica estão associados ao desenvolvimento da doença de Alzheimer de início tardio (LOAD) por meio de dados de estudos de associação em todo o genoma.
 Ansiedade	A ansiedade social é uma característica neurocomportamental que possui uma base hereditária, e se manifesta através do medo e da hesitação em contextos sociais.
-Tdah	Os marcadores genéticos associados ao TDAH (Transtorno de Déficit de Atenção e Hiperatividade) estão relacionados a variações na dopamina e em outros neurotransmissores, afetando a atenção, impulsividade e hiperatividade.
+TDAH	Os marcadores genéticos associados ao TDAH (Transtorno de Déficit de Atenção e Hiperatividade) estão relacionados a variações na dopamina e em outros neurotransmissores, afetando a atenção, impulsividade e hiperatividade.
 Otimismo	As variantes genéticas associadas ao otimismo estão relacionadas a mecanismos de neurotransmissão e regulação emocional, influenciando a predisposição a uma perspectiva positiva diante da vida.
-Medo Por Trauma	As variantes genéticas associadas ao medo por trauma estão relacionadas à resposta ao estresse pós-traumático e à regulação dos sistemas de medo e memória, influenciando a recuperação e resiliência após eventos traumáticos.
+Medo por Trauma	As variantes genéticas associadas ao Medo por Trauma estão relacionadas à resposta ao estresse pós-traumático e à regulação dos sistemas de medo e memória, influenciando a recuperação e resiliência após eventos traumáticos.
 Demência	As variantes genéticas associadas à demência estão relacionadas à degradação neuronal e aos processos de acumulação de proteínas beta-amiloides, influenciando a propensão ao desenvolvimento de condições como a doença de Alzheimer e outras demências.
 Raiva	As variantes genéticas associadas à raiva estão relacionadas à regulação dos neurotransmissores e às respostas ao estresse, influenciando a predisposição a comportamentos impulsivos e reações intensas de raiva.
 Estresse	As variantes genéticas associadas ao estresse estão relacionadas à resposta do eixo hipotálamo-hipófise-adrenal e à regulação hormonal, influenciando a maneira como o corpo lida com situações estressantes e a susceptibilidade a distúrbios relacionados ao estresse.

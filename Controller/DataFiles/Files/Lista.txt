@@ -432,13 +432,13 @@ rs11221332	ETS1
 rs12928822	PRM1
 rs4819388	ICOSLG
 
-Tdah
+TDAH
 rs1800497	DRD2
 
 Otimismo
 rs322931	LINC01221
 
-Medo Por Trauma
+Medo por Trauma
 rs2400707	TSNARE1
 
 Demência
@@ -581,7 +581,7 @@ rs2288774	NEDD4L
 rs4149601	NEDD4L
 rs6749447	STK39
 
-Adaptabilidade esportiva
+Adaptabilidade Esportiva
 rs1695	GSTP1
 
 Saúde Cardiovascular

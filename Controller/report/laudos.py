@@ -697,7 +697,7 @@ def find_impactful_blue(outpdf, canv, name, snp, x, y):
 	endereco = os.path.join("../Controller", "DataFiles", "Files", "Lista.txt")
 	end2 = os.path.join("../Controller", "DataFiles", "Files", "Efeitos.txt")
 	if name == "Movimento":
-		names = ["Danos e Lesões", "Desempenho em Esportes de Endurance", "Adaptabilidade esportiva", "Desempenho em Força e Potência", "Elevação da Frequência Cardíaca", "Colágeno e Articulações"]
+		names = ["Danos e Lesões", "Desempenho em Esportes de Endurance", "Adaptabilidade Esportiva", "Desempenho em Força e Potência", "Elevação da Frequência Cardíaca", "Colágeno e Articulações"]
 	elif name == "Neurológico":
 		names = ["Transtornos de Humor", "Enxaqueca", "Memória e Atenção", "Ciclo Circadiano", "Doenças Neurodegenerativas", "Canabinóides", "Desempenho Motor", "Comportamentos Adictos", "Emoções e Comportamento"]
 	elif name == "Cardiovascular":
@@ -1619,16 +1619,13 @@ def descri_saudemental(outpdf,snp,dicio):
 				break
 			if found == 1:
 				if isred(item,snp):
-					if item == "Depressão":
-						item = "Risco aumentado á desregulação do humor"
-						dicio[item] =  dicio["Depressão"]
-
-					elif item == "Demência":
-						item = "Tendência a alterações cognitivas"
+					if item == "Demência":
+						item = "Degeneração cognitiva"
 						dicio[item] = dicio["Demência"]
+					
 				names.append(item)
 				print(names)
-				dicio[item]=f"Os seus resultados genéticos indicam uma predisposição aumentada para {item}. É importante lembrar que essa é apenas uma parte do quadro geral da sua saúde. {dicio[item]}"
+				dicio[item]=f"Os seus resultados genéticos indicam uma predisposição aumentada para {item}. {dicio[item]}"
 			
 			if item == "Saúde Mental":
 				found = 1
