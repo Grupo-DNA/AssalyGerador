@@ -203,7 +203,7 @@ rs662799	APOA5
 rs1260326	GCKR
 rs4420638	APOC1
 
-Neuropatia hereditaria
+Neuropatia Hereditária
 rs137852972	BSCL2
 rs137852973	BSCL2
 rs587780564	DYNC1H1
@@ -276,7 +276,7 @@ rs855791	TMPRSS6
 Fibromialgia
 rs11127292	MYT1L
 
-Diabetes tipo 2
+Diabetes Tipo 2
 rs340874	PROX1
 rs780094	GCKR
 rs10203174	THADA
@@ -441,7 +441,7 @@ rs322931	LINC01221
 Medo por Trauma
 rs2400707	TSNARE1
 
-Demência
+Degeneração cognitiva
 rs2230288	GBA
 rs7680557	SNCA-AS1
 rs769449	APOE

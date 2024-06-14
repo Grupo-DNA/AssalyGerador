@@ -1,101 +1,132 @@
 import os
 import re
 from tqdm import tqdm
-from Controller.controller.auxiliar_functions import get_logger
-
+from Controller.controller.logger import get_logger
 DNA_REGEX = re.compile(r"[ACTGD-]{2}")
 
-def get_callback_fromline(line: str, delimiter: str):
-    """Retorna uma função de extração dos dados genotípicos,
-    baseada na formatação aparente dos mesmos."""
-    logger = get_logger()
+def get_file_encoding(filepath):
+    """Detects the encoding of the given file."""
+    for encoding in ('utf-8', 'latin-1'):
+        try:
+            with open(filepath, "r", encoding=encoding) as file:
+                file.read()
+            return encoding
+        except UnicodeDecodeError:
+            continue
+    raise Exception("Unable to determine file encoding.")
 
-    def callback1(value: str, delim: str):
-        # rsid, chrom, pos, genotype
-        parts = value.rstrip("\n").split(delim)
-        if len(parts) < 4:
+def get_file_delimiter(filepath, encoding=None):
+    """Detects the delimiter used in the given file."""
+    if encoding is None:
+        encoding = get_file_encoding(filepath)
+    with open(filepath, "r", encoding=encoding) as file:
+        first_line = file.readline().strip()
+        if "\t" in first_line:
+            return "\t"
+        elif "," in first_line:
+            return ","
+        elif ";" in first_line:
+            return ";"
+    raise Exception("Unable to determine file delimiter.")
+
+def get_callback_fromline(line, delimiter):
+    """Returns a callback function to extract genotype data based on the apparent format."""
+    def callback1(value, delim):
+        rsid, _, (a1, a2) = value.rstrip("\n").split(delim)
+        if rsid == ".":
             return None, None, None
-        rsid, chrom, pos, alleles = parts
-        if rsid == "." or len(alleles) != 2:
+        return rsid, a1, a2
+
+    def callback2(value, delim):
+        rsid, chrom, _, alleles = value.rstrip("\n").split(delim)
+        a1 = alleles[0] if len(alleles) > 0 else None
+        a2 = alleles[1] if len(alleles) == 2 else None
+        if rsid == "." or len(alleles) > 2:
             return None, None, None
-        a1 = alleles[0]
-        a2 = alleles[1]
+        if a2 is None and chrom in ["MT", "X", "Y"]:
+            a2 = "-"
+        return rsid, a1, a2
+
+    def callback3(value, delim):
+        rsid, _, a1, a2, _ = value.rstrip("\n").split(delim)
+        if rsid == ".":
+            return None, None, None
+        return rsid, a1, a2
+
+    def callback4(value, delim):
+        rsid, _, _, a1, a2, _ = value.rstrip("\n").split(delim)
+        if rsid == ".":
+            return None, None, None
         return rsid, a1, a2
 
     splitted = line.rstrip("\n").split(delimiter)
-
-    # Assume the format is: rsid chrom pos genotype
-    if len(splitted) == 4:
+    if len(splitted) == 3 and len(splitted[-1]) == 2:
         return callback1
+    elif len(splitted) == 4 and len(splitted[-1]) == 2:
+        return callback2
+    elif len(splitted) == 5 and len(splitted[2]) == 1 and len(splitted[3]) == 1:
+        return callback3
+    elif len(splitted) == 6 and len(splitted[3]) == 1 and len(splitted[4]) == 1:
+        return callback4
     else:
-        logger.error('Erro tipo 3 (dados brutos/normscore)\n\tDado bruto em formato inadequado')
-        raise Exception()
-
-def get_file_encoding(filepath: str):
-    """Chooses a possible encoding for .csv files
-    Only between UTF-8 and Latin-1 (ISO 8859-1)
-    Args:
-        filepath (str): .csv filepath.
-    Returns:
-        str: Encoding found.
-    """
-    logger = get_logger()
-    for encoding in ('utf-8', 'latin-1'):
-        try:
-            with open(filepath, "r", newline="", encoding=encoding) as handle:
-                handle.read()
-            return encoding
-        except UnicodeDecodeError:
-            pass
-    logger.error('Erro tipo 3 (dados brutos/normscore)\n\tDado bruto em formato inadequado (incapaz de determinar o encoding)')
-    raise Exception()
-
-def get_file_delimiter(filepath: str, encoding: str = None):
-    """Guess .csv file delimiter.
-    Args:
-        filepath (PathLike): .csv filepath.
-        encoding (str, Optional): .csv file encoding. Defaults to None.
-    Returns:
-        str: Delimiter chosen between "\\t", "," and ";".
-    """
-    if encoding is None:
-        encoding = get_file_encoding(filepath)
-    delims = ["\t", ",", ";"]
-    with open(filepath, "r", newline="", encoding=encoding) as handle:
-        sniffer = handle.readline().rstrip("\n")
-        by_order = sorted(
-            delims, key=sniffer.count,
-            reverse=True)
-        return by_order[0]
+        raise Exception("Unexpected data format")
 
 def read_SNPs(ID):
-	print("Lendo dados brutos...\n")
-	endereco = os.path.join("../Controller", "DataFiles", "Files", "SNPs.txt")
-	snp = []
-	with open(endereco, "r") as file:
-		reading = file.readlines()
-		for line in reading:
-			line = line.replace("\n", "")
-			snp.append(line)
-	endereco = os.path.join("../Controller", "DataFiles", "Brutos", f"{ID}.txt")
-	if os.path.exists(endereco) == False:
-		endereco = os.path.join("../Controller", "DataFiles", "Brutos", f"{ID}_23andMe.txt")
-	if os.path.exists(endereco) == False:
-		print(f"Dado Bruto {ID} não encontrado.")
-		return -1
-	with open(endereco, "r") as file:
-		reading = file.readlines()
-		for i in range(len(snp)):
-			check = 0
-			sp = snp[i].split("\t")
-			for line in reading:
-				line = line.replace("\n", "")
-				bruto = line.split("\t")
-				if sp[0] == bruto[0]:
-					snp[i] = sp[0]+"\t"+bruto[3]+"\t"+sp[2]+"\t"+sp[3]
-					check = 1
-					break
-			if check == 0:
-				snp[i] = sp[0]+"\t"+"--"+"\t"+sp[2]+"\t"+sp[3]
-	print("Dados brutos lidos\n")
-	return snp
+    print("Lendo dados brutos...\n")
+    snp_path = os.path.join("../Controller", "DataFiles", "Files", "SNPs.txt")
+    snp = []
+
+    # Read SNPs file
+    with open(snp_path, "r") as file:
+        snp = [line.strip() for line in file.readlines()]
+
+    # Identify the correct raw data file
+    raw_data_path = os.path.join("../Controller", "DataFiles", "Brutos", f"{ID}.txt")
+    if not os.path.exists(raw_data_path):
+        raw_data_path = os.path.join("../Controller", "DataFiles", "Brutos", f"{ID}_23andMe.txt")
+    if not os.path.exists(raw_data_path):
+        print(f"Dado Bruto {ID} não encontrado.")
+        return -1
+
+    # Get file encoding and delimiter
+    encoding = get_file_encoding(raw_data_path)
+    delimiter = get_file_delimiter(raw_data_path, encoding)
+
+    # Initialize the progress bar
+    total_lines = sum(1 for _ in open(raw_data_path, encoding=encoding))
+    progress_bar = tqdm(total=total_lines, desc="Processing raw data")
+
+    alelos_dict = {}
+
+    with open(raw_data_path, encoding=encoding) as file:
+        # Skip header
+        for line in file:
+            if re.match(r'rs\d+', line):
+                callback = get_callback_fromline(line, delimiter)
+                break
+            progress_bar.update(1)
+
+        # Read and process the file line by line
+        for line in file:
+            if not line.strip() or line.startswith("#") or not re.match(r'rs\d+', line):
+                continue
+            rsid, a1, a2 = callback(line, delimiter)
+            if a1 not in ["A", "T", "C", "G", "D", "I"] or a2 not in ["A", "T", "C", "G", "D", "I"]:
+                a1 = "-"
+                a2 = "-"
+            alelos_dict[rsid] = f"{a1}{a2}"
+            progress_bar.update(1)
+
+    progress_bar.close()
+
+    # Update SNP list with data from raw file
+    for i in range(len(snp)):
+        sp = snp[i].split("\t")
+        rsid = sp[0]
+        if rsid in alelos_dict:
+            snp[i] = f"{rsid}\t{alelos_dict[rsid]}\t{sp[2]}\t{sp[3]}"
+        else:
+            snp[i] = f"{rsid}\t--\t{sp[2]}\t{sp[3]}"
+
+    print("Dados brutos lidos\n")
+    return snp

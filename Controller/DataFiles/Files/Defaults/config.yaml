@@ -16,7 +16,7 @@ styles:
       fontSize: 18
       textColor: !color 333333
     gene:
-      fontName: Montserrat-Regular
+      fontName: Helvetica
       fontSize: 8
       textColor: !color 333333
     visao-geral:
@@ -64,15 +64,15 @@ styles:
       fontSize: 10
       textColor: !color 333333
     rect-green:
-      fontName: Montserrat-Bold
+      fontName: Helvetica-Bold
       fontSize: 10
       textColor: !color 9AC68C
     rect-yellow:
-      fontName: Montserrat-Bold
+      fontName: Helvetica-Bold
       fontSize: 10
       textColor: !color F8C26E
     rect-red:
-      fontName: Montserrat-Bold
+      fontName: Helvetica-Bold
       fontSize: 10
       textColor: !color EB6363
     rect-grey:
@@ -80,19 +80,19 @@ styles:
       fontSize: 10
       textColor: !color D9D9D9
     text-green:
-      fontName: Montserrat-Regular
+      fontName: Helvetica-Bold
       fontSize: 10
       textColor: !color 9AC68C
     text-yellow:
-      fontName: Montserrat-Regular
+      fontName: Helvetica-Bold
       fontSize: 10
       textColor: !color F8C26E
     text-red:
-      fontName: Montserrat-Regular
+      fontName: Helvetica-Bold
       fontSize: 10
       textColor: !color EB6363
     text-grey:
-      fontName: Montserrat-Regular
+      fontName: Helvetica-Bold
       fontSize: 10
       textColor: !color D9D9D9
     text-regular:

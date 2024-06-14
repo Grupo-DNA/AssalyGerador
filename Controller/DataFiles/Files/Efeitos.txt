@@ -849,9 +849,7 @@ Elevação da Frequência Cardíaca	SNCAIP	rs4836027	TC	1
 Elevação da Frequência Cardíaca	SNCAIP	rs4836027	CC	0
 Adaptabilidade Esportiva	GSTP1	rs1695	AA	2
 Adaptabilidade Esportiva	GSTP1	rs1695	AG	1
-Adaptabilidade espo
-
-rtiva	GSTP1	rs1695	GG	0
+Adaptabilidade esportiva	GSTP1	rs1695	GG	0
 Desempenho em Força e Potência	ACE	rs4343	GG	2
 Desempenho em Força e Potência	ACE	rs4343	GA	1
 Desempenho em Força e Potência	ACE	rs4343	AA	0
@@ -1925,134 +1923,134 @@ Medo por Trauma	TSNARE1	rs2400707	AA	2
 Medo por Trauma	TSNARE1	rs2400707	AG	1
 Medo por Trauma	TSNARE1	rs2400707	GA	1
 Medo por Trauma	TSNARE1	rs2400707	GG	0
-Demência	GBA	rs2230288	CC	2
-Demência	GBA	rs2230288	CT	1
-Demência	GBA	rs2230288	TC	1
-Demência	GBA	rs2230288	TT	0
-Demência	SNCA-AS1	rs7680557	CC	2
-Demência	SNCA-AS1	rs7680557	CA	1
-Demência	SNCA-AS1	rs7680557	AC	1
-Demência	SNCA-AS1	rs7680557	AA	0
-Demência	APOE	rs769449	GG	2
-Demência	APOE	rs769449	GA	1
-Demência	APOE	rs769449	AG	1
-Demência	APOE	rs769449	AA	0
-Neuropatia hereditaria	BSCL2	rs137852972	CC	2
-Neuropatia hereditaria	BSCL2	rs137852972	CT	1
-Neuropatia hereditaria	BSCL2	rs137852972	TC	1
-Neuropatia hereditaria	BSCL2	rs137852972	TT	0
-Neuropatia hereditaria	BSCL2	rs137852973	AA	2
-Neuropatia hereditaria	BSCL2	rs137852973	AG	1
-Neuropatia hereditaria	BSCL2	rs137852973	GA	1
-Neuropatia hereditaria	BSCL2	rs137852973	GG	0
-Neuropatia hereditaria	DYNC1H1	rs587780564	TT	2
-Neuropatia hereditaria	DYNC1H1	rs587780564	TC	1
-Neuropatia hereditaria	DYNC1H1	rs587780564	CT	1
-Neuropatia hereditaria	DYNC1H1	rs587780564	CC	0
-Neuropatia hereditaria	FIG4	rs121908287	CC	2
-Neuropatia hereditaria	FIG4	rs121908287	CT	1
-Neuropatia hereditaria	FIG4	rs121908287	TC	1
-Neuropatia hereditaria	FIG4	rs121908287	TT	0
-Neuropatia hereditaria	GDAP1	rs104894078	TT	2
-Neuropatia hereditaria	GDAP1	rs104894078	TC	1
-Neuropatia hereditaria	GDAP1	rs104894078	CT	1
-Neuropatia hereditaria	GDAP1	rs104894078	CC	0
-Neuropatia hereditaria	GDAP1	rs397515442	GG	2
-Neuropatia hereditaria	GDAP1	rs397515442	GA	1
-Neuropatia hereditaria	GDAP1	rs397515442	AG	1
-Neuropatia hereditaria	GDAP1	rs397515442	AA	0
-Neuropatia hereditaria	GDAP1	rs28937906	TT	2
-Neuropatia hereditaria	GDAP1	rs28937906	TC	1
-Neuropatia hereditaria	GDAP1	rs28937906	CT	1
-Neuropatia hereditaria	GDAP1	rs28937906	CC	0
-Neuropatia hereditaria	GJB1	rs104894812	AA	2
-Neuropatia hereditaria	GJB1	rs104894812	AG	1
-Neuropatia hereditaria	GJB1	rs104894812	GA	1
-Neuropatia hereditaria	GJB1	rs104894812	GG	0
-Neuropatia hereditaria	IGHMBP2	rs780594709	TT	2
-Neuropatia hereditaria	IGHMBP2	rs780594709	TC	1
-Neuropatia hereditaria	IGHMBP2	rs780594709	CT	1
-Neuropatia hereditaria	IGHMBP2	rs780594709	CC	0
-Neuropatia hereditaria	IGHMBP2	rs137852667	AA	2
-Neuropatia hereditaria	IGHMBP2	rs137852667	AG	1
-Neuropatia hereditaria	IGHMBP2	rs137852667	GA	1
-Neuropatia hereditaria	IGHMBP2	rs137852667	GG	0
-Neuropatia hereditaria	LITAF	rs104894519	TT	2
-Neuropatia hereditaria	LITAF	rs104894519	TC	1
-Neuropatia hereditaria	LITAF	rs104894519	CT	1
-Neuropatia hereditaria	LITAF	rs104894519	CC	0
-Neuropatia hereditaria	MED25	rs145770066	TT	2
-Neuropatia hereditaria	MED25	rs145770066	TC	1
-Neuropatia hereditaria	MED25	rs145770066	CT	1
-Neuropatia hereditaria	MED25	rs145770066	CC	0
-Neuropatia hereditaria	MFN2	rs119103263	TT	2
-Neuropatia hereditaria	MFN2	rs119103263	TC	1
-Neuropatia hereditaria	MFN2	rs119103263	CT	1
-Neuropatia hereditaria	MFN2	rs119103263	CC	0
-Neuropatia hereditaria	MFN2	rs863224967	GG	2
-Neuropatia hereditaria	MFN2	rs863224967	GA	1
-Neuropatia hereditaria	MFN2	rs863224967	AG	1
-Neuropatia hereditaria	MFN2	rs863224967	AA	0
-Neuropatia hereditaria	MFN2	rs138382758	AA	2
-Neuropatia hereditaria	MFN2	rs138382758	AG	1
-Neuropatia hereditaria	MFN2	rs138382758	GA	1
-Neuropatia hereditaria	MFN2	rs138382758	GG	0
-Neuropatia hereditaria	MFN2	rs119103267	TT	2
-Neuropatia hereditaria	MFN2	rs119103267	TC	1
-Neuropatia hereditaria	MFN2	rs119103267	CT	1
-Neuropatia hereditaria	MFN2	rs119103267	CC	0
-Neuropatia hereditaria	MPZ	rs121913601	AA	2
-Neuropatia hereditaria	MPZ	rs121913601	AG	1
-Neuropatia hereditaria	MPZ	rs121913601	GA	1
-Neuropatia hereditaria	MPZ	rs121913601	GG	0
-Neuropatia hereditaria	MPZ	rs281865128	GG	2
-Neuropatia hereditaria	MPZ	rs281865128	GC	1
-Neuropatia hereditaria	MPZ	rs281865128	CG	1
-Neuropatia hereditaria	MPZ	rs281865128	CC	0
-Neuropatia hereditaria	MPZ	rs121913586	GG	2
-Neuropatia hereditaria	MPZ	rs121913586	GC	1
-Neuropatia hereditaria	MPZ	rs121913586	CG	1
-Neuropatia hereditaria	MPZ	rs121913586	CC	0
-Neuropatia hereditaria	NEFL	rs58982919	CC	2
-Neuropatia hereditaria	NEFL	rs58982919	CT	1
-Neuropatia hereditaria	NEFL	rs58982919	TC	1
-Neuropatia hereditaria	NEFL	rs58982919	TT	0
-Neuropatia hereditaria	NEFL	rs62636503	TT	2
-Neuropatia hereditaria	NEFL	rs62636503	TC	1
-Neuropatia hereditaria	NEFL	rs62636503	CT	1
-Neuropatia hereditaria	NEFL	rs62636503	CC	0
-Neuropatia hereditaria	PMP22	rs104894619	AA	2
-Neuropatia hereditaria	PMP22	rs104894619	AG	1
-Neuropatia hereditaria	PMP22	rs104894619	GA	1
-Neuropatia hereditaria	PMP22	rs104894619	GG	0
-Neuropatia hereditaria	REEP1	rs189652973	TT	2
-Neuropatia hereditaria	REEP1	rs189652973	TC	1
-Neuropatia hereditaria	REEP1	rs189652973	CT	1
-Neuropatia hereditaria	REEP1	rs189652973	CC	0
-Neuropatia hereditaria	SCN9A	rs200945460	TT	2
-Neuropatia hereditaria	SCN9A	rs200945460	TA	1
-Neuropatia hereditaria	SCN9A	rs200945460	AT	1
-Neuropatia hereditaria	SCN9A	rs200945460	AA	0
-Neuropatia hereditaria	SH3TC2	rs80359890	GG	2
-Neuropatia hereditaria	SH3TC2	rs80359890	GA	1
-Neuropatia hereditaria	SH3TC2	rs80359890	AG	1
-Neuropatia hereditaria	SH3TC2	rs80359890	AA	0
-Neuropatia hereditaria	SH3TC2	rs80338931	AA	2
-Neuropatia hereditaria	SH3TC2	rs80338931	AG	1
-Neuropatia hereditaria	SH3TC2	rs80338931	GA	1
-Neuropatia hereditaria	SH3TC2	rs80338931	GG	0
-Neuropatia hereditaria	SH3TC2	rs80338933	AA	2
-Neuropatia hereditaria	SH3TC2	rs80338933	AG	1
-Neuropatia hereditaria	SH3TC2	rs80338933	GA	1
-Neuropatia hereditaria	SH3TC2	rs80338933	GG	0
-Neuropatia hereditaria	SH3TC2	rs80338934	AA	2
-Neuropatia hereditaria	SH3TC2	rs80338934	AG	1
-Neuropatia hereditaria	SH3TC2	rs80338934	GA	1
-Neuropatia hereditaria	SH3TC2	rs80338934	GG	0
-Neuropatia hereditaria	TRPV4	rs121912633	TT	2
-Neuropatia hereditaria	TRPV4	rs121912633	TC	1
-Neuropatia hereditaria	TRPV4	rs121912633	CT	1
-Neuropatia hereditaria	TRPV4	rs121912633	CC	0
+Degeneração cognitiva	GBA	rs2230288	CC	2
+Degeneração cognitiva	GBA	rs2230288	CT	1
+Degeneração cognitiva	GBA	rs2230288	TC	1
+Degeneração cognitiva	GBA	rs2230288	TT	0
+Degeneração cognitiva	SNCA-AS1	rs7680557	CC	2
+Degeneração cognitiva	SNCA-AS1	rs7680557	CA	1
+Degeneração cognitiva	SNCA-AS1	rs7680557	AC	1
+Degeneração cognitiva	SNCA-AS1	rs7680557	AA	0
+Degeneração cognitiva	APOE	rs769449	GG	2
+Degeneração cognitiva	APOE	rs769449	GA	1
+Degeneração cognitiva	APOE	rs769449	AG	1
+Degeneração cognitiva	APOE	rs769449	AA	0
+Neuropatia Hereditária	BSCL2	rs137852972	CC	2
+Neuropatia Hereditária	BSCL2	rs137852972	CT	1
+Neuropatia Hereditária	BSCL2	rs137852972	TC	1
+Neuropatia Hereditária	BSCL2	rs137852972	TT	0
+Neuropatia Hereditária	BSCL2	rs137852973	AA	2
+Neuropatia Hereditária	BSCL2	rs137852973	AG	1
+Neuropatia Hereditária	BSCL2	rs137852973	GA	1
+Neuropatia Hereditária	BSCL2	rs137852973	GG	0
+Neuropatia Hereditária	DYNC1H1	rs587780564	TT	2
+Neuropatia Hereditária	DYNC1H1	rs587780564	TC	1
+Neuropatia Hereditária	DYNC1H1	rs587780564	CT	1
+Neuropatia Hereditária	DYNC1H1	rs587780564	CC	0
+Neuropatia Hereditária	FIG4	rs121908287	CC	2
+Neuropatia Hereditária	FIG4	rs121908287	CT	1
+Neuropatia Hereditária	FIG4	rs121908287	TC	1
+Neuropatia Hereditária	FIG4	rs121908287	TT	0
+Neuropatia Hereditária	GDAP1	rs104894078	TT	2
+Neuropatia Hereditária	GDAP1	rs104894078	TC	1
+Neuropatia Hereditária	GDAP1	rs104894078	CT	1
+Neuropatia Hereditária	GDAP1	rs104894078	CC	0
+Neuropatia Hereditária	GDAP1	rs397515442	GG	2
+Neuropatia Hereditária	GDAP1	rs397515442	GA	1
+Neuropatia Hereditária	GDAP1	rs397515442	AG	1
+Neuropatia Hereditária	GDAP1	rs397515442	AA	0
+Neuropatia Hereditária	GDAP1	rs28937906	TT	2
+Neuropatia Hereditária	GDAP1	rs28937906	TC	1
+Neuropatia Hereditária	GDAP1	rs28937906	CT	1
+Neuropatia Hereditária	GDAP1	rs28937906	CC	0
+Neuropatia Hereditária	GJB1	rs104894812	AA	2
+Neuropatia Hereditária	GJB1	rs104894812	AG	1
+Neuropatia Hereditária	GJB1	rs104894812	GA	1
+Neuropatia Hereditária	GJB1	rs104894812	GG	0
+Neuropatia Hereditária	IGHMBP2	rs780594709	TT	2
+Neuropatia Hereditária	IGHMBP2	rs780594709	TC	1
+Neuropatia Hereditária	IGHMBP2	rs780594709	CT	1
+Neuropatia Hereditária	IGHMBP2	rs780594709	CC	0
+Neuropatia Hereditária	IGHMBP2	rs137852667	AA	2
+Neuropatia Hereditária	IGHMBP2	rs137852667	AG	1
+Neuropatia Hereditária	IGHMBP2	rs137852667	GA	1
+Neuropatia Hereditária	IGHMBP2	rs137852667	GG	0
+Neuropatia Hereditária	LITAF	rs104894519	TT	2
+Neuropatia Hereditária	LITAF	rs104894519	TC	1
+Neuropatia Hereditária	LITAF	rs104894519	CT	1
+Neuropatia Hereditária	LITAF	rs104894519	CC	0
+Neuropatia Hereditária	MED25	rs145770066	TT	2
+Neuropatia Hereditária	MED25	rs145770066	TC	1
+Neuropatia Hereditária	MED25	rs145770066	CT	1
+Neuropatia Hereditária	MED25	rs145770066	CC	0
+Neuropatia Hereditária	MFN2	rs119103263	TT	2
+Neuropatia Hereditária	MFN2	rs119103263	TC	1
+Neuropatia Hereditária	MFN2	rs119103263	CT	1
+Neuropatia Hereditária	MFN2	rs119103263	CC	0
+Neuropatia Hereditária	MFN2	rs863224967	GG	2
+Neuropatia Hereditária	MFN2	rs863224967	GA	1
+Neuropatia Hereditária	MFN2	rs863224967	AG	1
+Neuropatia Hereditária	MFN2	rs863224967	AA	0
+Neuropatia Hereditária	MFN2	rs138382758	AA	2
+Neuropatia Hereditária	MFN2	rs138382758	AG	1
+Neuropatia Hereditária	MFN2	rs138382758	GA	1
+Neuropatia Hereditária	MFN2	rs138382758	GG	0
+Neuropatia Hereditária	MFN2	rs119103267	TT	2
+Neuropatia Hereditária	MFN2	rs119103267	TC	1
+Neuropatia Hereditária	MFN2	rs119103267	CT	1
+Neuropatia Hereditária	MFN2	rs119103267	CC	0
+Neuropatia Hereditária	MPZ	rs121913601	AA	2
+Neuropatia Hereditária	MPZ	rs121913601	AG	1
+Neuropatia Hereditária	MPZ	rs121913601	GA	1
+Neuropatia Hereditária	MPZ	rs121913601	GG	0
+Neuropatia Hereditária	MPZ	rs281865128	GG	2
+Neuropatia Hereditária	MPZ	rs281865128	GC	1
+Neuropatia Hereditária	MPZ	rs281865128	CG	1
+Neuropatia Hereditária	MPZ	rs281865128	CC	0
+Neuropatia Hereditária	MPZ	rs121913586	GG	2
+Neuropatia Hereditária	MPZ	rs121913586	GC	1
+Neuropatia Hereditária	MPZ	rs121913586	CG	1
+Neuropatia Hereditária	MPZ	rs121913586	CC	0
+Neuropatia Hereditária	NEFL	rs58982919	CC	2
+Neuropatia Hereditária	NEFL	rs58982919	CT	1
+Neuropatia Hereditária	NEFL	rs58982919	TC	1
+Neuropatia Hereditária	NEFL	rs58982919	TT	0
+Neuropatia Hereditária	NEFL	rs62636503	TT	2
+Neuropatia Hereditária	NEFL	rs62636503	TC	1
+Neuropatia Hereditária	NEFL	rs62636503	CT	1
+Neuropatia Hereditária	NEFL	rs62636503	CC	0
+Neuropatia Hereditária	PMP22	rs104894619	AA	2
+Neuropatia Hereditária	PMP22	rs104894619	AG	1
+Neuropatia Hereditária	PMP22	rs104894619	GA	1
+Neuropatia Hereditária	PMP22	rs104894619	GG	0
+Neuropatia Hereditária	REEP1	rs189652973	TT	2
+Neuropatia Hereditária	REEP1	rs189652973	TC	1
+Neuropatia Hereditária	REEP1	rs189652973	CT	1
+Neuropatia Hereditária	REEP1	rs189652973	CC	0
+Neuropatia Hereditária	SCN9A	rs200945460	TT	2
+Neuropatia Hereditária	SCN9A	rs200945460	TA	1
+Neuropatia Hereditária	SCN9A	rs200945460	AT	1
+Neuropatia Hereditária	SCN9A	rs200945460	AA	0
+Neuropatia Hereditária	SH3TC2	rs80359890	GG	2
+Neuropatia Hereditária	SH3TC2	rs80359890	GA	1
+Neuropatia Hereditária	SH3TC2	rs80359890	AG	1
+Neuropatia Hereditária	SH3TC2	rs80359890	AA	0
+Neuropatia Hereditária	SH3TC2	rs80338931	AA	2
+Neuropatia Hereditária	SH3TC2	rs80338931	AG	1
+Neuropatia Hereditária	SH3TC2	rs80338931	GA	1
+Neuropatia Hereditária	SH3TC2	rs80338931	GG	0
+Neuropatia Hereditária	SH3TC2	rs80338933	AA	2
+Neuropatia Hereditária	SH3TC2	rs80338933	AG	1
+Neuropatia Hereditária	SH3TC2	rs80338933	GA	1
+Neuropatia Hereditária	SH3TC2	rs80338933	GG	0
+Neuropatia Hereditária	SH3TC2	rs80338934	AA	2
+Neuropatia Hereditária	SH3TC2	rs80338934	AG	1
+Neuropatia Hereditária	SH3TC2	rs80338934	GA	1
+Neuropatia Hereditária	SH3TC2	rs80338934	GG	0
+Neuropatia Hereditária	TRPV4	rs121912633	TT	2
+Neuropatia Hereditária	TRPV4	rs121912633	TC	1
+Neuropatia Hereditária	TRPV4	rs121912633	CT	1
+Neuropatia Hereditária	TRPV4	rs121912633	CC	0
 Enxaqueca	TRPM8	rs10166942	TT	2
 Enxaqueca	TRPM8	rs10166942	TC	1
 Enxaqueca	TRPM8	rs10166942	CT	1
@@ -2633,266 +2631,266 @@ Esteatose	TRIB1	rs2954038	CC	2
 Esteatose	TRIB1	rs2954038	CA	1
 Esteatose	TRIB1	rs2954038	AC	1
 Esteatose	TRIB1	rs2954038	AA	0
-Diabetes tipo 2	PROX1	rs340874	CC	2
-Diabetes tipo 2	PROX1	rs340874	CT	1
-Diabetes tipo 2	PROX1	rs340874	TC	1
-Diabetes tipo 2	PROX1	rs340874	TT	0
-Diabetes tipo 2	GCKR	rs780094	CC	2
-Diabetes tipo 2	GCKR	rs780094	CT	1
-Diabetes tipo 2	GCKR	rs780094	TC	1
-Diabetes tipo 2	GCKR	rs780094	TT	0
-Diabetes tipo 2	THADA	rs10203174	CC	2
-Diabetes tipo 2	THADA	rs10203174	CT	1
-Diabetes tipo 2	THADA	rs10203174	TC	1
-Diabetes tipo 2	THADA	rs10203174	TT	0
-Diabetes tipo 2	BCL11A	rs243088	TT	2
-Diabetes tipo 2	BCL11A	rs243088	TA	1
-Diabetes tipo 2	BCL11A	rs243088	AT	1
-Diabetes tipo 2	BCL11A	rs243088	AA	0
-Diabetes tipo 2	BCL11A	rs243021	AA	2
-Diabetes tipo 2	BCL11A	rs243021	AG	1
-Diabetes tipo 2	BCL11A	rs243021	GA	1
-Diabetes tipo 2	BCL11A	rs243021	GG	0
-Diabetes tipo 2	RBMS1	rs7593730	CC	2
-Diabetes tipo 2	RBMS1	rs7593730	CT	1
-Diabetes tipo 2	RBMS1	rs7593730	TC	1
-Diabetes tipo 2	RBMS1	rs7593730	TT	0
-Diabetes tipo 2	GRB14	rs13389219	CC	2
-Diabetes tipo 2	GRB14	rs13389219	CT	1
-Diabetes tipo 2	GRB14	rs13389219	TC	1
-Diabetes tipo 2	GRB14	rs13389219	TT	0
-Diabetes tipo 2	GRB14	rs3923113	AA	2
-Diabetes tipo 2	GRB14	rs3923113	AC	1
-Diabetes tipo 2	GRB14	rs3923113	CA	1
-Diabetes tipo 2	GRB14	rs3923113	CC	0
-Diabetes tipo 2	IRS1	rs2943640	CC	2
-Diabetes tipo 2	IRS1	rs2943640	CA	1
-Diabetes tipo 2	IRS1	rs2943640	AC	1
-Diabetes tipo 2	IRS1	rs2943640	AA	0
-Diabetes tipo 2	IRS1	rs7578326	AA	2
-Diabetes tipo 2	IRS1	rs7578326	AG	1
-Diabetes tipo 2	IRS1	rs7578326	GA	1
-Diabetes tipo 2	IRS1	rs7578326	GG	0
-Diabetes tipo 2	PPARG	rs1801282	CC	2
-Diabetes tipo 2	PPARG	rs1801282	CG	1
-Diabetes tipo 2	PPARG	rs1801282	GC	1
-Diabetes tipo 2	PPARG	rs1801282	GG	0
-Diabetes tipo 2	PPARG	rs13081389	AA	2
-Diabetes tipo 2	PPARG	rs13081389	AG	1
-Diabetes tipo 2	PPARG	rs13081389	GA	1
-Diabetes tipo 2	PPARG	rs13081389	GG	0
-Diabetes tipo 2	UBE2E2	rs1496653	AA	2
-Diabetes tipo 2	UBE2E2	rs1496653	AG	1
-Diabetes tipo 2	UBE2E2	rs1496653	GA	1
-Diabetes tipo 2	UBE2E2	rs1496653	GG	0
-Diabetes tipo 2	PSMD6	rs831571	CC	2
-Diabetes tipo 2	PSMD6	rs831571	CT	1
-Diabetes tipo 2	PSMD6	rs831571	TC	1
-Diabetes tipo 2	PSMD6	rs831571	TT	0
-Diabetes tipo 2	ADAMTS9	rs6795735	CC	2
-Diabetes tipo 2	ADAMTS9	rs6795735	CT	1
-Diabetes tipo 2	ADAMTS9	rs6795735	TC	1
-Diabetes tipo 2	ADAMTS9	rs6795735	TT	0
-Diabetes tipo 2	ADCY5	rs11717195	TT	2
-Diabetes tipo 2	ADCY5	rs11717195	TC	1
-Diabetes tipo 2	ADCY5	rs11717195	CT	1
-Diabetes tipo 2	ADCY5	rs11717195	CC	0
-Diabetes tipo 2	ADCY5	rs11708067	AA	2
-Diabetes tipo 2	ADCY5	rs11708067	AG	1
-Diabetes tipo 2	ADCY5	rs11708067	GA	1
-Diabetes tipo 2	ADCY5	rs11708067	GG	0
-Diabetes tipo 2	IGF2BP2	rs1470579	CC	2
-Diabetes tipo 2	IGF2BP2	rs1470579	CA	1
-Diabetes tipo 2	IGF2BP2	rs1470579	AC	1
-Diabetes tipo 2	IGF2BP2	rs1470579	AA	0
-Diabetes tipo 2	IGF2BP2	rs6769511	CC	2
-Diabetes tipo 2	IGF2BP2	rs6769511	CT	1
-Diabetes tipo 2	IGF2BP2	rs6769511	TC	1
-Diabetes tipo 2	IGF2BP2	rs6769511	TT	0
-Diabetes tipo 2	ST64GAL1	rs16861329	CC	2
-Diabetes tipo 2	ST64GAL1	rs16861329	CT	1
-Diabetes tipo 2	ST64GAL1	rs16861329	TC	1
-Diabetes tipo 2	ST64GAL1	rs16861329	TT	0
-Diabetes tipo 2	WFS1	rs4458523	GG	2
-Diabetes tipo 2	WFS1	rs4458523	GT	1
-Diabetes tipo 2	WFS1	rs4458523	TG	1
-Diabetes tipo 2	WFS1	rs4458523	TT	0
-Diabetes tipo 2	WFS1	rs1801214	TT	2
-Diabetes tipo 2	WFS1	rs1801214	TC	1
-Diabetes tipo 2	WFS1	rs1801214	CT	1
-Diabetes tipo 2	WFS1	rs1801214	CC	0
-Diabetes tipo 2	ANKRD55	rs459193	GG	2
-Diabetes tipo 2	ANKRD55	rs459193	GA	1
-Diabetes tipo 2	ANKRD55	rs459193	AG	1
-Diabetes tipo 2	ANKRD55	rs459193	AA	0
-Diabetes tipo 2	ZBED3	rs4457053	GG	2
-Diabetes tipo 2	ZBED3	rs4457053	GA	1
-Diabetes tipo 2	ZBED3	rs4457053	AG	1
-Diabetes tipo 2	ZBED3	rs4457053	AA	0
-Diabetes tipo 2	CDKAL1	rs7756992	GG	2
-Diabetes tipo 2	CDKAL1	rs7756992	GA	1
-Diabetes tipo 2	CDKAL1	rs7756992	AG	1
-Diabetes tipo 2	CDKAL1	rs7756992	AA	0
-Diabetes tipo 2	CDKAL1	rs10440833	AA	2
-Diabetes tipo 2	CDKAL1	rs10440833	AT	1
-Diabetes tipo 2	CDKAL1	rs10440833	TA	1
-Diabetes tipo 2	CDKAL1	rs10440833	TT	0
-Diabetes tipo 2	DGKB	rs17168486	TT	2
-Diabetes tipo 2	DGKB	rs17168486	TC	1
-Diabetes tipo 2	DGKB	rs17168486	CT	1
-Diabetes tipo 2	DGKB	rs17168486	CC	0
-Diabetes tipo 2	JAZF1	rs849135	GG	2
-Diabetes tipo 2	JAZF1	rs849135	GA	1
-Diabetes tipo 2	JAZF1	rs849135	AG	1
-Diabetes tipo 2	JAZF1	rs849135	AA	0
-Diabetes tipo 2	JAZF1	rs849134	AA	2
-Diabetes tipo 2	JAZF1	rs849134	AG	1
-Diabetes tipo 2	JAZF1	rs849134	GA	1
-Diabetes tipo 2	JAZF1	rs849134	GG	0
-Diabetes tipo 2	GCK	rs4607517	AA	2
-Diabetes tipo 2	GCK	rs4607517	AG	1
-Diabetes tipo 2	GCK	rs4607517	GA	1
-Diabetes tipo 2	GCK	rs4607517	GG	0
-Diabetes tipo 2	ANK1	rs516946	CC	2
-Diabetes tipo 2	ANK1	rs516946	CT	1
-Diabetes tipo 2	ANK1	rs516946	TC	1
-Diabetes tipo 2	ANK1	rs516946	TT	0
-Diabetes tipo 2	TP53INP1	rs7845219	TT	2
-Diabetes tipo 2	TP53INP1	rs7845219	TC	1
-Diabetes tipo 2	TP53INP1	rs7845219	CT	1
-Diabetes tipo 2	TP53INP1	rs7845219	CC	0
-Diabetes tipo 2	TP53INP1	rs896854	TT	2
-Diabetes tipo 2	TP53INP1	rs896854	TC	1
-Diabetes tipo 2	TP53INP1	rs896854	CT	1
-Diabetes tipo 2	TP53INP1	rs896854	CC	0
-Diabetes tipo 2	SLC30A8	rs3802177	GG	2
-Diabetes tipo 2	SLC30A8	rs3802177	GA	1
-Diabetes tipo 2	SLC30A8	rs3802177	AG	1
-Diabetes tipo 2	SLC30A8	rs3802177	AA	0
-Diabetes tipo 2	CDKN2A/B	rs10811661	TT	2
-Diabetes tipo 2	CDKN2A/B	rs10811661	TC	1
-Diabetes tipo 2	CDKN2A/B	rs10811661	CT	1
-Diabetes tipo 2	CDKN2A/B	rs10811661	CC	0
-Diabetes tipo 2	CDKN2A/B	rs10965250	GG	2
-Diabetes tipo 2	CDKN2A/B	rs10965250	GA	1
-Diabetes tipo 2	CDKN2A/B	rs10965250	AG	1
-Diabetes tipo 2	CDKN2A/B	rs10965250	AA	0
-Diabetes tipo 2	TLE4	rs17791513	AA	2
-Diabetes tipo 2	TLE4	rs17791513	AG	1
-Diabetes tipo 2	TLE4	rs17791513	GA	1
-Diabetes tipo 2	TLE4	rs17791513	GG	0
-Diabetes tipo 2	TLE4	rs13292136	CC	2
-Diabetes tipo 2	TLE4	rs13292136	CT	1
-Diabetes tipo 2	TLE4	rs13292136	TC	1
-Diabetes tipo 2	TLE4	rs13292136	TT	0
-Diabetes tipo 2	TLE1	rs2796441	GG	2
-Diabetes tipo 2	TLE1	rs2796441	GA	1
-Diabetes tipo 2	TLE1	rs2796441	AG	1
-Diabetes tipo 2	TLE1	rs2796441	AA	0
-Diabetes tipo 2	CDC123/CAMK1D	rs11257655	TT	2
-Diabetes tipo 2	CDC123/CAMK1D	rs11257655	TC	1
-Diabetes tipo 2	CDC123/CAMK1D	rs11257655	CT	1
-Diabetes tipo 2	CDC123/CAMK1D	rs11257655	CC	0
-Diabetes tipo 2	HHEX/IDE	rs5015480	CC	2
-Diabetes tipo 2	HHEX/IDE	rs5015480	CT	1
-Diabetes tipo 2	HHEX/IDE	rs5015480	TC	1
-Diabetes tipo 2	HHEX/IDE	rs5015480	TT	0
-Diabetes tipo 2	KCNQ1	rs163184	GG	2
-Diabetes tipo 2	KCNQ1	rs163184	GT	1
-Diabetes tipo 2	KCNQ1	rs163184	TG	1
-Diabetes tipo 2	KCNQ1	rs163184	TT	0
-Diabetes tipo 2	KCNQ1	rs231362	GG	2
-Diabetes tipo 2	KCNQ1	rs231362	GA	1
-Diabetes tipo 2	KCNQ1	rs231362	AG	1
-Diabetes tipo 2	KCNQ1	rs231362	AA	0
-Diabetes tipo 2	KCNJ11	rs5215	CC	2
-Diabetes tipo 2	KCNJ11	rs5215	CT	1
-Diabetes tipo 2	KCNJ11	rs5215	TC	1
-Diabetes tipo 2	KCNJ11	rs5215	TT	0
-Diabetes tipo 2	ARAP1/(CENTD2)	rs1552224	AA	2
-Diabetes tipo 2	ARAP1/(CENTD2)	rs1552224	AC	1
-Diabetes tipo 2	ARAP1/(CENTD2)	rs1552224	CA	1
-Diabetes tipo 2	ARAP1/(CENTD2)	rs1552224	CC	0
-Diabetes tipo 2	MTNR1B	rs10830963	GG	2
-Diabetes tipo 2	MTNR1B	rs10830963	GC	1
-Diabetes tipo 2	MTNR1B	rs10830963	CG	1
-Diabetes tipo 2	MTNR1B	rs10830963	CC	0
-Diabetes tipo 2	CCND2	rs11063069	GG	2
-Diabetes tipo 2	CCND2	rs11063069	GA	1
-Diabetes tipo 2	CCND2	rs11063069	AG	1
-Diabetes tipo 2	CCND2	rs11063069	AA	0
-Diabetes tipo 2	HMGA2	rs2261181	TT	2
-Diabetes tipo 2	HMGA2	rs2261181	TC	1
-Diabetes tipo 2	HMGA2	rs2261181	CT	1
-Diabetes tipo 2	HMGA2	rs2261181	CC	0
-Diabetes tipo 2	HMGA2	rs1531343	CC	2
-Diabetes tipo 2	HMGA2	rs1531343	CG	1
-Diabetes tipo 2	HMGA2	rs1531343	GC	1
-Diabetes tipo 2	HMGA2	rs1531343	GG	0
-Diabetes tipo 2	HMGA2	rs2612035	GG	2
-Diabetes tipo 2	HMGA2	rs2612035	GA	1
-Diabetes tipo 2	HMGA2	rs2612035	AG	1
-Diabetes tipo 2	HMGA2	rs2612035	AA	0
-Diabetes tipo 2	TSPAN8/LGR5	rs4760790	AA	2
-Diabetes tipo 2	TSPAN8/LGR5	rs4760790	AG	1
-Diabetes tipo 2	TSPAN8/LGR5	rs4760790	GA	1
-Diabetes tipo 2	TSPAN8/LGR5	rs4760790	GG	0
-Diabetes tipo 2	HNF1A/(TCF1)	rs12427353	GG	2
-Diabetes tipo 2	HNF1A/(TCF1)	rs12427353	GC	1
-Diabetes tipo 2	HNF1A/(TCF1)	rs12427353	CG	1
-Diabetes tipo 2	HNF1A/(TCF1)	rs12427353	CC	0
-Diabetes tipo 2	HNF1A/(TCF1)	rs7957197	TT	2
-Diabetes tipo 2	HNF1A/(TCF1)	rs7957197	TA	1
-Diabetes tipo 2	HNF1A/(TCF1)	rs7957197	AT	1
-Diabetes tipo 2	HNF1A/(TCF1)	rs7957197	AA	0
-Diabetes tipo 2	SPRY2	rs1359790	GG	2
-Diabetes tipo 2	SPRY2	rs1359790	GA	1
-Diabetes tipo 2	SPRY2	rs1359790	AG	1
-Diabetes tipo 2	SPRY2	rs1359790	AA	0
-Diabetes tipo 2	HMG20A	rs7178572	GG	2
-Diabetes tipo 2	HMG20A	rs7178572	GA	1
-Diabetes tipo 2	HMG20A	rs7178572	AG	1
-Diabetes tipo 2	HMG20A	rs7178572	AA	0
-Diabetes tipo 2	PRC1	rs12899811	GG	2
-Diabetes tipo 2	PRC1	rs12899811	GA	1
-Diabetes tipo 2	PRC1	rs12899811	AG	1
-Diabetes tipo 2	PRC1	rs12899811	AA	0
-Diabetes tipo 2	PRC1	rs8042680	AA	2
-Diabetes tipo 2	PRC1	rs8042680	AC	1
-Diabetes tipo 2	PRC1	rs8042680	CA	1
-Diabetes tipo 2	PRC1	rs8042680	CC	0
-Diabetes tipo 2	FTO	rs9936385	CC	2
-Diabetes tipo 2	FTO	rs9936385	CT	1
-Diabetes tipo 2	FTO	rs9936385	TC	1
-Diabetes tipo 2	FTO	rs9936385	TT	0
-Diabetes tipo 2	FTO	rs11642841	AA	2
-Diabetes tipo 2	FTO	rs11642841	AC	1
-Diabetes tipo 2	FTO	rs11642841	CA	1
-Diabetes tipo 2	FTO	rs11642841	CC	0
-Diabetes tipo 2	BCAR1	rs7202877	TT	2
-Diabetes tipo 2	BCAR1	rs7202877	TG	1
-Diabetes tipo 2	BCAR1	rs7202877	GT	1
-Diabetes tipo 2	BCAR1	rs7202877	GG	0
-Diabetes tipo 2	HNF1B/(TCF2)	rs4430796	GG	2
-Diabetes tipo 2	HNF1B/(TCF2)	rs4430796	GA	1
-Diabetes tipo 2	HNF1B/(TCF2)	rs4430796	AG	1
-Diabetes tipo 2	HNF1B/(TCF2)	rs4430796	AA	0
-Diabetes tipo 2	HNF1B/(TCF2)	rs11651755	CC	2
-Diabetes tipo 2	HNF1B/(TCF2)	rs11651755	CT	1
-Diabetes tipo 2	HNF1B/(TCF2)	rs11651755	TC	1
-Diabetes tipo 2	HNF1B/(TCF2)	rs11651755	TT	0
-Diabetes tipo 2	MC4R	rs12970134	AA	2
-Diabetes tipo 2	MC4R	rs12970134	AG	1
-Diabetes tipo 2	MC4R	rs12970134	GA	1
-Diabetes tipo 2	MC4R	rs12970134	GG	0
-Diabetes tipo 2	MC4R	rs11873305	AA	2
-Diabetes tipo 2	MC4R	rs11873305	AC	1
-Diabetes tipo 2	MC4R	rs11873305	CA	1
-Diabetes tipo 2	MC4R	rs11873305	CC	0
-Diabetes tipo 2	CILP2	rs10401969	CC	2
-Diabetes tipo 2	CILP2	rs10401969	CT	1
-Diabetes tipo 2	CILP2	rs10401969	TC	1
-Diabetes tipo 2	CILP2	rs10401969	TT	0
+Diabetes Tipo 2	PROX1	rs340874	CC	2
+Diabetes Tipo 2	PROX1	rs340874	CT	1
+Diabetes Tipo 2	PROX1	rs340874	TC	1
+Diabetes Tipo 2	PROX1	rs340874	TT	0
+Diabetes Tipo 2	GCKR	rs780094	CC	2
+Diabetes Tipo 2	GCKR	rs780094	CT	1
+Diabetes Tipo 2	GCKR	rs780094	TC	1
+Diabetes Tipo 2	GCKR	rs780094	TT	0
+Diabetes Tipo 2	THADA	rs10203174	CC	2
+Diabetes Tipo 2	THADA	rs10203174	CT	1
+Diabetes Tipo 2	THADA	rs10203174	TC	1
+Diabetes Tipo 2	THADA	rs10203174	TT	0
+Diabetes Tipo 2	BCL11A	rs243088	TT	2
+Diabetes Tipo 2	BCL11A	rs243088	TA	1
+Diabetes Tipo 2	BCL11A	rs243088	AT	1
+Diabetes Tipo 2	BCL11A	rs243088	AA	0
+Diabetes Tipo 2	BCL11A	rs243021	AA	2
+Diabetes Tipo 2	BCL11A	rs243021	AG	1
+Diabetes Tipo 2	BCL11A	rs243021	GA	1
+Diabetes Tipo 2	BCL11A	rs243021	GG	0
+Diabetes Tipo 2	RBMS1	rs7593730	CC	2
+Diabetes Tipo 2	RBMS1	rs7593730	CT	1
+Diabetes Tipo 2	RBMS1	rs7593730	TC	1
+Diabetes Tipo 2	RBMS1	rs7593730	TT	0
+Diabetes Tipo 2	GRB14	rs13389219	CC	2
+Diabetes Tipo 2	GRB14	rs13389219	CT	1
+Diabetes Tipo 2	GRB14	rs13389219	TC	1
+Diabetes Tipo 2	GRB14	rs13389219	TT	0
+Diabetes Tipo 2	GRB14	rs3923113	AA	2
+Diabetes Tipo 2	GRB14	rs3923113	AC	1
+Diabetes Tipo 2	GRB14	rs3923113	CA	1
+Diabetes Tipo 2	GRB14	rs3923113	CC	0
+Diabetes Tipo 2	IRS1	rs2943640	CC	2
+Diabetes Tipo 2	IRS1	rs2943640	CA	1
+Diabetes Tipo 2	IRS1	rs2943640	AC	1
+Diabetes Tipo 2	IRS1	rs2943640	AA	0
+Diabetes Tipo 2	IRS1	rs7578326	AA	2
+Diabetes Tipo 2	IRS1	rs7578326	AG	1
+Diabetes Tipo 2	IRS1	rs7578326	GA	1
+Diabetes Tipo 2	IRS1	rs7578326	GG	0
+Diabetes Tipo 2	PPARG	rs1801282	CC	2
+Diabetes Tipo 2	PPARG	rs1801282	CG	1
+Diabetes Tipo 2	PPARG	rs1801282	GC	1
+Diabetes Tipo 2	PPARG	rs1801282	GG	0
+Diabetes Tipo 2	PPARG	rs13081389	AA	2
+Diabetes Tipo 2	PPARG	rs13081389	AG	1
+Diabetes Tipo 2	PPARG	rs13081389	GA	1
+Diabetes Tipo 2	PPARG	rs13081389	GG	0
+Diabetes Tipo 2	UBE2E2	rs1496653	AA	2
+Diabetes Tipo 2	UBE2E2	rs1496653	AG	1
+Diabetes Tipo 2	UBE2E2	rs1496653	GA	1
+Diabetes Tipo 2	UBE2E2	rs1496653	GG	0
+Diabetes Tipo 2	PSMD6	rs831571	CC	2
+Diabetes Tipo 2	PSMD6	rs831571	CT	1
+Diabetes Tipo 2	PSMD6	rs831571	TC	1
+Diabetes Tipo 2	PSMD6	rs831571	TT	0
+Diabetes Tipo 2	ADAMTS9	rs6795735	CC	2
+Diabetes Tipo 2	ADAMTS9	rs6795735	CT	1
+Diabetes Tipo 2	ADAMTS9	rs6795735	TC	1
+Diabetes Tipo 2	ADAMTS9	rs6795735	TT	0
+Diabetes Tipo 2	ADCY5	rs11717195	TT	2
+Diabetes Tipo 2	ADCY5	rs11717195	TC	1
+Diabetes Tipo 2	ADCY5	rs11717195	CT	1
+Diabetes Tipo 2	ADCY5	rs11717195	CC	0
+Diabetes Tipo 2	ADCY5	rs11708067	AA	2
+Diabetes Tipo 2	ADCY5	rs11708067	AG	1
+Diabetes Tipo 2	ADCY5	rs11708067	GA	1
+Diabetes Tipo 2	ADCY5	rs11708067	GG	0
+Diabetes Tipo 2	IGF2BP2	rs1470579	CC	2
+Diabetes Tipo 2	IGF2BP2	rs1470579	CA	1
+Diabetes Tipo 2	IGF2BP2	rs1470579	AC	1
+Diabetes Tipo 2	IGF2BP2	rs1470579	AA	0
+Diabetes Tipo 2	IGF2BP2	rs6769511	CC	2
+Diabetes Tipo 2	IGF2BP2	rs6769511	CT	1
+Diabetes Tipo 2	IGF2BP2	rs6769511	TC	1
+Diabetes Tipo 2	IGF2BP2	rs6769511	TT	0
+Diabetes Tipo 2	ST64GAL1	rs16861329	CC	2
+Diabetes Tipo 2	ST64GAL1	rs16861329	CT	1
+Diabetes Tipo 2	ST64GAL1	rs16861329	TC	1
+Diabetes Tipo 2	ST64GAL1	rs16861329	TT	0
+Diabetes Tipo 2	WFS1	rs4458523	GG	2
+Diabetes Tipo 2	WFS1	rs4458523	GT	1
+Diabetes Tipo 2	WFS1	rs4458523	TG	1
+Diabetes Tipo 2	WFS1	rs4458523	TT	0
+Diabetes Tipo 2	WFS1	rs1801214	TT	2
+Diabetes Tipo 2	WFS1	rs1801214	TC	1
+Diabetes Tipo 2	WFS1	rs1801214	CT	1
+Diabetes Tipo 2	WFS1	rs1801214	CC	0
+Diabetes Tipo 2	ANKRD55	rs459193	GG	2
+Diabetes Tipo 2	ANKRD55	rs459193	GA	1
+Diabetes Tipo 2	ANKRD55	rs459193	AG	1
+Diabetes Tipo 2	ANKRD55	rs459193	AA	0
+Diabetes Tipo 2	ZBED3	rs4457053	GG	2
+Diabetes Tipo 2	ZBED3	rs4457053	GA	1
+Diabetes Tipo 2	ZBED3	rs4457053	AG	1
+Diabetes Tipo 2	ZBED3	rs4457053	AA	0
+Diabetes Tipo 2	CDKAL1	rs7756992	GG	2
+Diabetes Tipo 2	CDKAL1	rs7756992	GA	1
+Diabetes Tipo 2	CDKAL1	rs7756992	AG	1
+Diabetes Tipo 2	CDKAL1	rs7756992	AA	0
+Diabetes Tipo 2	CDKAL1	rs10440833	AA	2
+Diabetes Tipo 2	CDKAL1	rs10440833	AT	1
+Diabetes Tipo 2	CDKAL1	rs10440833	TA	1
+Diabetes Tipo 2	CDKAL1	rs10440833	TT	0
+Diabetes Tipo 2	DGKB	rs17168486	TT	2
+Diabetes Tipo 2	DGKB	rs17168486	TC	1
+Diabetes Tipo 2	DGKB	rs17168486	CT	1
+Diabetes Tipo 2	DGKB	rs17168486	CC	0
+Diabetes Tipo 2	JAZF1	rs849135	GG	2
+Diabetes Tipo 2	JAZF1	rs849135	GA	1
+Diabetes Tipo 2	JAZF1	rs849135	AG	1
+Diabetes Tipo 2	JAZF1	rs849135	AA	0
+Diabetes Tipo 2	JAZF1	rs849134	AA	2
+Diabetes Tipo 2	JAZF1	rs849134	AG	1
+Diabetes Tipo 2	JAZF1	rs849134	GA	1
+Diabetes Tipo 2	JAZF1	rs849134	GG	0
+Diabetes Tipo 2	GCK	rs4607517	AA	2
+Diabetes Tipo 2	GCK	rs4607517	AG	1
+Diabetes Tipo 2	GCK	rs4607517	GA	1
+Diabetes Tipo 2	GCK	rs4607517	GG	0
+Diabetes Tipo 2	ANK1	rs516946	CC	2
+Diabetes Tipo 2	ANK1	rs516946	CT	1
+Diabetes Tipo 2	ANK1	rs516946	TC	1
+Diabetes Tipo 2	ANK1	rs516946	TT	0
+Diabetes Tipo 2	TP53INP1	rs7845219	TT	2
+Diabetes Tipo 2	TP53INP1	rs7845219	TC	1
+Diabetes Tipo 2	TP53INP1	rs7845219	CT	1
+Diabetes Tipo 2	TP53INP1	rs7845219	CC	0
+Diabetes Tipo 2	TP53INP1	rs896854	TT	2
+Diabetes Tipo 2	TP53INP1	rs896854	TC	1
+Diabetes Tipo 2	TP53INP1	rs896854	CT	1
+Diabetes Tipo 2	TP53INP1	rs896854	CC	0
+Diabetes Tipo 2	SLC30A8	rs3802177	GG	2
+Diabetes Tipo 2	SLC30A8	rs3802177	GA	1
+Diabetes Tipo 2	SLC30A8	rs3802177	AG	1
+Diabetes Tipo 2	SLC30A8	rs3802177	AA	0
+Diabetes Tipo 2	CDKN2A/B	rs10811661	TT	2
+Diabetes Tipo 2	CDKN2A/B	rs10811661	TC	1
+Diabetes Tipo 2	CDKN2A/B	rs10811661	CT	1
+Diabetes Tipo 2	CDKN2A/B	rs10811661	CC	0
+Diabetes Tipo 2	CDKN2A/B	rs10965250	GG	2
+Diabetes Tipo 2	CDKN2A/B	rs10965250	GA	1
+Diabetes Tipo 2	CDKN2A/B	rs10965250	AG	1
+Diabetes Tipo 2	CDKN2A/B	rs10965250	AA	0
+Diabetes Tipo 2	TLE4	rs17791513	AA	2
+Diabetes Tipo 2	TLE4	rs17791513	AG	1
+Diabetes Tipo 2	TLE4	rs17791513	GA	1
+Diabetes Tipo 2	TLE4	rs17791513	GG	0
+Diabetes Tipo 2	TLE4	rs13292136	CC	2
+Diabetes Tipo 2	TLE4	rs13292136	CT	1
+Diabetes Tipo 2	TLE4	rs13292136	TC	1
+Diabetes Tipo 2	TLE4	rs13292136	TT	0
+Diabetes Tipo 2	TLE1	rs2796441	GG	2
+Diabetes Tipo 2	TLE1	rs2796441	GA	1
+Diabetes Tipo 2	TLE1	rs2796441	AG	1
+Diabetes Tipo 2	TLE1	rs2796441	AA	0
+Diabetes Tipo 2	CDC123/CAMK1D	rs11257655	TT	2
+Diabetes Tipo 2	CDC123/CAMK1D	rs11257655	TC	1
+Diabetes Tipo 2	CDC123/CAMK1D	rs11257655	CT	1
+Diabetes Tipo 2	CDC123/CAMK1D	rs11257655	CC	0
+Diabetes Tipo 2	HHEX/IDE	rs5015480	CC	2
+Diabetes Tipo 2	HHEX/IDE	rs5015480	CT	1
+Diabetes Tipo 2	HHEX/IDE	rs5015480	TC	1
+Diabetes Tipo 2	HHEX/IDE	rs5015480	TT	0
+Diabetes Tipo 2	KCNQ1	rs163184	GG	2
+Diabetes Tipo 2	KCNQ1	rs163184	GT	1
+Diabetes Tipo 2	KCNQ1	rs163184	TG	1
+Diabetes Tipo 2	KCNQ1	rs163184	TT	0
+Diabetes Tipo 2	KCNQ1	rs231362	GG	2
+Diabetes Tipo 2	KCNQ1	rs231362	GA	1
+Diabetes Tipo 2	KCNQ1	rs231362	AG	1
+Diabetes Tipo 2	KCNQ1	rs231362	AA	0
+Diabetes Tipo 2	KCNJ11	rs5215	CC	2
+Diabetes Tipo 2	KCNJ11	rs5215	CT	1
+Diabetes Tipo 2	KCNJ11	rs5215	TC	1
+Diabetes Tipo 2	KCNJ11	rs5215	TT	0
+Diabetes Tipo 2	ARAP1/(CENTD2)	rs1552224	AA	2
+Diabetes Tipo 2	ARAP1/(CENTD2)	rs1552224	AC	1
+Diabetes Tipo 2	ARAP1/(CENTD2)	rs1552224	CA	1
+Diabetes Tipo 2	ARAP1/(CENTD2)	rs1552224	CC	0
+Diabetes Tipo 2	MTNR1B	rs10830963	GG	2
+Diabetes Tipo 2	MTNR1B	rs10830963	GC	1
+Diabetes Tipo 2	MTNR1B	rs10830963	CG	1
+Diabetes Tipo 2	MTNR1B	rs10830963	CC	0
+Diabetes Tipo 2	CCND2	rs11063069	GG	2
+Diabetes Tipo 2	CCND2	rs11063069	GA	1
+Diabetes Tipo 2	CCND2	rs11063069	AG	1
+Diabetes Tipo 2	CCND2	rs11063069	AA	0
+Diabetes Tipo 2	HMGA2	rs2261181	TT	2
+Diabetes Tipo 2	HMGA2	rs2261181	TC	1
+Diabetes Tipo 2	HMGA2	rs2261181	CT	1
+Diabetes Tipo 2	HMGA2	rs2261181	CC	0
+Diabetes Tipo 2	HMGA2	rs1531343	CC	2
+Diabetes Tipo 2	HMGA2	rs1531343	CG	1
+Diabetes Tipo 2	HMGA2	rs1531343	GC	1
+Diabetes Tipo 2	HMGA2	rs1531343	GG	0
+Diabetes Tipo 2	HMGA2	rs2612035	GG	2
+Diabetes Tipo 2	HMGA2	rs2612035	GA	1
+Diabetes Tipo 2	HMGA2	rs2612035	AG	1
+Diabetes Tipo 2	HMGA2	rs2612035	AA	0
+Diabetes Tipo 2	TSPAN8/LGR5	rs4760790	AA	2
+Diabetes Tipo 2	TSPAN8/LGR5	rs4760790	AG	1
+Diabetes Tipo 2	TSPAN8/LGR5	rs4760790	GA	1
+Diabetes Tipo 2	TSPAN8/LGR5	rs4760790	GG	0
+Diabetes Tipo 2	HNF1A/(TCF1)	rs12427353	GG	2
+Diabetes Tipo 2	HNF1A/(TCF1)	rs12427353	GC	1
+Diabetes Tipo 2	HNF1A/(TCF1)	rs12427353	CG	1
+Diabetes Tipo 2	HNF1A/(TCF1)	rs12427353	CC	0
+Diabetes Tipo 2	HNF1A/(TCF1)	rs7957197	TT	2
+Diabetes Tipo 2	HNF1A/(TCF1)	rs7957197	TA	1
+Diabetes Tipo 2	HNF1A/(TCF1)	rs7957197	AT	1
+Diabetes Tipo 2	HNF1A/(TCF1)	rs7957197	AA	0
+Diabetes Tipo 2	SPRY2	rs1359790	GG	2
+Diabetes Tipo 2	SPRY2	rs1359790	GA	1
+Diabetes Tipo 2	SPRY2	rs1359790	AG	1
+Diabetes Tipo 2	SPRY2	rs1359790	AA	0
+Diabetes Tipo 2	HMG20A	rs7178572	GG	2
+Diabetes Tipo 2	HMG20A	rs7178572	GA	1
+Diabetes Tipo 2	HMG20A	rs7178572	AG	1
+Diabetes Tipo 2	HMG20A	rs7178572	AA	0
+Diabetes Tipo 2	PRC1	rs12899811	GG	2
+Diabetes Tipo 2	PRC1	rs12899811	GA	1
+Diabetes Tipo 2	PRC1	rs12899811	AG	1
+Diabetes Tipo 2	PRC1	rs12899811	AA	0
+Diabetes Tipo 2	PRC1	rs8042680	AA	2
+Diabetes Tipo 2	PRC1	rs8042680	AC	1
+Diabetes Tipo 2	PRC1	rs8042680	CA	1
+Diabetes Tipo 2	PRC1	rs8042680	CC	0
+Diabetes Tipo 2	FTO	rs9936385	CC	2
+Diabetes Tipo 2	FTO	rs9936385	CT	1
+Diabetes Tipo 2	FTO	rs9936385	TC	1
+Diabetes Tipo 2	FTO	rs9936385	TT	0
+Diabetes Tipo 2	FTO	rs11642841	AA	2
+Diabetes Tipo 2	FTO	rs11642841	AC	1
+Diabetes Tipo 2	FTO	rs11642841	CA	1
+Diabetes Tipo 2	FTO	rs11642841	CC	0
+Diabetes Tipo 2	BCAR1	rs7202877	TT	2
+Diabetes Tipo 2	BCAR1	rs7202877	TG	1
+Diabetes Tipo 2	BCAR1	rs7202877	GT	1
+Diabetes Tipo 2	BCAR1	rs7202877	GG	0
+Diabetes Tipo 2	HNF1B/(TCF2)	rs4430796	GG	2
+Diabetes Tipo 2	HNF1B/(TCF2)	rs4430796	GA	1
+Diabetes Tipo 2	HNF1B/(TCF2)	rs4430796	AG	1
+Diabetes Tipo 2	HNF1B/(TCF2)	rs4430796	AA	0
+Diabetes Tipo 2	HNF1B/(TCF2)	rs11651755	CC	2
+Diabetes Tipo 2	HNF1B/(TCF2)	rs11651755	CT	1
+Diabetes Tipo 2	HNF1B/(TCF2)	rs11651755	TC	1
+Diabetes Tipo 2	HNF1B/(TCF2)	rs11651755	TT	0
+Diabetes Tipo 2	MC4R	rs12970134	AA	2
+Diabetes Tipo 2	MC4R	rs12970134	AG	1
+Diabetes Tipo 2	MC4R	rs12970134	GA	1
+Diabetes Tipo 2	MC4R	rs12970134	GG	0
+Diabetes Tipo 2	MC4R	rs11873305	AA	2
+Diabetes Tipo 2	MC4R	rs11873305	AC	1
+Diabetes Tipo 2	MC4R	rs11873305	CA	1
+Diabetes Tipo 2	MC4R	rs11873305	CC	0
+Diabetes Tipo 2	CILP2	rs10401969	CC	2
+Diabetes Tipo 2	CILP2	rs10401969	CT	1
+Diabetes Tipo 2	CILP2	rs10401969	TC	1
+Diabetes Tipo 2	CILP2	rs10401969	TT	0
 Hemocromatose	WDR75–SLC40A1	rs744653	CC	2
 Hemocromatose	WDR75–SLC40A1	rs744653	CT	1
 Hemocromatose	WDR75–SLC40A1	rs744653	TC	1

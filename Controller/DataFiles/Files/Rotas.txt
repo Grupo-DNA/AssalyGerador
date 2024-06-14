@@ -23,11 +23,11 @@ Saúde Mamária
 Endometriose
 
 Atividades Físicas
-Desempenho em Esportes de Endurance
-Desempenho em Força e Potência
 Colágeno e Articulações
 Danos e Lesões
 Adaptabilidade Esportiva
+Desempenho em Esportes de Endurance
+Desempenho em Força e Potência
 Elevação da Frequência Cardíaca
 
 Saúde Cardiovascular
@@ -38,10 +38,10 @@ Pressão Arterial Sistêmica
 Saúde Mental
 TDAH
 Otimismo
+Raiva
 Emoções e Comportamento
 Medo por Trauma
-Demência
-Raiva
+Degeneração cognitiva
 Estresse
 Esquizofrenia
 Ansiedade
@@ -62,13 +62,14 @@ Obesidade
 Psoríase
 
 Neuro
+Enxaqueca
+Desempenho Motor
 Neuropatia Hereditária
 Doenças Neurodegenerativas
-Desempenho Motor
 Parkinson
 Esclerose
 Alzheimer
-Enxaqueca
+
 
 Metabolismo
 Deposição de Gordura

@@ -16,6 +16,11 @@ from time import sleep
 def isred(item,snp):
 	return find_color(item,snp) == 3
 
+def isyellow(item,snp):
+	return find_color(item,snp) == 2
+
+def isgreen(item,snp):
+	return find_color(item,snp) == 1
 
 def style(canv, name):
 	style = CONFIG.styles[name]
@@ -34,8 +39,6 @@ def dicio_descri():
 			else:
 				print(f"Line format error: {line}")
 	return dicio
-
-
 
 def switch_highest(high):
 	if high == "europeus":
@@ -71,6 +74,7 @@ def switch_column(col):
 def draw_box_rota(col,y,w,h,h2,name,canv,snp):
 	if "2" in name or "1" in name:
 		name = name[0:len(name)-1]
+
 	x = switch_column(col)-9
 	canv.setStrokeColorRGB(0.56,0.75,0.82)
 	canv.rect(x,y,w,h, stroke=1, fill=0)
@@ -79,6 +83,7 @@ def draw_box_rota(col,y,w,h,h2,name,canv,snp):
 	elif "médio risco" in name.lower():
 		num = 2
 	elif "alto risco" in name.lower():
+		
 		num = 3
 	elif "sem efeito" in name.lower():
 		num = 4
@@ -272,7 +277,6 @@ def find_color(trait_name, snp_data):
 
 		effects_dict = {}
 		for line in effects_lines:
-			
 			line = line.strip()
 			if not line:
 				continue
@@ -294,8 +298,6 @@ def find_color(trait_name, snp_data):
 	for trait in related_traits:
 		print('Processing trait:', trait)
 		found_trait = False
-
-
 		with open(lista_file_path, "r") as lista_file:
 			for line in lista_file:
 				fields = line.strip().split("\t")
@@ -397,12 +399,118 @@ def get_route_characteristics(name, routes_dict):
 	else:
 		# Caso contrário, retornar o nome como uma característica única
 		return [name]
+	
+def findColorGeneric(trait_name,snp_data):
+
+	print('Trait being processed:', trait_name)
+
+	lista_file_path = os.path.join("../Controller", "DataFiles", "Files", "Lista.txt")
+	effects_file_path = os.path.join('../Controller', "DataFiles", "Files", "Efeitos.txt")
+	routes_file_path = os.path.join('../Controller', "DataFiles", "Files", "Rotas.txt")
+
+	routes_dict = load_routes(routes_file_path)
+
+	if trait_name == "Glicação":
+		trait_name = "Insulina e Glicose"
+
+	related_traits = get_route_characteristics(trait_name, routes_dict)
+	if len(related_traits) < 2:
+		related_traits = [trait_name]
+	
+	print('Related traits for', trait_name, ':', related_traits)
+	
+	total_effect = 0
+	max_possible_effect = 0
+	sleep
+	
+	try:
+		lista_lines = read_file(lista_file_path)
+		effects_lines = read_file(effects_file_path)
+
+		effects_dict = {}
+		for line in effects_lines:
+			line = line.strip()
+			if not line:
+				continue
+			fields = line.split("\t")
+			if len(fields) >= 5:
+				trait = fields[0]
+				snp_id = fields[2]
+				genotype = fields[3]
+				effect = int(fields[4])
+				if trait not in effects_dict:
+					effects_dict[trait] = {}
+				if snp_id not in effects_dict[trait]:
+					effects_dict[trait][snp_id] = {}
+				effects_dict[trait][snp_id][genotype] = effect
+
+	except Exception as e:
+		print('Error processing effects dictionary:', e)
+
+	for trait in related_traits:
+		print('Processing trait:', trait)
+		found_trait = False
+		with open(lista_file_path, "r") as lista_file:
+			for line in lista_file:
+				fields = line.strip().split("\t")
+
+				if not found_trait:
+					if fields[0] == trait:
+						found_trait = True
+						print(f'Trait {trait} found in Lista.txt')
+					continue
+
+				if fields[0] == "":
+					break
+
+				if fields[0].startswith('rs'):
+					snp_id = fields[0]
+					for snp_entry in snp_data:
+						snp_fields = snp_entry.split("\t")
+						if snp_id == snp_fields[0] and snp_fields[1] != "--":
+							genotype = snp_fields[1]
+							if (trait in effects_dict and snp_id in effects_dict[trait]
+									and genotype in effects_dict[trait][snp_id]):
+								effect = effects_dict[trait][snp_id][genotype]
+								total_effect += effect
+								max_possible_effect += 2
+						
+				else:
+					print(f'Line does not start with rs, ignoring: {fields[0]}')
+
+	if max_possible_effect == 0:
+		print("Max possible effect is 0, returning default color code 4")
+		return 4  # Default color code if no effects found
+		
+	
+	effect_ratio = total_effect / max_possible_effect
+	print(f'Effect ratio calculated: {effect_ratio}')
+	if effect_ratio < 0.3: 
+		print("Returning color code 1 (Green)")
+		return 1  # Green
+	elif effect_ratio < 0.7:
+		print("Returning color code 2 (Yellow)")
+		return 2  # Yellow
+	else:
+		print("Returning color code 3 (Red)")
+		return 3  # Red
 
 def make_rect_color(name, canv, posx, posy, snp, width):
-	if name == "Tendência a alterações cognitivas":
-		name ="Demência"
+
 	print('make rect color')
-	num=find_color(name,snp)
+
+	if name == 'Adaptabilidade Esportiva' or name == 'Desempenho em Força e Potência' or name == 'Desempenho em Esportes de Endurance':
+		num = 'Blue'
+	else:
+		num=find_color(name,snp)
+
+	if num == 'Blue':
+		rect_style = CONFIG.styles["ancestralidade.rect-green"]
+		canv.setFillColorRGB(173/255, 216/255, 230/255)		
+		if not width > 0:
+			canv.rect(posx,posy-7,283,23, stroke=0, fill=1)
+		else:
+			canv.rect(posx,posy-7,width,23, stroke=0, fill=1)
 	#Green
 	if num == 1:
 		rect_style = CONFIG.styles["ancestralidade.rect-green"]
@@ -574,7 +682,6 @@ def ancestralidade(outpdf, ID, name):
 def make_petal_color(outpdf, canv, name, posx, posy, pos, x, y, snp, big):
 	if name == "":
 		pass
-	print('NOME QUE ESTA NA PETAL COLOR', name)
 	num = find_color(name, snp)
 	print('valor do num:',num)
 	endereco=None
@@ -844,6 +951,8 @@ def rotas_nutrientes(outpdf,snp):
 	template = PdfReader(open(endereco, "rb"), strict=False)
 	packet = BytesIO()
 	c = canvas.Canvas(packet, pagesize=A4)
+	c.setFont("Helvetica-Bold", 10)
+	c.setFillColorRGB(0.2, 0.2, 0.2)
 	endereco = os.path.join("../Controller", "DataFiles", "Files", "Rotas.txt")
 	found = 0
 	size = 750
@@ -1618,15 +1727,7 @@ def descri_saudemental(outpdf,snp,dicio):
 			if found == 1 and item == "":
 				break
 			if found == 1:
-				if isred(item,snp):
-					if item == "Demência":
-						item = "Degeneração cognitiva"
-						dicio[item] = dicio["Demência"]
-					
 				names.append(item)
-				print(names)
-				dicio[item]=f"Os seus resultados genéticos indicam uma predisposição aumentada para {item}. {dicio[item]}"
-			
 			if item == "Saúde Mental":
 				found = 1
 	if len(names) > 7:		
@@ -1812,6 +1913,15 @@ def descri_atividades(outpdf,snp,dicio):
 				names.append(item)
 				print(names)
 				if isred(item,snp):
+					if item == 'Adaptabilidade Esportiva' or 'Desempenho em Força e Potência' or 'Desempenho em Esportes de Endurance':
+						dicio[item]=f"Os seus resultados genéticos indicam uma maior dificuldade em se adaptar à algumas atividades físicas. {dicio[item]}"
+				elif isyellow:
+					if item == 'Adaptabilidade Esportiva' or 'Desempenho em Força e Potência' or 'Desempenho em Esportes de Endurance':					
+						dicio[item]=f"Os seus resultados genéticos indicam uma dificuldade padrão em se adaptar à algumas atividades físicas. {dicio[item]}"
+				elif isgreen:
+					if item == 'Adaptabilidade Esportiva' or 'Desempenho em Força e Potência' or 'Desempenho em Esportes de Endurance':					
+						dicio[item]=f"Os seus resultados genéticos indicam uma facilidade em se adaptar à algumas atividades físicas. {dicio[item]}"
+
 					dicio[item]=f"Os seus resultados genéticos indicam uma predisposição aumentada para {item}. É importante lembrar que essa é apenas uma parte do quadro geral da sua saúde. Fatores como um estilo de vida saudável, suporte emocional adequado e estratégias de manejo de estresse podem ajudar significativamente a mitigar esse risco. {dicio[item]}"
 			if item == "Atividades Físicas":
 				found = 1

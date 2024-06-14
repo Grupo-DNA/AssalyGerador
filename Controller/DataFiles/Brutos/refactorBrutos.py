@@ -4,6 +4,7 @@ def refatorar_txt(input_file, output_file):
 
     refatorado = []
     for line in lines:
+        print(line)
         parts = line.split('\t')
         novo_line = parts[0] + '\t' + parts[1] + '\t' + parts[2] + '\t' + parts[3] + parts[4][0] + '\n'
         refatorado.append(novo_line)
@@ -13,6 +14,6 @@ def refatorar_txt(input_file, output_file):
             f.write(line)
 
 if __name__ == "__main__":
-    input_file = "CLUB003421.txt"
-    output_file = "CLUB003421.txt"
+    input_file = "CLUB004075.txt"
+    output_file = "CLUB004075.txt"
     refatorar_txt(input_file, output_file)

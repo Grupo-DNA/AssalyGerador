@@ -63,7 +63,7 @@ with open("gerar.txt", "r") as handle:
 				outpdf = PdfWriter()
 				dicio = dicio_descri()
 				laudo_capa(outpdf, name)
-				#ancestralidade(outpdf, ID, name)
+				ancestralidade(outpdf, ID, name)
 				holobionte(outpdf, snp)
 				print('holobionte gerada')
 				rotas_resultados(outpdf)
@@ -85,10 +85,10 @@ with open("gerar.txt", "r") as handle:
 				descri_nutrientes(outpdf, snp, dicio)
 				
 				print('Descricao gerada')
-				#sum_genes(outpdf)
-				#print('A chamar funcao de genes')
-				#gene_efeitos(outpdf, snp)
-				#contatos(outpdf)
+				sum_genes(outpdf)
+				print('A chamar funcao de genes')
+				gene_efeitos(outpdf, snp)
+				contatos(outpdf)
 				laudo_salvar(outpdf, name)
 				print(f"Laudo Assaly {ID} - {name} gerado com sucesso\n\n")
 				break
