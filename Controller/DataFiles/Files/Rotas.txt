@@ -1,3 +1,61 @@
+Saúde Neurológica
+Enxaqueca
+Neuropatia Hereditária
+Doenças Neurodegenerativas
+Parkinson
+Esclerose
+Alzheimer
+TDAH
+Ansiedade
+Depressão
+Transtornos de Humor
+
+Saúde Cardiovascular
+Hematologia
+Dislipidemias
+Pressão Arterial Sistêmica
+Elevação da Frequência Cardíaca
+
+Saúde Osteoarticular
+Colágeno e Articulações
+Danos e Lesões
+Fibromialgia
+Disco Intervertebral
+Artrite Reumatoide
+Osteoartrite
+Perda Óssea
+
+Metabolismo
+Deposição de Gordura
+Composição Corporal
+
+Sinalização Celular
+Estresse Oxidativo
+Metilação
+Detoxificação
+Biogênese Mitocondrial
+Capacidade Antioxidante
+Diabetes Tipo 2
+Obesidade
+Síndrome Metabólica
+Sensibilidade Intestinal
+Doença Celíaca
+Intolerâncias e Alergias
+Intolerância à Lactose
+Saúde Intestinal
+
+Comportamento
+Otimismo
+Raiva
+Emoções e Comportamento
+Medo por Trauma
+Estresse
+Ciclo Circadiano
+Memória e Atenção
+Comportamentos Adictos
+Comportamento Alimentar
+Canabinóides
+
 Nutrição
 Vitamina A
 Vitaminas do Complexo B
@@ -10,8 +68,13 @@ Intolerância à Lactose
 Metabolização Alcoólica
 Metabolização de Cafeína
 
+Atividades Físicas
+Adaptabilidade Esportiva
+Desempenho em Esportes de Endurance
+Desempenho em Força e Potência
+Desempenho Motor
+
 Sistêmico
-Saúde Intestinal
 Saúde da Pele
 Capacidade Auditiva
 Longevidade
@@ -21,79 +84,3 @@ Amiloidose
 Disfunções Hormonais
 Saúde Mamária
 Endometriose
-
-Atividades Físicas
-Colágeno e Articulações
-Danos e Lesões
-Adaptabilidade Esportiva
-Desempenho em Esportes de Endurance
-Desempenho em Força e Potência
-Elevação da Frequência Cardíaca
-
-Saúde Cardiovascular
-Hematologia
-Dislipidemias
-Pressão Arterial Sistêmica
-
-Saúde Mental
-TDAH
-Otimismo
-Raiva
-Emoções e Comportamento
-Medo por Trauma
-Degeneração cognitiva
-Estresse
-Esquizofrenia
-Ansiedade
-Depressão
-Ciclo Circadiano
-Transtornos de Humor
-Memória e Atenção
-Canabinóides
-Comportamentos Adictos
-
-Doenças Crônicas
-Doença Celíaca
-Diabetes Tipo 2
-Fibromialgia
-Hemocromatose
-Síndrome Metabólica
-Obesidade
-Psoríase
-
-Neuro
-Enxaqueca
-Desempenho Motor
-Neuropatia Hereditária
-Doenças Neurodegenerativas
-Parkinson
-Esclerose
-Alzheimer
-
-
-Metabolismo
-Deposição de Gordura
-Composição Corporal
-Comportamento Alimentar
-
-Sinalização Celular
-Estresse Oxidativo
-Metilação
-Inflamação
-Detoxificação
-Imunidade
-Biogênese Mitocondrial
-
-Envelhecimento
-Capacidade Antioxidante
-Disco Intervertebral
-Fotoenvelhecimento
-Osteoartrite
-Perda Óssea
-Degeneração Macular
-Catarata
-Artrite Reumatoide
-Envelhecimento
-Envelhecimento Epigenético
-Otosclerose
-Telômero

@@ -80,6 +80,7 @@ with open("gerar.txt", "r") as handle:
 				descri_sistemico(outpdf, snp, dicio, sex)
 				descri_saudemental(outpdf, snp, dicio)
 				descri_cardio(outpdf, snp, dicio)
+				descri_Osteoarticular(outpdf,snp,dicio)
 				descri_energia(outpdf, snp, dicio)
 				descri_atividades(outpdf, snp, dicio)
 				descri_nutrientes(outpdf, snp, dicio)

@@ -875,15 +875,16 @@ def holobionte(outpdf, snp):
 	packet = BytesIO()
 	c = canvas.Canvas(packet, pagesize=A4)
 
-	c.setFont("Helvetica-Bold", 10)
+	c.setFont("Helvetica-Bold", 9)
 	c.setFillColorRGB(0.2, 0.2, 0.2)  # Cor cinza escuro para mais contraste
 
 	x = 1373 * 0.4
 	y = 1197 * 0.4
 	posx = (595 - x) / 2
 	posy = (872 - y) / 2
-	names = [" ", "Saúde Mental", "Doenças Crônicas", " ", "Envelhecimento", "Neuro"]
-	names_outer = ["Atividades Físicas", "Saúde Cardiovascular", "Nutrição", 'Sinalização Celular', "Metabolismo", "Sistêmico"]
+	names = ["Detoxificação", "Metilação", "Glicação", "Estresse Oxidativo", "Imunidade", "Biogênese Mitocondrial"]
+	#borda -  cardio, neuro, ostio, metabolica, sensibilidade, comportamento, 
+	names_outer = ["Saúde Intestinal", "Saúde Cardiovascular", "Saúde Osteoarticular", 'Saúde Neurológica', "Metabolismo", "Comportamento"]
 
 	num_names = len(names)
 	num_names_outer = len(names_outer)
@@ -932,7 +933,7 @@ def holobionte(outpdf, snp):
 			posx_outer, posy_outer = names_outer_positions[count]
 			print(f"Escrevendo nome '{names_outer[count]}' nas coordenadas ({posx_outer}, {posy_outer})")
 			c.drawString(posx_outer, posy_outer, names_outer[count])
-			find_impactful(outpdf, c, names_outer[count], snp, posx_outer, posy_outer)
+			#find_impactful(outpdf, c, names_outer[count], snp, posx_outer, posy_outer)
 
 	homem_image_path = os.path.join("../Controller", "DataFiles", "Files", "Holobionte", "homem.png")
 	c.drawImage(homem_image_path, (595 - x * 0.9) / 2, (842 - y * 0.9) / 2, width=x * 0.9, height=y * 0.9, mask='auto')
@@ -1234,7 +1235,7 @@ def rotas_saudemental(outpdf,snp):
 				size -= h + 10
 				draw_rs_rotas(outpdf, snp, c, item, col, size+5)
 				draw_box_rota(col,size,170,h,24,item,c,snp)
-			if item == "Saúde Mental":
+			if item == "Saúde Neurológica":
 				found = 1
 	c.save()
 	inpdf = PdfReader(packet)
@@ -1242,6 +1243,54 @@ def rotas_saudemental(outpdf,snp):
 		pagina: PageObject = template.pages[pageidx]
 		pagina.merge_page(inpdf.pages[pageidx])
 	outpdf.add_page(pagina)
+
+def rotas_saudemental(outpdf,snp):
+	endereco = os.path.join(CONFIG.template, "rotas-saudemental.pdf")
+	template = PdfReader(open(endereco, "rb"), strict=False)
+	packet = BytesIO()
+	c = canvas.Canvas(packet, pagesize=A4)
+	endereco = os.path.join("../Controller","DataFiles", "Files", "Rotas.txt")
+	found = 0
+	size = 750
+	col = 0
+	with open(endereco, "r") as file:
+		r = file.readlines()
+		for line in r:
+			item = line.replace("\n", "")
+			if found == 1 and item == "":
+				break
+			if found == 1:
+				h = count_genes_size(item)+28
+				if size-h-30 <= 0:
+					size = 750
+					col += 1
+				# contabiliza a legenda para a última coluna
+				if col == 2 and size-h-222 <= 0:
+					size = 750
+					col += 1
+				if col > 2:
+					col = 0
+					c.save()
+					inpdf = PdfReader(packet)
+					for pageidx in range(len(template.pages)):
+						pagina: PageObject = template.pages[pageidx]
+						pagina.merge_page(inpdf.pages[pageidx])
+					outpdf.add_page(pagina)
+					endereco = os.path.join(CONFIG.template, "rotas-saudemental.pdf")
+					template = PdfReader(open(endereco, "rb"), strict=False)
+					packet = BytesIO()
+					c = canvas.Canvas(packet, pagesize=A4)
+				size -= h + 10
+				draw_rs_rotas(outpdf, snp, c, item, col, size+5)
+				draw_box_rota(col,size,170,h,24,item,c,snp)
+			if item == "Saúde Osteoarticular":
+				found = 1
+	c.save()
+	inpdf = PdfReader(packet)
+	for pageidx in range(len(template.pages)):
+		pagina: PageObject = template.pages[pageidx]
+		pagina.merge_page(inpdf.pages[pageidx])
+	outpdf.add_page(pagina)	
 
 def rotas_energia(outpdf,snp):
 	endereco = os.path.join(CONFIG.template, "rotas-energia.pdf")
@@ -1728,7 +1777,7 @@ def descri_saudemental(outpdf,snp,dicio):
 				break
 			if found == 1:
 				names.append(item)
-			if item == "Saúde Mental":
+			if item == "Saúde Neurológica":
 				found = 1
 	if len(names) > 7:		
 		tam = len(names)
@@ -1846,6 +1895,52 @@ def descri_cardio(outpdf,snp,dicio):
 		pagina.merge_page(inpdf.pages[pageidx])
 	outpdf.add_page(pagina)
 	print("Descrição Cardiovascular gerada\n")
+
+def descri_Osteoarticular(outpdf,snp,dicio):
+	endereco = os.path.join(CONFIG.template, "descricao-cardio.pdf")
+	template = PdfReader(open(endereco, "rb"), strict=False)
+	packet = BytesIO()
+	c = canvas.Canvas(packet, pagesize=A4)
+	c.setFont("Helvetica-Bold", 10)
+	c.setFillColorRGB(0.2, 0.2, 0.2)
+	found = 0
+	names = []
+	endereco = os.path.join("../Controller", "DataFiles", "Files", "Rotas.txt")
+	with open(endereco, "r") as file:
+		r = file.readlines()
+		for line in r:
+			item = line.replace("\n", "")
+			if found == 1 and item == "":
+				break
+			if found == 1:
+				if isred(item,snp):
+					dicio[item]=f"Os seus resultados genéticos indicam uma predisposição aumentada para {item}. É importante lembrar que essa é apenas uma parte do quadro geral da sua saúde. Fatores como um estilo de vida saudável, suporte emocional adequado e estratégias de manejo de estresse podem ajudar significativamente a mitigar esse risco. {dicio[item]}"
+				names.append(item)
+			if item == "Saúde Osteoarticularr":
+				found = 1
+	if len(names) > 7:
+		make_descri_generic(names[:7], c, snp, dicio)
+		c.save()
+		inpdf = PdfReader(packet)
+		for pageidx in range(len(template.pages)):
+			pagina: PageObject = template.pages[pageidx]
+			pagina.merge_page(inpdf.pages[pageidx])
+		outpdf.add_page(pagina)
+		endereco = os.path.join(CONFIG.template, "descricao-cardio.pdf")
+		template = PdfReader(open(endereco, "rb"), strict=False)
+		packet = BytesIO()
+		c = canvas.Canvas(packet, pagesize=A4)
+		make_descri_generic(names[7:], c, snp, dicio)
+	else:
+		make_descri_generic(names, c, snp, dicio)
+	
+	c.save()
+	inpdf = PdfReader(packet)
+	for pageidx in range(len(template.pages)):
+		pagina: PageObject = template.pages[pageidx]
+		pagina.merge_page(inpdf.pages[pageidx])
+	outpdf.add_page(pagina)
+	print("Descrição Osteoarticular gerada\n")
 
 def descri_energia(outpdf,snp,dicio):
 	endereco = os.path.join(CONFIG.template, "descricao-energia.pdf")
