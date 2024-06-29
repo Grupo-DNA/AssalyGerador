@@ -1025,7 +1025,7 @@ class CaracteristicaBase:
 class Caracteristica(CaracteristicaBase):
     """
     Classe representando uma característica qualquer
-    (diabetes, doença celíaca, resistência atlética...).
+    (diabetes, Intolerância ao glutén, resistência atlética...).
 
     ...
 

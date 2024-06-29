@@ -1,0 +1,855 @@
+snps in file 36180 pops 8
+YRI:0.059 CHB:0.070 CHD:0.170 TSI:0.233 MKK:0.112 LWK:0.070 CEU:0.240 JPT:0.046  initial sol 26878.468885
+RUNNING THE L-BFGS-B CODE
+
+	* * *
+
+Machine precision = 2.220446e-16
+ N = 8, M = 20
+ITERATION 0
+0.059 0.070 0.170 0.233 0.112 0.070 0.240 0.046 likelihood = 26878.46888505 iter 0
+At iteration 0 f=26878.468885	|proj g| = 2.154847e+03
+0.059 0.070 0.170 0.928 0.112 0.069 0.960 0.046 likelihood = 26029.01856008 iter 1
+0.005 0.018 0.117 0.862 0.070 0.017 0.892 0.000 likelihood = 25929.91241520 iter 2
+0.000 0.000 0.075 0.841 0.056 0.001 0.869 0.000 likelihood = 25921.71485678 iter 3
+0.010 0.000 0.070 0.850 0.062 0.010 0.879 0.000 likelihood = 25919.36744236 iter 4
+0.014 0.000 0.061 0.852 0.062 0.011 0.881 0.000 likelihood = 25919.03706356 iter 5
+0.016 0.000 0.057 0.853 0.062 0.011 0.880 0.000 likelihood = 25919.00290631 iter 6
+0.017 0.001 0.055 0.854 0.061 0.011 0.881 0.002 likelihood = 25918.96970454 iter 7
+0.026 0.009 0.033 0.864 0.054 0.008 0.886 0.016 likelihood = 25918.78910087 iter 8
+0.027 0.015 0.025 0.868 0.053 0.007 0.885 0.019 likelihood = 25918.74462123 iter 9
+0.026 0.027 0.014 0.875 0.054 0.005 0.882 0.020 likelihood = 25918.69864734 iter 10
+At iterate 10 f=2.591870e+04 |proj g| = 4.281163e+00
+0.025 0.033 0.010 0.878 0.056 0.005 0.879 0.018 likelihood = 25918.68259707 iter 11
+0.025 0.041 0.007 0.880 0.056 0.005 0.878 0.013 likelihood = 25918.66883753 iter 12
+0.025 0.041 0.007 0.880 0.056 0.006 0.878 0.012 likelihood = 25918.66819785 iter 13
+0.025 0.041 0.008 0.879 0.056 0.006 0.878 0.012 likelihood = 25918.66814973 iter 14
+
+	* * *
+
+Tit   = total number of iterations
+Tnf   = total number of function evaluations
+Tnint = total number of segments explored during Cauchy searches
+Skip  = number of BFGS updates skipped
+Nact  = number of active bounds at final generalized Cuachy point
+Projg = norm of the final projected gradient
+F     = final function value
+
+	* * *
+N	Tit	Tnf	Tnint	Skip	Nact	Projg	F
+8	14	15	22	0	0	1.638226e-01	2.591867e+04
+F = 25918.668150
+CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH             
+Cauchy time 0 seconds.
+Subspace minimization time 0 seconds.
+Line search time 0 seconds.
+Total User time 0 seconds.
+derivative for 0: 0.024706 bounds:1 [0.000000-1.000000] 0.241060 25918.668150
+derivative for 1: 0.040781 bounds:1 [0.000000-1.000000] -0.126947 25918.668150
+derivative for 2: 0.007557 bounds:1 [0.000000-1.000000] -0.007514 25918.668150
+derivative for 3: 0.879478 bounds:1 [0.000000-1.000000] 0.148927 25918.668150
+derivative for 4: 0.056393 bounds:1 [0.000000-1.000000] 0.223132 25918.668150
+derivative for 5: 0.005864 bounds:1 [0.000000-1.000000] 0.094390 25918.668150
+derivative for 6: 0.878017 bounds:1 [0.000000-1.000000] -0.163823 25918.668150
+derivative for 7: 0.012149 bounds:1 [0.000000-1.000000] -0.082071 25918.668150
+
+RUNNING THE L-BFGS-B CODE
+
+	* * *
+
+Machine precision = 2.220446e-16
+ N = 8, M = 20
+ITERATION 1
+0.000 0.041 0.008 0.879 0.056 0.006 0.878 0.012 likelihood = 25920.85596813 iter 0
+At iteration 0 f=25920.855968	|proj g| = 1.671298e+02
+0.000 0.248 0.213 0.876 0.617 0.754 0.874 0.215 likelihood = 27014.07705321 iter 1
+0.000 0.050 0.016 0.879 0.081 0.038 0.878 0.021 likelihood = 25923.14688439 iter 2
+0.000 0.044 0.011 0.879 0.066 0.018 0.878 0.015 likelihood = 25919.08291159 iter 3
+0.000 0.043 0.010 0.879 0.066 0.020 0.878 0.014 likelihood = 25918.95150948 iter 4
+0.000 0.041 0.008 0.879 0.067 0.022 0.878 0.012 likelihood = 25918.87626807 iter 5
+0.000 0.041 0.008 0.879 0.067 0.022 0.878 0.012 likelihood = 25918.87456732 iter 6
+0.000 0.041 0.008 0.879 0.066 0.024 0.878 0.012 likelihood = 25918.86884536 iter 7
+0.000 0.041 0.008 0.879 0.061 0.028 0.879 0.012 likelihood = 25918.85723981 iter 8
+0.000 0.041 0.008 0.879 0.060 0.028 0.879 0.012 likelihood = 25918.85657321 iter 9
+0.000 0.041 0.008 0.879 0.060 0.028 0.879 0.012 likelihood = 25918.85656313 iter 10
+
+	* * *
+
+Tit   = total number of iterations
+Tnf   = total number of function evaluations
+Tnint = total number of segments explored during Cauchy searches
+Skip  = number of BFGS updates skipped
+Nact  = number of active bounds at final generalized Cuachy point
+Projg = norm of the final projected gradient
+F     = final function value
+
+	* * *
+N	Tit	Tnf	Tnint	Skip	Nact	Projg	F
+8	7	11	9	0	1	7.591998e-02	2.591886e+04
+F = 25918.856563
+CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH             
+Cauchy time 0 seconds.
+Subspace minimization time 0 seconds.
+Line search time 0 seconds.
+Total User time 0 seconds.
+derivative for 0: 0.000000 bounds:2 [0.000000-0.000000] -15.466847 25918.856563
+derivative for 1: 0.041202 bounds:1 [0.000000-1.000000] 0.002043 25918.856563
+derivative for 2: 0.007671 bounds:1 [0.000000-1.000000] -0.032832 25918.856563
+derivative for 3: 0.878614 bounds:1 [0.000000-1.000000] 0.075920 25918.856563
+derivative for 4: 0.059597 bounds:1 [0.000000-1.000000] -0.055127 25918.856563
+derivative for 5: 0.028203 bounds:1 [0.000000-1.000000] -0.032563 25918.856563
+derivative for 6: 0.879446 bounds:1 [0.000000-1.000000] -0.070460 25918.856563
+derivative for 7: 0.011686 bounds:1 [0.000000-1.000000] -0.031437 25918.856563
+
+maxval -25918.856563 for POP YRI delta 0.188413 YRI:0.0000 CHB:0.0216 CHD:0.0040 TSI:0.4609 MKK:0.0313 LWK:0.0148 CEU:0.4613 JPT:0.0061 
+RUNNING THE L-BFGS-B CODE
+
+	* * *
+
+Machine precision = 2.220446e-16
+ N = 8, M = 20
+ITERATION 1
+0.025 0.000 0.004 0.461 0.031 0.015 0.461 0.006 likelihood = 25925.59862913 iter 0
+At iteration 0 f=25925.598629	|proj g| = 1.895771e+02
+0.025 0.000 0.706 0.534 0.031 0.015 0.564 0.707 likelihood = 27564.68404806 iter 1
+0.025 0.000 0.027 0.463 0.031 0.015 0.465 0.030 likelihood = 25931.80777217 iter 2
+0.025 0.000 0.010 0.462 0.031 0.015 0.462 0.012 likelihood = 25924.42238429 iter 3
+0.015 0.000 0.014 0.462 0.025 0.006 0.463 0.016 likelihood = 25918.90565915 iter 4
+0.015 0.000 0.015 0.463 0.024 0.005 0.464 0.016 likelihood = 25918.87938468 iter 5
+0.015 0.000 0.015 0.463 0.025 0.005 0.464 0.016 likelihood = 25918.87438952 iter 6
+0.013 0.000 0.017 0.463 0.028 0.005 0.463 0.015 likelihood = 25918.83833666 iter 7
+0.012 0.000 0.019 0.463 0.029 0.004 0.463 0.013 likelihood = 25918.82547416 iter 8
+0.012 0.000 0.019 0.463 0.030 0.004 0.463 0.012 likelihood = 25918.82083907 iter 9
+0.012 0.000 0.020 0.463 0.030 0.004 0.463 0.012 likelihood = 25918.81997647 iter 10
+0.012 0.000 0.020 0.463 0.030 0.004 0.463 0.011 likelihood = 25918.81950192 iter 11
+0.013 0.000 0.020 0.463 0.029 0.004 0.463 0.011 likelihood = 25918.81886772 iter 12
+At iterate 10 f=2.591882e+04 |proj g| = 2.150920e+00
+0.013 0.000 0.020 0.463 0.029 0.004 0.463 0.011 likelihood = 25918.81869068 iter 13
+0.013 0.000 0.020 0.463 0.029 0.004 0.463 0.011 likelihood = 25918.81868587 iter 14
+prevld 25918.818691 current 25918.818686 delta 0.000005 
+derivative for 0: 0.012788 bounds:1 [0.000000-1.000000] -0.014189 25918.818686
+derivative for 1: 0.000000 bounds:2 [0.000000-0.000000] -13.830399 25918.818686
+derivative for 2: 0.020300 bounds:1 [0.000000-1.000000] -0.009104 25918.818686
+derivative for 3: 0.462641 bounds:1 [0.000000-1.000000] 0.028235 25918.818686
+derivative for 4: 0.029242 bounds:1 [0.000000-1.000000] -0.024865 25918.818686
+derivative for 5: 0.003928 bounds:1 [0.000000-1.000000] 0.006411 25918.818686
+derivative for 6: 0.463335 bounds:1 [0.000000-1.000000] -0.025193 25918.818686
+derivative for 7: 0.010951 bounds:1 [0.000000-1.000000] -0.029360 25918.818686
+
+maxval -25918.818686 for POP CHB delta 0.150536 YRI:0.0127 CHB:0.0000 CHD:0.0202 TSI:0.4612 MKK:0.0291 LWK:0.0039 CEU:0.4619 JPT:0.0109 
+RUNNING THE L-BFGS-B CODE
+
+	* * *
+
+Machine precision = 2.220446e-16
+ N = 8, M = 20
+ITERATION 1
+0.013 0.041 0.000 0.461 0.029 0.004 0.462 0.011 likelihood = 25921.43114626 iter 0
+At iteration 0 f=25921.431146	|proj g| = 1.965793e+01
+0.012 0.039 0.000 1.174 0.028 0.004 1.164 0.011 likelihood = 25929.63754698 iter 1
+0.013 0.040 0.000 0.640 0.029 0.004 0.638 0.011 likelihood = 25919.92505576 iter 2
+0.015 0.039 0.000 0.625 0.031 0.006 0.623 0.010 likelihood = 25919.03506950 iter 3
+0.017 0.037 0.000 0.607 0.033 0.008 0.606 0.008 likelihood = 25918.73569816 iter 4
+0.018 0.037 0.000 0.615 0.033 0.008 0.613 0.007 likelihood = 25918.71036593 iter 5
+0.018 0.036 0.000 0.621 0.034 0.008 0.619 0.007 likelihood = 25918.69900119 iter 6
+0.018 0.036 0.000 0.621 0.034 0.008 0.619 0.007 likelihood = 25918.69677676 iter 7
+0.017 0.035 0.000 0.615 0.036 0.007 0.614 0.007 likelihood = 25918.68535944 iter 8
+0.016 0.034 0.000 0.608 0.038 0.006 0.606 0.007 likelihood = 25918.67828210 iter 9
+0.016 0.033 0.000 0.605 0.039 0.005 0.604 0.008 likelihood = 25918.67375280 iter 10
+0.016 0.033 0.000 0.606 0.039 0.005 0.605 0.009 likelihood = 25918.67327651 iter 11
+At iterate 10 f=2.591867e+04 |proj g| = 2.592925e-01
+0.017 0.033 0.000 0.606 0.039 0.004 0.606 0.009 likelihood = 25918.67311400 iter 12
+0.017 0.033 0.000 0.608 0.039 0.004 0.608 0.009 likelihood = 25918.67292952 iter 13
+0.017 0.033 0.000 0.608 0.039 0.004 0.608 0.009 likelihood = 25918.67289808 iter 14
+
+	* * *
+
+Tit   = total number of iterations
+Tnf   = total number of function evaluations
+Tnint = total number of segments explored during Cauchy searches
+Skip  = number of BFGS updates skipped
+Nact  = number of active bounds at final generalized Cuachy point
+Projg = norm of the final projected gradient
+F     = final function value
+
+	* * *
+N	Tit	Tnf	Tnint	Skip	Nact	Projg	F
+8	13	15	18	0	1	1.045797e-01	2.591867e+04
+F = 25918.672898
+CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH             
+Cauchy time 0 seconds.
+Subspace minimization time 0 seconds.
+Line search time 0 seconds.
+Total User time 0 seconds.
+derivative for 0: 0.016987 bounds:1 [0.000000-1.000000] 0.081606 25918.672898
+derivative for 1: 0.032674 bounds:1 [0.000000-1.000000] 0.041360 25918.672898
+derivative for 2: 0.000000 bounds:2 [0.000000-0.000000] -1.964210 25918.672898
+derivative for 3: 0.608335 bounds:1 [0.000000-1.000000] 0.093054 25918.672898
+derivative for 4: 0.038977 bounds:1 [0.000000-1.000000] 0.056969 25918.672898
+derivative for 5: 0.004204 bounds:1 [0.000000-1.000000] 0.115904 25918.672898
+derivative for 6: 0.607954 bounds:1 [0.000000-1.000000] -0.104580 25918.672898
+derivative for 7: 0.009166 bounds:1 [0.000000-1.000000] 0.166481 25918.672898
+
+maxval -25918.672898 for POP CHD delta 0.004748 YRI:0.0129 CHB:0.0248 CHD:0.0000 TSI:0.4615 MKK:0.0296 LWK:0.0032 CEU:0.4612 JPT:0.0070 
+RUNNING THE L-BFGS-B CODE
+
+	* * *
+
+Machine precision = 2.220446e-16
+ N = 8, M = 20
+ITERATION 1
+0.013 0.025 0.008 0.000 0.030 0.003 0.461 0.007 likelihood = 26044.93034290 iter 0
+At iteration 0 f=26044.930343	|proj g| = 1.414737e+02
+0.013 0.025 0.008 0.000 0.029 0.003 1.461 0.007 likelihood = 26056.65381682 iter 1
+0.013 0.025 0.008 0.000 0.030 0.003 0.776 0.007 likelihood = 26035.24454766 iter 2
+0.014 0.024 0.007 0.000 0.031 0.004 0.752 0.006 likelihood = 26033.79057598 iter 3
+0.015 0.022 0.005 0.000 0.035 0.006 0.687 0.004 likelihood = 26032.93401907 iter 4
+0.014 0.022 0.005 0.000 0.035 0.005 0.687 0.004 likelihood = 26032.76154207 iter 5
+0.008 0.021 0.004 0.000 0.040 0.001 0.635 0.003 likelihood = 26032.03982334 iter 6
+0.002 0.019 0.003 0.000 0.046 0.000 0.553 0.002 likelihood = 26031.51767433 iter 7
+0.002 0.020 0.004 0.000 0.046 0.000 0.558 0.002 likelihood = 26031.48789520 iter 8
+0.001 0.019 0.004 0.000 0.046 0.000 0.555 0.002 likelihood = 26031.48454663 iter 9
+0.001 0.019 0.004 0.000 0.047 0.000 0.556 0.002 likelihood = 26031.48179545 iter 10
+0.001 0.019 0.004 0.000 0.047 0.000 0.556 0.003 likelihood = 26031.47942306 iter 11
+At iterate 10 f=2.603148e+04 |proj g| = 9.350859e+00
+0.001 0.018 0.004 0.000 0.047 0.000 0.559 0.003 likelihood = 26031.47474765 iter 12
+0.001 0.016 0.005 0.000 0.048 0.000 0.564 0.004 likelihood = 26031.46980181 iter 13
+0.001 0.016 0.006 0.000 0.048 0.000 0.568 0.004 likelihood = 26031.46756152 iter 14
+0.001 0.016 0.006 0.000 0.048 0.000 0.570 0.004 likelihood = 26031.46692443 iter 15
+0.001 0.015 0.006 0.000 0.048 0.000 0.571 0.004 likelihood = 26031.46648371 iter 16
+0.001 0.015 0.006 0.000 0.048 0.000 0.571 0.004 likelihood = 26031.46578536 iter 17
+0.001 0.015 0.007 0.000 0.048 0.000 0.572 0.004 likelihood = 26031.46492570 iter 18
+0.001 0.015 0.007 0.000 0.048 0.000 0.572 0.004 likelihood = 26031.46461226 iter 19
+0.001 0.015 0.007 0.000 0.048 0.000 0.572 0.004 likelihood = 26031.46459225 iter 20
+
+	* * *
+
+Tit   = total number of iterations
+Tnf   = total number of function evaluations
+Tnint = total number of segments explored during Cauchy searches
+Skip  = number of BFGS updates skipped
+Nact  = number of active bounds at final generalized Cuachy point
+Projg = norm of the final projected gradient
+F     = final function value
+
+	* * *
+N	Tit	Tnf	Tnint	Skip	Nact	Projg	F
+8	19	21	25	0	2	3.016782e-02	2.603146e+04
+F = 26031.464592
+CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH             
+Cauchy time 0 seconds.
+Subspace minimization time 0 seconds.
+Line search time 0 seconds.
+Total User time 0 seconds.
+derivative for 0: 0.001042 bounds:1 [0.000000-1.000000] 0.105605 26031.464592
+derivative for 1: 0.014932 bounds:1 [0.000000-1.000000] 0.066419 26031.464592
+derivative for 2: 0.007213 bounds:1 [0.000000-1.000000] 0.093409 26031.464592
+derivative for 3: 0.000000 bounds:2 [0.000000-0.000000] -773.660592 26031.464592
+derivative for 4: 0.047981 bounds:1 [0.000000-1.000000] 0.030168 26031.464592
+derivative for 5: 0.000000 bounds:1 [0.000000-1.000000] 23.229589 26031.464592
+derivative for 6: 0.571888 bounds:1 [0.000000-1.000000] -0.005809 26031.464592
+derivative for 7: 0.003635 bounds:1 [0.000000-1.000000] 0.027281 26031.464592
+
+maxval -26031.464592 for POP TSI delta 112.796443 YRI:0.0016 CHB:0.0231 CHD:0.0112 TSI:0.0000 MKK:0.0742 LWK:0.0000 CEU:0.8843 JPT:0.0056 
+RUNNING THE L-BFGS-B CODE
+
+	* * *
+
+Machine precision = 2.220446e-16
+ N = 8, M = 20
+ITERATION 2
+0.002 0.023 0.011 0.879 0.000 0.000 0.884 0.006 likelihood = 25944.07394499 iter 0
+At iteration 0 f=25944.073945	|proj g| = 7.133599e+02
+0.640 0.293 0.277 0.879 0.000 0.614 0.884 0.275 likelihood = 27159.60908468 iter 1
+0.086 0.059 0.046 0.879 0.000 0.082 0.884 0.041 likelihood = 25962.09666412 iter 2
+0.034 0.037 0.025 0.879 0.000 0.031 0.884 0.019 likelihood = 25920.27614959 iter 3
+0.035 0.035 0.022 0.880 0.000 0.032 0.884 0.017 likelihood = 25919.94941814 iter 4
+0.037 0.031 0.018 0.880 0.000 0.035 0.884 0.013 likelihood = 25919.67008446 iter 5
+0.037 0.031 0.018 0.880 0.000 0.035 0.884 0.013 likelihood = 25919.66573020 iter 6
+0.037 0.031 0.018 0.880 0.000 0.036 0.884 0.013 likelihood = 25919.66406850 iter 7
+0.037 0.031 0.018 0.880 0.000 0.036 0.883 0.013 likelihood = 25919.66286371 iter 8
+0.036 0.032 0.017 0.881 0.000 0.038 0.882 0.014 likelihood = 25919.65781599 iter 9
+0.034 0.033 0.016 0.883 0.000 0.040 0.881 0.014 likelihood = 25919.65149160 iter 10
+0.031 0.034 0.014 0.885 0.000 0.042 0.879 0.014 likelihood = 25919.64490281 iter 11
+0.030 0.034 0.014 0.886 0.000 0.042 0.878 0.014 likelihood = 25919.64327272 iter 12
+At iterate 10 f=2.591964e+04 |proj g| = 3.153679e-01
+0.030 0.034 0.014 0.886 0.000 0.042 0.878 0.014 likelihood = 25919.64304261 iter 13
+0.031 0.035 0.014 0.886 0.000 0.042 0.878 0.014 likelihood = 25919.64288835 iter 14
+0.031 0.035 0.013 0.886 0.000 0.041 0.878 0.014 likelihood = 25919.64250497 iter 15
+0.031 0.036 0.013 0.887 0.000 0.041 0.877 0.014 likelihood = 25919.64180543 iter 16
+0.032 0.037 0.012 0.888 0.000 0.040 0.876 0.014 likelihood = 25919.64097472 iter 17
+0.032 0.037 0.011 0.888 0.000 0.040 0.876 0.014 likelihood = 25919.64068394 iter 18
+0.032 0.038 0.011 0.888 0.000 0.041 0.876 0.014 likelihood = 25919.64065316 iter 19
+
+	* * *
+
+Tit   = total number of iterations
+Tnf   = total number of function evaluations
+Tnint = total number of segments explored during Cauchy searches
+Skip  = number of BFGS updates skipped
+Nact  = number of active bounds at final generalized Cuachy point
+Projg = norm of the final projected gradient
+F     = final function value
+
+	* * *
+N	Tit	Tnf	Tnint	Skip	Nact	Projg	F
+8	17	20	19	0	1	8.060200e-02	2.591964e+04
+F = 25919.640653
+CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH             
+Cauchy time 0 seconds.
+Subspace minimization time 0 seconds.
+Line search time 0 seconds.
+Total User time 0 seconds.
+derivative for 0: 0.031868 bounds:1 [0.000000-1.000000] 0.039863 25919.640653
+derivative for 1: 0.037518 bounds:1 [0.000000-1.000000] -0.042332 25919.640653
+derivative for 2: 0.011360 bounds:1 [0.000000-1.000000] 0.112384 25919.640653
+derivative for 3: 0.888139 bounds:1 [0.000000-1.000000] 0.078649 25919.640653
+derivative for 4: 0.000000 bounds:2 [0.000000-0.000000] -34.787924 25919.640653
+derivative for 5: 0.040630 bounds:1 [0.000000-1.000000] 0.006502 25919.640653
+derivative for 6: 0.875558 bounds:1 [0.000000-1.000000] -0.080602 25919.640653
+derivative for 7: 0.013555 bounds:1 [0.000000-1.000000] -0.037049 25919.640653
+
+maxval -25919.640653 for POP MKK delta 0.972503 YRI:0.0168 CHB:0.0198 CHD:0.0060 TSI:0.4678 MKK:0.0000 LWK:0.0214 CEU:0.4612 JPT:0.0071 
+RUNNING THE L-BFGS-B CODE
+
+	* * *
+
+Machine precision = 2.220446e-16
+ N = 8, M = 20
+ITERATION 1
+0.017 0.020 0.006 0.468 0.056 0.000 0.461 0.007 likelihood = 25923.65997194 iter 0
+At iteration 0 f=25923.659972	|proj g| = 3.832300e+01
+0.016 0.019 0.006 1.031 0.055 0.000 1.288 0.007 likelihood = 25928.64530110 iter 1
+0.017 0.020 0.006 0.645 0.056 0.000 0.721 0.007 likelihood = 25919.70523622 iter 2
+0.016 0.021 0.008 0.631 0.055 0.000 0.701 0.009 likelihood = 25919.21093257 iter 3
+0.015 0.024 0.010 0.606 0.053 0.000 0.662 0.011 likelihood = 25918.99632409 iter 4
+0.014 0.023 0.010 0.603 0.053 0.000 0.657 0.011 likelihood = 25918.96539914 iter 5
+0.011 0.023 0.008 0.563 0.046 0.000 0.593 0.009 likelihood = 25918.84535939 iter 6
+0.011 0.023 0.008 0.549 0.044 0.000 0.570 0.008 likelihood = 25918.80041734 iter 7
+0.013 0.022 0.006 0.495 0.037 0.000 0.484 0.006 likelihood = 25918.72739029 iter 8
+0.014 0.022 0.006 0.519 0.039 0.000 0.521 0.007 likelihood = 25918.70118592 iter 9
+0.015 0.022 0.006 0.518 0.037 0.000 0.518 0.007 likelihood = 25918.68430487 iter 10
+0.017 0.023 0.006 0.519 0.035 0.000 0.519 0.007 likelihood = 25918.67748386 iter 11
+At iterate 10 f=2.591868e+04 |proj g| = 2.315408e-01
+0.017 0.023 0.006 0.519 0.035 0.000 0.520 0.007 likelihood = 25918.67714405 iter 12
+0.017 0.023 0.006 0.520 0.035 0.000 0.520 0.007 likelihood = 25918.67709186 iter 13
+
+	* * *
+
+Tit   = total number of iterations
+Tnf   = total number of function evaluations
+Tnint = total number of segments explored during Cauchy searches
+Skip  = number of BFGS updates skipped
+Nact  = number of active bounds at final generalized Cuachy point
+Projg = norm of the final projected gradient
+F     = final function value
+
+	* * *
+N	Tit	Tnf	Tnint	Skip	Nact	Projg	F
+8	12	14	17	0	1	6.097545e-01	2.591868e+04
+F = 25918.677092
+CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH             
+Cauchy time 0 seconds.
+Subspace minimization time 0 seconds.
+Line search time 0 seconds.
+Total User time 0 seconds.
+derivative for 0: 0.016745 bounds:1 [0.000000-1.000000] -0.583945 25918.677092
+derivative for 1: 0.022968 bounds:1 [0.000000-1.000000] -0.609755 25918.677092
+derivative for 2: 0.005753 bounds:1 [0.000000-1.000000] 0.455530 25918.677092
+derivative for 3: 0.519614 bounds:1 [0.000000-1.000000] 0.062845 25918.677092
+derivative for 4: 0.034772 bounds:1 [0.000000-1.000000] -0.472904 25918.677092
+derivative for 5: 0.000000 bounds:2 [0.000000-0.000000] -5.119472 25918.677092
+derivative for 6: 0.519948 bounds:1 [0.000000-1.000000] 0.013751 25918.677092
+derivative for 7: 0.007129 bounds:1 [0.000000-1.000000] -0.308469 25918.677092
+
+maxval -25918.677092 for POP LWK delta 0.008942 YRI:0.0149 CHB:0.0204 CHD:0.0051 TSI:0.4611 MKK:0.0309 LWK:0.0000 CEU:0.4614 JPT:0.0063 
+RUNNING THE L-BFGS-B CODE
+
+	* * *
+
+Machine precision = 2.220446e-16
+ N = 8, M = 20
+ITERATION 1
+0.015 0.020 0.005 0.461 0.031 0.006 0.000 0.006 likelihood = 26061.39504136 iter 0
+At iteration 0 f=26061.395041	|proj g| = 1.938503e+02
+0.015 0.020 0.005 1.461 0.031 0.006 0.000 0.006 likelihood = 26052.13205444 iter 1
+0.018 0.025 0.010 1.507 0.033 0.009 0.000 0.011 likelihood = 26045.72763359 iter 2
+0.022 0.034 0.018 1.486 0.037 0.013 0.000 0.019 likelihood = 26039.84583786 iter 3
+0.024 0.037 0.020 1.452 0.038 0.014 0.000 0.022 likelihood = 26039.33338476 iter 4
+0.024 0.037 0.020 1.450 0.039 0.014 0.000 0.022 likelihood = 26039.32021169 iter 5
+0.024 0.037 0.019 1.446 0.040 0.013 0.000 0.022 likelihood = 26039.30023248 iter 6
+0.025 0.038 0.017 1.439 0.042 0.012 0.000 0.021 likelihood = 26039.27938441 iter 7
+0.025 0.042 0.012 1.403 0.047 0.007 0.000 0.019 likelihood = 26039.21143731 iter 8
+0.024 0.047 0.007 1.359 0.053 0.001 0.000 0.018 likelihood = 26039.14594589 iter 9
+Positive dir derivative in projection 
+Using the backtracking step 
+0.024 0.048 0.006 1.358 0.052 0.000 0.000 0.018 likelihood = 26039.11916202 iter 10
+At iterate 10 f=2.603912e+04 |proj g| = 7.877296e+00
+0.024 0.048 0.006 1.357 0.052 0.000 0.000 0.018 likelihood = 26039.11339480 iter 11
+0.024 0.049 0.006 1.356 0.051 0.000 0.000 0.018 likelihood = 26039.10855053 iter 12
+0.024 0.055 0.000 1.326 0.052 0.000 0.000 0.017 likelihood = 26039.10449270 iter 13
+0.024 0.056 0.000 1.335 0.050 0.000 0.000 0.017 likelihood = 26039.06770941 iter 14
+0.024 0.055 0.000 1.339 0.049 0.000 0.000 0.017 likelihood = 26039.06382810 iter 15
+0.024 0.055 0.000 1.342 0.049 0.000 0.000 0.017 likelihood = 26039.06282814 iter 16
+0.025 0.056 0.000 1.343 0.048 0.001 0.000 0.017 likelihood = 26039.06146648 iter 17
+0.026 0.057 0.000 1.341 0.048 0.000 0.000 0.015 likelihood = 26039.05857443 iter 18
+0.026 0.057 0.000 1.341 0.047 0.000 0.000 0.015 likelihood = 26039.05813188 iter 19
+0.026 0.057 0.000 1.340 0.047 0.000 0.000 0.015 likelihood = 26039.05806368 iter 20
+At iterate 20 f=2.603906e+04 |proj g| = 1.551367e-01
+0.026 0.057 0.000 1.340 0.047 0.000 0.000 0.015 likelihood = 26039.05800131 iter 21
+0.026 0.058 0.000 1.339 0.047 0.000 0.000 0.015 likelihood = 26039.05790581 iter 22
+0.026 0.058 0.000 1.338 0.047 0.000 0.000 0.014 likelihood = 26039.05785153 iter 23
+
+	* * *
+
+Tit   = total number of iterations
+Tnf   = total number of function evaluations
+Tnint = total number of segments explored during Cauchy searches
+Skip  = number of BFGS updates skipped
+Nact  = number of active bounds at final generalized Cuachy point
+Projg = norm of the final projected gradient
+F     = final function value
+
+	* * *
+N	Tit	Tnf	Tnint	Skip	Nact	Projg	F
+8	23	24	30	0	3	1.909068e-01	2.603906e+04
+F = 26039.057852
+CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH             
+Cauchy time 0 seconds.
+Subspace minimization time 0 seconds.
+Line search time 0 seconds.
+Total User time 0 seconds.
+derivative for 0: 0.025563 bounds:1 [0.000000-1.000000] -0.190907 26039.057852
+derivative for 1: 0.057707 bounds:1 [0.000000-1.000000] 0.161693 26039.057852
+derivative for 2: 0.000000 bounds:1 [0.000000-1.000000] 4.640815 26039.057852
+derivative for 3: 1.338115 bounds:1 [0.000000-1.000000] 0.001034 26039.057852
+derivative for 4: 0.047464 bounds:1 [0.000000-1.000000] -0.179775 26039.057852
+derivative for 5: 0.000000 bounds:1 [0.000000-1.000000] 0.980760 26039.057852
+derivative for 6: 0.000000 bounds:2 [0.000000-0.000000] -368.549755 26039.057852
+derivative for 7: 0.014483 bounds:1 [0.000000-1.000000] 0.186367 26039.057852
+
+maxval -26039.057852 for POP CEU delta 120.389702 YRI:0.0172 CHB:0.0389 CHD:0.0000 TSI:0.9021 MKK:0.0320 LWK:0.0000 CEU:0.0000 JPT:0.0098 
+RUNNING THE L-BFGS-B CODE
+
+	* * *
+
+Machine precision = 2.220446e-16
+ N = 8, M = 20
+ITERATION 3
+0.017 0.039 0.000 0.902 0.032 0.000 0.878 0.000 likelihood = 25924.87915381 iter 0
+At iteration 0 f=25924.879154	|proj g| = 2.779776e+02
+0.565 0.372 0.335 0.900 0.469 0.535 0.876 0.000 likelihood = 27214.98455091 iter 1
+0.057 0.063 0.024 0.902 0.064 0.039 0.878 0.000 likelihood = 25934.96040991 iter 2
+0.031 0.047 0.009 0.902 0.043 0.014 0.878 0.000 likelihood = 25918.86193093 iter 3
+0.031 0.048 0.009 0.902 0.043 0.013 0.878 0.000 likelihood = 25918.82449278 iter 4
+0.029 0.050 0.011 0.902 0.044 0.012 0.878 0.000 likelihood = 25918.77895798 iter 5
+0.028 0.050 0.012 0.901 0.045 0.011 0.879 0.000 likelihood = 25918.77130623 iter 6
+0.025 0.051 0.012 0.899 0.052 0.010 0.880 0.000 likelihood = 25918.73493042 iter 7
+0.023 0.050 0.012 0.898 0.056 0.008 0.882 0.000 likelihood = 25918.72092375 iter 8
+0.023 0.050 0.011 0.897 0.058 0.008 0.883 0.000 likelihood = 25918.71684704 iter 9
+0.023 0.049 0.011 0.896 0.058 0.008 0.884 0.000 likelihood = 25918.71553065 iter 10
+0.023 0.049 0.011 0.895 0.058 0.007 0.885 0.000 likelihood = 25918.71374081 iter 11
+0.024 0.049 0.011 0.893 0.058 0.006 0.887 0.000 likelihood = 25918.71085822 iter 12
+At iterate 10 f=2.591871e+04 |proj g| = 3.213243e+00
+0.025 0.049 0.011 0.890 0.058 0.005 0.890 0.000 likelihood = 25918.70822453 iter 13
+0.025 0.050 0.011 0.890 0.058 0.005 0.890 0.000 likelihood = 25918.70776850 iter 14
+0.025 0.050 0.012 0.890 0.057 0.006 0.890 0.000 likelihood = 25918.70773336 iter 15
+
+	* * *
+
+Tit   = total number of iterations
+Tnf   = total number of function evaluations
+Tnint = total number of segments explored during Cauchy searches
+Skip  = number of BFGS updates skipped
+Nact  = number of active bounds at final generalized Cuachy point
+Projg = norm of the final projected gradient
+F     = final function value
+
+	* * *
+N	Tit	Tnf	Tnint	Skip	Nact	Projg	F
+8	13	16	15	0	1	2.042782e-01	2.591871e+04
+F = 25918.707733
+CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH             
+Cauchy time 0 seconds.
+Subspace minimization time 0 seconds.
+Line search time 0 seconds.
+Total User time 0 seconds.
+derivative for 0: 0.025149 bounds:1 [0.000000-1.000000] 0.138410 25918.707733
+derivative for 1: 0.049563 bounds:1 [0.000000-1.000000] 0.124138 25918.707733
+derivative for 2: 0.011526 bounds:1 [0.000000-1.000000] 0.112759 25918.707733
+derivative for 3: 0.889832 bounds:1 [0.000000-1.000000] 0.042415 25918.707733
+derivative for 4: 0.057451 bounds:1 [0.000000-1.000000] 0.032754 25918.707733
+derivative for 5: 0.005542 bounds:1 [0.000000-1.000000] -0.204278 25918.707733
+derivative for 6: 0.890065 bounds:1 [0.000000-1.000000] -0.055530 25918.707733
+derivative for 7: 0.000000 bounds:2 [0.000000-0.000000] -6.355689 25918.707733
+
+maxval -25918.707733 for POP JPT delta 0.039584 YRI:0.0130 CHB:0.0257 CHD:0.0060 TSI:0.4613 MKK:0.0298 LWK:0.0029 CEU:0.4614 JPT:0.0000 
+contribution of ancestry from pop CHD is not significant: delta 0.004748 admixture_prop 0.007557 7
+YRI:0.0129 CHB:0.0248 CHD:0.0000 TSI:0.4615 MKK:0.0296 LWK:0.0032 CEU:0.4612 JPT:0.0070 
+RUNNING THE L-BFGS-B CODE
+
+	* * *
+
+Machine precision = 2.220446e-16
+ N = 8, M = 20
+ITERATION 2
+0.000 0.026 0.000 0.461 0.030 0.003 0.461 0.012 likelihood = 25920.66210008 iter 0
+At iteration 0 f=25920.662100	|proj g| = 2.766947e+02
+0.000 0.026 0.000 0.460 0.626 0.806 0.460 0.012 likelihood = 27982.82565904 iter 1
+0.000 0.026 0.000 0.461 0.050 0.030 0.461 0.012 likelihood = 25928.76832327 iter 2
+0.000 0.026 0.000 0.461 0.035 0.010 0.461 0.012 likelihood = 25919.14557642 iter 3
+0.000 0.025 0.000 0.461 0.035 0.011 0.461 0.011 likelihood = 25918.98783674 iter 4
+0.000 0.023 0.000 0.461 0.036 0.012 0.462 0.009 likelihood = 25918.88757701 iter 5
+0.000 0.023 0.000 0.461 0.035 0.012 0.462 0.009 likelihood = 25918.88578347 iter 6
+0.000 0.023 0.000 0.461 0.035 0.012 0.462 0.009 likelihood = 25918.88022323 iter 7
+0.000 0.024 0.000 0.461 0.033 0.014 0.462 0.008 likelihood = 25918.86766261 iter 8
+0.000 0.025 0.000 0.461 0.031 0.015 0.462 0.007 likelihood = 25918.86304803 iter 9
+0.000 0.025 0.000 0.461 0.031 0.015 0.462 0.007 likelihood = 25918.86279045 iter 10
+0.000 0.025 0.000 0.461 0.031 0.015 0.462 0.007 likelihood = 25918.86277373 iter 11
+
+	* * *
+
+Tit   = total number of iterations
+Tnf   = total number of function evaluations
+Tnint = total number of segments explored during Cauchy searches
+Skip  = number of BFGS updates skipped
+Nact  = number of active bounds at final generalized Cuachy point
+Projg = norm of the final projected gradient
+F     = final function value
+
+	* * *
+N	Tit	Tnf	Tnint	Skip	Nact	Projg	F
+8	8	12	12	0	2	5.383316e-01	2.591886e+04
+F = 25918.862774
+CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH             
+Cauchy time 0 seconds.
+Subspace minimization time 0 seconds.
+Line search time 0 seconds.
+Total User time 0 seconds.
+derivative for 0: 0.000000 bounds:2 [0.000000-0.000000] -29.543978 25918.862774
+derivative for 1: 0.024685 bounds:1 [0.000000-1.000000] -0.538332 25918.862774
+derivative for 2: 0.000000 bounds:2 [0.000000-0.000000] -3.413005 25918.862774
+derivative for 3: 0.461170 bounds:1 [0.000000-1.000000] 0.044689 25918.862774
+derivative for 4: 0.031259 bounds:1 [0.000000-1.000000] -0.347903 25918.862774
+derivative for 5: 0.014850 bounds:1 [0.000000-1.000000] -0.012019 25918.862774
+derivative for 6: 0.461916 bounds:1 [0.000000-1.000000] 0.005609 25918.862774
+derivative for 7: 0.007042 bounds:1 [0.000000-1.000000] 0.162194 25918.862774
+
+maxval -25918.862774 for POP YRI delta 0.189876 YRI:0.0000 CHB:0.0247 CHD:0.0000 TSI:0.4607 MKK:0.0312 LWK:0.0148 CEU:0.4615 JPT:0.0070 
+RUNNING THE L-BFGS-B CODE
+
+	* * *
+
+Machine precision = 2.220446e-16
+ N = 8, M = 20
+ITERATION 2
+0.013 0.000 0.000 0.461 0.031 0.015 0.461 0.007 likelihood = 25923.29485111 iter 0
+At iteration 0 f=25923.294851	|proj g| = 3.119576e+02
+0.013 0.000 0.000 0.467 0.031 0.015 0.482 1.007 likelihood = 27333.79902561 iter 1
+0.013 0.000 0.000 0.461 0.031 0.015 0.462 0.054 likelihood = 25926.53684172 iter 2
+0.013 0.000 0.000 0.461 0.031 0.015 0.462 0.025 likelihood = 25920.62704623 iter 3
+0.009 0.000 0.000 0.461 0.028 0.010 0.462 0.029 likelihood = 25919.28195549 iter 4
+0.008 0.000 0.000 0.461 0.028 0.010 0.462 0.029 likelihood = 25919.27823610 iter 5
+0.009 0.000 0.000 0.461 0.028 0.010 0.462 0.029 likelihood = 25919.27627968 iter 6
+0.010 0.000 0.000 0.461 0.028 0.008 0.462 0.030 likelihood = 25919.26271348 iter 7
+0.012 0.000 0.000 0.461 0.028 0.006 0.462 0.030 likelihood = 25919.25222630 iter 8
+0.013 0.000 0.000 0.461 0.030 0.004 0.462 0.029 likelihood = 25919.24589703 iter 9
+0.013 0.000 0.000 0.461 0.030 0.004 0.462 0.029 likelihood = 25919.24585682 iter 10
+
+	* * *
+
+Tit   = total number of iterations
+Tnf   = total number of function evaluations
+Tnint = total number of segments explored during Cauchy searches
+Skip  = number of BFGS updates skipped
+Nact  = number of active bounds at final generalized Cuachy point
+Projg = norm of the final projected gradient
+F     = final function value
+
+	* * *
+N	Tit	Tnf	Tnint	Skip	Nact	Projg	F
+8	8	11	11	0	2	6.286383e-01	2.591925e+04
+F = 25919.245857
+CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH             
+Cauchy time 0 seconds.
+Subspace minimization time 0 seconds.
+Line search time 0 seconds.
+Total User time 0 seconds.
+derivative for 0: 0.013075 bounds:1 [0.000000-1.000000] -0.628638 25919.245857
+derivative for 1: 0.000000 bounds:2 [0.000000-0.000000] -45.869167 25919.245857
+derivative for 2: 0.000000 bounds:2 [0.000000-0.000000] -42.143478 25919.245857
+derivative for 3: 0.461377 bounds:1 [0.000000-1.000000] -0.012689 25919.245857
+derivative for 4: 0.029661 bounds:1 [0.000000-1.000000] -0.028728 25919.245857
+derivative for 5: 0.003856 bounds:1 [0.000000-1.000000] -0.484657 25919.245857
+derivative for 6: 0.461952 bounds:1 [0.000000-1.000000] 0.020348 25919.245857
+derivative for 7: 0.029155 bounds:1 [0.000000-1.000000] 0.253655 25919.245857
+
+maxval -25919.245857 for POP CHB delta 0.572959 YRI:0.0131 CHB:0.0000 CHD:0.0000 TSI:0.4618 MKK:0.0297 LWK:0.0039 CEU:0.4624 JPT:0.0292 
+RUNNING THE L-BFGS-B CODE
+
+	* * *
+
+Machine precision = 2.220446e-16
+ N = 8, M = 20
+ITERATION 2
+0.013 0.025 0.000 0.462 0.000 0.004 0.462 0.029 likelihood = 25925.76075622 iter 0
+At iteration 0 f=25925.760756	|proj g| = 3.968021e+02
+0.727 0.025 0.000 0.477 0.000 0.704 0.462 0.029 likelihood = 28427.18309830 iter 1
+0.044 0.025 0.000 0.462 0.000 0.035 0.462 0.029 likelihood = 25942.59292095 iter 2
+0.021 0.025 0.000 0.462 0.000 0.012 0.462 0.029 likelihood = 25922.78677455 iter 3
+0.022 0.021 0.000 0.462 0.000 0.013 0.463 0.025 likelihood = 25921.03658393 iter 4
+0.023 0.014 0.000 0.463 0.000 0.015 0.463 0.017 likelihood = 25919.81402829 iter 5
+0.023 0.015 0.000 0.463 0.000 0.015 0.463 0.017 likelihood = 25919.79507889 iter 6
+0.023 0.016 0.000 0.463 0.000 0.015 0.463 0.017 likelihood = 25919.78619054 iter 7
+0.021 0.018 0.000 0.463 0.000 0.017 0.462 0.015 likelihood = 25919.74174978 iter 8
+0.019 0.022 0.000 0.464 0.000 0.019 0.462 0.012 likelihood = 25919.69565217 iter 9
+0.017 0.025 0.000 0.465 0.000 0.022 0.461 0.009 likelihood = 25919.65778095 iter 10
+0.016 0.025 0.000 0.465 0.000 0.022 0.461 0.008 likelihood = 25919.65295691 iter 11
+0.016 0.025 0.000 0.465 0.000 0.022 0.461 0.008 likelihood = 25919.65268479 iter 12
+At iterate 10 f=2.591965e+04 |proj g| = 5.895285e-01
+0.016 0.025 0.000 0.465 0.000 0.022 0.461 0.008 likelihood = 25919.65264768 iter 13
+
+	* * *
+
+Tit   = total number of iterations
+Tnf   = total number of function evaluations
+Tnint = total number of segments explored during Cauchy searches
+Skip  = number of BFGS updates skipped
+Nact  = number of active bounds at final generalized Cuachy point
+Projg = norm of the final projected gradient
+F     = final function value
+
+	* * *
+N	Tit	Tnf	Tnint	Skip	Nact	Projg	F
+8	11	14	14	0	2	7.215897e-01	2.591965e+04
+F = 25919.652648
+CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH             
+Cauchy time 0 seconds.
+Subspace minimization time 0 seconds.
+Line search time 0 seconds.
+Total User time 0 seconds.
+derivative for 0: 0.016371 bounds:1 [0.000000-1.000000] -0.721590 25919.652648
+derivative for 1: 0.024568 bounds:1 [0.000000-1.000000] -0.606351 25919.652648
+derivative for 2: 0.000000 bounds:2 [0.000000-0.000000] -4.606200 25919.652648
+derivative for 3: 0.464912 bounds:1 [0.000000-1.000000] -0.558770 25919.652648
+derivative for 4: 0.000000 bounds:2 [0.000000-0.000000] -66.707082 25919.652648
+derivative for 5: 0.021726 bounds:1 [0.000000-1.000000] 0.199096 25919.652648
+derivative for 6: 0.460802 bounds:1 [0.000000-1.000000] 0.615420 25919.652648
+derivative for 7: 0.008096 bounds:1 [0.000000-1.000000] -0.175775 25919.652648
+
+maxval -25919.652648 for POP MKK delta 0.979750 YRI:0.0164 CHB:0.0247 CHD:0.0000 TSI:0.4666 MKK:0.0000 LWK:0.0218 CEU:0.4624 JPT:0.0081 
+RUNNING THE L-BFGS-B CODE
+
+	* * *
+
+Machine precision = 2.220446e-16
+ N = 8, M = 20
+ITERATION 2
+0.016 0.025 0.000 0.467 0.030 0.000 0.462 0.008 likelihood = 25918.69500068 iter 0
+At iteration 0 f=25918.695001	|proj g| = 2.056987e+00
+0.008 0.013 0.000 0.349 0.015 0.000 1.455 0.004 likelihood = 25996.89954119 iter 1
+0.016 0.025 0.000 0.466 0.029 0.000 0.471 0.008 likelihood = 25918.69158151 iter 2
+0.016 0.024 0.000 0.466 0.030 0.000 0.465 0.008 likelihood = 25918.68557644 iter 3
+0.016 0.024 0.000 0.466 0.030 0.000 0.466 0.008 likelihood = 25918.68396895 iter 4
+0.016 0.024 0.000 0.466 0.030 0.000 0.466 0.008 likelihood = 25918.68308414 iter 5
+0.014 0.026 0.000 0.466 0.032 0.000 0.465 0.008 likelihood = 25918.69401981 iter 6
+0.015 0.025 0.000 0.466 0.031 0.000 0.466 0.008 likelihood = 25918.68188185 iter 7
+0.015 0.025 0.000 0.466 0.031 0.000 0.466 0.007 likelihood = 25918.68074565 iter 8
+0.015 0.025 0.000 0.466 0.031 0.000 0.466 0.007 likelihood = 25918.68073053 iter 9
+
+	* * *
+
+Tit   = total number of iterations
+Tnf   = total number of function evaluations
+Tnint = total number of segments explored during Cauchy searches
+Skip  = number of BFGS updates skipped
+Nact  = number of active bounds at final generalized Cuachy point
+Projg = norm of the final projected gradient
+F     = final function value
+
+	* * *
+N	Tit	Tnf	Tnint	Skip	Nact	Projg	F
+8	7	10	11	0	2	3.371540e-01	2.591868e+04
+F = 25918.680731
+CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH             
+Cauchy time 0 seconds.
+Subspace minimization time 0 seconds.
+Line search time 0 seconds.
+Total User time 0 seconds.
+derivative for 0: 0.014951 bounds:1 [0.000000-1.000000] -0.097553 25918.680731
+derivative for 1: 0.024852 bounds:1 [0.000000-1.000000] -0.337154 25918.680731
+derivative for 2: 0.000000 bounds:2 [0.000000-0.000000] -2.756766 25918.680731
+derivative for 3: 0.466028 bounds:1 [0.000000-1.000000] 0.004038 25918.680731
+derivative for 4: 0.031328 bounds:1 [0.000000-1.000000] 0.130648 25918.680731
+derivative for 5: 0.000000 bounds:2 [0.000000-0.000000] -4.881637 25918.680731
+derivative for 6: 0.466325 bounds:1 [0.000000-1.000000] 0.002843 25918.680731
+derivative for 7: 0.007260 bounds:1 [0.000000-1.000000] 0.349487 25918.680731
+
+maxval -25918.680731 for POP LWK delta 0.007832 YRI:0.0148 CHB:0.0246 CHD:0.0000 TSI:0.4611 MKK:0.0310 LWK:0.0000 CEU:0.4614 JPT:0.0072 
+RUNNING THE L-BFGS-B CODE
+
+	* * *
+
+Machine precision = 2.220446e-16
+ N = 8, M = 20
+ITERATION 2
+0.015 0.025 0.000 0.461 0.031 0.003 0.461 0.000 likelihood = 25919.06295555 iter 0
+At iteration 0 f=25919.062956	|proj g| = 8.775906e+01
+0.015 1.025 0.000 0.456 0.031 0.003 0.456 0.000 likelihood = 27368.13673881 iter 1
+0.015 0.039 0.000 0.461 0.031 0.003 0.461 0.000 likelihood = 25919.35346135 iter 2
+0.015 0.030 0.000 0.461 0.031 0.003 0.461 0.000 likelihood = 25918.81247211 iter 3
+0.014 0.032 0.000 0.461 0.030 0.002 0.461 0.000 likelihood = 25918.72234852 iter 4
+0.014 0.032 0.000 0.461 0.030 0.002 0.461 0.000 likelihood = 25918.72231387 iter 5
+0.013 0.032 0.000 0.461 0.030 0.002 0.461 0.000 likelihood = 25918.72218660 iter 6
+0.013 0.032 0.000 0.461 0.030 0.003 0.461 0.000 likelihood = 25918.72153436 iter 7
+0.013 0.032 0.000 0.461 0.030 0.003 0.461 0.000 likelihood = 25918.72147995 iter 8
+
+	* * *
+
+Tit   = total number of iterations
+Tnf   = total number of function evaluations
+Tnint = total number of segments explored during Cauchy searches
+Skip  = number of BFGS updates skipped
+Nact  = number of active bounds at final generalized Cuachy point
+Projg = norm of the final projected gradient
+F     = final function value
+
+	* * *
+N	Tit	Tnf	Tnint	Skip	Nact	Projg	F
+8	5	9	10	0	2	8.484256e-02	2.591872e+04
+F = 25918.721480
+CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH             
+Cauchy time 0 seconds.
+Subspace minimization time 0 seconds.
+Line search time 0 seconds.
+Total User time 0 seconds.
+derivative for 0: 0.012818 bounds:1 [0.000000-1.000000] -0.079540 25918.721480
+derivative for 1: 0.031567 bounds:1 [0.000000-1.000000] 0.109179 25918.721480
+derivative for 2: 0.000000 bounds:2 [0.000000-0.000000] -4.508333 25918.721480
+derivative for 3: 0.461092 bounds:1 [0.000000-1.000000] -0.004698 25918.721480
+derivative for 4: 0.029809 bounds:1 [0.000000-1.000000] -0.077286 25918.721480
+derivative for 5: 0.003090 bounds:1 [0.000000-1.000000] -0.084843 25918.721480
+derivative for 6: 0.461428 bounds:1 [0.000000-1.000000] 0.004996 25918.721480
+derivative for 7: 0.000000 bounds:2 [0.000000-0.000000] -14.117822 25918.721480
+
+maxval -25918.721480 for POP JPT delta 0.048582 YRI:0.0128 CHB:0.0316 CHD:0.0000 TSI:0.4612 MKK:0.0298 LWK:0.0031 CEU:0.4615 JPT:0.0000 
+contribution of ancestry from pop LWK is not significant: delta 0.007832 admixture_prop 0.003189 6
+YRI:0.0148 CHB:0.0246 CHD:0.0000 TSI:0.4611 MKK:0.0310 LWK:0.0000 CEU:0.4614 JPT:0.0072 
+RUNNING THE L-BFGS-B CODE
+
+	* * *
+
+Machine precision = 2.220446e-16
+ N = 8, M = 20
+ITERATION 3
+0.000 0.032 0.000 0.461 0.030 0.000 0.462 0.007 likelihood = 25921.52625870 iter 0
+At iteration 0 f=25921.526259	|proj g| = 2.575775e+02
+0.000 0.046 0.000 0.459 1.030 0.000 0.460 0.024 likelihood = 27172.59889439 iter 1
+0.000 0.032 0.000 0.461 0.073 0.000 0.461 0.008 likelihood = 25924.43767876 iter 2
+0.000 0.032 0.000 0.461 0.046 0.000 0.461 0.007 likelihood = 25919.52360719 iter 3
+0.000 0.031 0.000 0.461 0.047 0.000 0.462 0.006 likelihood = 25919.34933629 iter 4
+0.000 0.028 0.000 0.461 0.048 0.000 0.462 0.004 likelihood = 25919.24538945 iter 5
+0.000 0.028 0.000 0.461 0.048 0.000 0.462 0.004 likelihood = 25919.24502313 iter 6
+0.000 0.028 0.000 0.461 0.048 0.000 0.462 0.004 likelihood = 25919.24414538 iter 7
+0.000 0.028 0.000 0.461 0.048 0.000 0.462 0.005 likelihood = 25919.24269746 iter 8
+0.000 0.027 0.000 0.461 0.048 0.000 0.462 0.006 likelihood = 25919.24075132 iter 9
+0.000 0.026 0.000 0.460 0.048 0.000 0.463 0.006 likelihood = 25919.23951093 iter 10
+0.000 0.026 0.000 0.460 0.048 0.000 0.463 0.006 likelihood = 25919.23949199 iter 11
+
+	* * *
+
+Tit   = total number of iterations
+Tnf   = total number of function evaluations
+Tnint = total number of segments explored during Cauchy searches
+Skip  = number of BFGS updates skipped
+Nact  = number of active bounds at final generalized Cuachy point
+Projg = norm of the final projected gradient
+F     = final function value
+
+	* * *
+N	Tit	Tnf	Tnint	Skip	Nact	Projg	F
+8	9	12	11	0	3	2.052264e-01	2.591924e+04
+F = 25919.239492
+CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH             
+Cauchy time 0 seconds.
+Subspace minimization time 0 seconds.
+Line search time 0 seconds.
+Total User time 0 seconds.
+derivative for 0: 0.000000 bounds:2 [0.000000-0.000000] -75.681090 25919.239492
+derivative for 1: 0.026114 bounds:1 [0.000000-1.000000] -0.205226 25919.239492
+derivative for 2: 0.000000 bounds:2 [0.000000-0.000000] -2.327515 25919.239492
+derivative for 3: 0.460368 bounds:1 [0.000000-1.000000] 0.175627 25919.239492
+derivative for 4: 0.048223 bounds:1 [0.000000-1.000000] -0.063397 25919.239492
+derivative for 5: 0.000000 bounds:2 [0.000000-0.000000] -51.508956 25919.239492
+derivative for 6: 0.462656 bounds:1 [0.000000-1.000000] -0.155765 25919.239492
+derivative for 7: 0.006272 bounds:1 [0.000000-1.000000] -0.059108 25919.239492
+
+maxval -25919.239492 for POP YRI delta 0.558761 YRI:0.0000 CHB:0.0260 CHD:0.0000 TSI:0.4587 MKK:0.0480 LWK:0.0000 CEU:0.4610 JPT:0.0062 
+RUNNING THE L-BFGS-B CODE
+
+	* * *
+
+Machine precision = 2.220446e-16
+ N = 8, M = 20
+ITERATION 3
+0.015 0.000 0.000 0.459 0.048 0.000 0.461 0.006 likelihood = 25923.71120418 iter 0
+At iteration 0 f=25923.711204	|proj g| = 3.221882e+02
+0.015 0.000 0.000 0.467 0.048 0.000 0.486 1.006 likelihood = 27320.71335825 iter 1
+0.015 0.000 0.000 0.459 0.048 0.000 0.462 0.055 likelihood = 25927.21111891 iter 2
+0.015 0.000 0.000 0.459 0.048 0.000 0.461 0.025 likelihood = 25920.87972378 iter 3
+0.010 0.000 0.000 0.459 0.044 0.000 0.462 0.027 likelihood = 25919.66316424 iter 4
+0.008 0.000 0.000 0.459 0.041 0.000 0.462 0.029 likelihood = 25919.41878279 iter 5
+0.008 0.000 0.000 0.459 0.041 0.000 0.462 0.029 likelihood = 25919.40589257 iter 6
+0.013 0.000 0.000 0.459 0.035 0.000 0.462 0.030 likelihood = 25919.29261465 iter 7
+0.015 0.000 0.000 0.460 0.032 0.000 0.462 0.029 likelihood = 25919.26345528 iter 8
+0.016 0.000 0.000 0.460 0.031 0.000 0.462 0.029 likelihood = 25919.25847408 iter 9
+0.016 0.000 0.000 0.460 0.031 0.000 0.462 0.029 likelihood = 25919.25836017 iter 10
+0.016 0.000 0.000 0.460 0.031 0.000 0.462 0.029 likelihood = 25919.25834606 iter 11
+
+	* * *
+
+Tit   = total number of iterations
+Tnf   = total number of function evaluations
+Tnint = total number of segments explored during Cauchy searches
+Skip  = number of BFGS updates skipped
+Nact  = number of active bounds at final generalized Cuachy point
+Projg = norm of the final projected gradient
+F     = final function value
+
+	* * *
+N	Tit	Tnf	Tnint	Skip	Nact	Projg	F
+8	9	12	11	0	3	5.287093e-01	2.591926e+04
+F = 25919.258346
+CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH             
+Cauchy time 0 seconds.
+Subspace minimization time 0 seconds.
+Line search time 0 seconds.
+Total User time 0 seconds.
+derivative for 0: 0.015526 bounds:1 [0.000000-1.000000] -0.236255 25919.258346
+derivative for 1: 0.000000 bounds:2 [0.000000-0.000000] -46.464112 25919.258346
+derivative for 2: 0.000000 bounds:2 [0.000000-0.000000] -42.563978 25919.258346
+derivative for 3: 0.459787 bounds:1 [0.000000-1.000000] -0.528709 25919.258346
+derivative for 4: 0.031175 bounds:1 [0.000000-1.000000] -0.185985 25919.258346
+derivative for 5: 0.000000 bounds:2 [0.000000-0.000000] -6.352071 25919.258346
+derivative for 6: 0.462365 bounds:1 [0.000000-1.000000] 0.555637 25919.258346
+derivative for 7: 0.029151 bounds:1 [0.000000-1.000000] -0.149125 25919.258346
+
+maxval -25919.258346 for POP CHB delta 0.577616 YRI:0.0156 CHB:0.0000 CHD:0.0000 TSI:0.4607 MKK:0.0312 LWK:0.0000 CEU:0.4633 JPT:0.0292 
+RUNNING THE L-BFGS-B CODE
+
+	* * *
+
+Machine precision = 2.220446e-16
+ N = 8, M = 20
+ITERATION 3
+0.016 0.025 0.000 0.461 0.000 0.000 0.463 0.029 likelihood = 25926.30599158 iter 0
+At iteration 0 f=25926.305992	|proj g| = 4.306175e+02
+1.015 0.025 0.000 0.481 0.000 0.000 0.462 0.029 likelihood = 27861.17687307 iter 1
+0.062 0.025 0.000 0.462 0.000 0.000 0.463 0.029 likelihood = 25932.78647055 iter 2
+0.032 0.025 0.000 0.461 0.000 0.000 0.463 0.029 likelihood = 25923.00402032 iter 3
+0.033 0.021 0.000 0.461 0.000 0.000 0.463 0.025 likelihood = 25921.35302953 iter 4
+0.036 0.015 0.000 0.462 0.000 0.000 0.464 0.017 likelihood = 25920.25622351 iter 5
+0.036 0.015 0.000 0.462 0.000 0.000 0.463 0.018 likelihood = 25920.24151311 iter 6
+0.036 0.016 0.000 0.462 0.000 0.000 0.463 0.018 likelihood = 25920.23560791 iter 7
+0.036 0.019 0.000 0.463 0.000 0.000 0.463 0.015 likelihood = 25920.19980097 iter 8
+0.036 0.023 0.000 0.464 0.000 0.000 0.462 0.012 likelihood = 25920.16496454

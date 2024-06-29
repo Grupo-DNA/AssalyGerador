@@ -148,18 +148,18 @@ Intolerâncias e Alergias	EMSY, EMSY BRCA2 interacting transcriptional repressor
 Intolerâncias e Alergias	SERPINB7	rs12964116	AA	2
 Intolerâncias e Alergias	SERPINB7	rs12964116	AG	1
 Intolerâncias e Alergias	SERPINB7	rs12964116	GG	0
-Doença Celíaca	HLA-DRA	rs2395182	TT	2
-Doença Celíaca	HLA-DRA	rs2395182	TG	1
-Doença Celíaca	HLA-DRA	rs2395182	GG	0
-Doença Celíaca	HLA-DQ8	rs7454108	CC	2
-Doença Celíaca	HLA-DQ8	rs7454108	CT	1
-Doença Celíaca	HLA-DQ8	rs7454108	TT	0
-Doença Celíaca	HLA-DQA1	rs2187668	TT	2
-Doença Celíaca	HLA-DQA1	rs2187668	TC	1
-Doença Celíaca	HLA-DQA1	rs2187668	CC	0
-Doença Celíaca	HLA-DQ	rs4713586	GG	2
-Doença Celíaca	HLA-DQ	rs4713586	GA	1
-Doença Celíaca	HLA-DQ	rs4713586	AA	0
+Intolerância ao glutén	HLA-DRA	rs2395182	TT	2
+Intolerância ao glutén	HLA-DRA	rs2395182	TG	1
+Intolerância ao glutén	HLA-DRA	rs2395182	GG	0
+Intolerância ao glutén	HLA-DQ8	rs7454108	CC	2
+Intolerância ao glutén	HLA-DQ8	rs7454108	CT	1
+Intolerância ao glutén	HLA-DQ8	rs7454108	TT	0
+Intolerância ao glutén	HLA-DQA1	rs2187668	TT	2
+Intolerância ao glutén	HLA-DQA1	rs2187668	TC	1
+Intolerância ao glutén	HLA-DQA1	rs2187668	CC	0
+Intolerância ao glutén	HLA-DQ	rs4713586	GG	2
+Intolerância ao glutén	HLA-DQ	rs4713586	GA	1
+Intolerância ao glutén	HLA-DQ	rs4713586	AA	0
 Intolerância à Lactose	MCM6	rs4988235	GG	2
 Intolerância à Lactose	MCM6	rs4988235	GA	1
 Intolerância à Lactose	MCM6	rs4988235	AA	0
@@ -1276,10 +1276,10 @@ Ferro	TFR2	rs7385804	AC	1
 Metabolização de Cafeína	CYP1A2 	rs762551	AC	1
 Intolerâncias e Alergias	EMSY, EMSY BRCA2 interacting transcriptional repressor	rs2212434	TC	1
 Intolerâncias e Alergias	SERPINB7	rs12964116	GA	1
-Doença Celíaca	HLA-DRA	rs2395182	GT	1
-Doença Celíaca	HLA-DQ8	rs7454108	TC	1
-Doença Celíaca	HLA-DQA1	rs2187668	CT	1
-Doença Celíaca	HLA-DQ	rs4713586	AG	1
+Intolerância ao glutén	HLA-DRA	rs2395182	GT	1
+Intolerância ao glutén	HLA-DQ8	rs7454108	TC	1
+Intolerância ao glutén	HLA-DQA1	rs2187668	CT	1
+Intolerância ao glutén	HLA-DQ	rs4713586	AG	1
 Intolerância à Lactose	MCM6	rs4988235	AG	1
 Intolerância à Lactose	LCT	rs2322659	TC	1
 Intolerâncias e Alergias	DAO	rs2052129	GT	1
@@ -1911,10 +1911,10 @@ TDAH	DRD2	rs1800497	AA	2
 TDAH	DRD2	rs1800497	AG	1
 TDAH	DRD2	rs1800497	GA	1
 TDAH	DRD2	rs1800497	GG	0
-Raiva	FYN	rs2148710	TT	2
-Raiva	FYN	rs2148710	TC	1
-Raiva	FYN	rs2148710	CT	1
-Raiva	FYN	rs2148710	CC	0
+Perfil explosivo	FYN	rs2148710	TT	2
+Perfil explosivo	FYN	rs2148710	TC	1
+Perfil explosivo	FYN	rs2148710	CT	1
+Perfil explosivo	FYN	rs2148710	CC	0
 Otimismo	LINC01221	rs322931	AA	2
 Otimismo	LINC01221	rs322931	AG	1
 Otimismo	LINC01221	rs322931	GA	1
@@ -2203,38 +2203,38 @@ Histamina	DAO	rs2052129	TT	2
 Histamina	DAO	rs2052129	TG	1
 Histamina	DAO	rs2052129	GT	1
 Histamina	DAO	rs2052129	GG	0
-Capacidade antioxidante	NQO1	rs1800566	AA	2
-Capacidade antioxidante	NQO1	rs1800566	AG	1
-Capacidade antioxidante	NQO1	rs1800566	GA	1
-Capacidade antioxidante	NQO1	rs1800566	GG	0
-Capacidade antioxidante	SOD2	rs4880	AA	2
-Capacidade antioxidante	SOD2	rs4880	AG	1
-Capacidade antioxidante	SOD2	rs4880	GA	1
-Capacidade antioxidante	SOD2	rs4880	GG	0
-Capacidade antioxidante	NFE2L2	rs6721961	TT	2
-Capacidade antioxidante	NFE2L2	rs6721961	TG	1
-Capacidade antioxidante	NFE2L2	rs6721961	GT	1
-Capacidade antioxidante	NFE2L2	rs6721961	GG	0
-Capacidade antioxidante	CAT	rs1001179	CC	2
-Capacidade antioxidante	CAT	rs1001179	CT	1
-Capacidade antioxidante	CAT	rs1001179	TC	1
-Capacidade antioxidante	CAT	rs1001179	TT	0
-Disco invertebral	C6orf106	rs2814982	TT	2
-Disco invertebral	C6orf106	rs2814982	TC	1
-Disco invertebral	C6orf106	rs2814982	CT	1
-Disco invertebral	C6orf106	rs2814982	CC	0
-Disco invertebral	SLC13A1	rs28364172	AA	2
-Disco invertebral	SLC13A1	rs28364172	AG	1
-Disco invertebral	SLC13A1	rs28364172	GA	1
-Disco invertebral	SLC13A1	rs28364172	GG	0
-Disco invertebral	SERPINA1	rs28929474	TT	2
-Disco invertebral	SERPINA1	rs28929474	TC	1
-Disco invertebral	SERPINA1	rs28929474	CT	1
-Disco invertebral	SERPINA1	rs28929474	CC	0
-Disco invertebral	GDF5	rs143384	GG	2
-Disco invertebral	GDF5	rs143384	GA	1
-Disco invertebral	GDF5	rs143384	AG	1
-Disco invertebral	GDF5	rs143384	AA	0
+Capacidade Antioxidante	NQO1	rs1800566	AA	2
+Capacidade Antioxidante	NQO1	rs1800566	AG	1
+Capacidade Antioxidante	NQO1	rs1800566	GA	1
+Capacidade Antioxidante	NQO1	rs1800566	GG	0
+Capacidade Antioxidante	SOD2	rs4880	AA	2
+Capacidade Antioxidante	SOD2	rs4880	AG	1
+Capacidade Antioxidante	SOD2	rs4880	GA	1
+Capacidade Antioxidante	SOD2	rs4880	GG	0
+Capacidade Antioxidante	NFE2L2	rs6721961	TT	2
+Capacidade Antioxidante	NFE2L2	rs6721961	TG	1
+Capacidade Antioxidante	NFE2L2	rs6721961	GT	1
+Capacidade Antioxidante	NFE2L2	rs6721961	GG	0
+Capacidade Antioxidante	CAT	rs1001179	CC	2
+Capacidade Antioxidante	CAT	rs1001179	CT	1
+Capacidade Antioxidante	CAT	rs1001179	TC	1
+Capacidade Antioxidante	CAT	rs1001179	TT	0
+Disco Intervertebral	C6orf106	rs2814982	TT	2
+Disco Intervertebral	C6orf106	rs2814982	TC	1
+Disco Intervertebral	C6orf106	rs2814982	CT	1
+Disco Intervertebral	C6orf106	rs2814982	CC	0
+Disco Intervertebral	SLC13A1	rs28364172	AA	2
+Disco Intervertebral	SLC13A1	rs28364172	AG	1
+Disco Intervertebral	SLC13A1	rs28364172	GA	1
+Disco Intervertebral	SLC13A1	rs28364172	GG	0
+Disco Intervertebral	SERPINA1	rs28929474	TT	2
+Disco Intervertebral	SERPINA1	rs28929474	TC	1
+Disco Intervertebral	SERPINA1	rs28929474	CT	1
+Disco Intervertebral	SERPINA1	rs28929474	CC	0
+Disco Intervertebral	GDF5	rs143384	GG	2
+Disco Intervertebral	GDF5	rs143384	GA	1
+Disco Intervertebral	GDF5	rs143384	AG	1
+Disco Intervertebral	GDF5	rs143384	AA	0
 Fotoenvelhecimento	IRF4	rs12203592	TT	2
 Fotoenvelhecimento	IRF4	rs12203592	TC	1
 Fotoenvelhecimento	IRF4	rs12203592	CT	1
@@ -2267,38 +2267,38 @@ Osteoartrite	GDF5	rs143384	AA	0
 Osteoartrite	GDF5	rs143384	AG	1
 Osteoartrite	GDF5	rs143384	GA	1
 Osteoartrite	GDF5	rs143384	GG	2
-Perda ossea	WNT2B	rs3790608	GG	2
-Perda ossea	WNT2B	rs3790608	GA	1
-Perda ossea	WNT2B	rs3790608	AG	1
-Perda ossea	WNT2B	rs3790608	AA	0
-Perda ossea	LOC100506797	rs1878526	GG	2
-Perda ossea	LOC100506797	rs1878526	GA	1
-Perda ossea	LOC100506797	rs1878526	AG	1
-Perda ossea	LOC100506797	rs1878526	AA	0
-Perda ossea	EN1	rs3754855	AA	2
-Perda ossea	EN1	rs3754855	AG	1
-Perda ossea	EN1	rs3754855	GA	1
-Perda ossea	EN1	rs3754855	GG	0
-Perda ossea	FZD7	rs10931982	TT	2
-Perda ossea	FZD7	rs10931982	TC	1
-Perda ossea	FZD7	rs10931982	CT	1
-Perda ossea	FZD7	rs10931982	CC	0
-Perda ossea	RSPO3	rs9482770	TT	2
-Perda ossea	RSPO3	rs9482770	TC	1
-Perda ossea	RSPO3	rs9482770	CT	1
-Perda ossea	RSPO3	rs9482770	CC	0
-Perda ossea	MIR148A	rs87	AA	2
-Perda ossea	MIR148A	rs87	AG	1
-Perda ossea	MIR148A	rs87	GA	1
-Perda ossea	MIR148A	rs87	GG	0
-Perda ossea	WNT16	rs3779381	AA	2
-Perda ossea	WNT16	rs3779381	AG	1
-Perda ossea	WNT16	rs3779381	GA	1
-Perda ossea	WNT16	rs3779381	GG	0
-Perda ossea	CADM1	rs1048932	CC	2
-Perda ossea	CADM1	rs1048932	CA	1
-Perda ossea	CADM1	rs1048932	AC	1
-Perda ossea	CADM1	rs1048932	AA	0
+Perda Óssea	WNT2B	rs3790608	GG	2
+Perda Óssea	WNT2B	rs3790608	GA	1
+Perda Óssea	WNT2B	rs3790608	AG	1
+Perda Óssea	WNT2B	rs3790608	AA	0
+Perda Óssea	LOC100506797	rs1878526	GG	2
+Perda Óssea	LOC100506797	rs1878526	GA	1
+Perda Óssea	LOC100506797	rs1878526	AG	1
+Perda Óssea	LOC100506797	rs1878526	AA	0
+Perda Óssea	EN1	rs3754855	AA	2
+Perda Óssea	EN1	rs3754855	AG	1
+Perda Óssea	EN1	rs3754855	GA	1
+Perda Óssea	EN1	rs3754855	GG	0
+Perda Óssea	FZD7	rs10931982	TT	2
+Perda Óssea	FZD7	rs10931982	TC	1
+Perda Óssea	FZD7	rs10931982	CT	1
+Perda Óssea	FZD7	rs10931982	CC	0
+Perda Óssea	RSPO3	rs9482770	TT	2
+Perda Óssea	RSPO3	rs9482770	TC	1
+Perda Óssea	RSPO3	rs9482770	CT	1
+Perda Óssea	RSPO3	rs9482770	CC	0
+Perda Óssea	MIR148A	rs87	AA	2
+Perda Óssea	MIR148A	rs87	AG	1
+Perda Óssea	MIR148A	rs87	GA	1
+Perda Óssea	MIR148A	rs87	GG	0
+Perda Óssea	WNT16	rs3779381	AA	2
+Perda Óssea	WNT16	rs3779381	AG	1
+Perda Óssea	WNT16	rs3779381	GA	1
+Perda Óssea	WNT16	rs3779381	GG	0
+Perda Óssea	CADM1	rs1048932	CC	2
+Perda Óssea	CADM1	rs1048932	CA	1
+Perda Óssea	CADM1	rs1048932	AC	1
+Perda Óssea	CADM1	rs1048932	AA	0
 Degeneracao macular	CFI	rs10033900	TT	2
 Degeneracao macular	CFI	rs10033900	TC	1
 Degeneracao macular	CFI	rs10033900	CT	1
@@ -2363,106 +2363,106 @@ Catarata	SEPT9	rs9038	TT	2
 Catarata	SEPT9	rs9038	TC	1
 Catarata	SEPT9	rs9038	CT	1
 Catarata	SEPT9	rs9038	CC	0
-Artrite reumatoide	POU3F1	rs883220	CC	2
-Artrite reumatoide	POU3F1	rs883220	CA	1
-Artrite reumatoide	POU3F1	rs883220	AC	1
-Artrite reumatoide	POU3F1	rs883220	AA	0
-Artrite reumatoide	PTPN22	rs2476601	AA	2
-Artrite reumatoide	PTPN22	rs2476601	AG	1
-Artrite reumatoide	PTPN22	rs2476601	GA	1
-Artrite reumatoide	PTPN22	rs2476601	GG	0
-Artrite reumatoide	CD2	rs798000	CC	2
-Artrite reumatoide	CD2	rs798000	CT	1
-Artrite reumatoide	CD2	rs798000	TC	1
-Artrite reumatoide	CD2	rs798000	TT	0
-Artrite reumatoide	IL6R	rs2228145	AA	2
-Artrite reumatoide	IL6R	rs2228145	AC	1
-Artrite reumatoide	IL6R	rs2228145	CA	1
-Artrite reumatoide	IL6R	rs2228145	CC	0
-Artrite reumatoide	REL	rs34695944	CC	2
-Artrite reumatoide	REL	rs34695944	CT	1
-Artrite reumatoide	REL	rs34695944	TC	1
-Artrite reumatoide	REL	rs34695944	TT	0
-Artrite reumatoide	STAT4	rs7574865	TT	2
-Artrite reumatoide	STAT4	rs7574865	TG	1
-Artrite reumatoide	STAT4	rs7574865	GT	1
-Artrite reumatoide	STAT4	rs7574865	GG	0
-Artrite reumatoide	CTLA4	rs1980422	CC	2
-Artrite reumatoide	CTLA4	rs1980422	CT	1
-Artrite reumatoide	CTLA4	rs1980422	TC	1
-Artrite reumatoide	CTLA4	rs1980422	TT	0
-Artrite reumatoide	DNASE1L3	rs35677470	AA	2
-Artrite reumatoide	DNASE1L3	rs35677470	AG	1
-Artrite reumatoide	DNASE1L3	rs35677470	GA	1
-Artrite reumatoide	DNASE1L3	rs35677470	GG	0
-Artrite reumatoide	ANKRD55	rs71624119	GG	2
-Artrite reumatoide	ANKRD55	rs71624119	GA	1
-Artrite reumatoide	ANKRD55	rs71624119	AG	1
-Artrite reumatoide	ANKRD55	rs71624119	AA	0
-Artrite reumatoide	TNFAIP3	rs6920220	AA	2
-Artrite reumatoide	TNFAIP3	rs6920220	AG	1
-Artrite reumatoide	TNFAIP3	rs6920220	GA	1
-Artrite reumatoide	TNFAIP3	rs6920220	GG	0
-Artrite reumatoide	TNFAIP3	rs58721818	TT	2
-Artrite reumatoide	TNFAIP3	rs58721818	TC	1
-Artrite reumatoide	TNFAIP3	rs58721818	CT	1
-Artrite reumatoide	TNFAIP3	rs58721818	CC	0
-Artrite reumatoide	CCL21	rs2812378	GG	2
-Artrite reumatoide	CCL21	rs2812378	GA	1
-Artrite reumatoide	CCL21	rs2812378	AG	1
-Artrite reumatoide	CCL21	rs2812378	AA	0
-Artrite reumatoide	IL2RA/PRKCQ	rs947474	AA	2
-Artrite reumatoide	IL2RA/PRKCQ	rs947474	AG	1
-Artrite reumatoide	IL2RA/PRKCQ	rs947474	GA	1
-Artrite reumatoide	IL2RA/PRKCQ	rs947474	GG	0
-Artrite reumatoide	DDX6	rs4938573	TT	2
-Artrite reumatoide	DDX6	rs4938573	TC	1
-Artrite reumatoide	DDX6	rs4938573	CT	1
-Artrite reumatoide	DDX6	rs4938573	CC	0
-Artrite reumatoide	TLE3	rs8026898	AA	2
-Artrite reumatoide	TLE3	rs8026898	AG	1
-Artrite reumatoide	TLE3	rs8026898	GA	1
-Artrite reumatoide	TLE3	rs8026898	GG	0
-Artrite reumatoide	IRF8	rs13330176	AA	2
-Artrite reumatoide	IRF8	rs13330176	AT	1
-Artrite reumatoide	IRF8	rs13330176	TA	1
-Artrite reumatoide	IRF8	rs13330176	TT	0
-Artrite reumatoide	TYK2	rs34536443	GG	2
-Artrite reumatoide	TYK2	rs34536443	GC	1
-Artrite reumatoide	TYK2	rs34536443	CG	1
-Artrite reumatoide	TYK2	rs34536443	CC	0
-Artrite reumatoide	TYK2	rs34536443	GG	2
-Artrite reumatoide	TYK2	rs34536443	GC	1
-Artrite reumatoide	TYK2	rs34536443	CG	1
-Artrite reumatoide	TYK2	rs34536443	CC	0
-Artrite reumatoide	TYK2	rs35018800	GG	2
-Artrite reumatoide	TYK2	rs35018800	GA	1
-Artrite reumatoide	TYK2	rs35018800	AG	1
-Artrite reumatoide	TYK2	rs35018800	AA	0
-Artrite reumatoide	TYK2	rs12720356	AA	2
-Artrite reumatoide	TYK2	rs12720356	AC	1
-Artrite reumatoide	TYK2	rs12720356	CA	1
-Artrite reumatoide	TYK2	rs12720356	CC	0
-Artrite reumatoide	TYK2	rs12720356	AA	2
-Artrite reumatoide	TYK2	rs12720356	AC	1
-Artrite reumatoide	TYK2	rs12720356	CA	1
-Artrite reumatoide	TYK2	rs12720356	CC	0
-Artrite reumatoide	CD40	rs6032662	TT	2
-Artrite reumatoide	CD40	rs6032662	TC	1
-Artrite reumatoide	CD40	rs6032662	CT	1
-Artrite reumatoide	CD40	rs6032662	CC	0
-Artrite reumatoide	RCAN1	rs2834512	GG	2
-Artrite reumatoide	RCAN1	rs2834512	GA	1
-Artrite reumatoide	RCAN1	rs2834512	AG	1
-Artrite reumatoide	RCAN1	rs2834512	AA	0
-Artrite reumatoide	RUNX1	rs9979383	TT	2
-Artrite reumatoide	RUNX1	rs9979383	TC	1
-Artrite reumatoide	RUNX1	rs9979383	CT	1
-Artrite reumatoide	RUNX1	rs9979383	CC	0
-Artrite reumatoide	IRAK1	rs13397	AA	2
-Artrite reumatoide	IRAK1	rs13397	AG	1
-Artrite reumatoide	IRAK1	rs13397	GA	1
-Artrite reumatoide	IRAK1	rs13397	GG	0
+Artrite Reumatoide	POU3F1	rs883220	CC	2
+Artrite Reumatoide	POU3F1	rs883220	CA	1
+Artrite Reumatoide	POU3F1	rs883220	AC	1
+Artrite Reumatoide	POU3F1	rs883220	AA	0
+Artrite Reumatoide	PTPN22	rs2476601	AA	2
+Artrite Reumatoide	PTPN22	rs2476601	AG	1
+Artrite Reumatoide	PTPN22	rs2476601	GA	1
+Artrite Reumatoide	PTPN22	rs2476601	GG	0
+Artrite Reumatoide	CD2	rs798000	CC	2
+Artrite Reumatoide	CD2	rs798000	CT	1
+Artrite Reumatoide	CD2	rs798000	TC	1
+Artrite Reumatoide	CD2	rs798000	TT	0
+Artrite Reumatoide	IL6R	rs2228145	AA	2
+Artrite Reumatoide	IL6R	rs2228145	AC	1
+Artrite Reumatoide	IL6R	rs2228145	CA	1
+Artrite Reumatoide	IL6R	rs2228145	CC	0
+Artrite Reumatoide	REL	rs34695944	CC	2
+Artrite Reumatoide	REL	rs34695944	CT	1
+Artrite Reumatoide	REL	rs34695944	TC	1
+Artrite Reumatoide	REL	rs34695944	TT	0
+Artrite Reumatoide	STAT4	rs7574865	TT	2
+Artrite Reumatoide	STAT4	rs7574865	TG	1
+Artrite Reumatoide	STAT4	rs7574865	GT	1
+Artrite Reumatoide	STAT4	rs7574865	GG	0
+Artrite Reumatoide	CTLA4	rs1980422	CC	2
+Artrite Reumatoide	CTLA4	rs1980422	CT	1
+Artrite Reumatoide	CTLA4	rs1980422	TC	1
+Artrite Reumatoide	CTLA4	rs1980422	TT	0
+Artrite Reumatoide	DNASE1L3	rs35677470	AA	2
+Artrite Reumatoide	DNASE1L3	rs35677470	AG	1
+Artrite Reumatoide	DNASE1L3	rs35677470	GA	1
+Artrite Reumatoide	DNASE1L3	rs35677470	GG	0
+Artrite Reumatoide	ANKRD55	rs71624119	GG	2
+Artrite Reumatoide	ANKRD55	rs71624119	GA	1
+Artrite Reumatoide	ANKRD55	rs71624119	AG	1
+Artrite Reumatoide	ANKRD55	rs71624119	AA	0
+Artrite Reumatoide	TNFAIP3	rs6920220	AA	2
+Artrite Reumatoide	TNFAIP3	rs6920220	AG	1
+Artrite Reumatoide	TNFAIP3	rs6920220	GA	1
+Artrite Reumatoide	TNFAIP3	rs6920220	GG	0
+Artrite Reumatoide	TNFAIP3	rs58721818	TT	2
+Artrite Reumatoide	TNFAIP3	rs58721818	TC	1
+Artrite Reumatoide	TNFAIP3	rs58721818	CT	1
+Artrite Reumatoide	TNFAIP3	rs58721818	CC	0
+Artrite Reumatoide	CCL21	rs2812378	GG	2
+Artrite Reumatoide	CCL21	rs2812378	GA	1
+Artrite Reumatoide	CCL21	rs2812378	AG	1
+Artrite Reumatoide	CCL21	rs2812378	AA	0
+Artrite Reumatoide	IL2RA/PRKCQ	rs947474	AA	2
+Artrite Reumatoide	IL2RA/PRKCQ	rs947474	AG	1
+Artrite Reumatoide	IL2RA/PRKCQ	rs947474	GA	1
+Artrite Reumatoide	IL2RA/PRKCQ	rs947474	GG	0
+Artrite Reumatoide	DDX6	rs4938573	TT	2
+Artrite Reumatoide	DDX6	rs4938573	TC	1
+Artrite Reumatoide	DDX6	rs4938573	CT	1
+Artrite Reumatoide	DDX6	rs4938573	CC	0
+Artrite Reumatoide	TLE3	rs8026898	AA	2
+Artrite Reumatoide	TLE3	rs8026898	AG	1
+Artrite Reumatoide	TLE3	rs8026898	GA	1
+Artrite Reumatoide	TLE3	rs8026898	GG	0
+Artrite Reumatoide	IRF8	rs13330176	AA	2
+Artrite Reumatoide	IRF8	rs13330176	AT	1
+Artrite Reumatoide	IRF8	rs13330176	TA	1
+Artrite Reumatoide	IRF8	rs13330176	TT	0
+Artrite Reumatoide	TYK2	rs34536443	GG	2
+Artrite Reumatoide	TYK2	rs34536443	GC	1
+Artrite Reumatoide	TYK2	rs34536443	CG	1
+Artrite Reumatoide	TYK2	rs34536443	CC	0
+Artrite Reumatoide	TYK2	rs34536443	GG	2
+Artrite Reumatoide	TYK2	rs34536443	GC	1
+Artrite Reumatoide	TYK2	rs34536443	CG	1
+Artrite Reumatoide	TYK2	rs34536443	CC	0
+Artrite Reumatoide	TYK2	rs35018800	GG	2
+Artrite Reumatoide	TYK2	rs35018800	GA	1
+Artrite Reumatoide	TYK2	rs35018800	AG	1
+Artrite Reumatoide	TYK2	rs35018800	AA	0
+Artrite Reumatoide	TYK2	rs12720356	AA	2
+Artrite Reumatoide	TYK2	rs12720356	AC	1
+Artrite Reumatoide	TYK2	rs12720356	CA	1
+Artrite Reumatoide	TYK2	rs12720356	CC	0
+Artrite Reumatoide	TYK2	rs12720356	AA	2
+Artrite Reumatoide	TYK2	rs12720356	AC	1
+Artrite Reumatoide	TYK2	rs12720356	CA	1
+Artrite Reumatoide	TYK2	rs12720356	CC	0
+Artrite Reumatoide	CD40	rs6032662	TT	2
+Artrite Reumatoide	CD40	rs6032662	TC	1
+Artrite Reumatoide	CD40	rs6032662	CT	1
+Artrite Reumatoide	CD40	rs6032662	CC	0
+Artrite Reumatoide	RCAN1	rs2834512	GG	2
+Artrite Reumatoide	RCAN1	rs2834512	GA	1
+Artrite Reumatoide	RCAN1	rs2834512	AG	1
+Artrite Reumatoide	RCAN1	rs2834512	AA	0
+Artrite Reumatoide	RUNX1	rs9979383	TT	2
+Artrite Reumatoide	RUNX1	rs9979383	TC	1
+Artrite Reumatoide	RUNX1	rs9979383	CT	1
+Artrite Reumatoide	RUNX1	rs9979383	CC	0
+Artrite Reumatoide	IRAK1	rs13397	AA	2
+Artrite Reumatoide	IRAK1	rs13397	AG	1
+Artrite Reumatoide	IRAK1	rs13397	GA	1
+Artrite Reumatoide	IRAK1	rs13397	GG	0
 Aging	LPA	rs10455872	AA	2
 Aging	LPA	rs10455872	AG	1
 Aging	LPA	rs10455872	GA	1
@@ -2519,102 +2519,102 @@ Telomero	TERC	rs1317082	AA	2
 Telomero	TERC	rs1317082	AG	1
 Telomero	TERC	rs1317082	GA	1
 Telomero	TERC	rs1317082	GG	0
-Doença celíaca	RGS1	rs2816316	AA	2
-Doença celíaca	RGS1	rs2816316	AC	1
-Doença celíaca	RGS1	rs2816316	CA	1
-Doença celíaca	RGS1	rs2816316	CC	0
-Doença celíaca	REL	rs13003464	GG	2
-Doença celíaca	REL	rs13003464	GA	1
-Doença celíaca	REL	rs13003464	AG	1
-Doença celíaca	REL	rs13003464	AA	0
-Doença celíaca	IL18RAP,IL1RL1	rs917997	TT	2
-Doença celíaca	IL18RAP,IL1RL1	rs917997	TC	1
-Doença celíaca	IL18RAP,IL1RL1	rs917997	CT	1
-Doença celíaca	IL18RAP,IL1RL1	rs917997	CC	0
-Doença celíaca	ITGA4,UBE2E3	rs13010713	GG	2
-Doença celíaca	ITGA4,UBE2E3	rs13010713	GA	1
-Doença celíaca	ITGA4,UBE2E3	rs13010713	AG	1
-Doença celíaca	ITGA4,UBE2E3	rs13010713	AA	0
-Doença celíaca	ICOS	rs4675374	TT	2
-Doença celíaca	ICOS	rs4675374	TC	1
-Doença celíaca	ICOS	rs4675374	CT	1
-Doença celíaca	ICOS	rs4675374	CC	0
-Doença celíaca	CCR1	rs13098911	TT	2
-Doença celíaca	CCR1	rs13098911	TC	1
-Doença celíaca	CCR1	rs13098911	CT	1
-Doença celíaca	CCR1	rs13098911	CC	0
-Doença celíaca	IL12A	rs17810546	GG	2
-Doença celíaca	IL12A	rs17810546	GA	1
-Doença celíaca	IL12A	rs17810546	AG	1
-Doença celíaca	IL12A	rs17810546	AA	0
-Doença celíaca	LPP	rs1464510	AA	2
-Doença celíaca	LPP	rs1464510	AC	1
-Doença celíaca	LPP	rs1464510	CA	1
-Doença celíaca	LPP	rs1464510	CC	0
-Doença celíaca IL2,	KIAA1109	rs13151961	AA	2
-Doença celíaca IL2,	KIAA1109	rs13151961	AG	1
-Doença celíaca IL2,	KIAA1109	rs13151961	GA	1
-Doença celíaca IL2,	KIAA1109	rs13151961	GG	0
-Doença celíaca HLA-DQA1,	HLA-DQB1	rs2187668	TT	2
-Doença celíaca HLA-DQA1,	HLA-DQB1	rs2187668	TC	1
-Doença celíaca HLA-DQA1,	HLA-DQB1	rs2187668	CT	1
-Doença celíaca HLA-DQA1,	HLA-DQB1	rs2187668	CC	0
-Doença celíaca	TNFAIP3	rs2327832	GG	2
-Doença celíaca	TNFAIP3	rs2327832	GA	1
-Doença celíaca	TNFAIP3	rs2327832	AG	1
-Doença celíaca	TNFAIP3	rs2327832	AA	0
-Doença celíaca	TAGAP	rs1738074	TT	2
-Doença celíaca	TAGAP	rs1738074	TC	1
-Doença celíaca	TAGAP	rs1738074	CT	1
-Doença celíaca	TAGAP	rs1738074	CC	0
-Doença celíaca	SH2B3	rs653178	CC	2
-Doença celíaca	SH2B3	rs653178	CT	1
-Doença celíaca	SH2B3	rs653178	TC	1
-Doença celíaca	SH2B3	rs653178	TT	0
-Doença celíaca	PTPN2	rs1893217	GG	2
-Doença celíaca	PTPN2	rs1893217	GA	1
-Doença celíaca	PTPN2	rs1893217	AG	1
-Doença celíaca	PTPN2	rs1893217	AA	0
-Doença celíaca	MMEL1	rs3748816	AA	2
-Doença celíaca	MMEL1	rs3748816	AG	1
-Doença celíaca	MMEL1	rs3748816	GA	1
-Doença celíaca	MMEL1	rs3748816	GG	0
-Doença celíaca	RUNX3	rs10903122	GG	2
-Doença celíaca	RUNX3	rs10903122	GA	1
-Doença celíaca	RUNX3	rs10903122	AG	1
-Doença celíaca	RUNX3	rs10903122	AA	0
-Doença celíaca	CD80	rs11712165	GG	2
-Doença celíaca	CD80	rs11712165	GT	1
-Doença celíaca	CD80	rs11712165	TG	1
-Doença celíaca	CD80	rs11712165	TT	0
-Doença celíaca	BACH2	rs10806425	AA	2
-Doença celíaca	BACH2	rs10806425	AC	1
-Doença celíaca	BACH2	rs10806425	CA	1
-Doença celíaca	BACH2	rs10806425	CC	0
-Doença celíaca	THEMIS	rs802734	GG	0
-Doença celíaca	THEMIS	rs802734	GA	1
-Doença celíaca	THEMIS	rs802734	AG	1
-Doença celíaca	THEMIS	rs802734	AA	2
-Doença celíaca	MYC	rs9792269	AA	2
-Doença celíaca	MYC	rs9792269	AG	1
-Doença celíaca	MYC	rs9792269	GA	1
-Doença celíaca	MYC	rs9792269	GG	0
-Doença celíaca	ZMIZ1	rs1250552	AA	2
-Doença celíaca	ZMIZ1	rs1250552	AG	1
-Doença celíaca	ZMIZ1	rs1250552	GA	1
-Doença celíaca	ZMIZ1	rs1250552	GG	0
-Doença celíaca	ETS1	rs11221332	TT	2
-Doença celíaca	ETS1	rs11221332	TC	1
-Doença celíaca	ETS1	rs11221332	CT	1
-Doença celíaca	ETS1	rs11221332	CC	0
-Doença celíaca	PRM1	rs12928822	CC	2
-Doença celíaca	PRM1	rs12928822	CT	1
-Doença celíaca	PRM1	rs12928822	TC	1
-Doença celíaca	PRM1	rs12928822	TT	0
-Doença celíaca	ICOSLG	rs4819388	CC	2
-Doença celíaca	ICOSLG	rs4819388	CT	1
-Doença celíaca	ICOSLG	rs4819388	TC	1
-Doença celíaca	ICOSLG	rs4819388	TT	0
+Intolerância ao glutén	RGS1	rs2816316	AA	2
+Intolerância ao glutén	RGS1	rs2816316	AC	1
+Intolerância ao glutén	RGS1	rs2816316	CA	1
+Intolerância ao glutén	RGS1	rs2816316	CC	0
+Intolerância ao glutén	REL	rs13003464	GG	2
+Intolerância ao glutén	REL	rs13003464	GA	1
+Intolerância ao glutén	REL	rs13003464	AG	1
+Intolerância ao glutén	REL	rs13003464	AA	0
+Intolerância ao glutén	IL18RAP,IL1RL1	rs917997	TT	2
+Intolerância ao glutén	IL18RAP,IL1RL1	rs917997	TC	1
+Intolerância ao glutén	IL18RAP,IL1RL1	rs917997	CT	1
+Intolerância ao glutén	IL18RAP,IL1RL1	rs917997	CC	0
+Intolerância ao glutén	ITGA4,UBE2E3	rs13010713	GG	2
+Intolerância ao glutén	ITGA4,UBE2E3	rs13010713	GA	1
+Intolerância ao glutén	ITGA4,UBE2E3	rs13010713	AG	1
+Intolerância ao glutén	ITGA4,UBE2E3	rs13010713	AA	0
+Intolerância ao glutén	ICOS	rs4675374	TT	2
+Intolerância ao glutén	ICOS	rs4675374	TC	1
+Intolerância ao glutén	ICOS	rs4675374	CT	1
+Intolerância ao glutén	ICOS	rs4675374	CC	0
+Intolerância ao glutén	CCR1	rs13098911	TT	2
+Intolerância ao glutén	CCR1	rs13098911	TC	1
+Intolerância ao glutén	CCR1	rs13098911	CT	1
+Intolerância ao glutén	CCR1	rs13098911	CC	0
+Intolerância ao glutén	IL12A	rs17810546	GG	2
+Intolerância ao glutén	IL12A	rs17810546	GA	1
+Intolerância ao glutén	IL12A	rs17810546	AG	1
+Intolerância ao glutén	IL12A	rs17810546	AA	0
+Intolerância ao glutén	LPP	rs1464510	AA	2
+Intolerância ao glutén	LPP	rs1464510	AC	1
+Intolerância ao glutén	LPP	rs1464510	CA	1
+Intolerância ao glutén	LPP	rs1464510	CC	0
+Intolerância ao glutén IL2,	KIAA1109	rs13151961	AA	2
+Intolerância ao glutén IL2,	KIAA1109	rs13151961	AG	1
+Intolerância ao glutén IL2,	KIAA1109	rs13151961	GA	1
+Intolerância ao glutén IL2,	KIAA1109	rs13151961	GG	0
+Intolerância ao glutén HLA-DQA1,	HLA-DQB1	rs2187668	TT	2
+Intolerância ao glutén HLA-DQA1,	HLA-DQB1	rs2187668	TC	1
+Intolerância ao glutén HLA-DQA1,	HLA-DQB1	rs2187668	CT	1
+Intolerância ao glutén HLA-DQA1,	HLA-DQB1	rs2187668	CC	0
+Intolerância ao glutén	TNFAIP3	rs2327832	GG	2
+Intolerância ao glutén	TNFAIP3	rs2327832	GA	1
+Intolerância ao glutén	TNFAIP3	rs2327832	AG	1
+Intolerância ao glutén	TNFAIP3	rs2327832	AA	0
+Intolerância ao glutén	TAGAP	rs1738074	TT	2
+Intolerância ao glutén	TAGAP	rs1738074	TC	1
+Intolerância ao glutén	TAGAP	rs1738074	CT	1
+Intolerância ao glutén	TAGAP	rs1738074	CC	0
+Intolerância ao glutén	SH2B3	rs653178	CC	2
+Intolerância ao glutén	SH2B3	rs653178	CT	1
+Intolerância ao glutén	SH2B3	rs653178	TC	1
+Intolerância ao glutén	SH2B3	rs653178	TT	0
+Intolerância ao glutén	PTPN2	rs1893217	GG	2
+Intolerância ao glutén	PTPN2	rs1893217	GA	1
+Intolerância ao glutén	PTPN2	rs1893217	AG	1
+Intolerância ao glutén	PTPN2	rs1893217	AA	0
+Intolerância ao glutén	MMEL1	rs3748816	AA	2
+Intolerância ao glutén	MMEL1	rs3748816	AG	1
+Intolerância ao glutén	MMEL1	rs3748816	GA	1
+Intolerância ao glutén	MMEL1	rs3748816	GG	0
+Intolerância ao glutén	RUNX3	rs10903122	GG	2
+Intolerância ao glutén	RUNX3	rs10903122	GA	1
+Intolerância ao glutén	RUNX3	rs10903122	AG	1
+Intolerância ao glutén	RUNX3	rs10903122	AA	0
+Intolerância ao glutén	CD80	rs11712165	GG	2
+Intolerância ao glutén	CD80	rs11712165	GT	1
+Intolerância ao glutén	CD80	rs11712165	TG	1
+Intolerância ao glutén	CD80	rs11712165	TT	0
+Intolerância ao glutén	BACH2	rs10806425	AA	2
+Intolerância ao glutén	BACH2	rs10806425	AC	1
+Intolerância ao glutén	BACH2	rs10806425	CA	1
+Intolerância ao glutén	BACH2	rs10806425	CC	0
+Intolerância ao glutén	THEMIS	rs802734	GG	0
+Intolerância ao glutén	THEMIS	rs802734	GA	1
+Intolerância ao glutén	THEMIS	rs802734	AG	1
+Intolerância ao glutén	THEMIS	rs802734	AA	2
+Intolerância ao glutén	MYC	rs9792269	AA	2
+Intolerância ao glutén	MYC	rs9792269	AG	1
+Intolerância ao glutén	MYC	rs9792269	GA	1
+Intolerância ao glutén	MYC	rs9792269	GG	0
+Intolerância ao glutén	ZMIZ1	rs1250552	AA	2
+Intolerância ao glutén	ZMIZ1	rs1250552	AG	1
+Intolerância ao glutén	ZMIZ1	rs1250552	GA	1
+Intolerância ao glutén	ZMIZ1	rs1250552	GG	0
+Intolerância ao glutén	ETS1	rs11221332	TT	2
+Intolerância ao glutén	ETS1	rs11221332	TC	1
+Intolerância ao glutén	ETS1	rs11221332	CT	1
+Intolerância ao glutén	ETS1	rs11221332	CC	0
+Intolerância ao glutén	PRM1	rs12928822	CC	2
+Intolerância ao glutén	PRM1	rs12928822	CT	1
+Intolerância ao glutén	PRM1	rs12928822	TC	1
+Intolerância ao glutén	PRM1	rs12928822	TT	0
+Intolerância ao glutén	ICOSLG	rs4819388	CC	2
+Intolerância ao glutén	ICOSLG	rs4819388	CT	1
+Intolerância ao glutén	ICOSLG	rs4819388	TC	1
+Intolerância ao glutén	ICOSLG	rs4819388	TT	0
 Fibromialgia	MYT1L	rs11127292	TT	2
 Fibromialgia	MYT1L	rs11127292	TC	1
 Fibromialgia	MYT1L	rs11127292	CT	1

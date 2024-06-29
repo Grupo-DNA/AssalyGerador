@@ -57,6 +57,7 @@ with open("gerar.txt", "r") as handle:
 				print(f"Gerando laudo {ID} - {name}\n")
 				
 				snp = read_SNPs(ID)
+				print(snp)
 				
 				if snp == -1:
 					break
@@ -65,6 +66,7 @@ with open("gerar.txt", "r") as handle:
 				laudo_capa(outpdf, name)
 				ancestralidade(outpdf, ID, name)
 				holobionte(outpdf, snp)
+				
 				print('holobionte gerada')
 				rotas_resultados(outpdf)
 				visao_geral_test(outpdf, snp, sex)
@@ -72,24 +74,27 @@ with open("gerar.txt", "r") as handle:
 				rotas_sistemico(outpdf, snp, sex)
 				rotas_atividades(outpdf, snp)
 				rotas_cardio(outpdf, snp)
-				rotas_saudemental(outpdf, snp)
+				#rotas_saudemental(outpdf, snp)
 				rotas_energia(outpdf, snp)
-				rotas_sinalizacao(outpdf, snp)
+				rotas_Intestinal(outpdf,snp)
+				rotas_Comportamento(outpdf,snp)
+				rotas_saudeOsteo(outpdf,snp)
 				rotas_descri(outpdf)
 				print('Rotas Geradas')
 				descri_sistemico(outpdf, snp, dicio, sex)
-				descri_saudemental(outpdf, snp, dicio)
+				#descri_saudemental(outpdf, snp, dicio)
 				descri_cardio(outpdf, snp, dicio)
 				descri_Osteoarticular(outpdf,snp,dicio)
+				descri_Comportamento(outpdf,snp,dicio)
+				descricao_intestinal(outpdf,snp,dicio)
 				descri_energia(outpdf, snp, dicio)
 				descri_atividades(outpdf, snp, dicio)
 				descri_nutrientes(outpdf, snp, dicio)
-				
 				print('Descricao gerada')
 				sum_genes(outpdf)
 				print('A chamar funcao de genes')
 				gene_efeitos(outpdf, snp)
-				contatos(outpdf)
+				#contatos(outpdf)
 				laudo_salvar(outpdf, name)
 				print(f"Laudo Assaly {ID} - {name} gerado com sucesso\n\n")
 				break

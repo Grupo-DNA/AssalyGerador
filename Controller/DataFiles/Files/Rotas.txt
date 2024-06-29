@@ -28,8 +28,6 @@ Perda Óssea
 Metabolismo
 Deposição de Gordura
 Composição Corporal
-
-Sinalização Celular
 Estresse Oxidativo
 Metilação
 Detoxificação
@@ -38,15 +36,18 @@ Capacidade Antioxidante
 Diabetes Tipo 2
 Obesidade
 Síndrome Metabólica
+
 Sensibilidade Intestinal
-Doença Celíaca
+Intolerância ao glutén
 Intolerâncias e Alergias
 Intolerância à Lactose
+Metabolização Alcoólica
+Metabolização de Cafeína
 Saúde Intestinal
 
 Comportamento
 Otimismo
-Raiva
+Perfil explosivo
 Emoções e Comportamento
 Medo por Trauma
 Estresse
@@ -63,10 +64,6 @@ Vitamina C
 Folato
 Vitamina D
 Ferro
-Intolerâncias e Alergias
-Intolerância à Lactose
-Metabolização Alcoólica
-Metabolização de Cafeína
 
 Atividades Físicas
 Adaptabilidade Esportiva
@@ -84,3 +81,4 @@ Amiloidose
 Disfunções Hormonais
 Saúde Mamária
 Endometriose
+
